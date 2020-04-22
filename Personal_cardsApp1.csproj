@@ -1,0 +1,370 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F5F0728A-8754-44B0-8728-44F9E1436B5D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Personal_cardsApp1</RootNamespace>
+    <AssemblyName>Personal_cardsApp1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Sitecore.FakeDb, Version=2.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Sitecore.FakeDb.2.0.1\lib\net471\Sitecore.FakeDb.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DB.cs" />
+    <Compile Include="FormProba.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProba.Designer.cs">
+      <DependentUpon>FormProba.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InfoDeveloper\FormDeveloper.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoDeveloper\FormDeveloper.Designer.cs">
+      <DependentUpon>FormDeveloper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InfoMenu\FormMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoMenu\FormMenu.Designer.cs">
+      <DependentUpon>FormMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InfoPersonalCards\SqlDataTimeAdapter.cs" />
+    <Compile Include="InfoProgram\FormProgram.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoProgram\FormProgram.Designer.cs">
+      <DependentUpon>FormProgram.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InfoAdvancedTraining\FormAddAdvancedTraining.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoAdvancedTraining\FormAddAdvancedTraining.Designer.cs">
+      <DependentUpon>FormAddAdvancedTraining.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InfoPersonalCards\FormAddPersonalCards1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoPersonalCards\FormAddPersonalCards1.Designer.cs">
+      <DependentUpon>FormAddPersonalCards1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InfoPersonalCards\FormPersonalCards.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoPersonalCards\FormPersonalCards.Designer.cs">
+      <DependentUpon>FormPersonalCards.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InfoCertification\FormAddCertification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoCertification\FormAddCertification.Designer.cs">
+      <DependentUpon>FormAddCertification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InfoEducation\FormAddEducation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoEducation\FormAddEducation.Designer.cs">
+      <DependentUpon>FormAddEducation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InfoLevelEducation\FormAddLevelEducation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoLevelEducation\FormAddLevelEducation.Designer.cs">
+      <DependentUpon>FormAddLevelEducation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InfoMilitaryRegistration\FormAddMilitaryRegistration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoMilitaryRegistration\FormAddMilitaryRegistration.Designer.cs">
+      <DependentUpon>FormAddMilitaryRegistration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InfoReceptionTransfer\FormAddReceptionTransfer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoReceptionTransfer\FormAddReceptionTransfer.Designer.cs">
+      <DependentUpon>FormAddReceptionTransfer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InfoRetraining\FormAddRetraining.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoRetraining\FormAddRetraining.Designer.cs">
+      <DependentUpon>FormAddRetraining.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InfoRewards\FormAddRewards.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoRewards\FormAddRewards.Designer.cs">
+      <DependentUpon>FormAddRewards.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InfoVacation\FormAddVacation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoVacation\FormAddVacation.Designer.cs">
+      <DependentUpon>FormAddVacation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InfoAdvancedTraining\FormAdvancedTraining.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoAdvancedTraining\FormAdvancedTraining.Designer.cs">
+      <DependentUpon>FormAdvancedTraining.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InfoAuthorization\FormAuthorization.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoAuthorization\FormAuthorization.Designer.cs">
+      <DependentUpon>FormAuthorization.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InfoMoreInformation\FormAdditionalInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoMoreInformation\FormAdditionalInformation.Designer.cs">
+      <DependentUpon>FormAdditionalInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InfoSocialBenefits\FormAddSocialBenefits.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoSocialBenefits\FormAddSocialBenefits.Designer.cs">
+      <DependentUpon>FormAddSocialBenefits.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InfoCertification\FormCertification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoCertification\FormCertification.Designer.cs">
+      <DependentUpon>FormCertification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InfoEducation\FormEducation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoEducation\FormEducation.Designer.cs">
+      <DependentUpon>FormEducation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InfoLevelEducation\FormLevelEducation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoLevelEducation\FormLevelEducation.Designer.cs">
+      <DependentUpon>FormLevelEducation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InfoMilitaryRegistration\FormMilitaryRegistration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoMilitaryRegistration\FormMilitaryRegistration.Designer.cs">
+      <DependentUpon>FormMilitaryRegistration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InfoMoreInformation\FormMoreInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoMoreInformation\FormMoreInformation.Designer.cs">
+      <DependentUpon>FormMoreInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InfoReceptionTransfer\FormReceptionTransfer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoReceptionTransfer\FormReceptionTransfer.Designer.cs">
+      <DependentUpon>FormReceptionTransfer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InfoRetraining\FormRetraining.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoRetraining\FormRetraining.Designer.cs">
+      <DependentUpon>FormRetraining.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InfoRewards\FormRewards.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoRewards\FormRewards.Designer.cs">
+      <DependentUpon>FormRewards.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InfoSocialBenefits\FormSocialBenefits.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoSocialBenefits\FormSocialBenefits.Designer.cs">
+      <DependentUpon>FormSocialBenefits.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InfoVacation\FormVacation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoVacation\FormVacation.Designer.cs">
+      <DependentUpon>FormVacation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InfoKadrPersonalCards\FormKadrPersonalCards.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoKadrPersonalCards\FormKadrPersonalCards.Designer.cs">
+      <DependentUpon>FormKadrPersonalCards.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Personal_cardsDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Personal_cardsDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormProba.resx">
+      <DependentUpon>FormProba.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoDeveloper\FormDeveloper.resx">
+      <DependentUpon>FormDeveloper.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoMenu\FormMenu.resx">
+      <DependentUpon>FormMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoProgram\FormProgram.resx">
+      <DependentUpon>FormProgram.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoAdvancedTraining\FormAddAdvancedTraining.resx">
+      <DependentUpon>FormAddAdvancedTraining.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoPersonalCards\FormAddPersonalCards1.resx">
+      <DependentUpon>FormAddPersonalCards1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoPersonalCards\FormPersonalCards.resx">
+      <DependentUpon>FormPersonalCards.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoCertification\FormAddCertification.resx">
+      <DependentUpon>FormAddCertification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoEducation\FormAddEducation.resx">
+      <DependentUpon>FormAddEducation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoLevelEducation\FormAddLevelEducation.resx">
+      <DependentUpon>FormAddLevelEducation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoMilitaryRegistration\FormAddMilitaryRegistration.resx">
+      <DependentUpon>FormAddMilitaryRegistration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoReceptionTransfer\FormAddReceptionTransfer.resx">
+      <DependentUpon>FormAddReceptionTransfer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoRetraining\FormAddRetraining.resx">
+      <DependentUpon>FormAddRetraining.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoRewards\FormAddRewards.resx">
+      <DependentUpon>FormAddRewards.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoVacation\FormAddVacation.resx">
+      <DependentUpon>FormAddVacation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoAdvancedTraining\FormAdvancedTraining.resx">
+      <DependentUpon>FormAdvancedTraining.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoAuthorization\FormAuthorization.resx">
+      <DependentUpon>FormAuthorization.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoMoreInformation\FormAdditionalInformation.resx">
+      <DependentUpon>FormAdditionalInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoSocialBenefits\FormAddSocialBenefits.resx">
+      <DependentUpon>FormAddSocialBenefits.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoCertification\FormCertification.resx">
+      <DependentUpon>FormCertification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoEducation\FormEducation.resx">
+      <DependentUpon>FormEducation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoLevelEducation\FormLevelEducation.resx">
+      <DependentUpon>FormLevelEducation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoMilitaryRegistration\FormMilitaryRegistration.resx">
+      <DependentUpon>FormMilitaryRegistration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoMoreInformation\FormMoreInformation.resx">
+      <DependentUpon>FormMoreInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoReceptionTransfer\FormReceptionTransfer.resx">
+      <DependentUpon>FormReceptionTransfer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoRetraining\FormRetraining.resx">
+      <DependentUpon>FormRetraining.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoRewards\FormRewards.resx">
+      <DependentUpon>FormRewards.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoSocialBenefits\FormSocialBenefits.resx">
+      <DependentUpon>FormSocialBenefits.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoVacation\FormVacation.resx">
+      <DependentUpon>FormVacation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoKadrPersonalCards\FormKadrPersonalCards.resx">
+      <DependentUpon>FormKadrPersonalCards.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include=".editorconfig" />
+    <None Include="packages.config" />
+    <None Include="Personal_cardsDataSet.xsc">
+      <DependentUpon>Personal_cardsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Personal_cardsDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Personal_cardsDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Personal_cardsDataSet.xss">
+      <DependentUpon>Personal_cardsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="1.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
