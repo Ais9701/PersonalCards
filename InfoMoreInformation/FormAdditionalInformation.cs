@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.Odbc;
 
+
 namespace Personal_cardsApp1
 {
     public partial class FormAdditionalInformation : Form
@@ -59,6 +60,18 @@ namespace Personal_cardsApp1
         private void FormAdditionalInformation_FormClosed(object sender, FormClosedEventArgs e)
         {
             System.Windows.Forms.Application.Exit();
+        }
+
+        private void printDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
+        {
+            var bitmap = new Bitmap(Width, Height);
+            DrawToBitmap(bitmap, new Rectangle(Point.Empty, bitmap.Size));
+            e.Graphics.DrawImage(bitmap, new Point(40, 40));
+        }
+
+        private void buttonprint_Click(object sender, EventArgs e)
+        {
+            printDocument1.Print();
         }
     }
 }

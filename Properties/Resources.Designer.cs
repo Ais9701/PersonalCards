@@ -69,5 +69,15 @@ namespace Personal_cardsApp1.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap концепция_искать_я_профессиона_ьного_вещества_65272839 {
+            get {
+                object obj = ResourceManager.GetObject("концепция-искать-я-профессиона-ьного-вещества-65272839", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

@@ -288,13 +288,125 @@ namespace Personal_cardsApp1
 
         }
 
-        private void button14_Click(object sender, EventArgs e)
+        private void button14_Click_1(object sender, EventArgs e)
         {
-            var firstname = firstnameTextBox.Text;
-            var middlename = middlenameTextBox.Text;
-            var lastname = lastnameTextBox.Text;
-            var place_of_birth = place_of_birthTextBox.Text;
-            var citizenship = citizenshipTextBox.Text;
+            // вызываем главную форму, которая открыла текущую, главная форма всегда = 0 - [0]
+            Form Menu = Application.OpenForms[1];
+            Menu.StartPosition = FormStartPosition.Manual; // меняем параметр StartPosition у Form1, иначе она будет использовать тот, который у неё прописан в настройках и всегда будет открываться по центру экрана
+            Menu.Left = this.Left; // задаём открываемой форме позицию слева равную позиции текущей формы
+            Menu.Top = this.Top; // задаём открываемой форме позицию сверху равную позиции текущей формы
+            Menu.Show(); // отображаем Form2
+            this.Hide();
+        }
+
+        private void buttonBack15_Click(object sender, EventArgs e)
+        {
+            // вызываем главную форму, которая открыла текущую, главная форма всегда = 0 - [0]
+            Form Menu = Application.OpenForms[1];
+            Menu.StartPosition = FormStartPosition.Manual; // меняем параметр StartPosition у Form1, иначе она будет использовать тот, который у неё прописан в настройках и всегда будет открываться по центру экрана
+            Menu.Left = this.Left; // задаём открываемой форме позицию слева равную позиции текущей формы
+            Menu.Top = this.Top; // задаём открываемой форме позицию сверху равную позиции текущей формы
+            Menu.Show(); // отображаем Form2
+            this.Hide();
+        }
+
+        private void buttonBack16_Click(object sender, EventArgs e)
+        {
+            // вызываем главную форму, которая открыла текущую, главная форма всегда = 0 - [0]
+            Form Menu = Application.OpenForms[1];
+            Menu.StartPosition = FormStartPosition.Manual; // меняем параметр StartPosition у Form1, иначе она будет использовать тот, который у неё прописан в настройках и всегда будет открываться по центру экрана
+            Menu.Left = this.Left; // задаём открываемой форме позицию слева равную позиции текущей формы
+            Menu.Top = this.Top; // задаём открываемой форме позицию сверху равную позиции текущей формы
+            Menu.Show(); // отображаем Form2
+            this.Hide();
+        }
+
+        private void button17_Click(object sender, EventArgs e)
+        {
+            // вызываем главную форму, которая открыла текущую, главная форма всегда = 0 - [0]
+            Form Menu = Application.OpenForms[1];
+            Menu.StartPosition = FormStartPosition.Manual; // меняем параметр StartPosition у Form1, иначе она будет использовать тот, который у неё прописан в настройках и всегда будет открываться по центру экрана
+            Menu.Left = this.Left; // задаём открываемой форме позицию слева равную позиции текущей формы
+            Menu.Top = this.Top; // задаём открываемой форме позицию сверху равную позиции текущей формы
+            Menu.Show(); // отображаем Form2
+            this.Hide();
+        }
+
+        private void buttonBack18_Click(object sender, EventArgs e)
+        {
+            // вызываем главную форму, которая открыла текущую, главная форма всегда = 0 - [0]
+            Form Menu = Application.OpenForms[1];
+            Menu.StartPosition = FormStartPosition.Manual; // меняем параметр StartPosition у Form1, иначе она будет использовать тот, который у неё прописан в настройках и всегда будет открываться по центру экрана
+            Menu.Left = this.Left; // задаём открываемой форме позицию слева равную позиции текущей формы
+            Menu.Top = this.Top; // задаём открываемой форме позицию сверху равную позиции текущей формы
+            Menu.Show(); // отображаем Form2
+            this.Hide();
+        }
+
+        private void buttonBack19_Click(object sender, EventArgs e)
+        {
+            // вызываем главную форму, которая открыла текущую, главная форма всегда = 0 - [0]
+            Form Menu = Application.OpenForms[1];
+            Menu.StartPosition = FormStartPosition.Manual; // меняем параметр StartPosition у Form1, иначе она будет использовать тот, который у неё прописан в настройках и всегда будет открываться по центру экрана
+            Menu.Left = this.Left; // задаём открываемой форме позицию слева равную позиции текущей формы
+            Menu.Top = this.Top; // задаём открываемой форме позицию сверху равную позиции текущей формы
+            Menu.Show(); // отображаем Form2
+            this.Hide();
+        }
+
+        private void buttonBack20_Click(object sender, EventArgs e)
+        {
+            // вызываем главную форму, которая открыла текущую, главная форма всегда = 0 - [0]
+            Form Menu = Application.OpenForms[1];
+            Menu.StartPosition = FormStartPosition.Manual; // меняем параметр StartPosition у Form1, иначе она будет использовать тот, который у неё прописан в настройках и всегда будет открываться по центру экрана
+            Menu.Left = this.Left; // задаём открываемой форме позицию слева равную позиции текущей формы
+            Menu.Top = this.Top; // задаём открываемой форме позицию сверху равную позиции текущей формы
+            Menu.Show(); // отображаем Form2
+            this.Hide();
+        }
+
+        private void buttonBack21_Click(object sender, EventArgs e)
+        {
+            // вызываем главную форму, которая открыла текущую, главная форма всегда = 0 - [0]
+            Form Menu = Application.OpenForms[1];
+            Menu.StartPosition = FormStartPosition.Manual; // меняем параметр StartPosition у Form1, иначе она будет использовать тот, который у неё прописан в настройках и всегда будет открываться по центру экрана
+            Menu.Left = this.Left; // задаём открываемой форме позицию слева равную позиции текущей формы
+            Menu.Top = this.Top; // задаём открываемой форме позицию сверху равную позиции текущей формы
+            Menu.Show(); // отображаем Form2
+            this.Hide();
+        }
+
+        private void buttonBack22_Click(object sender, EventArgs e)
+        {
+            // вызываем главную форму, которая открыла текущую, главная форма всегда = 0 - [0]
+            Form Menu = Application.OpenForms[1];
+            Menu.StartPosition = FormStartPosition.Manual; // меняем параметр StartPosition у Form1, иначе она будет использовать тот, который у неё прописан в настройках и всегда будет открываться по центру экрана
+            Menu.Left = this.Left; // задаём открываемой форме позицию слева равную позиции текущей формы
+            Menu.Top = this.Top; // задаём открываемой форме позицию сверху равную позиции текущей формы
+            Menu.Show(); // отображаем Form2
+            this.Hide();
+        }
+
+        private void buttonBack23_Click(object sender, EventArgs e)
+        {
+            // вызываем главную форму, которая открыла текущую, главная форма всегда = 0 - [0]
+            Form Menu = Application.OpenForms[1];
+            Menu.StartPosition = FormStartPosition.Manual; // меняем параметр StartPosition у Form1, иначе она будет использовать тот, который у неё прописан в настройках и всегда будет открываться по центру экрана
+            Menu.Left = this.Left; // задаём открываемой форме позицию слева равную позиции текущей формы
+            Menu.Top = this.Top; // задаём открываемой форме позицию сверху равную позиции текущей формы
+            Menu.Show(); // отображаем Form2
+            this.Hide();
+        }
+
+        private void buttonBack24_Click(object sender, EventArgs e)
+        {
+            // вызываем главную форму, которая открыла текущую, главная форма всегда = 0 - [0]
+            Form Menu = Application.OpenForms[1];
+            Menu.StartPosition = FormStartPosition.Manual; // меняем параметр StartPosition у Form1, иначе она будет использовать тот, который у неё прописан в настройках и всегда будет открываться по центру экрана
+            Menu.Left = this.Left; // задаём открываемой форме позицию слева равную позиции текущей формы
+            Menu.Top = this.Top; // задаём открываемой форме позицию сверху равную позиции текущей формы
+            Menu.Show(); // отображаем Form2
+            this.Hide();
         }
     }
 }

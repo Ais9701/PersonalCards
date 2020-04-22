@@ -117,4 +117,15 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Программа разработана для помощи 
+специалисту отдела кадров для заполнения 
+личной карточки сотрудника, 
+составления штаного расписания и
+отпусков, а также для формирования приказов.
+Программа позволяет добавлять, удалять, 
+печатать, сохранять и экспортировать данные 
+в Excel и Word.
+</value>
+  </data>
 </root>

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormProgram));
             this.label1 = new System.Windows.Forms.Label();
             this.buttonBack11 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
@@ -38,20 +39,18 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Sitka Banner", 19.91489F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            this.label1.Location = new System.Drawing.Point(313, 129);
+            this.label1.Location = new System.Drawing.Point(288, 35);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(776, 285);
+            this.label1.Size = new System.Drawing.Size(832, 456);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Программа разработана для помощи \r\nспециалисту отдела кадров для заполнения \r\nлич" +
-    "ной карточки сотрудника.\r\nПрограмма позволяет добавлять, удалять, \r\nпечатать и с" +
-    "охранять данные о сотруднике.\r\n";
+            this.label1.Text = resources.GetString("label1.Text");
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // buttonBack11
             // 
             this.buttonBack11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.buttonBack11.Font = new System.Drawing.Font("Times New Roman", 13.78723F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonBack11.Location = new System.Drawing.Point(1048, 512);
+            this.buttonBack11.Location = new System.Drawing.Point(1108, 548);
             this.buttonBack11.Name = "buttonBack11";
             this.buttonBack11.Size = new System.Drawing.Size(137, 61);
             this.buttonBack11.TabIndex = 3;
@@ -63,7 +62,7 @@
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.button1.Font = new System.Drawing.Font("Times New Roman", 13.78723F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.Location = new System.Drawing.Point(30, 512);
+            this.button1.Location = new System.Drawing.Point(31, 539);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(422, 70);
             this.button1.TabIndex = 4;
@@ -76,7 +75,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ClientSize = new System.Drawing.Size(1290, 797);
+            this.ClientSize = new System.Drawing.Size(1357, 746);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.buttonBack11);
             this.Controls.Add(this.label1);

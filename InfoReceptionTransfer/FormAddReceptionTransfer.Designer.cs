@@ -59,6 +59,8 @@
             this.Tariff_rateTextBox = new System.Windows.Forms.TextBox();
             this.Date1DateTimePicker = new System.Windows.Forms.DateTimePicker();
             this.button1 = new System.Windows.Forms.Button();
+            this.buttonSeal2 = new System.Windows.Forms.Button();
+            this.printDocument1 = new System.Drawing.Printing.PrintDocument();
             ((System.ComponentModel.ISupportInitialize)(this.personal_cardsDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.reception_and_transferBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.reception_and_transferBindingNavigator)).BeginInit();
@@ -124,7 +126,7 @@
             this.reception_and_transferBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.reception_and_transferBindingNavigator.Name = "reception_and_transferBindingNavigator";
             this.reception_and_transferBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.reception_and_transferBindingNavigator.Size = new System.Drawing.Size(1290, 32);
+            this.reception_and_transferBindingNavigator.Size = new System.Drawing.Size(1357, 32);
             this.reception_and_transferBindingNavigator.TabIndex = 0;
             this.reception_and_transferBindingNavigator.Text = "bindingNavigator1";
             // 
@@ -230,9 +232,9 @@
             // 
             this.buttonBack2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.buttonBack2.Font = new System.Drawing.Font("Times New Roman", 12.25532F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonBack2.Location = new System.Drawing.Point(956, 474);
+            this.buttonBack2.Location = new System.Drawing.Point(989, 400);
             this.buttonBack2.Name = "buttonBack2";
-            this.buttonBack2.Size = new System.Drawing.Size(137, 48);
+            this.buttonBack2.Size = new System.Drawing.Size(137, 56);
             this.buttonBack2.TabIndex = 3;
             this.buttonBack2.Text = "Назад";
             this.buttonBack2.UseVisualStyleBackColor = false;
@@ -332,20 +334,37 @@
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.button1.Font = new System.Drawing.Font("Times New Roman", 12.25532F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.Location = new System.Drawing.Point(956, 418);
+            this.button1.Location = new System.Drawing.Point(989, 259);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(137, 47);
+            this.button1.Size = new System.Drawing.Size(137, 56);
             this.button1.TabIndex = 15;
             this.button1.Text = "Добавить";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // buttonSeal2
+            // 
+            this.buttonSeal2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.buttonSeal2.Font = new System.Drawing.Font("Times New Roman", 12.25532F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonSeal2.Location = new System.Drawing.Point(989, 321);
+            this.buttonSeal2.Name = "buttonSeal2";
+            this.buttonSeal2.Size = new System.Drawing.Size(137, 55);
+            this.buttonSeal2.TabIndex = 16;
+            this.buttonSeal2.Text = "Печать";
+            this.buttonSeal2.UseVisualStyleBackColor = false;
+            this.buttonSeal2.Click += new System.EventHandler(this.buttonSeal2_Click);
+            // 
+            // printDocument1
+            // 
+            this.printDocument1.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(this.printDocument1_PrintPage);
             // 
             // FormAddReceptionTransfer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ClientSize = new System.Drawing.Size(1290, 797);
+            this.ClientSize = new System.Drawing.Size(1357, 746);
+            this.Controls.Add(this.buttonSeal2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.Date1DateTimePicker);
             this.Controls.Add(this.Tariff_rateTextBox);
@@ -405,5 +424,7 @@
         private System.Windows.Forms.TextBox Tariff_rateTextBox;
         private System.Windows.Forms.DateTimePicker Date1DateTimePicker;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button buttonSeal2;
+        private System.Drawing.Printing.PrintDocument printDocument1;
     }
 }

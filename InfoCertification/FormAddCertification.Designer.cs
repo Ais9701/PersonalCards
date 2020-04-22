@@ -59,6 +59,8 @@
             this.Protocol_numberTextBox = new System.Windows.Forms.TextBox();
             this.Date_of_reportTextBox = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.buttonSeal2 = new System.Windows.Forms.Button();
+            this.printDocument1 = new System.Drawing.Printing.PrintDocument();
             ((System.ComponentModel.ISupportInitialize)(this.personal_cardsDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.certificationBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.certificationBindingNavigator)).BeginInit();
@@ -124,7 +126,7 @@
             this.certificationBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.certificationBindingNavigator.Name = "certificationBindingNavigator";
             this.certificationBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.certificationBindingNavigator.Size = new System.Drawing.Size(1290, 32);
+            this.certificationBindingNavigator.Size = new System.Drawing.Size(1357, 37);
             this.certificationBindingNavigator.TabIndex = 0;
             this.certificationBindingNavigator.Text = "bindingNavigator1";
             // 
@@ -230,7 +232,7 @@
             // 
             this.buttonBack7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.buttonBack7.Font = new System.Drawing.Font("Times New Roman", 12.25532F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonBack7.Location = new System.Drawing.Point(1069, 470);
+            this.buttonBack7.Location = new System.Drawing.Point(1134, 400);
             this.buttonBack7.Name = "buttonBack7";
             this.buttonBack7.Size = new System.Drawing.Size(128, 48);
             this.buttonBack7.TabIndex = 6;
@@ -243,7 +245,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Sitka Banner", 19.91489F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            this.label1.Location = new System.Drawing.Point(342, 214);
+            this.label1.Location = new System.Drawing.Point(312, 172);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(272, 57);
             this.label1.TabIndex = 7;
@@ -254,7 +256,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Sitka Banner", 19.91489F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label2.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            this.label2.Location = new System.Drawing.Point(342, 273);
+            this.label2.Location = new System.Drawing.Point(312, 231);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(315, 57);
             this.label2.TabIndex = 8;
@@ -265,7 +267,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Sitka Banner", 19.91489F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label3.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            this.label3.Location = new System.Drawing.Point(342, 330);
+            this.label3.Location = new System.Drawing.Point(312, 288);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(357, 57);
             this.label3.TabIndex = 9;
@@ -276,7 +278,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Sitka Banner", 19.91489F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label4.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            this.label4.Location = new System.Drawing.Point(342, 387);
+            this.label4.Location = new System.Drawing.Point(312, 345);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(330, 57);
             this.label4.TabIndex = 10;
@@ -287,7 +289,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Sitka Banner", 19.91489F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label5.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            this.label5.Location = new System.Drawing.Point(342, 444);
+            this.label5.Location = new System.Drawing.Point(312, 402);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(116, 57);
             this.label5.TabIndex = 11;
@@ -295,35 +297,35 @@
             // 
             // ID_certificationTextBox
             // 
-            this.ID_certificationTextBox.Location = new System.Drawing.Point(633, 240);
+            this.ID_certificationTextBox.Location = new System.Drawing.Point(603, 198);
             this.ID_certificationTextBox.Name = "ID_certificationTextBox";
             this.ID_certificationTextBox.Size = new System.Drawing.Size(66, 26);
             this.ID_certificationTextBox.TabIndex = 12;
             // 
             // Date_of_certificationTextBox
             // 
-            this.Date_of_certificationTextBox.Location = new System.Drawing.Point(685, 299);
+            this.Date_of_certificationTextBox.Location = new System.Drawing.Point(655, 257);
             this.Date_of_certificationTextBox.Name = "Date_of_certificationTextBox";
             this.Date_of_certificationTextBox.Size = new System.Drawing.Size(169, 26);
             this.Date_of_certificationTextBox.TabIndex = 13;
             // 
             // Commission_decisionTextBox
             // 
-            this.Commission_decisionTextBox.Location = new System.Drawing.Point(732, 356);
+            this.Commission_decisionTextBox.Location = new System.Drawing.Point(702, 314);
             this.Commission_decisionTextBox.Name = "Commission_decisionTextBox";
             this.Commission_decisionTextBox.Size = new System.Drawing.Size(262, 26);
             this.Commission_decisionTextBox.TabIndex = 14;
             // 
             // Protocol_numberTextBox
             // 
-            this.Protocol_numberTextBox.Location = new System.Drawing.Point(712, 413);
+            this.Protocol_numberTextBox.Location = new System.Drawing.Point(682, 371);
             this.Protocol_numberTextBox.Name = "Protocol_numberTextBox";
             this.Protocol_numberTextBox.Size = new System.Drawing.Size(142, 26);
             this.Protocol_numberTextBox.TabIndex = 15;
             // 
             // Date_of_reportTextBox
             // 
-            this.Date_of_reportTextBox.Location = new System.Drawing.Point(477, 470);
+            this.Date_of_reportTextBox.Location = new System.Drawing.Point(447, 428);
             this.Date_of_reportTextBox.Name = "Date_of_reportTextBox";
             this.Date_of_reportTextBox.Size = new System.Drawing.Size(150, 26);
             this.Date_of_reportTextBox.TabIndex = 16;
@@ -332,7 +334,7 @@
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.button1.Font = new System.Drawing.Font("Times New Roman", 12.25532F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.Location = new System.Drawing.Point(1069, 413);
+            this.button1.Location = new System.Drawing.Point(1131, 277);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(128, 47);
             this.button1.TabIndex = 17;
@@ -340,12 +342,29 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // buttonSeal2
+            // 
+            this.buttonSeal2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.buttonSeal2.Font = new System.Drawing.Font("Times New Roman", 12.25532F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonSeal2.Location = new System.Drawing.Point(1131, 330);
+            this.buttonSeal2.Name = "buttonSeal2";
+            this.buttonSeal2.Size = new System.Drawing.Size(131, 49);
+            this.buttonSeal2.TabIndex = 18;
+            this.buttonSeal2.Text = "Печать";
+            this.buttonSeal2.UseVisualStyleBackColor = false;
+            this.buttonSeal2.Click += new System.EventHandler(this.buttonSeal2_Click);
+            // 
+            // printDocument1
+            // 
+            this.printDocument1.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(this.printDocument1_PrintPage);
+            // 
             // FormAddCertification
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ClientSize = new System.Drawing.Size(1290, 797);
+            this.ClientSize = new System.Drawing.Size(1357, 746);
+            this.Controls.Add(this.buttonSeal2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.Date_of_reportTextBox);
             this.Controls.Add(this.Protocol_numberTextBox);
@@ -405,5 +424,7 @@
         private System.Windows.Forms.TextBox Protocol_numberTextBox;
         private System.Windows.Forms.TextBox Date_of_reportTextBox;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button buttonSeal2;
+        private System.Drawing.Printing.PrintDocument printDocument1;
     }
 }

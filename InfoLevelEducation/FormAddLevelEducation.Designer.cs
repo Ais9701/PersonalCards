@@ -53,6 +53,8 @@
             this.ID_level_of_educationTextBox = new System.Windows.Forms.TextBox();
             this.Level_of_educationTextBox = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.buttonSeal2 = new System.Windows.Forms.Button();
+            this.printDocument1 = new System.Drawing.Printing.PrintDocument();
             ((System.ComponentModel.ISupportInitialize)(this.personal_cardsDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.level_of_educationBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.level_of_educationBindingNavigator)).BeginInit();
@@ -118,7 +120,7 @@
             this.level_of_educationBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.level_of_educationBindingNavigator.Name = "level_of_educationBindingNavigator";
             this.level_of_educationBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.level_of_educationBindingNavigator.Size = new System.Drawing.Size(1290, 32);
+            this.level_of_educationBindingNavigator.Size = new System.Drawing.Size(1357, 37);
             this.level_of_educationBindingNavigator.TabIndex = 0;
             this.level_of_educationBindingNavigator.Text = "bindingNavigator1";
             // 
@@ -224,9 +226,9 @@
             // 
             this.buttonBack7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.buttonBack7.Font = new System.Drawing.Font("Times New Roman", 12.25532F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonBack7.Location = new System.Drawing.Point(916, 570);
+            this.buttonBack7.Location = new System.Drawing.Point(1046, 367);
             this.buttonBack7.Name = "buttonBack7";
-            this.buttonBack7.Size = new System.Drawing.Size(128, 48);
+            this.buttonBack7.Size = new System.Drawing.Size(134, 48);
             this.buttonBack7.TabIndex = 9;
             this.buttonBack7.Text = "Назад";
             this.buttonBack7.UseVisualStyleBackColor = false;
@@ -237,7 +239,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Sitka Banner", 19.91489F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            this.label1.Location = new System.Drawing.Point(263, 331);
+            this.label1.Location = new System.Drawing.Point(244, 218);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(296, 57);
             this.label1.TabIndex = 10;
@@ -248,7 +250,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Sitka Banner", 19.91489F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label2.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            this.label2.Location = new System.Drawing.Point(263, 405);
+            this.label2.Location = new System.Drawing.Point(244, 292);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(395, 57);
             this.label2.TabIndex = 11;
@@ -256,14 +258,14 @@
             // 
             // ID_level_of_educationTextBox
             // 
-            this.ID_level_of_educationTextBox.Location = new System.Drawing.Point(582, 357);
+            this.ID_level_of_educationTextBox.Location = new System.Drawing.Point(563, 244);
             this.ID_level_of_educationTextBox.Name = "ID_level_of_educationTextBox";
             this.ID_level_of_educationTextBox.Size = new System.Drawing.Size(100, 26);
             this.ID_level_of_educationTextBox.TabIndex = 12;
             // 
             // Level_of_educationTextBox
             // 
-            this.Level_of_educationTextBox.Location = new System.Drawing.Point(678, 431);
+            this.Level_of_educationTextBox.Location = new System.Drawing.Point(659, 318);
             this.Level_of_educationTextBox.Name = "Level_of_educationTextBox";
             this.Level_of_educationTextBox.Size = new System.Drawing.Size(184, 26);
             this.Level_of_educationTextBox.TabIndex = 13;
@@ -272,20 +274,37 @@
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.button1.Font = new System.Drawing.Font("Times New Roman", 12.25532F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.Location = new System.Drawing.Point(916, 516);
+            this.button1.Location = new System.Drawing.Point(1046, 228);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(128, 48);
+            this.button1.Size = new System.Drawing.Size(134, 55);
             this.button1.TabIndex = 14;
             this.button1.Text = "Добавить";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // buttonSeal2
+            // 
+            this.buttonSeal2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.buttonSeal2.Font = new System.Drawing.Font("Times New Roman", 12.25532F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonSeal2.Location = new System.Drawing.Point(1046, 289);
+            this.buttonSeal2.Name = "buttonSeal2";
+            this.buttonSeal2.Size = new System.Drawing.Size(134, 55);
+            this.buttonSeal2.TabIndex = 15;
+            this.buttonSeal2.Text = "Печать";
+            this.buttonSeal2.UseVisualStyleBackColor = false;
+            this.buttonSeal2.Click += new System.EventHandler(this.buttonSeal2_Click);
+            // 
+            // printDocument1
+            // 
+            this.printDocument1.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(this.printDocument1_PrintPage);
             // 
             // FormAddLevelEducation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ClientSize = new System.Drawing.Size(1290, 797);
+            this.ClientSize = new System.Drawing.Size(1357, 746);
+            this.Controls.Add(this.buttonSeal2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.Level_of_educationTextBox);
             this.Controls.Add(this.ID_level_of_educationTextBox);
@@ -333,5 +352,7 @@
         private System.Windows.Forms.TextBox ID_level_of_educationTextBox;
         private System.Windows.Forms.TextBox Level_of_educationTextBox;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button buttonSeal2;
+        private System.Drawing.Printing.PrintDocument printDocument1;
     }
 }

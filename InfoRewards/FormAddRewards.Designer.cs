@@ -57,6 +57,8 @@
             this.NumberTextBox = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.DateDateTimePicker = new System.Windows.Forms.DateTimePicker();
+            this.buttonSeal2 = new System.Windows.Forms.Button();
+            this.printDocument1 = new System.Drawing.Printing.PrintDocument();
             ((System.ComponentModel.ISupportInitialize)(this.personal_cardsDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rewardsBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rewardsBindingNavigator)).BeginInit();
@@ -122,7 +124,7 @@
             this.rewardsBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.rewardsBindingNavigator.Name = "rewardsBindingNavigator";
             this.rewardsBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.rewardsBindingNavigator.Size = new System.Drawing.Size(1290, 32);
+            this.rewardsBindingNavigator.Size = new System.Drawing.Size(1357, 32);
             this.rewardsBindingNavigator.TabIndex = 0;
             this.rewardsBindingNavigator.Text = "bindingNavigator1";
             // 
@@ -228,9 +230,9 @@
             // 
             this.buttonBack7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.buttonBack7.Font = new System.Drawing.Font("Times New Roman", 12.25532F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonBack7.Location = new System.Drawing.Point(944, 359);
+            this.buttonBack7.Location = new System.Drawing.Point(1047, 329);
             this.buttonBack7.Name = "buttonBack7";
-            this.buttonBack7.Size = new System.Drawing.Size(128, 48);
+            this.buttonBack7.Size = new System.Drawing.Size(134, 57);
             this.buttonBack7.TabIndex = 5;
             this.buttonBack7.Text = "Назад";
             this.buttonBack7.UseVisualStyleBackColor = false;
@@ -305,9 +307,9 @@
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.button1.Font = new System.Drawing.Font("Times New Roman", 12.25532F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.Location = new System.Drawing.Point(944, 305);
+            this.button1.Location = new System.Drawing.Point(1047, 166);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(128, 48);
+            this.button1.Size = new System.Drawing.Size(134, 57);
             this.button1.TabIndex = 14;
             this.button1.Text = "Добавить";
             this.button1.UseVisualStyleBackColor = false;
@@ -320,12 +322,29 @@
             this.DateDateTimePicker.Size = new System.Drawing.Size(200, 26);
             this.DateDateTimePicker.TabIndex = 15;
             // 
+            // buttonSeal2
+            // 
+            this.buttonSeal2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.buttonSeal2.Font = new System.Drawing.Font("Times New Roman", 12.25532F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonSeal2.Location = new System.Drawing.Point(1047, 233);
+            this.buttonSeal2.Name = "buttonSeal2";
+            this.buttonSeal2.Size = new System.Drawing.Size(134, 55);
+            this.buttonSeal2.TabIndex = 16;
+            this.buttonSeal2.Text = "Печать";
+            this.buttonSeal2.UseVisualStyleBackColor = false;
+            this.buttonSeal2.Click += new System.EventHandler(this.buttonSeal2_Click);
+            // 
+            // printDocument1
+            // 
+            this.printDocument1.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(this.printDocument1_PrintPage);
+            // 
             // FormAddRewards
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ClientSize = new System.Drawing.Size(1290, 797);
+            this.ClientSize = new System.Drawing.Size(1357, 746);
+            this.Controls.Add(this.buttonSeal2);
             this.Controls.Add(this.DateDateTimePicker);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.NumberTextBox);
@@ -381,5 +400,7 @@
         private System.Windows.Forms.TextBox NumberTextBox;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.DateTimePicker DateDateTimePicker;
+        private System.Windows.Forms.Button buttonSeal2;
+        private System.Drawing.Printing.PrintDocument printDocument1;
     }
 }

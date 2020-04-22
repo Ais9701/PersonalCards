@@ -63,6 +63,8 @@
             this.year_of_graduationDateTimePicker = new System.Windows.Forms.DateTimePicker();
             this.label7 = new System.Windows.Forms.Label();
             this.numberTextBox = new System.Windows.Forms.TextBox();
+            this.buttonSeal2 = new System.Windows.Forms.Button();
+            this.printDocument1 = new System.Drawing.Printing.PrintDocument();
             ((System.ComponentModel.ISupportInitialize)(this.personal_cardsDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.educationBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.educationBindingNavigator)).BeginInit();
@@ -128,7 +130,7 @@
             this.educationBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.educationBindingNavigator.Name = "educationBindingNavigator";
             this.educationBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.educationBindingNavigator.Size = new System.Drawing.Size(1290, 32);
+            this.educationBindingNavigator.Size = new System.Drawing.Size(1357, 37);
             this.educationBindingNavigator.TabIndex = 0;
             this.educationBindingNavigator.Text = "bindingNavigator1";
             // 
@@ -234,7 +236,7 @@
             // 
             this.buttonBack7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.buttonBack7.Font = new System.Drawing.Font("Times New Roman", 12.25532F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonBack7.Location = new System.Drawing.Point(924, 604);
+            this.buttonBack7.Location = new System.Drawing.Point(1144, 430);
             this.buttonBack7.Name = "buttonBack7";
             this.buttonBack7.Size = new System.Drawing.Size(137, 54);
             this.buttonBack7.TabIndex = 7;
@@ -246,9 +248,9 @@
             // 
             this.buttonSave.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.buttonSave.Font = new System.Drawing.Font("Times New Roman", 12.25532F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonSave.Location = new System.Drawing.Point(924, 538);
+            this.buttonSave.Location = new System.Drawing.Point(1144, 280);
             this.buttonSave.Name = "buttonSave";
-            this.buttonSave.Size = new System.Drawing.Size(137, 54);
+            this.buttonSave.Size = new System.Drawing.Size(137, 55);
             this.buttonSave.TabIndex = 8;
             this.buttonSave.Text = "Добавить";
             this.buttonSave.UseVisualStyleBackColor = false;
@@ -259,7 +261,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            this.label1.Location = new System.Drawing.Point(27, 177);
+            this.label1.Location = new System.Drawing.Point(38, 118);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(247, 50);
             this.label1.TabIndex = 22;
@@ -270,7 +272,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label2.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            this.label2.Location = new System.Drawing.Point(27, 248);
+            this.label2.Location = new System.Drawing.Point(38, 189);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(354, 50);
             this.label2.TabIndex = 23;
@@ -281,7 +283,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label3.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            this.label3.Location = new System.Drawing.Point(27, 298);
+            this.label3.Location = new System.Drawing.Point(38, 239);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(495, 100);
             this.label3.TabIndex = 24;
@@ -292,7 +294,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label4.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            this.label4.Location = new System.Drawing.Point(27, 597);
+            this.label4.Location = new System.Drawing.Point(38, 538);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(226, 50);
             this.label4.TabIndex = 25;
@@ -303,7 +305,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label5.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            this.label5.Location = new System.Drawing.Point(27, 490);
+            this.label5.Location = new System.Drawing.Point(38, 431);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(123, 50);
             this.label5.TabIndex = 26;
@@ -314,7 +316,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label6.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            this.label6.Location = new System.Drawing.Point(27, 425);
+            this.label6.Location = new System.Drawing.Point(38, 366);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(426, 50);
             this.label6.TabIndex = 27;
@@ -322,35 +324,35 @@
             // 
             // iD_educationTextBox
             // 
-            this.iD_educationTextBox.Location = new System.Drawing.Point(299, 198);
+            this.iD_educationTextBox.Location = new System.Drawing.Point(310, 139);
             this.iD_educationTextBox.Name = "iD_educationTextBox";
             this.iD_educationTextBox.Size = new System.Drawing.Size(100, 26);
             this.iD_educationTextBox.TabIndex = 28;
             // 
             // level_of_educationTextBox
             // 
-            this.level_of_educationTextBox.Location = new System.Drawing.Point(444, 269);
+            this.level_of_educationTextBox.Location = new System.Drawing.Point(455, 210);
             this.level_of_educationTextBox.Name = "level_of_educationTextBox";
             this.level_of_educationTextBox.Size = new System.Drawing.Size(381, 26);
             this.level_of_educationTextBox.TabIndex = 29;
             // 
             // name_of_educational_institutionTextBox
             // 
-            this.name_of_educational_institutionTextBox.Location = new System.Drawing.Point(552, 372);
+            this.name_of_educational_institutionTextBox.Location = new System.Drawing.Point(563, 313);
             this.name_of_educational_institutionTextBox.Name = "name_of_educational_institutionTextBox";
             this.name_of_educational_institutionTextBox.Size = new System.Drawing.Size(509, 26);
             this.name_of_educational_institutionTextBox.TabIndex = 30;
             // 
             // name_of_the_document_on_educationTextBox
             // 
-            this.name_of_the_document_on_educationTextBox.Location = new System.Drawing.Point(478, 446);
+            this.name_of_the_document_on_educationTextBox.Location = new System.Drawing.Point(489, 387);
             this.name_of_the_document_on_educationTextBox.Name = "name_of_the_document_on_educationTextBox";
             this.name_of_the_document_on_educationTextBox.Size = new System.Drawing.Size(183, 26);
             this.name_of_the_document_on_educationTextBox.TabIndex = 31;
             // 
             // seriesTextBox
             // 
-            this.seriesTextBox.Location = new System.Drawing.Point(202, 511);
+            this.seriesTextBox.Location = new System.Drawing.Point(213, 452);
             this.seriesTextBox.Name = "seriesTextBox";
             this.seriesTextBox.Size = new System.Drawing.Size(148, 26);
             this.seriesTextBox.TabIndex = 32;
@@ -359,7 +361,7 @@
             // 
             this.year_of_graduationDateTimePicker.CalendarFont = new System.Drawing.Font("Times New Roman", 8.170213F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.year_of_graduationDateTimePicker.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.year_of_graduationDateTimePicker.Location = new System.Drawing.Point(287, 616);
+            this.year_of_graduationDateTimePicker.Location = new System.Drawing.Point(298, 557);
             this.year_of_graduationDateTimePicker.Name = "year_of_graduationDateTimePicker";
             this.year_of_graduationDateTimePicker.Size = new System.Drawing.Size(199, 30);
             this.year_of_graduationDateTimePicker.TabIndex = 33;
@@ -369,7 +371,7 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label7.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            this.label7.Location = new System.Drawing.Point(27, 540);
+            this.label7.Location = new System.Drawing.Point(38, 481);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(130, 50);
             this.label7.TabIndex = 34;
@@ -377,17 +379,34 @@
             // 
             // numberTextBox
             // 
-            this.numberTextBox.Location = new System.Drawing.Point(202, 561);
+            this.numberTextBox.Location = new System.Drawing.Point(213, 502);
             this.numberTextBox.Name = "numberTextBox";
             this.numberTextBox.Size = new System.Drawing.Size(148, 26);
             this.numberTextBox.TabIndex = 35;
+            // 
+            // buttonSeal2
+            // 
+            this.buttonSeal2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.buttonSeal2.Font = new System.Drawing.Font("Times New Roman", 12.25532F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonSeal2.Location = new System.Drawing.Point(1144, 343);
+            this.buttonSeal2.Name = "buttonSeal2";
+            this.buttonSeal2.Size = new System.Drawing.Size(137, 55);
+            this.buttonSeal2.TabIndex = 36;
+            this.buttonSeal2.Text = "Печать";
+            this.buttonSeal2.UseVisualStyleBackColor = false;
+            this.buttonSeal2.Click += new System.EventHandler(this.buttonSeal2_Click);
+            // 
+            // printDocument1
+            // 
+            this.printDocument1.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(this.printDocument1_PrintPage);
             // 
             // FormAddEducation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ClientSize = new System.Drawing.Size(1290, 797);
+            this.ClientSize = new System.Drawing.Size(1357, 746);
+            this.Controls.Add(this.buttonSeal2);
             this.Controls.Add(this.numberTextBox);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.year_of_graduationDateTimePicker);
@@ -455,5 +474,7 @@
         private System.Windows.Forms.DateTimePicker year_of_graduationDateTimePicker;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox numberTextBox;
+        private System.Windows.Forms.Button buttonSeal2;
+        private System.Drawing.Printing.PrintDocument printDocument1;
     }
 }

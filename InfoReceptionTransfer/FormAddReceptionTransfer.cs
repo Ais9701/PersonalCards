@@ -60,5 +60,17 @@ namespace Personal_cardsApp1
         {
             System.Windows.Forms.Application.Exit();
         }
+
+        private void buttonSeal2_Click(object sender, EventArgs e)
+        {
+            printDocument1.Print();
+        }
+
+        private void printDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
+        {
+            var bitmap = new Bitmap(Width, Height);
+            DrawToBitmap(bitmap, new Rectangle(Point.Empty, bitmap.Size));
+            e.Graphics.DrawImage(bitmap, new Point(40, 40));
+        }
     }
 }

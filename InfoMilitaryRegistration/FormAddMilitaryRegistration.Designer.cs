@@ -63,6 +63,8 @@
             this.Category_of_fitness_for_military_serviceTextBox = new System.Windows.Forms.TextBox();
             this.The_name_of_the_military_commissariatTextBox = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.buttonSeal2 = new System.Windows.Forms.Button();
+            this.printDocument1 = new System.Drawing.Printing.PrintDocument();
             ((System.ComponentModel.ISupportInitialize)(this.personal_cardsDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.military_registrationBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.military_registrationBindingNavigator)).BeginInit();
@@ -128,7 +130,7 @@
             this.military_registrationBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.military_registrationBindingNavigator.Name = "military_registrationBindingNavigator";
             this.military_registrationBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.military_registrationBindingNavigator.Size = new System.Drawing.Size(1290, 32);
+            this.military_registrationBindingNavigator.Size = new System.Drawing.Size(1357, 37);
             this.military_registrationBindingNavigator.TabIndex = 0;
             this.military_registrationBindingNavigator.Text = "bindingNavigator1";
             // 
@@ -234,9 +236,9 @@
             // 
             this.buttonBack7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.buttonBack7.Font = new System.Drawing.Font("Times New Roman", 12.25532F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonBack7.Location = new System.Drawing.Point(1053, 638);
+            this.buttonBack7.Location = new System.Drawing.Point(1137, 385);
             this.buttonBack7.Name = "buttonBack7";
-            this.buttonBack7.Size = new System.Drawing.Size(128, 48);
+            this.buttonBack7.Size = new System.Drawing.Size(128, 55);
             this.buttonBack7.TabIndex = 6;
             this.buttonBack7.Text = "Назад";
             this.buttonBack7.UseVisualStyleBackColor = false;
@@ -374,20 +376,37 @@
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.button1.Font = new System.Drawing.Font("Times New Roman", 12.25532F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.Location = new System.Drawing.Point(1053, 584);
+            this.button1.Location = new System.Drawing.Point(1131, 210);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(128, 48);
+            this.button1.Size = new System.Drawing.Size(134, 55);
             this.button1.TabIndex = 21;
             this.button1.Text = "Добавить";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // buttonSeal2
+            // 
+            this.buttonSeal2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.buttonSeal2.Font = new System.Drawing.Font("Times New Roman", 12.25532F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonSeal2.Location = new System.Drawing.Point(1131, 271);
+            this.buttonSeal2.Name = "buttonSeal2";
+            this.buttonSeal2.Size = new System.Drawing.Size(134, 55);
+            this.buttonSeal2.TabIndex = 22;
+            this.buttonSeal2.Text = "Печать";
+            this.buttonSeal2.UseVisualStyleBackColor = false;
+            this.buttonSeal2.Click += new System.EventHandler(this.buttonSeal2_Click);
+            // 
+            // printDocument1
+            // 
+            this.printDocument1.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(this.printDocument1_PrintPage);
             // 
             // FormAddMilitaryRegistration
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ClientSize = new System.Drawing.Size(1290, 797);
+            this.ClientSize = new System.Drawing.Size(1357, 746);
+            this.Controls.Add(this.buttonSeal2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.The_name_of_the_military_commissariatTextBox);
             this.Controls.Add(this.Category_of_fitness_for_military_serviceTextBox);
@@ -455,5 +474,7 @@
         private System.Windows.Forms.TextBox Category_of_fitness_for_military_serviceTextBox;
         private System.Windows.Forms.TextBox The_name_of_the_military_commissariatTextBox;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button buttonSeal2;
+        private System.Drawing.Printing.PrintDocument printDocument1;
     }
 }

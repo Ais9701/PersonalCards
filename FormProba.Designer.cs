@@ -143,6 +143,7 @@
             this.iD_employeeTextBox = new System.Windows.Forms.TextBox();
             this.phoneTextBox = new System.Windows.Forms.TextBox();
             this.tabPage12 = new System.Windows.Forms.TabPage();
+            this.button14 = new System.Windows.Forms.Button();
             this.groupBox8 = new System.Windows.Forms.GroupBox();
             this.iD_additional_informationTextBox = new System.Windows.Forms.TextBox();
             this.more_informationBindingSource = new System.Windows.Forms.BindingSource(this.components);
@@ -153,6 +154,7 @@
             this.button2 = new System.Windows.Forms.Button();
             this.buttonAdd2 = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.buttonBack15 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.buttonAdd3 = new System.Windows.Forms.Button();
             this.groupBox9 = new System.Windows.Forms.GroupBox();
@@ -162,6 +164,7 @@
             this.document_numberTextBox = new System.Windows.Forms.TextBox();
             this.date_of_issueDateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.buttonBack16 = new System.Windows.Forms.Button();
             this.groupBox10 = new System.Windows.Forms.GroupBox();
             this.ID_of_reception_and_transfer_to_workTextBox = new System.Windows.Forms.TextBox();
             this.tariff_rateTextBox = new System.Windows.Forms.TextBox();
@@ -171,6 +174,7 @@
             this.buttonAdd4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.button17 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.groupBox11 = new System.Windows.Forms.GroupBox();
             this.ID_qualificationTextBox = new System.Windows.Forms.TextBox();
@@ -184,6 +188,7 @@
             this.beginning_of_trainingDateTimePicker = new System.Windows.Forms.DateTimePicker();
             this.buttonAdd5 = new System.Windows.Forms.Button();
             this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.buttonBack18 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.buttonAdd6 = new System.Windows.Forms.Button();
             this.groupBox12 = new System.Windows.Forms.GroupBox();
@@ -195,12 +200,14 @@
             this.working_period_withDateTimePicker = new System.Windows.Forms.DateTimePicker();
             this.type_of_vacationTextBox = new System.Windows.Forms.TextBox();
             this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.buttonBack19 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.buttonAdd12 = new System.Windows.Forms.Button();
             this.groupBox13 = new System.Windows.Forms.GroupBox();
             this.ID_level_of_educationTextBox = new System.Windows.Forms.TextBox();
             this.level_of_educationTextBox = new System.Windows.Forms.TextBox();
             this.tabPage7 = new System.Windows.Forms.TabPage();
+            this.buttonBack20 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.buttonAdd7 = new System.Windows.Forms.Button();
             this.groupBox14 = new System.Windows.Forms.GroupBox();
@@ -209,6 +216,7 @@
             this.NumberTextBox = new System.Windows.Forms.TextBox();
             this.The_name_of_the_awardsTextBox = new System.Windows.Forms.TextBox();
             this.tabPage8 = new System.Windows.Forms.TabPage();
+            this.buttonBack21 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.buttonAdd8 = new System.Windows.Forms.Button();
             this.groupBox15 = new System.Windows.Forms.GroupBox();
@@ -220,6 +228,7 @@
             this.military_rankTextBox = new System.Windows.Forms.TextBox();
             this.stock_categoryTextBox = new System.Windows.Forms.TextBox();
             this.tabPage9 = new System.Windows.Forms.TabPage();
+            this.buttonBack22 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
             this.buttonAdd9 = new System.Windows.Forms.Button();
             this.groupBox16 = new System.Windows.Forms.GroupBox();
@@ -229,6 +238,7 @@
             this.commission_decisionTextBox = new System.Windows.Forms.TextBox();
             this.date_of_certificationDateTimePicker = new System.Windows.Forms.DateTimePicker();
             this.tabPage10 = new System.Windows.Forms.TabPage();
+            this.buttonBack23 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
             this.buttonAdd10 = new System.Windows.Forms.Button();
             this.groupBox17 = new System.Windows.Forms.GroupBox();
@@ -240,6 +250,7 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.tabPage11 = new System.Windows.Forms.TabPage();
+            this.buttonBack24 = new System.Windows.Forms.Button();
             this.button13 = new System.Windows.Forms.Button();
             this.buttonAdd11 = new System.Windows.Forms.Button();
             this.groupBox18 = new System.Windows.Forms.GroupBox();
@@ -267,10 +278,8 @@
             this.employee_informationBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
             this.more_informationTableAdapter = new Personal_cardsApp1.Personal_cardsDataSetTableAdapters.More_informationTableAdapter();
             this.social_benefitsTableAdapter = new Personal_cardsApp1.Personal_cardsDataSetTableAdapters.Social_benefitsTableAdapter();
-            this.fKEmployeeinformationSocialbenefitsBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.personalcardsDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.socialbenefitsBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.button14 = new System.Windows.Forms.Button();
             the_beginning_of_the_trainingLabel = new System.Windows.Forms.Label();
             completion_of_retrainingLabel = new System.Windows.Forms.Label();
             specialtyLabel = new System.Windows.Forms.Label();
@@ -388,7 +397,6 @@
             this.groupBox18.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.employee_informationBindingNavigator)).BeginInit();
             this.employee_informationBindingNavigator.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.fKEmployeeinformationSocialbenefitsBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.personalcardsDataSetBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.socialbenefitsBindingSource)).BeginInit();
             this.SuspendLayout();
@@ -1315,7 +1323,6 @@
             // tabPage1
             // 
             this.tabPage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.tabPage1.Controls.Add(this.button14);
             this.tabPage1.Controls.Add(this.buttonDelete);
             this.tabPage1.Controls.Add(this.button3);
             this.tabPage1.Controls.Add(this.groupBox7);
@@ -1631,6 +1638,7 @@
             // tabPage12
             // 
             this.tabPage12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.tabPage12.Controls.Add(this.button14);
             this.tabPage12.Controls.Add(this.groupBox8);
             this.tabPage12.Controls.Add(this.button2);
             this.tabPage12.Controls.Add(this.buttonAdd2);
@@ -1641,6 +1649,19 @@
             this.tabPage12.Size = new System.Drawing.Size(1280, 623);
             this.tabPage12.TabIndex = 11;
             this.tabPage12.Text = "Доп.сведения";
+            // 
+            // button14
+            // 
+            this.button14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.button14.Font = new System.Drawing.Font("Times New Roman", 12.25532F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button14.ForeColor = System.Drawing.Color.Black;
+            this.button14.Location = new System.Drawing.Point(1111, 361);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(131, 49);
+            this.button14.TabIndex = 54;
+            this.button14.Text = "Назад";
+            this.button14.UseVisualStyleBackColor = false;
+            this.button14.Click += new System.EventHandler(this.button14_Click_1);
             // 
             // groupBox8
             // 
@@ -1742,6 +1763,7 @@
             // tabPage2
             // 
             this.tabPage2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.tabPage2.Controls.Add(this.buttonBack15);
             this.tabPage2.Controls.Add(this.button4);
             this.tabPage2.Controls.Add(this.buttonAdd3);
             this.tabPage2.Controls.Add(this.groupBox9);
@@ -1752,6 +1774,19 @@
             this.tabPage2.Size = new System.Drawing.Size(1280, 623);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Соц.льготы";
+            // 
+            // buttonBack15
+            // 
+            this.buttonBack15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.buttonBack15.Font = new System.Drawing.Font("Times New Roman", 12.25532F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonBack15.ForeColor = System.Drawing.Color.Black;
+            this.buttonBack15.Location = new System.Drawing.Point(1079, 337);
+            this.buttonBack15.Name = "buttonBack15";
+            this.buttonBack15.Size = new System.Drawing.Size(131, 49);
+            this.buttonBack15.TabIndex = 55;
+            this.buttonBack15.Text = "Назад";
+            this.buttonBack15.UseVisualStyleBackColor = false;
+            this.buttonBack15.Click += new System.EventHandler(this.buttonBack15_Click);
             // 
             // button4
             // 
@@ -1840,6 +1875,7 @@
             // tabPage3
             // 
             this.tabPage3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.tabPage3.Controls.Add(this.buttonBack16);
             this.tabPage3.Controls.Add(this.groupBox10);
             this.tabPage3.Controls.Add(this.buttonAdd4);
             this.tabPage3.Controls.Add(this.button5);
@@ -1851,6 +1887,19 @@
             this.tabPage3.Size = new System.Drawing.Size(1280, 623);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Прием и перевод";
+            // 
+            // buttonBack16
+            // 
+            this.buttonBack16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.buttonBack16.Font = new System.Drawing.Font("Times New Roman", 12.25532F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonBack16.ForeColor = System.Drawing.Color.Black;
+            this.buttonBack16.Location = new System.Drawing.Point(1103, 335);
+            this.buttonBack16.Name = "buttonBack16";
+            this.buttonBack16.Size = new System.Drawing.Size(131, 49);
+            this.buttonBack16.TabIndex = 55;
+            this.buttonBack16.Text = "Назад";
+            this.buttonBack16.UseVisualStyleBackColor = false;
+            this.buttonBack16.Click += new System.EventHandler(this.buttonBack16_Click);
             // 
             // groupBox10
             // 
@@ -1942,6 +1991,7 @@
             // tabPage4
             // 
             this.tabPage4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.tabPage4.Controls.Add(this.button17);
             this.tabPage4.Controls.Add(this.button6);
             this.tabPage4.Controls.Add(this.groupBox11);
             this.tabPage4.Controls.Add(this.buttonAdd5);
@@ -1952,6 +2002,19 @@
             this.tabPage4.Size = new System.Drawing.Size(1280, 623);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Квалификация";
+            // 
+            // button17
+            // 
+            this.button17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.button17.Font = new System.Drawing.Font("Times New Roman", 12.25532F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button17.ForeColor = System.Drawing.Color.Black;
+            this.button17.Location = new System.Drawing.Point(1105, 326);
+            this.button17.Name = "button17";
+            this.button17.Size = new System.Drawing.Size(131, 49);
+            this.button17.TabIndex = 55;
+            this.button17.Text = "Назад";
+            this.button17.UseVisualStyleBackColor = false;
+            this.button17.Click += new System.EventHandler(this.button17_Click);
             // 
             // button6
             // 
@@ -2081,6 +2144,7 @@
             // tabPage5
             // 
             this.tabPage5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.tabPage5.Controls.Add(this.buttonBack18);
             this.tabPage5.Controls.Add(this.button7);
             this.tabPage5.Controls.Add(this.buttonAdd6);
             this.tabPage5.Controls.Add(this.groupBox12);
@@ -2091,6 +2155,19 @@
             this.tabPage5.Size = new System.Drawing.Size(1280, 623);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "Отпуск";
+            // 
+            // buttonBack18
+            // 
+            this.buttonBack18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.buttonBack18.Font = new System.Drawing.Font("Times New Roman", 12.25532F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonBack18.ForeColor = System.Drawing.Color.Black;
+            this.buttonBack18.Location = new System.Drawing.Point(1094, 327);
+            this.buttonBack18.Name = "buttonBack18";
+            this.buttonBack18.Size = new System.Drawing.Size(131, 49);
+            this.buttonBack18.TabIndex = 55;
+            this.buttonBack18.Text = "Назад";
+            this.buttonBack18.UseVisualStyleBackColor = false;
+            this.buttonBack18.Click += new System.EventHandler(this.buttonBack18_Click);
             // 
             // button7
             // 
@@ -2200,6 +2277,7 @@
             // tabPage6
             // 
             this.tabPage6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.tabPage6.Controls.Add(this.buttonBack19);
             this.tabPage6.Controls.Add(this.button8);
             this.tabPage6.Controls.Add(this.buttonAdd12);
             this.tabPage6.Controls.Add(this.groupBox13);
@@ -2210,6 +2288,19 @@
             this.tabPage6.Size = new System.Drawing.Size(1280, 623);
             this.tabPage6.TabIndex = 5;
             this.tabPage6.Text = "Уровень образования";
+            // 
+            // buttonBack19
+            // 
+            this.buttonBack19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.buttonBack19.Font = new System.Drawing.Font("Times New Roman", 12.25532F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonBack19.ForeColor = System.Drawing.Color.Black;
+            this.buttonBack19.Location = new System.Drawing.Point(1119, 329);
+            this.buttonBack19.Name = "buttonBack19";
+            this.buttonBack19.Size = new System.Drawing.Size(131, 49);
+            this.buttonBack19.TabIndex = 55;
+            this.buttonBack19.Text = "Назад";
+            this.buttonBack19.UseVisualStyleBackColor = false;
+            this.buttonBack19.Click += new System.EventHandler(this.buttonBack19_Click);
             // 
             // button8
             // 
@@ -2269,6 +2360,7 @@
             // tabPage7
             // 
             this.tabPage7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.tabPage7.Controls.Add(this.buttonBack20);
             this.tabPage7.Controls.Add(this.button9);
             this.tabPage7.Controls.Add(this.buttonAdd7);
             this.tabPage7.Controls.Add(this.groupBox14);
@@ -2279,6 +2371,19 @@
             this.tabPage7.Size = new System.Drawing.Size(1280, 623);
             this.tabPage7.TabIndex = 6;
             this.tabPage7.Text = "Награды";
+            // 
+            // buttonBack20
+            // 
+            this.buttonBack20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.buttonBack20.Font = new System.Drawing.Font("Times New Roman", 12.25532F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonBack20.ForeColor = System.Drawing.Color.Black;
+            this.buttonBack20.Location = new System.Drawing.Point(1113, 334);
+            this.buttonBack20.Name = "buttonBack20";
+            this.buttonBack20.Size = new System.Drawing.Size(131, 49);
+            this.buttonBack20.TabIndex = 55;
+            this.buttonBack20.Text = "Назад";
+            this.buttonBack20.UseVisualStyleBackColor = false;
+            this.buttonBack20.Click += new System.EventHandler(this.buttonBack20_Click);
             // 
             // button9
             // 
@@ -2358,6 +2463,7 @@
             // tabPage8
             // 
             this.tabPage8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.tabPage8.Controls.Add(this.buttonBack21);
             this.tabPage8.Controls.Add(this.button10);
             this.tabPage8.Controls.Add(this.buttonAdd8);
             this.tabPage8.Controls.Add(this.groupBox15);
@@ -2368,6 +2474,19 @@
             this.tabPage8.Size = new System.Drawing.Size(1280, 623);
             this.tabPage8.TabIndex = 7;
             this.tabPage8.Text = "Воинский учет";
+            // 
+            // buttonBack21
+            // 
+            this.buttonBack21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.buttonBack21.Font = new System.Drawing.Font("Times New Roman", 12.25532F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonBack21.ForeColor = System.Drawing.Color.Black;
+            this.buttonBack21.Location = new System.Drawing.Point(1106, 368);
+            this.buttonBack21.Name = "buttonBack21";
+            this.buttonBack21.Size = new System.Drawing.Size(131, 49);
+            this.buttonBack21.TabIndex = 55;
+            this.buttonBack21.Text = "Назад";
+            this.buttonBack21.UseVisualStyleBackColor = false;
+            this.buttonBack21.Click += new System.EventHandler(this.buttonBack21_Click);
             // 
             // button10
             // 
@@ -2477,6 +2596,7 @@
             // tabPage9
             // 
             this.tabPage9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.tabPage9.Controls.Add(this.buttonBack22);
             this.tabPage9.Controls.Add(this.button11);
             this.tabPage9.Controls.Add(this.buttonAdd9);
             this.tabPage9.Controls.Add(this.groupBox16);
@@ -2487,6 +2607,19 @@
             this.tabPage9.Size = new System.Drawing.Size(1280, 623);
             this.tabPage9.TabIndex = 8;
             this.tabPage9.Text = "Аттестация";
+            // 
+            // buttonBack22
+            // 
+            this.buttonBack22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.buttonBack22.Font = new System.Drawing.Font("Times New Roman", 12.25532F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonBack22.ForeColor = System.Drawing.Color.Black;
+            this.buttonBack22.Location = new System.Drawing.Point(1035, 368);
+            this.buttonBack22.Name = "buttonBack22";
+            this.buttonBack22.Size = new System.Drawing.Size(131, 49);
+            this.buttonBack22.TabIndex = 55;
+            this.buttonBack22.Text = "Назад";
+            this.buttonBack22.UseVisualStyleBackColor = false;
+            this.buttonBack22.Click += new System.EventHandler(this.buttonBack22_Click);
             // 
             // button11
             // 
@@ -2576,6 +2709,7 @@
             // tabPage10
             // 
             this.tabPage10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.tabPage10.Controls.Add(this.buttonBack23);
             this.tabPage10.Controls.Add(this.button12);
             this.tabPage10.Controls.Add(this.buttonAdd10);
             this.tabPage10.Controls.Add(this.groupBox17);
@@ -2586,6 +2720,19 @@
             this.tabPage10.Size = new System.Drawing.Size(1280, 623);
             this.tabPage10.TabIndex = 9;
             this.tabPage10.Text = "Образование";
+            // 
+            // buttonBack23
+            // 
+            this.buttonBack23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.buttonBack23.Font = new System.Drawing.Font("Times New Roman", 12.25532F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonBack23.ForeColor = System.Drawing.Color.Black;
+            this.buttonBack23.Location = new System.Drawing.Point(1134, 368);
+            this.buttonBack23.Name = "buttonBack23";
+            this.buttonBack23.Size = new System.Drawing.Size(131, 49);
+            this.buttonBack23.TabIndex = 55;
+            this.buttonBack23.Text = "Назад";
+            this.buttonBack23.UseVisualStyleBackColor = false;
+            this.buttonBack23.Click += new System.EventHandler(this.buttonBack23_Click);
             // 
             // button12
             // 
@@ -2695,6 +2842,7 @@
             // tabPage11
             // 
             this.tabPage11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.tabPage11.Controls.Add(this.buttonBack24);
             this.tabPage11.Controls.Add(this.button13);
             this.tabPage11.Controls.Add(this.buttonAdd11);
             this.tabPage11.Controls.Add(this.groupBox18);
@@ -2705,6 +2853,19 @@
             this.tabPage11.Size = new System.Drawing.Size(1280, 623);
             this.tabPage11.TabIndex = 10;
             this.tabPage11.Text = "Проф.переподготовка";
+            // 
+            // buttonBack24
+            // 
+            this.buttonBack24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.buttonBack24.Font = new System.Drawing.Font("Times New Roman", 12.25532F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonBack24.ForeColor = System.Drawing.Color.Black;
+            this.buttonBack24.Location = new System.Drawing.Point(1087, 385);
+            this.buttonBack24.Name = "buttonBack24";
+            this.buttonBack24.Size = new System.Drawing.Size(131, 49);
+            this.buttonBack24.TabIndex = 55;
+            this.buttonBack24.Text = "Назад";
+            this.buttonBack24.UseVisualStyleBackColor = false;
+            this.buttonBack24.Click += new System.EventHandler(this.buttonBack24_Click);
             // 
             // button13
             // 
@@ -2973,11 +3134,6 @@
             // 
             this.social_benefitsTableAdapter.ClearBeforeFill = true;
             // 
-            // fKEmployeeinformationSocialbenefitsBindingSource
-            // 
-            this.fKEmployeeinformationSocialbenefitsBindingSource.DataMember = "FK_Employee_information_Social_benefits";
-            this.fKEmployeeinformationSocialbenefitsBindingSource.DataSource = this.social_benefitsBindingSource;
-            // 
             // personalcardsDataSetBindingSource
             // 
             this.personalcardsDataSetBindingSource.DataSource = this.personal_cardsDataSet;
@@ -2987,16 +3143,6 @@
             // 
             this.socialbenefitsBindingSource.DataMember = "Social_benefits";
             this.socialbenefitsBindingSource.DataSource = this.personal_cardsDataSet;
-            // 
-            // button14
-            // 
-            this.button14.Location = new System.Drawing.Point(1114, 502);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(140, 39);
-            this.button14.TabIndex = 98;
-            this.button14.Text = "Сформировать";
-            this.button14.UseVisualStyleBackColor = true;
-            this.button14.Click += new System.EventHandler(this.button14_Click);
             // 
             // FormProba
             // 
@@ -3066,7 +3212,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.employee_informationBindingNavigator)).EndInit();
             this.employee_informationBindingNavigator.ResumeLayout(false);
             this.employee_informationBindingNavigator.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.fKEmployeeinformationSocialbenefitsBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.personalcardsDataSetBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.socialbenefitsBindingSource)).EndInit();
             this.ResumeLayout(false);
@@ -3099,7 +3244,6 @@
         private System.Windows.Forms.BindingSource social_benefitsBindingSource;
         private Personal_cardsDataSetTableAdapters.Social_benefitsTableAdapter social_benefitsTableAdapter;
         private System.Windows.Forms.BindingSource socialbenefitsBindingSource;
-        private System.Windows.Forms.BindingSource fKEmployeeinformationSocialbenefitsBindingSource;
         private System.Windows.Forms.BindingSource personalcardsDataSetBindingSource;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
@@ -3237,5 +3381,15 @@
         private System.Windows.Forms.DateTimePicker completion_of_retrainingDateTimePicker;
         private System.Windows.Forms.DateTimePicker the_beginning_of_the_trainingDateTimePicker;
         private System.Windows.Forms.Button button14;
+        private System.Windows.Forms.Button buttonBack15;
+        private System.Windows.Forms.Button buttonBack16;
+        private System.Windows.Forms.Button button17;
+        private System.Windows.Forms.Button buttonBack18;
+        private System.Windows.Forms.Button buttonBack19;
+        private System.Windows.Forms.Button buttonBack20;
+        private System.Windows.Forms.Button buttonBack21;
+        private System.Windows.Forms.Button buttonBack22;
+        private System.Windows.Forms.Button buttonBack23;
+        private System.Windows.Forms.Button buttonBack24;
     }
 }

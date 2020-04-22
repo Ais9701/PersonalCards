@@ -63,6 +63,8 @@
             this.Start_dateTextBox = new System.Windows.Forms.TextBox();
             this.Expiry_dateTextBox = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.buttonSeal2 = new System.Windows.Forms.Button();
+            this.printDocument1 = new System.Drawing.Printing.PrintDocument();
             ((System.ComponentModel.ISupportInitialize)(this.personal_cardsDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.vacationBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.vacationBindingNavigator)).BeginInit();
@@ -128,7 +130,7 @@
             this.vacationBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.vacationBindingNavigator.Name = "vacationBindingNavigator";
             this.vacationBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.vacationBindingNavigator.Size = new System.Drawing.Size(1290, 32);
+            this.vacationBindingNavigator.Size = new System.Drawing.Size(1357, 32);
             this.vacationBindingNavigator.TabIndex = 0;
             this.vacationBindingNavigator.Text = "bindingNavigator1";
             // 
@@ -234,9 +236,9 @@
             // 
             this.buttonBack6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.buttonBack6.Font = new System.Drawing.Font("Times New Roman", 12.25532F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonBack6.Location = new System.Drawing.Point(1075, 546);
+            this.buttonBack6.Location = new System.Drawing.Point(1157, 381);
             this.buttonBack6.Name = "buttonBack6";
-            this.buttonBack6.Size = new System.Drawing.Size(128, 48);
+            this.buttonBack6.Size = new System.Drawing.Size(134, 48);
             this.buttonBack6.TabIndex = 4;
             this.buttonBack6.Text = "Назад";
             this.buttonBack6.UseVisualStyleBackColor = false;
@@ -372,20 +374,37 @@
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.button1.Font = new System.Drawing.Font("Times New Roman", 12.25532F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.Location = new System.Drawing.Point(1075, 492);
+            this.button1.Location = new System.Drawing.Point(1157, 240);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(128, 48);
+            this.button1.Size = new System.Drawing.Size(134, 55);
             this.button1.TabIndex = 19;
             this.button1.Text = "Добавить";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // buttonSeal2
+            // 
+            this.buttonSeal2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.buttonSeal2.Font = new System.Drawing.Font("Times New Roman", 12.25532F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonSeal2.Location = new System.Drawing.Point(1157, 301);
+            this.buttonSeal2.Name = "buttonSeal2";
+            this.buttonSeal2.Size = new System.Drawing.Size(134, 55);
+            this.buttonSeal2.TabIndex = 20;
+            this.buttonSeal2.Text = "Печать";
+            this.buttonSeal2.UseVisualStyleBackColor = false;
+            this.buttonSeal2.Click += new System.EventHandler(this.buttonSeal2_Click);
+            // 
+            // printDocument1
+            // 
+            this.printDocument1.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(this.printDocument1_PrintPage);
             // 
             // FormAddPersonalCards
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ClientSize = new System.Drawing.Size(1290, 797);
+            this.ClientSize = new System.Drawing.Size(1357, 746);
+            this.Controls.Add(this.buttonSeal2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.Expiry_dateTextBox);
             this.Controls.Add(this.Start_dateTextBox);
@@ -453,5 +472,7 @@
         private System.Windows.Forms.TextBox Start_dateTextBox;
         private System.Windows.Forms.TextBox Expiry_dateTextBox;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button buttonSeal2;
+        private System.Drawing.Printing.PrintDocument printDocument1;
     }
 }
