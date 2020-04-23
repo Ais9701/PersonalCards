@@ -35,9 +35,7 @@
             this.more_informationTableAdapter = new Personal_cardsApp1.Personal_cardsDataSetTableAdapters.More_informationTableAdapter();
             this.tableAdapterManager = new Personal_cardsApp1.Personal_cardsDataSetTableAdapters.TableAdapterManager();
             this.more_informationBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
-            this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
-            this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMoveFirstItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMovePreviousItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator = new System.Windows.Forms.ToolStripSeparator();
@@ -45,8 +43,6 @@
             this.bindingNavigatorSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.bindingNavigatorMoveNextItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMoveLastItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.more_informationBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
             this.buttonBack3 = new System.Windows.Forms.Button();
             this.buttonAdd = new System.Windows.Forms.Button();
             this.more_informationDataGridView = new System.Windows.Forms.DataGridView();
@@ -109,10 +105,10 @@
             // 
             // more_informationBindingNavigator
             // 
-            this.more_informationBindingNavigator.AddNewItem = this.bindingNavigatorAddNewItem;
+            this.more_informationBindingNavigator.AddNewItem = null;
             this.more_informationBindingNavigator.BindingSource = this.more_informationBindingSource;
             this.more_informationBindingNavigator.CountItem = this.bindingNavigatorCountItem;
-            this.more_informationBindingNavigator.DeleteItem = this.bindingNavigatorDeleteItem;
+            this.more_informationBindingNavigator.DeleteItem = null;
             this.more_informationBindingNavigator.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.more_informationBindingNavigator.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.bindingNavigatorMoveFirstItem,
@@ -122,11 +118,7 @@
             this.bindingNavigatorCountItem,
             this.bindingNavigatorSeparator1,
             this.bindingNavigatorMoveNextItem,
-            this.bindingNavigatorMoveLastItem,
-            this.bindingNavigatorSeparator2,
-            this.bindingNavigatorAddNewItem,
-            this.bindingNavigatorDeleteItem,
-            this.more_informationBindingNavigatorSaveItem});
+            this.bindingNavigatorMoveLastItem});
             this.more_informationBindingNavigator.Location = new System.Drawing.Point(0, 0);
             this.more_informationBindingNavigator.MoveFirstItem = this.bindingNavigatorMoveFirstItem;
             this.more_informationBindingNavigator.MoveLastItem = this.bindingNavigatorMoveLastItem;
@@ -134,19 +126,9 @@
             this.more_informationBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.more_informationBindingNavigator.Name = "more_informationBindingNavigator";
             this.more_informationBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.more_informationBindingNavigator.Size = new System.Drawing.Size(1357, 37);
+            this.more_informationBindingNavigator.Size = new System.Drawing.Size(1357, 32);
             this.more_informationBindingNavigator.TabIndex = 0;
             this.more_informationBindingNavigator.Text = "bindingNavigator1";
-            // 
-            // bindingNavigatorAddNewItem
-            // 
-            this.bindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
-            this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
-            this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(34, 28);
-            this.bindingNavigatorAddNewItem.Text = "Добавить";
-            this.bindingNavigatorAddNewItem.Visible = false;
             // 
             // bindingNavigatorCountItem
             // 
@@ -154,16 +136,6 @@
             this.bindingNavigatorCountItem.Size = new System.Drawing.Size(65, 28);
             this.bindingNavigatorCountItem.Text = "для {0}";
             this.bindingNavigatorCountItem.ToolTipText = "Общее число элементов";
-            // 
-            // bindingNavigatorDeleteItem
-            // 
-            this.bindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorDeleteItem.Image")));
-            this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
-            this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(34, 28);
-            this.bindingNavigatorDeleteItem.Text = "Удалить";
-            this.bindingNavigatorDeleteItem.Visible = false;
             // 
             // bindingNavigatorMoveFirstItem
             // 
@@ -220,21 +192,6 @@
             this.bindingNavigatorMoveLastItem.RightToLeftAutoMirrorImage = true;
             this.bindingNavigatorMoveLastItem.Size = new System.Drawing.Size(34, 28);
             this.bindingNavigatorMoveLastItem.Text = "Переместить в конец";
-            // 
-            // bindingNavigatorSeparator2
-            // 
-            this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator2";
-            this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 32);
-            // 
-            // more_informationBindingNavigatorSaveItem
-            // 
-            this.more_informationBindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.more_informationBindingNavigatorSaveItem.Image = ((System.Drawing.Image)(resources.GetObject("more_informationBindingNavigatorSaveItem.Image")));
-            this.more_informationBindingNavigatorSaveItem.Name = "more_informationBindingNavigatorSaveItem";
-            this.more_informationBindingNavigatorSaveItem.Size = new System.Drawing.Size(34, 28);
-            this.more_informationBindingNavigatorSaveItem.Text = "Сохранить данные";
-            this.more_informationBindingNavigatorSaveItem.Visible = false;
-            this.more_informationBindingNavigatorSaveItem.Click += new System.EventHandler(this.more_informationBindingNavigatorSaveItem_Click);
             // 
             // buttonBack3
             // 
@@ -434,6 +391,7 @@
             this.buttonExcel.TabIndex = 101;
             this.buttonExcel.Text = "Экспорт в Excel";
             this.buttonExcel.UseVisualStyleBackColor = false;
+            this.buttonExcel.Click += new System.EventHandler(this.buttonExcel_Click);
             // 
             // FormAdditionalInformation
             // 
@@ -480,9 +438,7 @@
         private Personal_cardsDataSetTableAdapters.More_informationTableAdapter more_informationTableAdapter;
         private Personal_cardsDataSetTableAdapters.TableAdapterManager tableAdapterManager;
         private System.Windows.Forms.BindingNavigator more_informationBindingNavigator;
-        private System.Windows.Forms.ToolStripButton bindingNavigatorAddNewItem;
         private System.Windows.Forms.ToolStripLabel bindingNavigatorCountItem;
-        private System.Windows.Forms.ToolStripButton bindingNavigatorDeleteItem;
         private System.Windows.Forms.ToolStripButton bindingNavigatorMoveFirstItem;
         private System.Windows.Forms.ToolStripButton bindingNavigatorMovePreviousItem;
         private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator;
@@ -490,8 +446,6 @@
         private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator1;
         private System.Windows.Forms.ToolStripButton bindingNavigatorMoveNextItem;
         private System.Windows.Forms.ToolStripButton bindingNavigatorMoveLastItem;
-        private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator2;
-        private System.Windows.Forms.ToolStripButton more_informationBindingNavigatorSaveItem;
         private System.Windows.Forms.Button buttonBack3;
         private System.Windows.Forms.Button buttonAdd;
         private System.Windows.Forms.DataGridView more_informationDataGridView;

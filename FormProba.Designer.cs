@@ -29,59 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.Label the_beginning_of_the_trainingLabel;
-            System.Windows.Forms.Label completion_of_retrainingLabel;
-            System.Windows.Forms.Label specialtyLabel;
-            System.Windows.Forms.Label label9;
-            System.Windows.Forms.Label label8;
-            System.Windows.Forms.Label label7;
-            System.Windows.Forms.Label iD_retrainingLabel;
-            System.Windows.Forms.Label label6;
-            System.Windows.Forms.Label label5;
-            System.Windows.Forms.Label name_of_the_document_on_educationLabel;
-            System.Windows.Forms.Label seriesLabel;
-            System.Windows.Forms.Label label4;
-            System.Windows.Forms.Label year_of_graduationLabel;
-            System.Windows.Forms.Label iD_educationLabel;
-            System.Windows.Forms.Label date_of_certificationLabel;
-            System.Windows.Forms.Label commission_decisionLabel;
-            System.Windows.Forms.Label protocol_numberLabel;
-            System.Windows.Forms.Label date_of_reportLabel;
-            System.Windows.Forms.Label iD_certificationLabel;
-            System.Windows.Forms.Label stock_categoryLabel;
-            System.Windows.Forms.Label military_rankLabel;
-            System.Windows.Forms.Label composition_profileLabel;
-            System.Windows.Forms.Label full_code_designation_VUSLabel;
-            System.Windows.Forms.Label category_of_fitness_for_military_serviceLabel;
-            System.Windows.Forms.Label the_name_of_the_military_commissariatLabel;
-            System.Windows.Forms.Label iD_military_registrationLabel;
-            System.Windows.Forms.Label the_name_of_the_awardsLabel;
-            System.Windows.Forms.Label numberLabel;
-            System.Windows.Forms.Label label3;
-            System.Windows.Forms.Label iD_rewardsLabel;
-            System.Windows.Forms.Label level_of_educationLabel;
-            System.Windows.Forms.Label iD_level_of_educationLabel;
-            System.Windows.Forms.Label type_of_vacationLabel;
-            System.Windows.Forms.Label working_period_withLabel;
-            System.Windows.Forms.Label period_of_work_onLabel;
-            System.Windows.Forms.Label number_of_vacation_daysLabel;
-            System.Windows.Forms.Label start_dateLabel;
-            System.Windows.Forms.Label expiry_dateLabel;
-            System.Windows.Forms.Label iD_vacationLabel;
-            System.Windows.Forms.Label beginning_of_trainingLabel;
-            System.Windows.Forms.Label the_end_of_the_trainingLabel;
-            System.Windows.Forms.Label type_of_qualificationLabel;
-            System.Windows.Forms.Label name_of_educational_institutionLabel;
-            System.Windows.Forms.Label its_locationLabel;
-            System.Windows.Forms.Label document_nameLabel;
-            System.Windows.Forms.Label series_document_numberLabel;
-            System.Windows.Forms.Label label2;
-            System.Windows.Forms.Label iD_qualificationLabel;
-            System.Windows.Forms.Label dateLabel;
-            System.Windows.Forms.Label structural_subdivisionLabel;
-            System.Windows.Forms.Label positionLabel;
-            System.Windows.Forms.Label tariff_rateLabel;
-            System.Windows.Forms.Label iD_of_reception_and_transfer_to_workLabel;
             System.Windows.Forms.Label date_of_issueLabel1;
             System.Windows.Forms.Label document_numberLabel;
             System.Windows.Forms.Label name_of_benefitLabel;
@@ -109,16 +56,76 @@
             System.Windows.Forms.Label label13;
             System.Windows.Forms.Label experienceLabel;
             System.Windows.Forms.Label the_name_of_a_professionLabel;
+            System.Windows.Forms.Label iD_of_reception_and_transfer_to_workLabel;
+            System.Windows.Forms.Label dateLabel;
+            System.Windows.Forms.Label structural_subdivisionLabel;
+            System.Windows.Forms.Label positionLabel;
+            System.Windows.Forms.Label tariff_rateLabel;
+            System.Windows.Forms.Label iD_qualificationLabel;
+            System.Windows.Forms.Label beginning_of_trainingLabel;
+            System.Windows.Forms.Label the_end_of_the_trainingLabel;
+            System.Windows.Forms.Label type_of_qualificationLabel;
+            System.Windows.Forms.Label name_of_educational_institutionLabel;
+            System.Windows.Forms.Label its_locationLabel;
+            System.Windows.Forms.Label document_nameLabel;
+            System.Windows.Forms.Label series_document_numberLabel;
+            System.Windows.Forms.Label dateLabel1;
+            System.Windows.Forms.Label iD_vacationLabel;
+            System.Windows.Forms.Label type_of_vacationLabel;
+            System.Windows.Forms.Label working_period_withLabel;
+            System.Windows.Forms.Label period_of_work_onLabel;
+            System.Windows.Forms.Label number_of_vacation_daysLabel;
+            System.Windows.Forms.Label start_dateLabel;
+            System.Windows.Forms.Label expiry_dateLabel;
+            System.Windows.Forms.Label iD_level_of_educationLabel;
+            System.Windows.Forms.Label level_of_educationLabel;
+            System.Windows.Forms.Label iD_rewardsLabel;
+            System.Windows.Forms.Label the_name_of_the_awardsLabel;
+            System.Windows.Forms.Label numberLabel;
+            System.Windows.Forms.Label dateLabel2;
+            System.Windows.Forms.Label iD_military_registrationLabel;
+            System.Windows.Forms.Label stock_categoryLabel;
+            System.Windows.Forms.Label military_rankLabel;
+            System.Windows.Forms.Label composition_profileLabel;
+            System.Windows.Forms.Label full_code_designation_VUSLabel;
+            System.Windows.Forms.Label category_of_fitness_for_military_serviceLabel;
+            System.Windows.Forms.Label the_name_of_the_military_commissariatLabel;
+            System.Windows.Forms.Label iD_certificationLabel;
+            System.Windows.Forms.Label date_of_certificationLabel;
+            System.Windows.Forms.Label commission_decisionLabel;
+            System.Windows.Forms.Label protocol_numberLabel;
+            System.Windows.Forms.Label date_of_reportLabel;
+            System.Windows.Forms.Label iD_educationLabel;
+            System.Windows.Forms.Label level_of_educationLabel1;
+            System.Windows.Forms.Label name_of_educational_institutionLabel1;
+            System.Windows.Forms.Label name_of_the_document_on_educationLabel;
+            System.Windows.Forms.Label seriesLabel;
+            System.Windows.Forms.Label numberLabel1;
+            System.Windows.Forms.Label year_of_graduationLabel;
+            System.Windows.Forms.Label iD_retrainingLabel;
+            System.Windows.Forms.Label the_beginning_of_the_trainingLabel;
+            System.Windows.Forms.Label completion_of_retrainingLabel;
+            System.Windows.Forms.Label specialtyLabel;
+            System.Windows.Forms.Label document_nameLabel1;
+            System.Windows.Forms.Label document_numberLabel1;
+            System.Windows.Forms.Label dateLabel3;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormProba));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.employee_informationBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
+            this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
+            this.employee_informationBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.personal_cardsDataSet = new Personal_cardsApp1.Personal_cardsDataSet();
+            this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorMovePreviousItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorPositionItem = new System.Windows.Forms.ToolStripTextBox();
+            this.bindingNavigatorMoveNextItem = new System.Windows.Forms.ToolStripButton();
+            this.employee_informationBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
             this.buttonDelete = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
             this.the_name_of_a_professionTextBox = new System.Windows.Forms.TextBox();
-            this.employee_informationBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.personal_cardsDataSet = new Personal_cardsApp1.Personal_cardsDataSet();
             this.experienceTextBox = new System.Windows.Forms.TextBox();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.textBox9 = new System.Windows.Forms.TextBox();
@@ -143,10 +150,17 @@
             this.iD_employeeTextBox = new System.Windows.Forms.TextBox();
             this.phoneTextBox = new System.Windows.Forms.TextBox();
             this.tabPage12 = new System.Windows.Forms.TabPage();
+            this.bindingNavigator2 = new System.Windows.Forms.BindingNavigator(this.components);
+            this.toolStripButton6 = new System.Windows.Forms.ToolStripButton();
+            this.more_informationBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.toolStripButton7 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton10 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripTextBox2 = new System.Windows.Forms.ToolStripTextBox();
+            this.toolStripButton9 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton8 = new System.Windows.Forms.ToolStripButton();
             this.button14 = new System.Windows.Forms.Button();
             this.groupBox8 = new System.Windows.Forms.GroupBox();
             this.iD_additional_informationTextBox = new System.Windows.Forms.TextBox();
-            this.more_informationBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.date_of_orderDateTimePicker = new System.Windows.Forms.DateTimePicker();
             this.the_order_numberTextBox = new System.Windows.Forms.TextBox();
             this.date_of_dismissalDateTimePicker = new System.Windows.Forms.DateTimePicker();
@@ -154,185 +168,204 @@
             this.button2 = new System.Windows.Forms.Button();
             this.buttonAdd2 = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.bindingNavigator1 = new System.Windows.Forms.BindingNavigator(this.components);
+            this.social_benefitsBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripTextBox1 = new System.Windows.Forms.ToolStripTextBox();
+            this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
             this.buttonBack15 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.buttonAdd3 = new System.Windows.Forms.Button();
             this.groupBox9 = new System.Windows.Forms.GroupBox();
             this.iD_social_benefitsTextBox = new System.Windows.Forms.TextBox();
-            this.social_benefitsBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.name_of_benefitTextBox = new System.Windows.Forms.TextBox();
             this.document_numberTextBox = new System.Windows.Forms.TextBox();
             this.date_of_issueDateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.bindingNavigator3 = new System.Windows.Forms.BindingNavigator(this.components);
+            this.toolStripButton11 = new System.Windows.Forms.ToolStripButton();
+            this.reception_and_transferBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.toolStripButton12 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton13 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripTextBox3 = new System.Windows.Forms.ToolStripTextBox();
+            this.toolStripButton14 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton15 = new System.Windows.Forms.ToolStripButton();
             this.buttonBack16 = new System.Windows.Forms.Button();
             this.groupBox10 = new System.Windows.Forms.GroupBox();
-            this.ID_of_reception_and_transfer_to_workTextBox = new System.Windows.Forms.TextBox();
-            this.tariff_rateTextBox = new System.Windows.Forms.TextBox();
-            this.positionTextBox = new System.Windows.Forms.TextBox();
-            this.structural_subdivisionTextBox = new System.Windows.Forms.TextBox();
+            this.iD_of_reception_and_transfer_to_workTextBox = new System.Windows.Forms.TextBox();
             this.dateDateTimePicker = new System.Windows.Forms.DateTimePicker();
+            this.structural_subdivisionTextBox = new System.Windows.Forms.TextBox();
+            this.positionTextBox = new System.Windows.Forms.TextBox();
+            this.tariff_rateTextBox = new System.Windows.Forms.TextBox();
             this.buttonAdd4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.bindingNavigator4 = new System.Windows.Forms.BindingNavigator(this.components);
+            this.toolStripButton16 = new System.Windows.Forms.ToolStripButton();
+            this.advanced_trainingBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.toolStripButton17 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton18 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripTextBox4 = new System.Windows.Forms.ToolStripTextBox();
+            this.toolStripButton19 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton20 = new System.Windows.Forms.ToolStripButton();
             this.button17 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.groupBox11 = new System.Windows.Forms.GroupBox();
-            this.ID_qualificationTextBox = new System.Windows.Forms.TextBox();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.series_document_numberTextBox = new System.Windows.Forms.TextBox();
-            this.document_nameTextBox = new System.Windows.Forms.TextBox();
-            this.its_locationTextBox = new System.Windows.Forms.TextBox();
-            this.name_of_educational_institutionTextBox = new System.Windows.Forms.TextBox();
-            this.type_of_qualificationTextBox = new System.Windows.Forms.TextBox();
-            this.the_end_of_the_trainingDateTimePicker = new System.Windows.Forms.DateTimePicker();
+            this.iD_qualificationTextBox = new System.Windows.Forms.TextBox();
             this.beginning_of_trainingDateTimePicker = new System.Windows.Forms.DateTimePicker();
+            this.the_end_of_the_trainingDateTimePicker = new System.Windows.Forms.DateTimePicker();
+            this.type_of_qualificationTextBox = new System.Windows.Forms.TextBox();
+            this.name_of_educational_institutionTextBox = new System.Windows.Forms.TextBox();
+            this.its_locationTextBox = new System.Windows.Forms.TextBox();
+            this.document_nameTextBox = new System.Windows.Forms.TextBox();
+            this.series_document_numberTextBox = new System.Windows.Forms.TextBox();
+            this.dateDateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.buttonAdd5 = new System.Windows.Forms.Button();
             this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.bindingNavigator5 = new System.Windows.Forms.BindingNavigator(this.components);
+            this.toolStripButton21 = new System.Windows.Forms.ToolStripButton();
+            this.vacationBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.toolStripButton22 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton23 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripTextBox5 = new System.Windows.Forms.ToolStripTextBox();
+            this.toolStripButton24 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton25 = new System.Windows.Forms.ToolStripButton();
             this.buttonBack18 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.buttonAdd6 = new System.Windows.Forms.Button();
             this.groupBox12 = new System.Windows.Forms.GroupBox();
-            this.ID_vacationTextBox = new System.Windows.Forms.TextBox();
-            this.expiry_dateDateTimePicker = new System.Windows.Forms.DateTimePicker();
-            this.start_dateDateTimePicker = new System.Windows.Forms.DateTimePicker();
-            this.number_of_vacation_daysTextBox = new System.Windows.Forms.TextBox();
-            this.period_of_work_onDateTimePicker = new System.Windows.Forms.DateTimePicker();
-            this.working_period_withDateTimePicker = new System.Windows.Forms.DateTimePicker();
+            this.iD_vacationTextBox = new System.Windows.Forms.TextBox();
             this.type_of_vacationTextBox = new System.Windows.Forms.TextBox();
+            this.working_period_withDateTimePicker = new System.Windows.Forms.DateTimePicker();
+            this.period_of_work_onDateTimePicker = new System.Windows.Forms.DateTimePicker();
+            this.number_of_vacation_daysTextBox = new System.Windows.Forms.TextBox();
+            this.start_dateDateTimePicker = new System.Windows.Forms.DateTimePicker();
+            this.expiry_dateDateTimePicker = new System.Windows.Forms.DateTimePicker();
             this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.bindingNavigator6 = new System.Windows.Forms.BindingNavigator(this.components);
+            this.toolStripButton26 = new System.Windows.Forms.ToolStripButton();
+            this.level_of_educationBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.toolStripButton27 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton28 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripTextBox6 = new System.Windows.Forms.ToolStripTextBox();
+            this.toolStripButton29 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton30 = new System.Windows.Forms.ToolStripButton();
             this.buttonBack19 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.buttonAdd12 = new System.Windows.Forms.Button();
             this.groupBox13 = new System.Windows.Forms.GroupBox();
-            this.ID_level_of_educationTextBox = new System.Windows.Forms.TextBox();
+            this.iD_level_of_educationTextBox = new System.Windows.Forms.TextBox();
             this.level_of_educationTextBox = new System.Windows.Forms.TextBox();
             this.tabPage7 = new System.Windows.Forms.TabPage();
+            this.bindingNavigator7 = new System.Windows.Forms.BindingNavigator(this.components);
+            this.toolStripButton31 = new System.Windows.Forms.ToolStripButton();
+            this.rewardsBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.toolStripButton32 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton33 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripTextBox7 = new System.Windows.Forms.ToolStripTextBox();
+            this.toolStripButton34 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton35 = new System.Windows.Forms.ToolStripButton();
             this.buttonBack20 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.buttonAdd7 = new System.Windows.Forms.Button();
             this.groupBox14 = new System.Windows.Forms.GroupBox();
-            this.ID_rewardsTextBox = new System.Windows.Forms.TextBox();
-            this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
-            this.NumberTextBox = new System.Windows.Forms.TextBox();
-            this.The_name_of_the_awardsTextBox = new System.Windows.Forms.TextBox();
+            this.iD_rewardsTextBox = new System.Windows.Forms.TextBox();
+            this.the_name_of_the_awardsTextBox = new System.Windows.Forms.TextBox();
+            this.numberTextBox = new System.Windows.Forms.TextBox();
+            this.dateDateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.tabPage8 = new System.Windows.Forms.TabPage();
+            this.bindingNavigator8 = new System.Windows.Forms.BindingNavigator(this.components);
+            this.toolStripButton36 = new System.Windows.Forms.ToolStripButton();
+            this.military_registrationBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.toolStripButton37 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton38 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripTextBox8 = new System.Windows.Forms.ToolStripTextBox();
+            this.toolStripButton39 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton40 = new System.Windows.Forms.ToolStripButton();
             this.buttonBack21 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.buttonAdd8 = new System.Windows.Forms.Button();
             this.groupBox15 = new System.Windows.Forms.GroupBox();
-            this.ID_military_registrationTextBox = new System.Windows.Forms.TextBox();
-            this.the_name_of_the_military_commissariatTextBox = new System.Windows.Forms.TextBox();
-            this.category_of_fitness_for_military_serviceTextBox = new System.Windows.Forms.TextBox();
-            this.full_code_designation_VUSTextBox = new System.Windows.Forms.TextBox();
-            this.composition_profileTextBox = new System.Windows.Forms.TextBox();
-            this.military_rankTextBox = new System.Windows.Forms.TextBox();
+            this.iD_military_registrationTextBox = new System.Windows.Forms.TextBox();
             this.stock_categoryTextBox = new System.Windows.Forms.TextBox();
+            this.military_rankTextBox = new System.Windows.Forms.TextBox();
+            this.composition_profileTextBox = new System.Windows.Forms.TextBox();
+            this.full_code_designation_VUSTextBox = new System.Windows.Forms.TextBox();
+            this.category_of_fitness_for_military_serviceTextBox = new System.Windows.Forms.TextBox();
+            this.the_name_of_the_military_commissariatTextBox = new System.Windows.Forms.TextBox();
             this.tabPage9 = new System.Windows.Forms.TabPage();
+            this.bindingNavigator9 = new System.Windows.Forms.BindingNavigator(this.components);
+            this.toolStripButton41 = new System.Windows.Forms.ToolStripButton();
+            this.certificationBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.toolStripButton42 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton43 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripTextBox9 = new System.Windows.Forms.ToolStripTextBox();
+            this.toolStripButton44 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton45 = new System.Windows.Forms.ToolStripButton();
             this.buttonBack22 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
             this.buttonAdd9 = new System.Windows.Forms.Button();
             this.groupBox16 = new System.Windows.Forms.GroupBox();
-            this.ID_certificationTextBox = new System.Windows.Forms.TextBox();
-            this.date_of_reportDateTimePicker = new System.Windows.Forms.DateTimePicker();
-            this.protocol_numberTextBox = new System.Windows.Forms.TextBox();
-            this.commission_decisionTextBox = new System.Windows.Forms.TextBox();
+            this.iD_certificationTextBox = new System.Windows.Forms.TextBox();
             this.date_of_certificationDateTimePicker = new System.Windows.Forms.DateTimePicker();
+            this.commission_decisionTextBox = new System.Windows.Forms.TextBox();
+            this.protocol_numberTextBox = new System.Windows.Forms.TextBox();
+            this.date_of_reportDateTimePicker = new System.Windows.Forms.DateTimePicker();
             this.tabPage10 = new System.Windows.Forms.TabPage();
+            this.bindingNavigator10 = new System.Windows.Forms.BindingNavigator(this.components);
+            this.toolStripButton46 = new System.Windows.Forms.ToolStripButton();
+            this.educationBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.toolStripButton47 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton48 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripTextBox10 = new System.Windows.Forms.ToolStripTextBox();
+            this.toolStripButton49 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton50 = new System.Windows.Forms.ToolStripButton();
             this.buttonBack23 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
             this.buttonAdd10 = new System.Windows.Forms.Button();
             this.groupBox17 = new System.Windows.Forms.GroupBox();
             this.iD_educationTextBox = new System.Windows.Forms.TextBox();
-            this.year_of_graduationDateTimePicker = new System.Windows.Forms.DateTimePicker();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.seriesTextBox = new System.Windows.Forms.TextBox();
+            this.level_of_educationTextBox1 = new System.Windows.Forms.TextBox();
+            this.name_of_educational_institutionTextBox1 = new System.Windows.Forms.TextBox();
             this.name_of_the_document_on_educationTextBox = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.seriesTextBox = new System.Windows.Forms.TextBox();
+            this.numberTextBox1 = new System.Windows.Forms.TextBox();
+            this.year_of_graduationDateTimePicker = new System.Windows.Forms.DateTimePicker();
             this.tabPage11 = new System.Windows.Forms.TabPage();
+            this.bindingNavigator11 = new System.Windows.Forms.BindingNavigator(this.components);
+            this.toolStripButton51 = new System.Windows.Forms.ToolStripButton();
+            this.retrainingBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.toolStripButton52 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton53 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripTextBox11 = new System.Windows.Forms.ToolStripTextBox();
+            this.toolStripButton54 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton55 = new System.Windows.Forms.ToolStripButton();
             this.buttonBack24 = new System.Windows.Forms.Button();
             this.button13 = new System.Windows.Forms.Button();
             this.buttonAdd11 = new System.Windows.Forms.Button();
             this.groupBox18 = new System.Windows.Forms.GroupBox();
-            this.ID_retrainingTextBox = new System.Windows.Forms.TextBox();
-            this.dateTimePicker4 = new System.Windows.Forms.DateTimePicker();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.specialtyTextBox = new System.Windows.Forms.TextBox();
-            this.completion_of_retrainingDateTimePicker = new System.Windows.Forms.DateTimePicker();
+            this.iD_retrainingTextBox = new System.Windows.Forms.TextBox();
             this.the_beginning_of_the_trainingDateTimePicker = new System.Windows.Forms.DateTimePicker();
+            this.completion_of_retrainingDateTimePicker = new System.Windows.Forms.DateTimePicker();
+            this.specialtyTextBox = new System.Windows.Forms.TextBox();
+            this.document_nameTextBox1 = new System.Windows.Forms.TextBox();
+            this.document_numberTextBox1 = new System.Windows.Forms.TextBox();
+            this.dateDateTimePicker3 = new System.Windows.Forms.DateTimePicker();
             this.employee_informationTableAdapter = new Personal_cardsApp1.Personal_cardsDataSetTableAdapters.Employee_informationTableAdapter();
             this.tableAdapterManager = new Personal_cardsApp1.Personal_cardsDataSetTableAdapters.TableAdapterManager();
-            this.employee_informationBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
-            this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
-            this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorMoveFirstItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorMovePreviousItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorSeparator = new System.Windows.Forms.ToolStripSeparator();
-            this.bindingNavigatorPositionItem = new System.Windows.Forms.ToolStripTextBox();
-            this.bindingNavigatorSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.bindingNavigatorMoveNextItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorMoveLastItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.employee_informationBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
             this.more_informationTableAdapter = new Personal_cardsApp1.Personal_cardsDataSetTableAdapters.More_informationTableAdapter();
             this.social_benefitsTableAdapter = new Personal_cardsApp1.Personal_cardsDataSetTableAdapters.Social_benefitsTableAdapter();
             this.personalcardsDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.socialbenefitsBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            the_beginning_of_the_trainingLabel = new System.Windows.Forms.Label();
-            completion_of_retrainingLabel = new System.Windows.Forms.Label();
-            specialtyLabel = new System.Windows.Forms.Label();
-            label9 = new System.Windows.Forms.Label();
-            label8 = new System.Windows.Forms.Label();
-            label7 = new System.Windows.Forms.Label();
-            iD_retrainingLabel = new System.Windows.Forms.Label();
-            label6 = new System.Windows.Forms.Label();
-            label5 = new System.Windows.Forms.Label();
-            name_of_the_document_on_educationLabel = new System.Windows.Forms.Label();
-            seriesLabel = new System.Windows.Forms.Label();
-            label4 = new System.Windows.Forms.Label();
-            year_of_graduationLabel = new System.Windows.Forms.Label();
-            iD_educationLabel = new System.Windows.Forms.Label();
-            date_of_certificationLabel = new System.Windows.Forms.Label();
-            commission_decisionLabel = new System.Windows.Forms.Label();
-            protocol_numberLabel = new System.Windows.Forms.Label();
-            date_of_reportLabel = new System.Windows.Forms.Label();
-            iD_certificationLabel = new System.Windows.Forms.Label();
-            stock_categoryLabel = new System.Windows.Forms.Label();
-            military_rankLabel = new System.Windows.Forms.Label();
-            composition_profileLabel = new System.Windows.Forms.Label();
-            full_code_designation_VUSLabel = new System.Windows.Forms.Label();
-            category_of_fitness_for_military_serviceLabel = new System.Windows.Forms.Label();
-            the_name_of_the_military_commissariatLabel = new System.Windows.Forms.Label();
-            iD_military_registrationLabel = new System.Windows.Forms.Label();
-            the_name_of_the_awardsLabel = new System.Windows.Forms.Label();
-            numberLabel = new System.Windows.Forms.Label();
-            label3 = new System.Windows.Forms.Label();
-            iD_rewardsLabel = new System.Windows.Forms.Label();
-            level_of_educationLabel = new System.Windows.Forms.Label();
-            iD_level_of_educationLabel = new System.Windows.Forms.Label();
-            type_of_vacationLabel = new System.Windows.Forms.Label();
-            working_period_withLabel = new System.Windows.Forms.Label();
-            period_of_work_onLabel = new System.Windows.Forms.Label();
-            number_of_vacation_daysLabel = new System.Windows.Forms.Label();
-            start_dateLabel = new System.Windows.Forms.Label();
-            expiry_dateLabel = new System.Windows.Forms.Label();
-            iD_vacationLabel = new System.Windows.Forms.Label();
-            beginning_of_trainingLabel = new System.Windows.Forms.Label();
-            the_end_of_the_trainingLabel = new System.Windows.Forms.Label();
-            type_of_qualificationLabel = new System.Windows.Forms.Label();
-            name_of_educational_institutionLabel = new System.Windows.Forms.Label();
-            its_locationLabel = new System.Windows.Forms.Label();
-            document_nameLabel = new System.Windows.Forms.Label();
-            series_document_numberLabel = new System.Windows.Forms.Label();
-            label2 = new System.Windows.Forms.Label();
-            iD_qualificationLabel = new System.Windows.Forms.Label();
-            dateLabel = new System.Windows.Forms.Label();
-            structural_subdivisionLabel = new System.Windows.Forms.Label();
-            positionLabel = new System.Windows.Forms.Label();
-            tariff_rateLabel = new System.Windows.Forms.Label();
-            iD_of_reception_and_transfer_to_workLabel = new System.Windows.Forms.Label();
+            this.reception_and_transferTableAdapter = new Personal_cardsApp1.Personal_cardsDataSetTableAdapters.Reception_and_transferTableAdapter();
+            this.advanced_trainingTableAdapter = new Personal_cardsApp1.Personal_cardsDataSetTableAdapters.Advanced_trainingTableAdapter();
+            this.vacationTableAdapter = new Personal_cardsApp1.Personal_cardsDataSetTableAdapters.VacationTableAdapter();
+            this.level_of_educationTableAdapter = new Personal_cardsApp1.Personal_cardsDataSetTableAdapters.Level_of_educationTableAdapter();
+            this.rewardsTableAdapter = new Personal_cardsApp1.Personal_cardsDataSetTableAdapters.RewardsTableAdapter();
+            this.military_registrationTableAdapter = new Personal_cardsApp1.Personal_cardsDataSetTableAdapters.Military_registrationTableAdapter();
+            this.certificationTableAdapter = new Personal_cardsApp1.Personal_cardsDataSetTableAdapters.CertificationTableAdapter();
+            this.educationTableAdapter = new Personal_cardsApp1.Personal_cardsDataSetTableAdapters.EducationTableAdapter();
+            this.retrainingTableAdapter = new Personal_cardsApp1.Personal_cardsDataSetTableAdapters.RetrainingTableAdapter();
             date_of_issueLabel1 = new System.Windows.Forms.Label();
             document_numberLabel = new System.Windows.Forms.Label();
             name_of_benefitLabel = new System.Windows.Forms.Label();
@@ -360,632 +393,130 @@
             label13 = new System.Windows.Forms.Label();
             experienceLabel = new System.Windows.Forms.Label();
             the_name_of_a_professionLabel = new System.Windows.Forms.Label();
+            iD_of_reception_and_transfer_to_workLabel = new System.Windows.Forms.Label();
+            dateLabel = new System.Windows.Forms.Label();
+            structural_subdivisionLabel = new System.Windows.Forms.Label();
+            positionLabel = new System.Windows.Forms.Label();
+            tariff_rateLabel = new System.Windows.Forms.Label();
+            iD_qualificationLabel = new System.Windows.Forms.Label();
+            beginning_of_trainingLabel = new System.Windows.Forms.Label();
+            the_end_of_the_trainingLabel = new System.Windows.Forms.Label();
+            type_of_qualificationLabel = new System.Windows.Forms.Label();
+            name_of_educational_institutionLabel = new System.Windows.Forms.Label();
+            its_locationLabel = new System.Windows.Forms.Label();
+            document_nameLabel = new System.Windows.Forms.Label();
+            series_document_numberLabel = new System.Windows.Forms.Label();
+            dateLabel1 = new System.Windows.Forms.Label();
+            iD_vacationLabel = new System.Windows.Forms.Label();
+            type_of_vacationLabel = new System.Windows.Forms.Label();
+            working_period_withLabel = new System.Windows.Forms.Label();
+            period_of_work_onLabel = new System.Windows.Forms.Label();
+            number_of_vacation_daysLabel = new System.Windows.Forms.Label();
+            start_dateLabel = new System.Windows.Forms.Label();
+            expiry_dateLabel = new System.Windows.Forms.Label();
+            iD_level_of_educationLabel = new System.Windows.Forms.Label();
+            level_of_educationLabel = new System.Windows.Forms.Label();
+            iD_rewardsLabel = new System.Windows.Forms.Label();
+            the_name_of_the_awardsLabel = new System.Windows.Forms.Label();
+            numberLabel = new System.Windows.Forms.Label();
+            dateLabel2 = new System.Windows.Forms.Label();
+            iD_military_registrationLabel = new System.Windows.Forms.Label();
+            stock_categoryLabel = new System.Windows.Forms.Label();
+            military_rankLabel = new System.Windows.Forms.Label();
+            composition_profileLabel = new System.Windows.Forms.Label();
+            full_code_designation_VUSLabel = new System.Windows.Forms.Label();
+            category_of_fitness_for_military_serviceLabel = new System.Windows.Forms.Label();
+            the_name_of_the_military_commissariatLabel = new System.Windows.Forms.Label();
+            iD_certificationLabel = new System.Windows.Forms.Label();
+            date_of_certificationLabel = new System.Windows.Forms.Label();
+            commission_decisionLabel = new System.Windows.Forms.Label();
+            protocol_numberLabel = new System.Windows.Forms.Label();
+            date_of_reportLabel = new System.Windows.Forms.Label();
+            iD_educationLabel = new System.Windows.Forms.Label();
+            level_of_educationLabel1 = new System.Windows.Forms.Label();
+            name_of_educational_institutionLabel1 = new System.Windows.Forms.Label();
+            name_of_the_document_on_educationLabel = new System.Windows.Forms.Label();
+            seriesLabel = new System.Windows.Forms.Label();
+            numberLabel1 = new System.Windows.Forms.Label();
+            year_of_graduationLabel = new System.Windows.Forms.Label();
+            iD_retrainingLabel = new System.Windows.Forms.Label();
+            the_beginning_of_the_trainingLabel = new System.Windows.Forms.Label();
+            completion_of_retrainingLabel = new System.Windows.Forms.Label();
+            specialtyLabel = new System.Windows.Forms.Label();
+            document_nameLabel1 = new System.Windows.Forms.Label();
+            document_numberLabel1 = new System.Windows.Forms.Label();
+            dateLabel3 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
-            this.groupBox7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.employee_informationBindingNavigator)).BeginInit();
+            this.employee_informationBindingNavigator.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.employee_informationBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.personal_cardsDataSet)).BeginInit();
+            this.groupBox7.SuspendLayout();
             this.groupBox6.SuspendLayout();
             this.groupBox5.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.tabPage12.SuspendLayout();
-            this.groupBox8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator2)).BeginInit();
+            this.bindingNavigator2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.more_informationBindingSource)).BeginInit();
+            this.groupBox8.SuspendLayout();
             this.tabPage2.SuspendLayout();
-            this.groupBox9.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator1)).BeginInit();
+            this.bindingNavigator1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.social_benefitsBindingSource)).BeginInit();
+            this.groupBox9.SuspendLayout();
             this.tabPage3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator3)).BeginInit();
+            this.bindingNavigator3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.reception_and_transferBindingSource)).BeginInit();
             this.groupBox10.SuspendLayout();
             this.tabPage4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator4)).BeginInit();
+            this.bindingNavigator4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.advanced_trainingBindingSource)).BeginInit();
             this.groupBox11.SuspendLayout();
             this.tabPage5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator5)).BeginInit();
+            this.bindingNavigator5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.vacationBindingSource)).BeginInit();
             this.groupBox12.SuspendLayout();
             this.tabPage6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator6)).BeginInit();
+            this.bindingNavigator6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.level_of_educationBindingSource)).BeginInit();
             this.groupBox13.SuspendLayout();
             this.tabPage7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator7)).BeginInit();
+            this.bindingNavigator7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.rewardsBindingSource)).BeginInit();
             this.groupBox14.SuspendLayout();
             this.tabPage8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator8)).BeginInit();
+            this.bindingNavigator8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.military_registrationBindingSource)).BeginInit();
             this.groupBox15.SuspendLayout();
             this.tabPage9.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator9)).BeginInit();
+            this.bindingNavigator9.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.certificationBindingSource)).BeginInit();
             this.groupBox16.SuspendLayout();
             this.tabPage10.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator10)).BeginInit();
+            this.bindingNavigator10.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.educationBindingSource)).BeginInit();
             this.groupBox17.SuspendLayout();
             this.tabPage11.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator11)).BeginInit();
+            this.bindingNavigator11.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.retrainingBindingSource)).BeginInit();
             this.groupBox18.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.employee_informationBindingNavigator)).BeginInit();
-            this.employee_informationBindingNavigator.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.personalcardsDataSetBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.socialbenefitsBindingSource)).BeginInit();
             this.SuspendLayout();
-            // 
-            // the_beginning_of_the_trainingLabel
-            // 
-            the_beginning_of_the_trainingLabel.AutoSize = true;
-            the_beginning_of_the_trainingLabel.Font = new System.Drawing.Font("Sitka Banner", 19.91489F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            the_beginning_of_the_trainingLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            the_beginning_of_the_trainingLabel.Location = new System.Drawing.Point(6, 113);
-            the_beginning_of_the_trainingLabel.Name = "the_beginning_of_the_trainingLabel";
-            the_beginning_of_the_trainingLabel.Size = new System.Drawing.Size(442, 57);
-            the_beginning_of_the_trainingLabel.TabIndex = 25;
-            the_beginning_of_the_trainingLabel.Text = "Начало переподготовки:";
-            // 
-            // completion_of_retrainingLabel
-            // 
-            completion_of_retrainingLabel.AutoSize = true;
-            completion_of_retrainingLabel.Font = new System.Drawing.Font("Sitka Banner", 19.91489F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            completion_of_retrainingLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            completion_of_retrainingLabel.Location = new System.Drawing.Point(6, 164);
-            completion_of_retrainingLabel.Name = "completion_of_retrainingLabel";
-            completion_of_retrainingLabel.Size = new System.Drawing.Size(505, 57);
-            completion_of_retrainingLabel.TabIndex = 27;
-            completion_of_retrainingLabel.Text = "Окончание переподготовки:";
-            // 
-            // specialtyLabel
-            // 
-            specialtyLabel.AutoSize = true;
-            specialtyLabel.Font = new System.Drawing.Font("Sitka Banner", 19.91489F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            specialtyLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            specialtyLabel.Location = new System.Drawing.Point(6, 217);
-            specialtyLabel.Name = "specialtyLabel";
-            specialtyLabel.Size = new System.Drawing.Size(290, 57);
-            specialtyLabel.TabIndex = 29;
-            specialtyLabel.Text = "Специальность:";
-            // 
-            // label9
-            // 
-            label9.AutoSize = true;
-            label9.Font = new System.Drawing.Font("Sitka Banner", 19.91489F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            label9.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            label9.Location = new System.Drawing.Point(6, 279);
-            label9.Name = "label9";
-            label9.Size = new System.Drawing.Size(475, 57);
-            label9.TabIndex = 31;
-            label9.Text = "Наименование документа:";
-            // 
-            // label8
-            // 
-            label8.AutoSize = true;
-            label8.Font = new System.Drawing.Font("Sitka Banner", 19.91489F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            label8.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            label8.Location = new System.Drawing.Point(6, 338);
-            label8.Name = "label8";
-            label8.Size = new System.Drawing.Size(333, 57);
-            label8.TabIndex = 33;
-            label8.Text = "Номер документа:";
-            // 
-            // label7
-            // 
-            label7.AutoSize = true;
-            label7.Font = new System.Drawing.Font("Sitka Banner", 19.91489F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            label7.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            label7.Location = new System.Drawing.Point(6, 397);
-            label7.Name = "label7";
-            label7.Size = new System.Drawing.Size(116, 57);
-            label7.TabIndex = 35;
-            label7.Text = "Дата:";
-            // 
-            // iD_retrainingLabel
-            // 
-            iD_retrainingLabel.AutoSize = true;
-            iD_retrainingLabel.Font = new System.Drawing.Font("Sitka Banner", 19.91489F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            iD_retrainingLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            iD_retrainingLabel.Location = new System.Drawing.Point(6, 56);
-            iD_retrainingLabel.Name = "iD_retrainingLabel";
-            iD_retrainingLabel.Size = new System.Drawing.Size(354, 57);
-            iD_retrainingLabel.TabIndex = 37;
-            iD_retrainingLabel.Text = "ID переподготовки:";
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            label6.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            label6.Location = new System.Drawing.Point(6, 128);
-            label6.Name = "label6";
-            label6.Size = new System.Drawing.Size(354, 50);
-            label6.TabIndex = 25;
-            label6.Text = "Уровень образования:";
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            label5.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            label5.Location = new System.Drawing.Point(6, 186);
-            label5.Name = "label5";
-            label5.Size = new System.Drawing.Size(728, 50);
-            label5.TabIndex = 27;
-            label5.Text = "Наименование образовательного учреждения:";
-            // 
-            // name_of_the_document_on_educationLabel
-            // 
-            name_of_the_document_on_educationLabel.AutoSize = true;
-            name_of_the_document_on_educationLabel.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            name_of_the_document_on_educationLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            name_of_the_document_on_educationLabel.Location = new System.Drawing.Point(6, 247);
-            name_of_the_document_on_educationLabel.Name = "name_of_the_document_on_educationLabel";
-            name_of_the_document_on_educationLabel.Size = new System.Drawing.Size(669, 50);
-            name_of_the_document_on_educationLabel.TabIndex = 29;
-            name_of_the_document_on_educationLabel.Text = "Наименование документа об образовании:";
-            // 
-            // seriesLabel
-            // 
-            seriesLabel.AutoSize = true;
-            seriesLabel.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            seriesLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            seriesLabel.Location = new System.Drawing.Point(6, 299);
-            seriesLabel.Name = "seriesLabel";
-            seriesLabel.Size = new System.Drawing.Size(123, 50);
-            seriesLabel.TabIndex = 31;
-            seriesLabel.Text = "Серия:";
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            label4.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            label4.Location = new System.Drawing.Point(6, 353);
-            label4.Name = "label4";
-            label4.Size = new System.Drawing.Size(130, 50);
-            label4.TabIndex = 33;
-            label4.Text = "Номер:";
-            // 
-            // year_of_graduationLabel
-            // 
-            year_of_graduationLabel.AutoSize = true;
-            year_of_graduationLabel.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            year_of_graduationLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            year_of_graduationLabel.Location = new System.Drawing.Point(6, 411);
-            year_of_graduationLabel.Name = "year_of_graduationLabel";
-            year_of_graduationLabel.Size = new System.Drawing.Size(258, 50);
-            year_of_graduationLabel.TabIndex = 35;
-            year_of_graduationLabel.Text = "Год окончания:";
-            // 
-            // iD_educationLabel
-            // 
-            iD_educationLabel.AutoSize = true;
-            iD_educationLabel.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            iD_educationLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            iD_educationLabel.Location = new System.Drawing.Point(9, 60);
-            iD_educationLabel.Name = "iD_educationLabel";
-            iD_educationLabel.Size = new System.Drawing.Size(264, 50);
-            iD_educationLabel.TabIndex = 37;
-            iD_educationLabel.Text = "ID образования:";
-            // 
-            // date_of_certificationLabel
-            // 
-            date_of_certificationLabel.AutoSize = true;
-            date_of_certificationLabel.Font = new System.Drawing.Font("Sitka Banner", 19.91489F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            date_of_certificationLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            date_of_certificationLabel.Location = new System.Drawing.Point(1, 118);
-            date_of_certificationLabel.Name = "date_of_certificationLabel";
-            date_of_certificationLabel.Size = new System.Drawing.Size(315, 57);
-            date_of_certificationLabel.TabIndex = 19;
-            date_of_certificationLabel.Text = "Дата аттестации:";
-            // 
-            // commission_decisionLabel
-            // 
-            commission_decisionLabel.AutoSize = true;
-            commission_decisionLabel.Font = new System.Drawing.Font("Sitka Banner", 19.91489F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            commission_decisionLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            commission_decisionLabel.Location = new System.Drawing.Point(1, 181);
-            commission_decisionLabel.Name = "commission_decisionLabel";
-            commission_decisionLabel.Size = new System.Drawing.Size(357, 57);
-            commission_decisionLabel.TabIndex = 21;
-            commission_decisionLabel.Text = "Решение комиссии:";
-            // 
-            // protocol_numberLabel
-            // 
-            protocol_numberLabel.AutoSize = true;
-            protocol_numberLabel.Font = new System.Drawing.Font("Sitka Banner", 19.91489F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            protocol_numberLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            protocol_numberLabel.Location = new System.Drawing.Point(1, 243);
-            protocol_numberLabel.Name = "protocol_numberLabel";
-            protocol_numberLabel.Size = new System.Drawing.Size(330, 57);
-            protocol_numberLabel.TabIndex = 23;
-            protocol_numberLabel.Text = "Номер протокола:";
-            // 
-            // date_of_reportLabel
-            // 
-            date_of_reportLabel.AutoSize = true;
-            date_of_reportLabel.Font = new System.Drawing.Font("Sitka Banner", 19.91489F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            date_of_reportLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            date_of_reportLabel.Location = new System.Drawing.Point(1, 302);
-            date_of_reportLabel.Name = "date_of_reportLabel";
-            date_of_reportLabel.Size = new System.Drawing.Size(116, 57);
-            date_of_reportLabel.TabIndex = 25;
-            date_of_reportLabel.Text = "Дата:";
-            // 
-            // iD_certificationLabel
-            // 
-            iD_certificationLabel.AutoSize = true;
-            iD_certificationLabel.Font = new System.Drawing.Font("Sitka Banner", 19.91489F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            iD_certificationLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            iD_certificationLabel.Location = new System.Drawing.Point(6, 60);
-            iD_certificationLabel.Name = "iD_certificationLabel";
-            iD_certificationLabel.Size = new System.Drawing.Size(272, 57);
-            iD_certificationLabel.TabIndex = 27;
-            iD_certificationLabel.Text = "ID аттестации:";
-            // 
-            // stock_categoryLabel
-            // 
-            stock_categoryLabel.AutoSize = true;
-            stock_categoryLabel.Font = new System.Drawing.Font("Sitka Banner", 15.82979F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            stock_categoryLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            stock_categoryLabel.Location = new System.Drawing.Point(6, 94);
-            stock_categoryLabel.Name = "stock_categoryLabel";
-            stock_categoryLabel.Size = new System.Drawing.Size(272, 47);
-            stock_categoryLabel.TabIndex = 19;
-            stock_categoryLabel.Text = "Категория запаса:";
-            // 
-            // military_rankLabel
-            // 
-            military_rankLabel.AutoSize = true;
-            military_rankLabel.Font = new System.Drawing.Font("Sitka Banner", 15.82979F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            military_rankLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            military_rankLabel.Location = new System.Drawing.Point(6, 148);
-            military_rankLabel.Name = "military_rankLabel";
-            military_rankLabel.Size = new System.Drawing.Size(262, 47);
-            military_rankLabel.TabIndex = 21;
-            military_rankLabel.Text = "Воинское звание:";
-            // 
-            // composition_profileLabel
-            // 
-            composition_profileLabel.AutoSize = true;
-            composition_profileLabel.Font = new System.Drawing.Font("Sitka Banner", 15.82979F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            composition_profileLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            composition_profileLabel.Location = new System.Drawing.Point(6, 198);
-            composition_profileLabel.Name = "composition_profileLabel";
-            composition_profileLabel.Size = new System.Drawing.Size(274, 47);
-            composition_profileLabel.TabIndex = 23;
-            composition_profileLabel.Text = "Состав (профиль):";
-            // 
-            // full_code_designation_VUSLabel
-            // 
-            full_code_designation_VUSLabel.AutoSize = true;
-            full_code_designation_VUSLabel.Font = new System.Drawing.Font("Sitka Banner", 15.82979F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            full_code_designation_VUSLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            full_code_designation_VUSLabel.Location = new System.Drawing.Point(6, 257);
-            full_code_designation_VUSLabel.Name = "full_code_designation_VUSLabel";
-            full_code_designation_VUSLabel.Size = new System.Drawing.Size(479, 47);
-            full_code_designation_VUSLabel.TabIndex = 25;
-            full_code_designation_VUSLabel.Text = "Полное кодовое обоначение ВУС:";
-            // 
-            // category_of_fitness_for_military_serviceLabel
-            // 
-            category_of_fitness_for_military_serviceLabel.AutoSize = true;
-            category_of_fitness_for_military_serviceLabel.Font = new System.Drawing.Font("Sitka Banner", 15.82979F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            category_of_fitness_for_military_serviceLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            category_of_fitness_for_military_serviceLabel.Location = new System.Drawing.Point(6, 317);
-            category_of_fitness_for_military_serviceLabel.Name = "category_of_fitness_for_military_serviceLabel";
-            category_of_fitness_for_military_serviceLabel.Size = new System.Drawing.Size(300, 94);
-            category_of_fitness_for_military_serviceLabel.TabIndex = 27;
-            category_of_fitness_for_military_serviceLabel.Text = "Категория годности\r\nк военной службе:";
-            category_of_fitness_for_military_serviceLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // the_name_of_the_military_commissariatLabel
-            // 
-            the_name_of_the_military_commissariatLabel.AutoSize = true;
-            the_name_of_the_military_commissariatLabel.Font = new System.Drawing.Font("Sitka Banner", 15.82979F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            the_name_of_the_military_commissariatLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            the_name_of_the_military_commissariatLabel.Location = new System.Drawing.Point(6, 431);
-            the_name_of_the_military_commissariatLabel.Name = "the_name_of_the_military_commissariatLabel";
-            the_name_of_the_military_commissariatLabel.Size = new System.Drawing.Size(428, 94);
-            the_name_of_the_military_commissariatLabel.TabIndex = 29;
-            the_name_of_the_military_commissariatLabel.Text = "Наименование комиссариата\r\nпо месту жительства:";
-            the_name_of_the_military_commissariatLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // iD_military_registrationLabel
-            // 
-            iD_military_registrationLabel.AutoSize = true;
-            iD_military_registrationLabel.Font = new System.Drawing.Font("Sitka Banner", 15.82979F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            iD_military_registrationLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            iD_military_registrationLabel.Location = new System.Drawing.Point(6, 37);
-            iD_military_registrationLabel.Name = "iD_military_registrationLabel";
-            iD_military_registrationLabel.Size = new System.Drawing.Size(293, 47);
-            iD_military_registrationLabel.TabIndex = 31;
-            iD_military_registrationLabel.Text = "ID воинского учета:";
-            // 
-            // the_name_of_the_awardsLabel
-            // 
-            the_name_of_the_awardsLabel.AutoSize = true;
-            the_name_of_the_awardsLabel.Font = new System.Drawing.Font("Sitka Banner", 19.91489F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            the_name_of_the_awardsLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            the_name_of_the_awardsLabel.Location = new System.Drawing.Point(1, 114);
-            the_name_of_the_awardsLabel.Name = "the_name_of_the_awardsLabel";
-            the_name_of_the_awardsLabel.Size = new System.Drawing.Size(438, 57);
-            the_name_of_the_awardsLabel.TabIndex = 16;
-            the_name_of_the_awardsLabel.Text = "Наименование награды:";
-            // 
-            // numberLabel
-            // 
-            numberLabel.AutoSize = true;
-            numberLabel.Font = new System.Drawing.Font("Sitka Banner", 19.91489F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            numberLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            numberLabel.Location = new System.Drawing.Point(1, 182);
-            numberLabel.Name = "numberLabel";
-            numberLabel.Size = new System.Drawing.Size(145, 57);
-            numberLabel.TabIndex = 18;
-            numberLabel.Text = "Номер:";
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Font = new System.Drawing.Font("Sitka Banner", 19.91489F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            label3.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            label3.Location = new System.Drawing.Point(1, 252);
-            label3.Name = "label3";
-            label3.Size = new System.Drawing.Size(116, 57);
-            label3.TabIndex = 20;
-            label3.Text = "Дата:";
-            // 
-            // iD_rewardsLabel
-            // 
-            iD_rewardsLabel.AutoSize = true;
-            iD_rewardsLabel.Font = new System.Drawing.Font("Sitka Banner", 19.91489F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            iD_rewardsLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            iD_rewardsLabel.Location = new System.Drawing.Point(1, 52);
-            iD_rewardsLabel.Name = "iD_rewardsLabel";
-            iD_rewardsLabel.Size = new System.Drawing.Size(224, 57);
-            iD_rewardsLabel.TabIndex = 22;
-            iD_rewardsLabel.Text = "ID награды:";
-            // 
-            // level_of_educationLabel
-            // 
-            level_of_educationLabel.AutoSize = true;
-            level_of_educationLabel.Font = new System.Drawing.Font("Sitka Banner", 19.91489F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            level_of_educationLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            level_of_educationLabel.Location = new System.Drawing.Point(6, 183);
-            level_of_educationLabel.Name = "level_of_educationLabel";
-            level_of_educationLabel.Size = new System.Drawing.Size(395, 57);
-            level_of_educationLabel.TabIndex = 28;
-            level_of_educationLabel.Text = "Уровень образования:";
-            // 
-            // iD_level_of_educationLabel
-            // 
-            iD_level_of_educationLabel.AutoSize = true;
-            iD_level_of_educationLabel.Font = new System.Drawing.Font("Sitka Banner", 19.91489F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            iD_level_of_educationLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            iD_level_of_educationLabel.Location = new System.Drawing.Point(6, 115);
-            iD_level_of_educationLabel.Name = "iD_level_of_educationLabel";
-            iD_level_of_educationLabel.Size = new System.Drawing.Size(423, 57);
-            iD_level_of_educationLabel.TabIndex = 30;
-            iD_level_of_educationLabel.Text = "ID уровня образования:";
-            // 
-            // type_of_vacationLabel
-            // 
-            type_of_vacationLabel.AutoSize = true;
-            type_of_vacationLabel.Font = new System.Drawing.Font("Sitka Banner", 14.80851F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            type_of_vacationLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            type_of_vacationLabel.Location = new System.Drawing.Point(8, 79);
-            type_of_vacationLabel.Name = "type_of_vacationLabel";
-            type_of_vacationLabel.Size = new System.Drawing.Size(180, 42);
-            type_of_vacationLabel.TabIndex = 18;
-            type_of_vacationLabel.Text = "Тип отпуска:";
-            // 
-            // working_period_withLabel
-            // 
-            working_period_withLabel.AutoSize = true;
-            working_period_withLabel.Font = new System.Drawing.Font("Sitka Banner", 14.80851F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            working_period_withLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            working_period_withLabel.Location = new System.Drawing.Point(8, 131);
-            working_period_withLabel.Name = "working_period_withLabel";
-            working_period_withLabel.Size = new System.Drawing.Size(236, 42);
-            working_period_withLabel.TabIndex = 20;
-            working_period_withLabel.Text = "Период работы с:";
-            // 
-            // period_of_work_onLabel
-            // 
-            period_of_work_onLabel.AutoSize = true;
-            period_of_work_onLabel.Font = new System.Drawing.Font("Sitka Banner", 14.80851F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            period_of_work_onLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            period_of_work_onLabel.Location = new System.Drawing.Point(8, 188);
-            period_of_work_onLabel.Name = "period_of_work_onLabel";
-            period_of_work_onLabel.Size = new System.Drawing.Size(254, 42);
-            period_of_work_onLabel.TabIndex = 22;
-            period_of_work_onLabel.Text = "Период работы по:";
-            // 
-            // number_of_vacation_daysLabel
-            // 
-            number_of_vacation_daysLabel.AutoSize = true;
-            number_of_vacation_daysLabel.Font = new System.Drawing.Font("Sitka Banner", 14.80851F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            number_of_vacation_daysLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            number_of_vacation_daysLabel.Location = new System.Drawing.Point(8, 245);
-            number_of_vacation_daysLabel.Name = "number_of_vacation_daysLabel";
-            number_of_vacation_daysLabel.Size = new System.Drawing.Size(345, 84);
-            number_of_vacation_daysLabel.TabIndex = 24;
-            number_of_vacation_daysLabel.Text = "Количество календарных \r\nдней отпуска";
-            number_of_vacation_daysLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // start_dateLabel
-            // 
-            start_dateLabel.AutoSize = true;
-            start_dateLabel.Font = new System.Drawing.Font("Sitka Banner", 14.80851F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            start_dateLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            start_dateLabel.Location = new System.Drawing.Point(8, 329);
-            start_dateLabel.Name = "start_dateLabel";
-            start_dateLabel.Size = new System.Drawing.Size(179, 42);
-            start_dateLabel.TabIndex = 26;
-            start_dateLabel.Text = "Дата начала:";
-            // 
-            // expiry_dateLabel
-            // 
-            expiry_dateLabel.AutoSize = true;
-            expiry_dateLabel.Font = new System.Drawing.Font("Sitka Banner", 14.80851F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            expiry_dateLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            expiry_dateLabel.Location = new System.Drawing.Point(8, 391);
-            expiry_dateLabel.Name = "expiry_dateLabel";
-            expiry_dateLabel.Size = new System.Drawing.Size(230, 42);
-            expiry_dateLabel.TabIndex = 28;
-            expiry_dateLabel.Text = "Дата окончания:";
-            // 
-            // iD_vacationLabel
-            // 
-            iD_vacationLabel.AutoSize = true;
-            iD_vacationLabel.Font = new System.Drawing.Font("Sitka Banner", 14.80851F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            iD_vacationLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            iD_vacationLabel.Location = new System.Drawing.Point(8, 37);
-            iD_vacationLabel.Name = "iD_vacationLabel";
-            iD_vacationLabel.Size = new System.Drawing.Size(157, 42);
-            iD_vacationLabel.TabIndex = 30;
-            iD_vacationLabel.Text = "ID отпуска:";
-            // 
-            // beginning_of_trainingLabel
-            // 
-            beginning_of_trainingLabel.AutoSize = true;
-            beginning_of_trainingLabel.Font = new System.Drawing.Font("Sitka Banner", 15.82979F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            beginning_of_trainingLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            beginning_of_trainingLabel.Location = new System.Drawing.Point(6, 82);
-            beginning_of_trainingLabel.Name = "beginning_of_trainingLabel";
-            beginning_of_trainingLabel.Size = new System.Drawing.Size(271, 47);
-            beginning_of_trainingLabel.TabIndex = 22;
-            beginning_of_trainingLabel.Text = "Начало обучения:";
-            // 
-            // the_end_of_the_trainingLabel
-            // 
-            the_end_of_the_trainingLabel.AutoSize = true;
-            the_end_of_the_trainingLabel.Font = new System.Drawing.Font("Sitka Banner", 15.82979F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            the_end_of_the_trainingLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            the_end_of_the_trainingLabel.Location = new System.Drawing.Point(6, 127);
-            the_end_of_the_trainingLabel.Name = "the_end_of_the_trainingLabel";
-            the_end_of_the_trainingLabel.Size = new System.Drawing.Size(254, 47);
-            the_end_of_the_trainingLabel.TabIndex = 24;
-            the_end_of_the_trainingLabel.Text = "Конец обучения:";
-            // 
-            // type_of_qualificationLabel
-            // 
-            type_of_qualificationLabel.AutoSize = true;
-            type_of_qualificationLabel.Font = new System.Drawing.Font("Sitka Banner", 15.82979F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            type_of_qualificationLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            type_of_qualificationLabel.Location = new System.Drawing.Point(6, 172);
-            type_of_qualificationLabel.Name = "type_of_qualificationLabel";
-            type_of_qualificationLabel.Size = new System.Drawing.Size(472, 47);
-            type_of_qualificationLabel.TabIndex = 26;
-            type_of_qualificationLabel.Text = "Вид повышения квалификации:";
-            // 
-            // name_of_educational_institutionLabel
-            // 
-            name_of_educational_institutionLabel.AutoSize = true;
-            name_of_educational_institutionLabel.Font = new System.Drawing.Font("Sitka Banner", 15.82979F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            name_of_educational_institutionLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            name_of_educational_institutionLabel.Location = new System.Drawing.Point(6, 217);
-            name_of_educational_institutionLabel.Name = "name_of_educational_institutionLabel";
-            name_of_educational_institutionLabel.Size = new System.Drawing.Size(630, 47);
-            name_of_educational_institutionLabel.TabIndex = 28;
-            name_of_educational_institutionLabel.Text = "Наименование образовательного обучения:";
-            // 
-            // its_locationLabel
-            // 
-            its_locationLabel.AutoSize = true;
-            its_locationLabel.Font = new System.Drawing.Font("Sitka Banner", 15.82979F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            its_locationLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            its_locationLabel.Location = new System.Drawing.Point(6, 262);
-            its_locationLabel.Name = "its_locationLabel";
-            its_locationLabel.Size = new System.Drawing.Size(342, 47);
-            its_locationLabel.TabIndex = 30;
-            its_locationLabel.Text = "Место его нахождения:";
-            // 
-            // document_nameLabel
-            // 
-            document_nameLabel.AutoSize = true;
-            document_nameLabel.Font = new System.Drawing.Font("Sitka Banner", 15.82979F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            document_nameLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            document_nameLabel.Location = new System.Drawing.Point(6, 307);
-            document_nameLabel.Name = "document_nameLabel";
-            document_nameLabel.Size = new System.Drawing.Size(390, 47);
-            document_nameLabel.TabIndex = 32;
-            document_nameLabel.Text = "Наименование документа:";
-            // 
-            // series_document_numberLabel
-            // 
-            series_document_numberLabel.AutoSize = true;
-            series_document_numberLabel.Font = new System.Drawing.Font("Sitka Banner", 15.82979F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            series_document_numberLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            series_document_numberLabel.Location = new System.Drawing.Point(9, 352);
-            series_document_numberLabel.Name = "series_document_numberLabel";
-            series_document_numberLabel.Size = new System.Drawing.Size(386, 47);
-            series_document_numberLabel.TabIndex = 34;
-            series_document_numberLabel.Text = "Серия и номер документа:";
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Font = new System.Drawing.Font("Sitka Banner", 15.82979F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            label2.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            label2.Location = new System.Drawing.Point(9, 397);
-            label2.Name = "label2";
-            label2.Size = new System.Drawing.Size(95, 47);
-            label2.TabIndex = 36;
-            label2.Text = "Дата:";
-            // 
-            // iD_qualificationLabel
-            // 
-            iD_qualificationLabel.AutoSize = true;
-            iD_qualificationLabel.Font = new System.Drawing.Font("Sitka Banner", 15.82979F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            iD_qualificationLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            iD_qualificationLabel.Location = new System.Drawing.Point(6, 37);
-            iD_qualificationLabel.Name = "iD_qualificationLabel";
-            iD_qualificationLabel.Size = new System.Drawing.Size(275, 47);
-            iD_qualificationLabel.TabIndex = 38;
-            iD_qualificationLabel.Text = "ID квалификации:";
-            // 
-            // dateLabel
-            // 
-            dateLabel.AutoSize = true;
-            dateLabel.Font = new System.Drawing.Font("Sitka Banner", 19.91489F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dateLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            dateLabel.Location = new System.Drawing.Point(6, 114);
-            dateLabel.Name = "dateLabel";
-            dateLabel.Size = new System.Drawing.Size(116, 57);
-            dateLabel.TabIndex = 20;
-            dateLabel.Text = "Дата:";
-            // 
-            // structural_subdivisionLabel
-            // 
-            structural_subdivisionLabel.AutoSize = true;
-            structural_subdivisionLabel.Font = new System.Drawing.Font("Sitka Banner", 19.91489F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            structural_subdivisionLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            structural_subdivisionLabel.Location = new System.Drawing.Point(6, 185);
-            structural_subdivisionLabel.Name = "structural_subdivisionLabel";
-            structural_subdivisionLabel.Size = new System.Drawing.Size(510, 57);
-            structural_subdivisionLabel.TabIndex = 22;
-            structural_subdivisionLabel.Text = "Структурное подразделение:";
-            // 
-            // positionLabel
-            // 
-            positionLabel.AutoSize = true;
-            positionLabel.Font = new System.Drawing.Font("Sitka Banner", 19.91489F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            positionLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            positionLabel.Location = new System.Drawing.Point(6, 254);
-            positionLabel.Name = "positionLabel";
-            positionLabel.Size = new System.Drawing.Size(222, 57);
-            positionLabel.TabIndex = 24;
-            positionLabel.Text = "Должность:";
-            // 
-            // tariff_rateLabel
-            // 
-            tariff_rateLabel.AutoSize = true;
-            tariff_rateLabel.Font = new System.Drawing.Font("Sitka Banner", 19.91489F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            tariff_rateLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            tariff_rateLabel.Location = new System.Drawing.Point(6, 320);
-            tariff_rateLabel.Name = "tariff_rateLabel";
-            tariff_rateLabel.Size = new System.Drawing.Size(320, 57);
-            tariff_rateLabel.TabIndex = 26;
-            tariff_rateLabel.Text = "Тарифная ставка:";
-            // 
-            // iD_of_reception_and_transfer_to_workLabel
-            // 
-            iD_of_reception_and_transfer_to_workLabel.AutoSize = true;
-            iD_of_reception_and_transfer_to_workLabel.Font = new System.Drawing.Font("Sitka Banner", 19.91489F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            iD_of_reception_and_transfer_to_workLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            iD_of_reception_and_transfer_to_workLabel.Location = new System.Drawing.Point(6, 52);
-            iD_of_reception_and_transfer_to_workLabel.Name = "iD_of_reception_and_transfer_to_workLabel";
-            iD_of_reception_and_transfer_to_workLabel.Size = new System.Drawing.Size(402, 57);
-            iD_of_reception_and_transfer_to_workLabel.TabIndex = 29;
-            iD_of_reception_and_transfer_to_workLabel.Text = "ID приема и перевода:";
             // 
             // date_of_issueLabel1
             // 
@@ -1288,12 +819,597 @@
             the_name_of_a_professionLabel.Text = "Наименование\r\nпрофессии:";
             the_name_of_a_professionLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
+            // iD_of_reception_and_transfer_to_workLabel
+            // 
+            iD_of_reception_and_transfer_to_workLabel.AutoSize = true;
+            iD_of_reception_and_transfer_to_workLabel.Font = new System.Drawing.Font("Sitka Banner", 19.91489F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            iD_of_reception_and_transfer_to_workLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            iD_of_reception_and_transfer_to_workLabel.Location = new System.Drawing.Point(56, 99);
+            iD_of_reception_and_transfer_to_workLabel.Name = "iD_of_reception_and_transfer_to_workLabel";
+            iD_of_reception_and_transfer_to_workLabel.Size = new System.Drawing.Size(402, 57);
+            iD_of_reception_and_transfer_to_workLabel.TabIndex = 0;
+            iD_of_reception_and_transfer_to_workLabel.Text = "ID приема и перевода:";
+            // 
+            // dateLabel
+            // 
+            dateLabel.AutoSize = true;
+            dateLabel.Font = new System.Drawing.Font("Sitka Banner", 19.91489F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dateLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            dateLabel.Location = new System.Drawing.Point(56, 152);
+            dateLabel.Name = "dateLabel";
+            dateLabel.Size = new System.Drawing.Size(116, 57);
+            dateLabel.TabIndex = 2;
+            dateLabel.Text = "Дата:";
+            // 
+            // structural_subdivisionLabel
+            // 
+            structural_subdivisionLabel.AutoSize = true;
+            structural_subdivisionLabel.Font = new System.Drawing.Font("Sitka Banner", 19.91489F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            structural_subdivisionLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            structural_subdivisionLabel.Location = new System.Drawing.Point(56, 196);
+            structural_subdivisionLabel.Name = "structural_subdivisionLabel";
+            structural_subdivisionLabel.Size = new System.Drawing.Size(510, 57);
+            structural_subdivisionLabel.TabIndex = 4;
+            structural_subdivisionLabel.Text = "Структурное подразделение:";
+            // 
+            // positionLabel
+            // 
+            positionLabel.AutoSize = true;
+            positionLabel.Font = new System.Drawing.Font("Sitka Banner", 19.91489F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            positionLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            positionLabel.Location = new System.Drawing.Point(56, 244);
+            positionLabel.Name = "positionLabel";
+            positionLabel.Size = new System.Drawing.Size(222, 57);
+            positionLabel.TabIndex = 6;
+            positionLabel.Text = "Должность:";
+            // 
+            // tariff_rateLabel
+            // 
+            tariff_rateLabel.AutoSize = true;
+            tariff_rateLabel.Font = new System.Drawing.Font("Sitka Banner", 19.91489F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            tariff_rateLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            tariff_rateLabel.Location = new System.Drawing.Point(56, 292);
+            tariff_rateLabel.Name = "tariff_rateLabel";
+            tariff_rateLabel.Size = new System.Drawing.Size(320, 57);
+            tariff_rateLabel.TabIndex = 8;
+            tariff_rateLabel.Text = "Тарифная ставка:";
+            // 
+            // iD_qualificationLabel
+            // 
+            iD_qualificationLabel.AutoSize = true;
+            iD_qualificationLabel.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            iD_qualificationLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            iD_qualificationLabel.Location = new System.Drawing.Point(20, 53);
+            iD_qualificationLabel.Name = "iD_qualificationLabel";
+            iD_qualificationLabel.Size = new System.Drawing.Size(299, 50);
+            iD_qualificationLabel.TabIndex = 0;
+            iD_qualificationLabel.Text = "ID квалификации:";
+            // 
+            // beginning_of_trainingLabel
+            // 
+            beginning_of_trainingLabel.AutoSize = true;
+            beginning_of_trainingLabel.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            beginning_of_trainingLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            beginning_of_trainingLabel.Location = new System.Drawing.Point(20, 102);
+            beginning_of_trainingLabel.Name = "beginning_of_trainingLabel";
+            beginning_of_trainingLabel.Size = new System.Drawing.Size(294, 50);
+            beginning_of_trainingLabel.TabIndex = 2;
+            beginning_of_trainingLabel.Text = "Начало обучения:";
+            // 
+            // the_end_of_the_trainingLabel
+            // 
+            the_end_of_the_trainingLabel.AutoSize = true;
+            the_end_of_the_trainingLabel.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            the_end_of_the_trainingLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            the_end_of_the_trainingLabel.Location = new System.Drawing.Point(20, 151);
+            the_end_of_the_trainingLabel.Name = "the_end_of_the_trainingLabel";
+            the_end_of_the_trainingLabel.Size = new System.Drawing.Size(278, 50);
+            the_end_of_the_trainingLabel.TabIndex = 4;
+            the_end_of_the_trainingLabel.Text = "Конец обучения:";
+            // 
+            // type_of_qualificationLabel
+            // 
+            type_of_qualificationLabel.AutoSize = true;
+            type_of_qualificationLabel.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            type_of_qualificationLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            type_of_qualificationLabel.Location = new System.Drawing.Point(20, 199);
+            type_of_qualificationLabel.Name = "type_of_qualificationLabel";
+            type_of_qualificationLabel.Size = new System.Drawing.Size(513, 50);
+            type_of_qualificationLabel.TabIndex = 6;
+            type_of_qualificationLabel.Text = "Вид повышения квалификации:";
+            // 
+            // name_of_educational_institutionLabel
+            // 
+            name_of_educational_institutionLabel.AutoSize = true;
+            name_of_educational_institutionLabel.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            name_of_educational_institutionLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            name_of_educational_institutionLabel.Location = new System.Drawing.Point(20, 255);
+            name_of_educational_institutionLabel.Name = "name_of_educational_institutionLabel";
+            name_of_educational_institutionLabel.Size = new System.Drawing.Size(684, 50);
+            name_of_educational_institutionLabel.TabIndex = 8;
+            name_of_educational_institutionLabel.Text = "Наименование образовательного обучения:";
+            // 
+            // its_locationLabel
+            // 
+            its_locationLabel.AutoSize = true;
+            its_locationLabel.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            its_locationLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            its_locationLabel.Location = new System.Drawing.Point(20, 295);
+            its_locationLabel.Name = "its_locationLabel";
+            its_locationLabel.Size = new System.Drawing.Size(373, 50);
+            its_locationLabel.TabIndex = 10;
+            its_locationLabel.Text = "Место его нахождения:";
+            // 
+            // document_nameLabel
+            // 
+            document_nameLabel.AutoSize = true;
+            document_nameLabel.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            document_nameLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            document_nameLabel.Location = new System.Drawing.Point(20, 343);
+            document_nameLabel.Name = "document_nameLabel";
+            document_nameLabel.Size = new System.Drawing.Size(426, 50);
+            document_nameLabel.TabIndex = 12;
+            document_nameLabel.Text = "Наименование документа:";
+            // 
+            // series_document_numberLabel
+            // 
+            series_document_numberLabel.AutoSize = true;
+            series_document_numberLabel.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            series_document_numberLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            series_document_numberLabel.Location = new System.Drawing.Point(20, 391);
+            series_document_numberLabel.Name = "series_document_numberLabel";
+            series_document_numberLabel.Size = new System.Drawing.Size(422, 50);
+            series_document_numberLabel.TabIndex = 14;
+            series_document_numberLabel.Text = "Серия и номер документа:";
+            // 
+            // dateLabel1
+            // 
+            dateLabel1.AutoSize = true;
+            dateLabel1.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dateLabel1.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            dateLabel1.Location = new System.Drawing.Point(20, 440);
+            dateLabel1.Name = "dateLabel1";
+            dateLabel1.Size = new System.Drawing.Size(103, 50);
+            dateLabel1.TabIndex = 16;
+            dateLabel1.Text = "Дата:";
+            // 
+            // iD_vacationLabel
+            // 
+            iD_vacationLabel.AutoSize = true;
+            iD_vacationLabel.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            iD_vacationLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            iD_vacationLabel.Location = new System.Drawing.Point(6, 52);
+            iD_vacationLabel.Name = "iD_vacationLabel";
+            iD_vacationLabel.Size = new System.Drawing.Size(190, 50);
+            iD_vacationLabel.TabIndex = 0;
+            iD_vacationLabel.Text = "ID отпуска:";
+            // 
+            // type_of_vacationLabel
+            // 
+            type_of_vacationLabel.AutoSize = true;
+            type_of_vacationLabel.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            type_of_vacationLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            type_of_vacationLabel.Location = new System.Drawing.Point(6, 100);
+            type_of_vacationLabel.Name = "type_of_vacationLabel";
+            type_of_vacationLabel.Size = new System.Drawing.Size(217, 50);
+            type_of_vacationLabel.TabIndex = 2;
+            type_of_vacationLabel.Text = "Тип отпуска:";
+            // 
+            // working_period_withLabel
+            // 
+            working_period_withLabel.AutoSize = true;
+            working_period_withLabel.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            working_period_withLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            working_period_withLabel.Location = new System.Drawing.Point(6, 149);
+            working_period_withLabel.Name = "working_period_withLabel";
+            working_period_withLabel.Size = new System.Drawing.Size(284, 50);
+            working_period_withLabel.TabIndex = 4;
+            working_period_withLabel.Text = "Период работы с:";
+            // 
+            // period_of_work_onLabel
+            // 
+            period_of_work_onLabel.AutoSize = true;
+            period_of_work_onLabel.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            period_of_work_onLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            period_of_work_onLabel.Location = new System.Drawing.Point(6, 198);
+            period_of_work_onLabel.Name = "period_of_work_onLabel";
+            period_of_work_onLabel.Size = new System.Drawing.Size(307, 50);
+            period_of_work_onLabel.TabIndex = 6;
+            period_of_work_onLabel.Text = "Период работы по:";
+            // 
+            // number_of_vacation_daysLabel
+            // 
+            number_of_vacation_daysLabel.AutoSize = true;
+            number_of_vacation_daysLabel.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            number_of_vacation_daysLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            number_of_vacation_daysLabel.Location = new System.Drawing.Point(6, 250);
+            number_of_vacation_daysLabel.Name = "number_of_vacation_daysLabel";
+            number_of_vacation_daysLabel.Size = new System.Drawing.Size(409, 100);
+            number_of_vacation_daysLabel.TabIndex = 8;
+            number_of_vacation_daysLabel.Text = "Количество календарных\r\nдней отпуска:";
+            number_of_vacation_daysLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // start_dateLabel
+            // 
+            start_dateLabel.AutoSize = true;
+            start_dateLabel.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            start_dateLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            start_dateLabel.Location = new System.Drawing.Point(22, 343);
+            start_dateLabel.Name = "start_dateLabel";
+            start_dateLabel.Size = new System.Drawing.Size(217, 50);
+            start_dateLabel.TabIndex = 10;
+            start_dateLabel.Text = "Дата начала:";
+            // 
+            // expiry_dateLabel
+            // 
+            expiry_dateLabel.AutoSize = true;
+            expiry_dateLabel.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            expiry_dateLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            expiry_dateLabel.Location = new System.Drawing.Point(22, 392);
+            expiry_dateLabel.Name = "expiry_dateLabel";
+            expiry_dateLabel.Size = new System.Drawing.Size(276, 50);
+            expiry_dateLabel.TabIndex = 12;
+            expiry_dateLabel.Text = "Дата окончания:";
+            // 
+            // iD_level_of_educationLabel
+            // 
+            iD_level_of_educationLabel.AutoSize = true;
+            iD_level_of_educationLabel.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            iD_level_of_educationLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            iD_level_of_educationLabel.Location = new System.Drawing.Point(29, 129);
+            iD_level_of_educationLabel.Name = "iD_level_of_educationLabel";
+            iD_level_of_educationLabel.Size = new System.Drawing.Size(378, 50);
+            iD_level_of_educationLabel.TabIndex = 0;
+            iD_level_of_educationLabel.Text = "ID уровня образования:";
+            // 
+            // level_of_educationLabel
+            // 
+            level_of_educationLabel.AutoSize = true;
+            level_of_educationLabel.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            level_of_educationLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            level_of_educationLabel.Location = new System.Drawing.Point(29, 177);
+            level_of_educationLabel.Name = "level_of_educationLabel";
+            level_of_educationLabel.Size = new System.Drawing.Size(354, 50);
+            level_of_educationLabel.TabIndex = 2;
+            level_of_educationLabel.Text = "Уровень образования:";
+            // 
+            // iD_rewardsLabel
+            // 
+            iD_rewardsLabel.AutoSize = true;
+            iD_rewardsLabel.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            iD_rewardsLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            iD_rewardsLabel.Location = new System.Drawing.Point(28, 96);
+            iD_rewardsLabel.Name = "iD_rewardsLabel";
+            iD_rewardsLabel.Size = new System.Drawing.Size(200, 50);
+            iD_rewardsLabel.TabIndex = 0;
+            iD_rewardsLabel.Text = "ID награды:";
+            // 
+            // the_name_of_the_awardsLabel
+            // 
+            the_name_of_the_awardsLabel.AutoSize = true;
+            the_name_of_the_awardsLabel.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            the_name_of_the_awardsLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            the_name_of_the_awardsLabel.Location = new System.Drawing.Point(28, 144);
+            the_name_of_the_awardsLabel.Name = "the_name_of_the_awardsLabel";
+            the_name_of_the_awardsLabel.Size = new System.Drawing.Size(392, 50);
+            the_name_of_the_awardsLabel.TabIndex = 2;
+            the_name_of_the_awardsLabel.Text = "Наименование награды:";
+            // 
+            // numberLabel
+            // 
+            numberLabel.AutoSize = true;
+            numberLabel.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            numberLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            numberLabel.Location = new System.Drawing.Point(28, 192);
+            numberLabel.Name = "numberLabel";
+            numberLabel.Size = new System.Drawing.Size(265, 50);
+            numberLabel.TabIndex = 4;
+            numberLabel.Text = "Номер награды:";
+            // 
+            // dateLabel2
+            // 
+            dateLabel2.AutoSize = true;
+            dateLabel2.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dateLabel2.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            dateLabel2.Location = new System.Drawing.Point(28, 241);
+            dateLabel2.Name = "dateLabel2";
+            dateLabel2.Size = new System.Drawing.Size(103, 50);
+            dateLabel2.TabIndex = 6;
+            dateLabel2.Text = "Дата:";
+            // 
+            // iD_military_registrationLabel
+            // 
+            iD_military_registrationLabel.AutoSize = true;
+            iD_military_registrationLabel.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            iD_military_registrationLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            iD_military_registrationLabel.Location = new System.Drawing.Point(22, 79);
+            iD_military_registrationLabel.Name = "iD_military_registrationLabel";
+            iD_military_registrationLabel.Size = new System.Drawing.Size(318, 50);
+            iD_military_registrationLabel.TabIndex = 0;
+            iD_military_registrationLabel.Text = "ID воиснкого учета:";
+            // 
+            // stock_categoryLabel
+            // 
+            stock_categoryLabel.AutoSize = true;
+            stock_categoryLabel.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            stock_categoryLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            stock_categoryLabel.Location = new System.Drawing.Point(22, 127);
+            stock_categoryLabel.Name = "stock_categoryLabel";
+            stock_categoryLabel.Size = new System.Drawing.Size(294, 50);
+            stock_categoryLabel.TabIndex = 2;
+            stock_categoryLabel.Text = "Категория запаса:";
+            // 
+            // military_rankLabel
+            // 
+            military_rankLabel.AutoSize = true;
+            military_rankLabel.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            military_rankLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            military_rankLabel.Location = new System.Drawing.Point(22, 175);
+            military_rankLabel.Name = "military_rankLabel";
+            military_rankLabel.Size = new System.Drawing.Size(286, 50);
+            military_rankLabel.TabIndex = 4;
+            military_rankLabel.Text = "Воинское звание:";
+            // 
+            // composition_profileLabel
+            // 
+            composition_profileLabel.AutoSize = true;
+            composition_profileLabel.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            composition_profileLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            composition_profileLabel.Location = new System.Drawing.Point(22, 223);
+            composition_profileLabel.Name = "composition_profileLabel";
+            composition_profileLabel.Size = new System.Drawing.Size(297, 50);
+            composition_profileLabel.TabIndex = 6;
+            composition_profileLabel.Text = "Состав (профиль):";
+            // 
+            // full_code_designation_VUSLabel
+            // 
+            full_code_designation_VUSLabel.AutoSize = true;
+            full_code_designation_VUSLabel.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            full_code_designation_VUSLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            full_code_designation_VUSLabel.Location = new System.Drawing.Point(22, 271);
+            full_code_designation_VUSLabel.Name = "full_code_designation_VUSLabel";
+            full_code_designation_VUSLabel.Size = new System.Drawing.Size(541, 50);
+            full_code_designation_VUSLabel.TabIndex = 8;
+            full_code_designation_VUSLabel.Text = "Полное кодовое обозначение ВУС:";
+            // 
+            // category_of_fitness_for_military_serviceLabel
+            // 
+            category_of_fitness_for_military_serviceLabel.AutoSize = true;
+            category_of_fitness_for_military_serviceLabel.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            category_of_fitness_for_military_serviceLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            category_of_fitness_for_military_serviceLabel.Location = new System.Drawing.Point(22, 319);
+            category_of_fitness_for_military_serviceLabel.Name = "category_of_fitness_for_military_serviceLabel";
+            category_of_fitness_for_military_serviceLabel.Size = new System.Drawing.Size(324, 100);
+            category_of_fitness_for_military_serviceLabel.TabIndex = 10;
+            category_of_fitness_for_military_serviceLabel.Text = "Категория годности\r\nк военной службе:";
+            category_of_fitness_for_military_serviceLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // the_name_of_the_military_commissariatLabel
+            // 
+            the_name_of_the_military_commissariatLabel.AutoSize = true;
+            the_name_of_the_military_commissariatLabel.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            the_name_of_the_military_commissariatLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            the_name_of_the_military_commissariatLabel.Location = new System.Drawing.Point(22, 419);
+            the_name_of_the_military_commissariatLabel.Name = "the_name_of_the_military_commissariatLabel";
+            the_name_of_the_military_commissariatLabel.Size = new System.Drawing.Size(473, 50);
+            the_name_of_the_military_commissariatLabel.TabIndex = 12;
+            the_name_of_the_military_commissariatLabel.Text = "Наименование комиссариата:";
+            // 
+            // iD_certificationLabel
+            // 
+            iD_certificationLabel.AutoSize = true;
+            iD_certificationLabel.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            iD_certificationLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            iD_certificationLabel.Location = new System.Drawing.Point(6, 86);
+            iD_certificationLabel.Name = "iD_certificationLabel";
+            iD_certificationLabel.Size = new System.Drawing.Size(243, 50);
+            iD_certificationLabel.TabIndex = 0;
+            iD_certificationLabel.Text = "ID аттестации:";
+            // 
+            // date_of_certificationLabel
+            // 
+            date_of_certificationLabel.AutoSize = true;
+            date_of_certificationLabel.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            date_of_certificationLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            date_of_certificationLabel.Location = new System.Drawing.Point(6, 135);
+            date_of_certificationLabel.Name = "date_of_certificationLabel";
+            date_of_certificationLabel.Size = new System.Drawing.Size(281, 50);
+            date_of_certificationLabel.TabIndex = 2;
+            date_of_certificationLabel.Text = "Дата аттестации:";
+            // 
+            // commission_decisionLabel
+            // 
+            commission_decisionLabel.AutoSize = true;
+            commission_decisionLabel.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            commission_decisionLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            commission_decisionLabel.Location = new System.Drawing.Point(6, 183);
+            commission_decisionLabel.Name = "commission_decisionLabel";
+            commission_decisionLabel.Size = new System.Drawing.Size(319, 50);
+            commission_decisionLabel.TabIndex = 4;
+            commission_decisionLabel.Text = "Решение комиссии:";
+            // 
+            // protocol_numberLabel
+            // 
+            protocol_numberLabel.AutoSize = true;
+            protocol_numberLabel.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            protocol_numberLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            protocol_numberLabel.Location = new System.Drawing.Point(6, 231);
+            protocol_numberLabel.Name = "protocol_numberLabel";
+            protocol_numberLabel.Size = new System.Drawing.Size(296, 50);
+            protocol_numberLabel.TabIndex = 6;
+            protocol_numberLabel.Text = "Номер протокола:";
+            // 
+            // date_of_reportLabel
+            // 
+            date_of_reportLabel.AutoSize = true;
+            date_of_reportLabel.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            date_of_reportLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            date_of_reportLabel.Location = new System.Drawing.Point(6, 280);
+            date_of_reportLabel.Name = "date_of_reportLabel";
+            date_of_reportLabel.Size = new System.Drawing.Size(103, 50);
+            date_of_reportLabel.TabIndex = 8;
+            date_of_reportLabel.Text = "Дата:";
+            // 
+            // iD_educationLabel
+            // 
+            iD_educationLabel.AutoSize = true;
+            iD_educationLabel.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            iD_educationLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            iD_educationLabel.Location = new System.Drawing.Point(6, 74);
+            iD_educationLabel.Name = "iD_educationLabel";
+            iD_educationLabel.Size = new System.Drawing.Size(264, 50);
+            iD_educationLabel.TabIndex = 0;
+            iD_educationLabel.Text = "ID образования:";
+            // 
+            // level_of_educationLabel1
+            // 
+            level_of_educationLabel1.AutoSize = true;
+            level_of_educationLabel1.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            level_of_educationLabel1.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            level_of_educationLabel1.Location = new System.Drawing.Point(6, 122);
+            level_of_educationLabel1.Name = "level_of_educationLabel1";
+            level_of_educationLabel1.Size = new System.Drawing.Size(354, 50);
+            level_of_educationLabel1.TabIndex = 2;
+            level_of_educationLabel1.Text = "Уровень образования:";
+            // 
+            // name_of_educational_institutionLabel1
+            // 
+            name_of_educational_institutionLabel1.AutoSize = true;
+            name_of_educational_institutionLabel1.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            name_of_educational_institutionLabel1.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            name_of_educational_institutionLabel1.Location = new System.Drawing.Point(6, 170);
+            name_of_educational_institutionLabel1.Name = "name_of_educational_institutionLabel1";
+            name_of_educational_institutionLabel1.Size = new System.Drawing.Size(728, 50);
+            name_of_educational_institutionLabel1.TabIndex = 4;
+            name_of_educational_institutionLabel1.Text = "Наименование образовательного учреждения:";
+            // 
+            // name_of_the_document_on_educationLabel
+            // 
+            name_of_the_document_on_educationLabel.AutoSize = true;
+            name_of_the_document_on_educationLabel.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            name_of_the_document_on_educationLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            name_of_the_document_on_educationLabel.Location = new System.Drawing.Point(6, 218);
+            name_of_the_document_on_educationLabel.Name = "name_of_the_document_on_educationLabel";
+            name_of_the_document_on_educationLabel.Size = new System.Drawing.Size(669, 50);
+            name_of_the_document_on_educationLabel.TabIndex = 6;
+            name_of_the_document_on_educationLabel.Text = "Наименование документа об образовании:";
+            // 
+            // seriesLabel
+            // 
+            seriesLabel.AutoSize = true;
+            seriesLabel.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            seriesLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            seriesLabel.Location = new System.Drawing.Point(6, 266);
+            seriesLabel.Name = "seriesLabel";
+            seriesLabel.Size = new System.Drawing.Size(123, 50);
+            seriesLabel.TabIndex = 8;
+            seriesLabel.Text = "Серия:";
+            // 
+            // numberLabel1
+            // 
+            numberLabel1.AutoSize = true;
+            numberLabel1.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            numberLabel1.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            numberLabel1.Location = new System.Drawing.Point(6, 314);
+            numberLabel1.Name = "numberLabel1";
+            numberLabel1.Size = new System.Drawing.Size(130, 50);
+            numberLabel1.TabIndex = 10;
+            numberLabel1.Text = "Номер:";
+            // 
+            // year_of_graduationLabel
+            // 
+            year_of_graduationLabel.AutoSize = true;
+            year_of_graduationLabel.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            year_of_graduationLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            year_of_graduationLabel.Location = new System.Drawing.Point(6, 363);
+            year_of_graduationLabel.Name = "year_of_graduationLabel";
+            year_of_graduationLabel.Size = new System.Drawing.Size(258, 50);
+            year_of_graduationLabel.TabIndex = 12;
+            year_of_graduationLabel.Text = "Год окончания:";
+            // 
+            // iD_retrainingLabel
+            // 
+            iD_retrainingLabel.AutoSize = true;
+            iD_retrainingLabel.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            iD_retrainingLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            iD_retrainingLabel.Location = new System.Drawing.Point(6, 82);
+            iD_retrainingLabel.Name = "iD_retrainingLabel";
+            iD_retrainingLabel.Size = new System.Drawing.Size(318, 50);
+            iD_retrainingLabel.TabIndex = 0;
+            iD_retrainingLabel.Text = "ID переподготовки:";
+            // 
+            // the_beginning_of_the_trainingLabel
+            // 
+            the_beginning_of_the_trainingLabel.AutoSize = true;
+            the_beginning_of_the_trainingLabel.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            the_beginning_of_the_trainingLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            the_beginning_of_the_trainingLabel.Location = new System.Drawing.Point(6, 131);
+            the_beginning_of_the_trainingLabel.Name = "the_beginning_of_the_trainingLabel";
+            the_beginning_of_the_trainingLabel.Size = new System.Drawing.Size(396, 50);
+            the_beginning_of_the_trainingLabel.TabIndex = 2;
+            the_beginning_of_the_trainingLabel.Text = "Начало переподготовки:";
+            // 
+            // completion_of_retrainingLabel
+            // 
+            completion_of_retrainingLabel.AutoSize = true;
+            completion_of_retrainingLabel.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            completion_of_retrainingLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            completion_of_retrainingLabel.Location = new System.Drawing.Point(6, 180);
+            completion_of_retrainingLabel.Name = "completion_of_retrainingLabel";
+            completion_of_retrainingLabel.Size = new System.Drawing.Size(453, 50);
+            completion_of_retrainingLabel.TabIndex = 4;
+            completion_of_retrainingLabel.Text = "Окончание переподготовки:";
+            // 
+            // specialtyLabel
+            // 
+            specialtyLabel.AutoSize = true;
+            specialtyLabel.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            specialtyLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            specialtyLabel.Location = new System.Drawing.Point(6, 228);
+            specialtyLabel.Name = "specialtyLabel";
+            specialtyLabel.Size = new System.Drawing.Size(261, 50);
+            specialtyLabel.TabIndex = 6;
+            specialtyLabel.Text = "Специальность:";
+            // 
+            // document_nameLabel1
+            // 
+            document_nameLabel1.AutoSize = true;
+            document_nameLabel1.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            document_nameLabel1.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            document_nameLabel1.Location = new System.Drawing.Point(6, 276);
+            document_nameLabel1.Name = "document_nameLabel1";
+            document_nameLabel1.Size = new System.Drawing.Size(426, 50);
+            document_nameLabel1.TabIndex = 8;
+            document_nameLabel1.Text = "Наименование документа:";
+            // 
+            // document_numberLabel1
+            // 
+            document_numberLabel1.AutoSize = true;
+            document_numberLabel1.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            document_numberLabel1.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            document_numberLabel1.Location = new System.Drawing.Point(6, 324);
+            document_numberLabel1.Name = "document_numberLabel1";
+            document_numberLabel1.Size = new System.Drawing.Size(299, 50);
+            document_numberLabel1.TabIndex = 10;
+            document_numberLabel1.Text = "Номер документа:";
+            // 
+            // dateLabel3
+            // 
+            dateLabel3.AutoSize = true;
+            dateLabel3.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dateLabel3.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            dateLabel3.Location = new System.Drawing.Point(6, 373);
+            dateLabel3.Name = "dateLabel3";
+            dateLabel3.Size = new System.Drawing.Size(103, 50);
+            dateLabel3.TabIndex = 12;
+            dateLabel3.Text = "Дата:";
+            // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.tabControl1);
-            this.groupBox1.Location = new System.Drawing.Point(12, 65);
+            this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(1321, 681);
+            this.groupBox1.Size = new System.Drawing.Size(1321, 722);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Личная карточка";
@@ -1316,13 +1432,14 @@
             this.tabControl1.Location = new System.Drawing.Point(6, 25);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1288, 656);
+            this.tabControl1.Size = new System.Drawing.Size(1288, 697);
             this.tabControl1.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             this.tabControl1.TabIndex = 2;
             // 
             // tabPage1
             // 
             this.tabPage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.tabPage1.Controls.Add(this.employee_informationBindingNavigator);
             this.tabPage1.Controls.Add(this.buttonDelete);
             this.tabPage1.Controls.Add(this.button3);
             this.tabPage1.Controls.Add(this.groupBox7);
@@ -1340,9 +1457,105 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 29);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1280, 623);
+            this.tabPage1.Size = new System.Drawing.Size(1280, 664);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Осн.инф-ия";
+            // 
+            // employee_informationBindingNavigator
+            // 
+            this.employee_informationBindingNavigator.AddNewItem = this.bindingNavigatorAddNewItem;
+            this.employee_informationBindingNavigator.BindingSource = this.employee_informationBindingSource;
+            this.employee_informationBindingNavigator.CountItem = null;
+            this.employee_informationBindingNavigator.DeleteItem = this.bindingNavigatorDeleteItem;
+            this.employee_informationBindingNavigator.Dock = System.Windows.Forms.DockStyle.None;
+            this.employee_informationBindingNavigator.ImageScalingSize = new System.Drawing.Size(24, 24);
+            this.employee_informationBindingNavigator.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.bindingNavigatorMovePreviousItem,
+            this.bindingNavigatorPositionItem,
+            this.bindingNavigatorMoveNextItem,
+            this.bindingNavigatorAddNewItem,
+            this.bindingNavigatorDeleteItem,
+            this.employee_informationBindingNavigatorSaveItem});
+            this.employee_informationBindingNavigator.Location = new System.Drawing.Point(1115, 17);
+            this.employee_informationBindingNavigator.MoveFirstItem = null;
+            this.employee_informationBindingNavigator.MoveLastItem = null;
+            this.employee_informationBindingNavigator.MoveNextItem = this.bindingNavigatorMoveNextItem;
+            this.employee_informationBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
+            this.employee_informationBindingNavigator.Name = "employee_informationBindingNavigator";
+            this.employee_informationBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
+            this.employee_informationBindingNavigator.Size = new System.Drawing.Size(136, 32);
+            this.employee_informationBindingNavigator.TabIndex = 1;
+            this.employee_informationBindingNavigator.Text = "bindingNavigator1";
+            // 
+            // bindingNavigatorAddNewItem
+            // 
+            this.bindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
+            this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
+            this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(34, 28);
+            this.bindingNavigatorAddNewItem.Text = "Добавить";
+            this.bindingNavigatorAddNewItem.Visible = false;
+            // 
+            // employee_informationBindingSource
+            // 
+            this.employee_informationBindingSource.DataMember = "Employee_information";
+            this.employee_informationBindingSource.DataSource = this.personal_cardsDataSet;
+            // 
+            // personal_cardsDataSet
+            // 
+            this.personal_cardsDataSet.DataSetName = "Personal_cardsDataSet";
+            this.personal_cardsDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // bindingNavigatorDeleteItem
+            // 
+            this.bindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorDeleteItem.Image")));
+            this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
+            this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(34, 28);
+            this.bindingNavigatorDeleteItem.Text = "Удалить";
+            this.bindingNavigatorDeleteItem.Visible = false;
+            // 
+            // bindingNavigatorMovePreviousItem
+            // 
+            this.bindingNavigatorMovePreviousItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorMovePreviousItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMovePreviousItem.Image")));
+            this.bindingNavigatorMovePreviousItem.Name = "bindingNavigatorMovePreviousItem";
+            this.bindingNavigatorMovePreviousItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorMovePreviousItem.Size = new System.Drawing.Size(34, 28);
+            this.bindingNavigatorMovePreviousItem.Text = "Переместить назад";
+            // 
+            // bindingNavigatorPositionItem
+            // 
+            this.bindingNavigatorPositionItem.AccessibleName = "Положение";
+            this.bindingNavigatorPositionItem.AutoSize = false;
+            this.bindingNavigatorPositionItem.Font = new System.Drawing.Font("Segoe UI", 9.191489F);
+            this.bindingNavigatorPositionItem.Name = "bindingNavigatorPositionItem";
+            this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(50, 31);
+            this.bindingNavigatorPositionItem.Text = "0";
+            this.bindingNavigatorPositionItem.ToolTipText = "Текущее положение";
+            this.bindingNavigatorPositionItem.Click += new System.EventHandler(this.bindingNavigatorPositionItem_Click);
+            // 
+            // bindingNavigatorMoveNextItem
+            // 
+            this.bindingNavigatorMoveNextItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorMoveNextItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveNextItem.Image")));
+            this.bindingNavigatorMoveNextItem.Name = "bindingNavigatorMoveNextItem";
+            this.bindingNavigatorMoveNextItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorMoveNextItem.Size = new System.Drawing.Size(34, 28);
+            this.bindingNavigatorMoveNextItem.Text = "Переместить вперед";
+            this.bindingNavigatorMoveNextItem.Click += new System.EventHandler(this.bindingNavigatorMoveNextItem_Click);
+            // 
+            // employee_informationBindingNavigatorSaveItem
+            // 
+            this.employee_informationBindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.employee_informationBindingNavigatorSaveItem.Image = ((System.Drawing.Image)(resources.GetObject("employee_informationBindingNavigatorSaveItem.Image")));
+            this.employee_informationBindingNavigatorSaveItem.Name = "employee_informationBindingNavigatorSaveItem";
+            this.employee_informationBindingNavigatorSaveItem.Size = new System.Drawing.Size(34, 28);
+            this.employee_informationBindingNavigatorSaveItem.Text = "Сохранить данные";
+            this.employee_informationBindingNavigatorSaveItem.Visible = false;
+            this.employee_informationBindingNavigatorSaveItem.Click += new System.EventHandler(this.employee_informationBindingNavigatorSaveItem_Click);
             // 
             // buttonDelete
             // 
@@ -1354,6 +1567,7 @@
             this.buttonDelete.TabIndex = 54;
             this.buttonDelete.Text = "Удалить";
             this.buttonDelete.UseVisualStyleBackColor = false;
+            this.buttonDelete.Click += new System.EventHandler(this.buttonDelete_Click);
             // 
             // button3
             // 
@@ -1377,7 +1591,7 @@
             this.groupBox7.ForeColor = System.Drawing.Color.Yellow;
             this.groupBox7.Location = new System.Drawing.Point(561, 397);
             this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(527, 185);
+            this.groupBox7.Size = new System.Drawing.Size(527, 204);
             this.groupBox7.TabIndex = 97;
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "Должность";
@@ -1389,16 +1603,6 @@
             this.the_name_of_a_professionTextBox.Name = "the_name_of_a_professionTextBox";
             this.the_name_of_a_professionTextBox.Size = new System.Drawing.Size(312, 33);
             this.the_name_of_a_professionTextBox.TabIndex = 87;
-            // 
-            // employee_informationBindingSource
-            // 
-            this.employee_informationBindingSource.DataMember = "Employee_information";
-            this.employee_informationBindingSource.DataSource = this.personal_cardsDataSet;
-            // 
-            // personal_cardsDataSet
-            // 
-            this.personal_cardsDataSet.DataSetName = "Personal_cardsDataSet";
-            this.personal_cardsDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // experienceTextBox
             // 
@@ -1484,7 +1688,7 @@
             this.groupBox4.ForeColor = System.Drawing.Color.Yellow;
             this.groupBox4.Location = new System.Drawing.Point(6, 397);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(541, 190);
+            this.groupBox4.Size = new System.Drawing.Size(541, 204);
             this.groupBox4.TabIndex = 94;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "О рождении";
@@ -1638,6 +1842,7 @@
             // tabPage12
             // 
             this.tabPage12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.tabPage12.Controls.Add(this.bindingNavigator2);
             this.tabPage12.Controls.Add(this.button14);
             this.tabPage12.Controls.Add(this.groupBox8);
             this.tabPage12.Controls.Add(this.button2);
@@ -1646,9 +1851,97 @@
             this.tabPage12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.tabPage12.Location = new System.Drawing.Point(4, 29);
             this.tabPage12.Name = "tabPage12";
-            this.tabPage12.Size = new System.Drawing.Size(1280, 623);
+            this.tabPage12.Size = new System.Drawing.Size(1280, 664);
             this.tabPage12.TabIndex = 11;
             this.tabPage12.Text = "Доп.сведения";
+            // 
+            // bindingNavigator2
+            // 
+            this.bindingNavigator2.AddNewItem = this.toolStripButton6;
+            this.bindingNavigator2.BindingSource = this.more_informationBindingSource;
+            this.bindingNavigator2.CountItem = null;
+            this.bindingNavigator2.DeleteItem = this.toolStripButton7;
+            this.bindingNavigator2.Dock = System.Windows.Forms.DockStyle.None;
+            this.bindingNavigator2.ImageScalingSize = new System.Drawing.Size(24, 24);
+            this.bindingNavigator2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripButton10,
+            this.toolStripTextBox2,
+            this.toolStripButton9,
+            this.toolStripButton6,
+            this.toolStripButton7,
+            this.toolStripButton8});
+            this.bindingNavigator2.Location = new System.Drawing.Point(1111, 32);
+            this.bindingNavigator2.MoveFirstItem = null;
+            this.bindingNavigator2.MoveLastItem = null;
+            this.bindingNavigator2.MoveNextItem = this.toolStripButton9;
+            this.bindingNavigator2.MovePreviousItem = this.toolStripButton10;
+            this.bindingNavigator2.Name = "bindingNavigator2";
+            this.bindingNavigator2.PositionItem = this.toolStripTextBox2;
+            this.bindingNavigator2.Size = new System.Drawing.Size(136, 32);
+            this.bindingNavigator2.TabIndex = 56;
+            this.bindingNavigator2.Text = "bindingNavigator1";
+            // 
+            // toolStripButton6
+            // 
+            this.toolStripButton6.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton6.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton6.Image")));
+            this.toolStripButton6.Name = "toolStripButton6";
+            this.toolStripButton6.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton6.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton6.Text = "Добавить";
+            this.toolStripButton6.Visible = false;
+            // 
+            // more_informationBindingSource
+            // 
+            this.more_informationBindingSource.DataMember = "More_information";
+            this.more_informationBindingSource.DataSource = this.personal_cardsDataSet;
+            // 
+            // toolStripButton7
+            // 
+            this.toolStripButton7.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton7.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton7.Image")));
+            this.toolStripButton7.Name = "toolStripButton7";
+            this.toolStripButton7.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton7.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton7.Text = "Удалить";
+            this.toolStripButton7.Visible = false;
+            // 
+            // toolStripButton10
+            // 
+            this.toolStripButton10.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton10.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton10.Image")));
+            this.toolStripButton10.Name = "toolStripButton10";
+            this.toolStripButton10.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton10.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton10.Text = "Переместить назад";
+            // 
+            // toolStripTextBox2
+            // 
+            this.toolStripTextBox2.AccessibleName = "Положение";
+            this.toolStripTextBox2.AutoSize = false;
+            this.toolStripTextBox2.Font = new System.Drawing.Font("Segoe UI", 9.191489F);
+            this.toolStripTextBox2.Name = "toolStripTextBox2";
+            this.toolStripTextBox2.Size = new System.Drawing.Size(50, 31);
+            this.toolStripTextBox2.Text = "0";
+            this.toolStripTextBox2.ToolTipText = "Текущее положение";
+            // 
+            // toolStripButton9
+            // 
+            this.toolStripButton9.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton9.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton9.Image")));
+            this.toolStripButton9.Name = "toolStripButton9";
+            this.toolStripButton9.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton9.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton9.Text = "Переместить вперед";
+            // 
+            // toolStripButton8
+            // 
+            this.toolStripButton8.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton8.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton8.Image")));
+            this.toolStripButton8.Name = "toolStripButton8";
+            this.toolStripButton8.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton8.Text = "Сохранить данные";
+            this.toolStripButton8.Visible = false;
             // 
             // button14
             // 
@@ -1688,21 +1981,16 @@
             // 
             this.iD_additional_informationTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.more_informationBindingSource, "ID_additional_information", true));
             this.iD_additional_informationTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.iD_additional_informationTextBox.Location = new System.Drawing.Point(321, 99);
+            this.iD_additional_informationTextBox.Location = new System.Drawing.Point(324, 94);
             this.iD_additional_informationTextBox.Name = "iD_additional_informationTextBox";
             this.iD_additional_informationTextBox.Size = new System.Drawing.Size(100, 30);
             this.iD_additional_informationTextBox.TabIndex = 23;
-            // 
-            // more_informationBindingSource
-            // 
-            this.more_informationBindingSource.DataMember = "More_information";
-            this.more_informationBindingSource.DataSource = this.personal_cardsDataSet;
             // 
             // date_of_orderDateTimePicker
             // 
             this.date_of_orderDateTimePicker.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.more_informationBindingSource, "Date_of_order", true));
             this.date_of_orderDateTimePicker.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.date_of_orderDateTimePicker.Location = new System.Drawing.Point(288, 394);
+            this.date_of_orderDateTimePicker.Location = new System.Drawing.Point(285, 390);
             this.date_of_orderDateTimePicker.Name = "date_of_orderDateTimePicker";
             this.date_of_orderDateTimePicker.Size = new System.Drawing.Size(175, 30);
             this.date_of_orderDateTimePicker.TabIndex = 21;
@@ -1711,7 +1999,7 @@
             // 
             this.the_order_numberTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.more_informationBindingSource, "The_order_number", true));
             this.the_order_numberTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.the_order_numberTextBox.Location = new System.Drawing.Point(350, 331);
+            this.the_order_numberTextBox.Location = new System.Drawing.Point(338, 327);
             this.the_order_numberTextBox.Name = "the_order_numberTextBox";
             this.the_order_numberTextBox.Size = new System.Drawing.Size(175, 30);
             this.the_order_numberTextBox.TabIndex = 19;
@@ -1720,7 +2008,7 @@
             // 
             this.date_of_dismissalDateTimePicker.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.more_informationBindingSource, "Date_of_dismissal", true));
             this.date_of_dismissalDateTimePicker.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.date_of_dismissalDateTimePicker.Location = new System.Drawing.Point(350, 263);
+            this.date_of_dismissalDateTimePicker.Location = new System.Drawing.Point(338, 259);
             this.date_of_dismissalDateTimePicker.Name = "date_of_dismissalDateTimePicker";
             this.date_of_dismissalDateTimePicker.Size = new System.Drawing.Size(175, 30);
             this.date_of_dismissalDateTimePicker.TabIndex = 17;
@@ -1729,7 +2017,7 @@
             // 
             this.dismissalTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.more_informationBindingSource, "Dismissal", true));
             this.dismissalTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.dismissalTextBox.Location = new System.Drawing.Point(456, 189);
+            this.dismissalTextBox.Location = new System.Drawing.Point(445, 184);
             this.dismissalTextBox.Name = "dismissalTextBox";
             this.dismissalTextBox.Size = new System.Drawing.Size(290, 30);
             this.dismissalTextBox.TabIndex = 15;
@@ -1763,6 +2051,7 @@
             // tabPage2
             // 
             this.tabPage2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.tabPage2.Controls.Add(this.bindingNavigator1);
             this.tabPage2.Controls.Add(this.buttonBack15);
             this.tabPage2.Controls.Add(this.button4);
             this.tabPage2.Controls.Add(this.buttonAdd3);
@@ -1771,9 +2060,66 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 29);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1280, 623);
+            this.tabPage2.Size = new System.Drawing.Size(1280, 664);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Соц.льготы";
+            // 
+            // bindingNavigator1
+            // 
+            this.bindingNavigator1.AddNewItem = null;
+            this.bindingNavigator1.BindingSource = this.social_benefitsBindingSource;
+            this.bindingNavigator1.CountItem = null;
+            this.bindingNavigator1.DeleteItem = null;
+            this.bindingNavigator1.Dock = System.Windows.Forms.DockStyle.None;
+            this.bindingNavigator1.ImageScalingSize = new System.Drawing.Size(24, 24);
+            this.bindingNavigator1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripButton3,
+            this.toolStripTextBox1,
+            this.toolStripButton4});
+            this.bindingNavigator1.Location = new System.Drawing.Point(1079, 26);
+            this.bindingNavigator1.MoveFirstItem = null;
+            this.bindingNavigator1.MoveLastItem = null;
+            this.bindingNavigator1.MoveNextItem = this.toolStripButton4;
+            this.bindingNavigator1.MovePreviousItem = this.toolStripButton3;
+            this.bindingNavigator1.Name = "bindingNavigator1";
+            this.bindingNavigator1.PositionItem = this.toolStripTextBox1;
+            this.bindingNavigator1.Size = new System.Drawing.Size(136, 32);
+            this.bindingNavigator1.TabIndex = 57;
+            this.bindingNavigator1.Text = "bindingNavigator1";
+            // 
+            // social_benefitsBindingSource
+            // 
+            this.social_benefitsBindingSource.AllowNew = true;
+            this.social_benefitsBindingSource.DataMember = "Social_benefits";
+            this.social_benefitsBindingSource.DataSource = this.personal_cardsDataSet;
+            // 
+            // toolStripButton3
+            // 
+            this.toolStripButton3.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton3.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton3.Image")));
+            this.toolStripButton3.Name = "toolStripButton3";
+            this.toolStripButton3.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton3.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton3.Text = "Переместить назад";
+            // 
+            // toolStripTextBox1
+            // 
+            this.toolStripTextBox1.AccessibleName = "Положение";
+            this.toolStripTextBox1.AutoSize = false;
+            this.toolStripTextBox1.Font = new System.Drawing.Font("Segoe UI", 9.191489F);
+            this.toolStripTextBox1.Name = "toolStripTextBox1";
+            this.toolStripTextBox1.Size = new System.Drawing.Size(50, 31);
+            this.toolStripTextBox1.Text = "0";
+            this.toolStripTextBox1.ToolTipText = "Текущее положение";
+            // 
+            // toolStripButton4
+            // 
+            this.toolStripButton4.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton4.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton4.Image")));
+            this.toolStripButton4.Name = "toolStripButton4";
+            this.toolStripButton4.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton4.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton4.Text = "Переместить вперед";
             // 
             // buttonBack15
             // 
@@ -1835,21 +2181,16 @@
             // 
             this.iD_social_benefitsTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.social_benefitsBindingSource, "ID_social_benefits", true));
             this.iD_social_benefitsTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.iD_social_benefitsTextBox.Location = new System.Drawing.Point(422, 119);
+            this.iD_social_benefitsTextBox.Location = new System.Drawing.Point(227, 114);
             this.iD_social_benefitsTextBox.Name = "iD_social_benefitsTextBox";
-            this.iD_social_benefitsTextBox.Size = new System.Drawing.Size(200, 30);
+            this.iD_social_benefitsTextBox.Size = new System.Drawing.Size(78, 30);
             this.iD_social_benefitsTextBox.TabIndex = 1;
-            // 
-            // social_benefitsBindingSource
-            // 
-            this.social_benefitsBindingSource.DataMember = "Social_benefits";
-            this.social_benefitsBindingSource.DataSource = this.personal_cardsDataSet;
             // 
             // name_of_benefitTextBox
             // 
             this.name_of_benefitTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.social_benefitsBindingSource, "Name_of_benefit", true));
             this.name_of_benefitTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.name_of_benefitTextBox.Location = new System.Drawing.Point(422, 167);
+            this.name_of_benefitTextBox.Location = new System.Drawing.Point(383, 163);
             this.name_of_benefitTextBox.Name = "name_of_benefitTextBox";
             this.name_of_benefitTextBox.Size = new System.Drawing.Size(200, 30);
             this.name_of_benefitTextBox.TabIndex = 3;
@@ -1858,7 +2199,7 @@
             // 
             this.document_numberTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.social_benefitsBindingSource, "Document_number", true));
             this.document_numberTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.document_numberTextBox.Location = new System.Drawing.Point(422, 215);
+            this.document_numberTextBox.Location = new System.Drawing.Point(329, 211);
             this.document_numberTextBox.Name = "document_numberTextBox";
             this.document_numberTextBox.Size = new System.Drawing.Size(200, 30);
             this.document_numberTextBox.TabIndex = 5;
@@ -1867,7 +2208,7 @@
             // 
             this.date_of_issueDateTimePicker1.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.social_benefitsBindingSource, "Date_of_issue", true));
             this.date_of_issueDateTimePicker1.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.date_of_issueDateTimePicker1.Location = new System.Drawing.Point(422, 263);
+            this.date_of_issueDateTimePicker1.Location = new System.Drawing.Point(255, 259);
             this.date_of_issueDateTimePicker1.Name = "date_of_issueDateTimePicker1";
             this.date_of_issueDateTimePicker1.Size = new System.Drawing.Size(200, 30);
             this.date_of_issueDateTimePicker1.TabIndex = 7;
@@ -1875,6 +2216,7 @@
             // tabPage3
             // 
             this.tabPage3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.tabPage3.Controls.Add(this.bindingNavigator3);
             this.tabPage3.Controls.Add(this.buttonBack16);
             this.tabPage3.Controls.Add(this.groupBox10);
             this.tabPage3.Controls.Add(this.buttonAdd4);
@@ -1884,9 +2226,97 @@
             this.tabPage3.Location = new System.Drawing.Point(4, 29);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(1280, 623);
+            this.tabPage3.Size = new System.Drawing.Size(1280, 664);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Прием и перевод";
+            // 
+            // bindingNavigator3
+            // 
+            this.bindingNavigator3.AddNewItem = this.toolStripButton11;
+            this.bindingNavigator3.BindingSource = this.reception_and_transferBindingSource;
+            this.bindingNavigator3.CountItem = null;
+            this.bindingNavigator3.DeleteItem = this.toolStripButton12;
+            this.bindingNavigator3.Dock = System.Windows.Forms.DockStyle.None;
+            this.bindingNavigator3.ImageScalingSize = new System.Drawing.Size(24, 24);
+            this.bindingNavigator3.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripButton13,
+            this.toolStripTextBox3,
+            this.toolStripButton14,
+            this.toolStripButton11,
+            this.toolStripButton12,
+            this.toolStripButton15});
+            this.bindingNavigator3.Location = new System.Drawing.Point(1103, 38);
+            this.bindingNavigator3.MoveFirstItem = null;
+            this.bindingNavigator3.MoveLastItem = null;
+            this.bindingNavigator3.MoveNextItem = this.toolStripButton14;
+            this.bindingNavigator3.MovePreviousItem = this.toolStripButton13;
+            this.bindingNavigator3.Name = "bindingNavigator3";
+            this.bindingNavigator3.PositionItem = this.toolStripTextBox3;
+            this.bindingNavigator3.Size = new System.Drawing.Size(136, 32);
+            this.bindingNavigator3.TabIndex = 58;
+            this.bindingNavigator3.Text = "bindingNavigator3";
+            // 
+            // toolStripButton11
+            // 
+            this.toolStripButton11.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton11.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton11.Image")));
+            this.toolStripButton11.Name = "toolStripButton11";
+            this.toolStripButton11.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton11.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton11.Text = "Добавить";
+            this.toolStripButton11.Visible = false;
+            // 
+            // reception_and_transferBindingSource
+            // 
+            this.reception_and_transferBindingSource.DataMember = "Reception_and_transfer";
+            this.reception_and_transferBindingSource.DataSource = this.personal_cardsDataSet;
+            // 
+            // toolStripButton12
+            // 
+            this.toolStripButton12.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton12.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton12.Image")));
+            this.toolStripButton12.Name = "toolStripButton12";
+            this.toolStripButton12.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton12.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton12.Text = "Удалить";
+            this.toolStripButton12.Visible = false;
+            // 
+            // toolStripButton13
+            // 
+            this.toolStripButton13.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton13.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton13.Image")));
+            this.toolStripButton13.Name = "toolStripButton13";
+            this.toolStripButton13.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton13.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton13.Text = "Переместить назад";
+            // 
+            // toolStripTextBox3
+            // 
+            this.toolStripTextBox3.AccessibleName = "Положение";
+            this.toolStripTextBox3.AutoSize = false;
+            this.toolStripTextBox3.Font = new System.Drawing.Font("Segoe UI", 9.191489F);
+            this.toolStripTextBox3.Name = "toolStripTextBox3";
+            this.toolStripTextBox3.Size = new System.Drawing.Size(50, 31);
+            this.toolStripTextBox3.Text = "0";
+            this.toolStripTextBox3.ToolTipText = "Текущее положение";
+            // 
+            // toolStripButton14
+            // 
+            this.toolStripButton14.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton14.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton14.Image")));
+            this.toolStripButton14.Name = "toolStripButton14";
+            this.toolStripButton14.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton14.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton14.Text = "Переместить вперед";
+            // 
+            // toolStripButton15
+            // 
+            this.toolStripButton15.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton15.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton15.Image")));
+            this.toolStripButton15.Name = "toolStripButton15";
+            this.toolStripButton15.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton15.Text = "Сохранить данные";
+            this.toolStripButton15.Visible = false;
             // 
             // buttonBack16
             // 
@@ -1904,63 +2334,68 @@
             // groupBox10
             // 
             this.groupBox10.Controls.Add(iD_of_reception_and_transfer_to_workLabel);
-            this.groupBox10.Controls.Add(this.ID_of_reception_and_transfer_to_workTextBox);
-            this.groupBox10.Controls.Add(tariff_rateLabel);
-            this.groupBox10.Controls.Add(this.tariff_rateTextBox);
-            this.groupBox10.Controls.Add(positionLabel);
-            this.groupBox10.Controls.Add(this.positionTextBox);
-            this.groupBox10.Controls.Add(structural_subdivisionLabel);
-            this.groupBox10.Controls.Add(this.structural_subdivisionTextBox);
+            this.groupBox10.Controls.Add(this.iD_of_reception_and_transfer_to_workTextBox);
             this.groupBox10.Controls.Add(dateLabel);
             this.groupBox10.Controls.Add(this.dateDateTimePicker);
+            this.groupBox10.Controls.Add(structural_subdivisionLabel);
+            this.groupBox10.Controls.Add(this.structural_subdivisionTextBox);
+            this.groupBox10.Controls.Add(positionLabel);
+            this.groupBox10.Controls.Add(this.positionTextBox);
+            this.groupBox10.Controls.Add(tariff_rateLabel);
+            this.groupBox10.Controls.Add(this.tariff_rateTextBox);
             this.groupBox10.Font = new System.Drawing.Font("Sitka Banner", 13.78723F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.groupBox10.ForeColor = System.Drawing.Color.Yellow;
-            this.groupBox10.Location = new System.Drawing.Point(222, 62);
+            this.groupBox10.Location = new System.Drawing.Point(155, 38);
             this.groupBox10.Name = "groupBox10";
-            this.groupBox10.Size = new System.Drawing.Size(828, 413);
+            this.groupBox10.Size = new System.Drawing.Size(879, 380);
             this.groupBox10.TabIndex = 0;
             this.groupBox10.TabStop = false;
             this.groupBox10.Text = "Прием и перевод";
             // 
-            // ID_of_reception_and_transfer_to_workTextBox
+            // iD_of_reception_and_transfer_to_workTextBox
             // 
-            this.ID_of_reception_and_transfer_to_workTextBox.Font = new System.Drawing.Font("Sitka Banner", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ID_of_reception_and_transfer_to_workTextBox.Location = new System.Drawing.Point(414, 71);
-            this.ID_of_reception_and_transfer_to_workTextBox.Name = "ID_of_reception_and_transfer_to_workTextBox";
-            this.ID_of_reception_and_transfer_to_workTextBox.Size = new System.Drawing.Size(79, 33);
-            this.ID_of_reception_and_transfer_to_workTextBox.TabIndex = 31;
-            // 
-            // tariff_rateTextBox
-            // 
-            this.tariff_rateTextBox.Font = new System.Drawing.Font("Sitka Banner", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.tariff_rateTextBox.Location = new System.Drawing.Point(346, 339);
-            this.tariff_rateTextBox.Name = "tariff_rateTextBox";
-            this.tariff_rateTextBox.Size = new System.Drawing.Size(170, 33);
-            this.tariff_rateTextBox.TabIndex = 27;
-            // 
-            // positionTextBox
-            // 
-            this.positionTextBox.Font = new System.Drawing.Font("Sitka Banner", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.positionTextBox.Location = new System.Drawing.Point(258, 273);
-            this.positionTextBox.Name = "positionTextBox";
-            this.positionTextBox.Size = new System.Drawing.Size(258, 33);
-            this.positionTextBox.TabIndex = 25;
-            // 
-            // structural_subdivisionTextBox
-            // 
-            this.structural_subdivisionTextBox.Font = new System.Drawing.Font("Sitka Banner", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.structural_subdivisionTextBox.Location = new System.Drawing.Point(522, 204);
-            this.structural_subdivisionTextBox.Name = "structural_subdivisionTextBox";
-            this.structural_subdivisionTextBox.Size = new System.Drawing.Size(275, 33);
-            this.structural_subdivisionTextBox.TabIndex = 23;
+            this.iD_of_reception_and_transfer_to_workTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.reception_and_transferBindingSource, "ID_of_reception_and_transfer_to_work", true));
+            this.iD_of_reception_and_transfer_to_workTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.iD_of_reception_and_transfer_to_workTextBox.Location = new System.Drawing.Point(475, 120);
+            this.iD_of_reception_and_transfer_to_workTextBox.Name = "iD_of_reception_and_transfer_to_workTextBox";
+            this.iD_of_reception_and_transfer_to_workTextBox.Size = new System.Drawing.Size(91, 30);
+            this.iD_of_reception_and_transfer_to_workTextBox.TabIndex = 1;
             // 
             // dateDateTimePicker
             // 
-            this.dateDateTimePicker.Font = new System.Drawing.Font("Sitka Banner", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.dateDateTimePicker.Location = new System.Drawing.Point(140, 138);
+            this.dateDateTimePicker.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.reception_and_transferBindingSource, "Date", true));
+            this.dateDateTimePicker.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.dateDateTimePicker.Location = new System.Drawing.Point(194, 172);
             this.dateDateTimePicker.Name = "dateDateTimePicker";
-            this.dateDateTimePicker.Size = new System.Drawing.Size(215, 33);
-            this.dateDateTimePicker.TabIndex = 21;
+            this.dateDateTimePicker.Size = new System.Drawing.Size(200, 30);
+            this.dateDateTimePicker.TabIndex = 3;
+            // 
+            // structural_subdivisionTextBox
+            // 
+            this.structural_subdivisionTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.reception_and_transferBindingSource, "Structural_subdivision", true));
+            this.structural_subdivisionTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.structural_subdivisionTextBox.Location = new System.Drawing.Point(598, 217);
+            this.structural_subdivisionTextBox.Name = "structural_subdivisionTextBox";
+            this.structural_subdivisionTextBox.Size = new System.Drawing.Size(200, 30);
+            this.structural_subdivisionTextBox.TabIndex = 5;
+            // 
+            // positionTextBox
+            // 
+            this.positionTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.reception_and_transferBindingSource, "Position", true));
+            this.positionTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.positionTextBox.Location = new System.Drawing.Point(302, 265);
+            this.positionTextBox.Name = "positionTextBox";
+            this.positionTextBox.Size = new System.Drawing.Size(200, 30);
+            this.positionTextBox.TabIndex = 7;
+            // 
+            // tariff_rateTextBox
+            // 
+            this.tariff_rateTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.reception_and_transferBindingSource, "Tariff_rate", true));
+            this.tariff_rateTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.tariff_rateTextBox.Location = new System.Drawing.Point(411, 313);
+            this.tariff_rateTextBox.Name = "tariff_rateTextBox";
+            this.tariff_rateTextBox.Size = new System.Drawing.Size(200, 30);
+            this.tariff_rateTextBox.TabIndex = 9;
             // 
             // buttonAdd4
             // 
@@ -1991,6 +2426,7 @@
             // tabPage4
             // 
             this.tabPage4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.tabPage4.Controls.Add(this.bindingNavigator4);
             this.tabPage4.Controls.Add(this.button17);
             this.tabPage4.Controls.Add(this.button6);
             this.tabPage4.Controls.Add(this.groupBox11);
@@ -1999,9 +2435,97 @@
             this.tabPage4.Location = new System.Drawing.Point(4, 29);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(1280, 623);
+            this.tabPage4.Size = new System.Drawing.Size(1280, 664);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Квалификация";
+            // 
+            // bindingNavigator4
+            // 
+            this.bindingNavigator4.AddNewItem = this.toolStripButton16;
+            this.bindingNavigator4.BindingSource = this.advanced_trainingBindingSource;
+            this.bindingNavigator4.CountItem = null;
+            this.bindingNavigator4.DeleteItem = this.toolStripButton17;
+            this.bindingNavigator4.Dock = System.Windows.Forms.DockStyle.None;
+            this.bindingNavigator4.ImageScalingSize = new System.Drawing.Size(24, 24);
+            this.bindingNavigator4.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripButton18,
+            this.toolStripTextBox4,
+            this.toolStripButton19,
+            this.toolStripButton16,
+            this.toolStripButton17,
+            this.toolStripButton20});
+            this.bindingNavigator4.Location = new System.Drawing.Point(1105, 38);
+            this.bindingNavigator4.MoveFirstItem = null;
+            this.bindingNavigator4.MoveLastItem = null;
+            this.bindingNavigator4.MoveNextItem = this.toolStripButton19;
+            this.bindingNavigator4.MovePreviousItem = this.toolStripButton18;
+            this.bindingNavigator4.Name = "bindingNavigator4";
+            this.bindingNavigator4.PositionItem = this.toolStripTextBox4;
+            this.bindingNavigator4.Size = new System.Drawing.Size(136, 32);
+            this.bindingNavigator4.TabIndex = 58;
+            this.bindingNavigator4.Text = "bindingNavigator4";
+            // 
+            // toolStripButton16
+            // 
+            this.toolStripButton16.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton16.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton16.Image")));
+            this.toolStripButton16.Name = "toolStripButton16";
+            this.toolStripButton16.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton16.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton16.Text = "Добавить";
+            this.toolStripButton16.Visible = false;
+            // 
+            // advanced_trainingBindingSource
+            // 
+            this.advanced_trainingBindingSource.DataMember = "Advanced_training";
+            this.advanced_trainingBindingSource.DataSource = this.personal_cardsDataSet;
+            // 
+            // toolStripButton17
+            // 
+            this.toolStripButton17.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton17.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton17.Image")));
+            this.toolStripButton17.Name = "toolStripButton17";
+            this.toolStripButton17.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton17.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton17.Text = "Удалить";
+            this.toolStripButton17.Visible = false;
+            // 
+            // toolStripButton18
+            // 
+            this.toolStripButton18.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton18.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton18.Image")));
+            this.toolStripButton18.Name = "toolStripButton18";
+            this.toolStripButton18.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton18.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton18.Text = "Переместить назад";
+            // 
+            // toolStripTextBox4
+            // 
+            this.toolStripTextBox4.AccessibleName = "Положение";
+            this.toolStripTextBox4.AutoSize = false;
+            this.toolStripTextBox4.Font = new System.Drawing.Font("Segoe UI", 9.191489F);
+            this.toolStripTextBox4.Name = "toolStripTextBox4";
+            this.toolStripTextBox4.Size = new System.Drawing.Size(50, 31);
+            this.toolStripTextBox4.Text = "0";
+            this.toolStripTextBox4.ToolTipText = "Текущее положение";
+            // 
+            // toolStripButton19
+            // 
+            this.toolStripButton19.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton19.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton19.Image")));
+            this.toolStripButton19.Name = "toolStripButton19";
+            this.toolStripButton19.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton19.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton19.Text = "Переместить вперед";
+            // 
+            // toolStripButton20
+            // 
+            this.toolStripButton20.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton20.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton20.Image")));
+            this.toolStripButton20.Name = "toolStripButton20";
+            this.toolStripButton20.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton20.Text = "Сохранить данные";
+            this.toolStripButton20.Visible = false;
             // 
             // button17
             // 
@@ -2031,103 +2555,112 @@
             // groupBox11
             // 
             this.groupBox11.Controls.Add(iD_qualificationLabel);
-            this.groupBox11.Controls.Add(this.ID_qualificationTextBox);
-            this.groupBox11.Controls.Add(label2);
-            this.groupBox11.Controls.Add(this.dateTimePicker2);
-            this.groupBox11.Controls.Add(series_document_numberLabel);
-            this.groupBox11.Controls.Add(this.series_document_numberTextBox);
-            this.groupBox11.Controls.Add(document_nameLabel);
-            this.groupBox11.Controls.Add(this.document_nameTextBox);
-            this.groupBox11.Controls.Add(its_locationLabel);
-            this.groupBox11.Controls.Add(this.its_locationTextBox);
-            this.groupBox11.Controls.Add(name_of_educational_institutionLabel);
-            this.groupBox11.Controls.Add(this.name_of_educational_institutionTextBox);
-            this.groupBox11.Controls.Add(type_of_qualificationLabel);
-            this.groupBox11.Controls.Add(this.type_of_qualificationTextBox);
-            this.groupBox11.Controls.Add(the_end_of_the_trainingLabel);
-            this.groupBox11.Controls.Add(this.the_end_of_the_trainingDateTimePicker);
+            this.groupBox11.Controls.Add(this.iD_qualificationTextBox);
             this.groupBox11.Controls.Add(beginning_of_trainingLabel);
             this.groupBox11.Controls.Add(this.beginning_of_trainingDateTimePicker);
+            this.groupBox11.Controls.Add(the_end_of_the_trainingLabel);
+            this.groupBox11.Controls.Add(this.the_end_of_the_trainingDateTimePicker);
+            this.groupBox11.Controls.Add(type_of_qualificationLabel);
+            this.groupBox11.Controls.Add(this.type_of_qualificationTextBox);
+            this.groupBox11.Controls.Add(name_of_educational_institutionLabel);
+            this.groupBox11.Controls.Add(this.name_of_educational_institutionTextBox);
+            this.groupBox11.Controls.Add(its_locationLabel);
+            this.groupBox11.Controls.Add(this.its_locationTextBox);
+            this.groupBox11.Controls.Add(document_nameLabel);
+            this.groupBox11.Controls.Add(this.document_nameTextBox);
+            this.groupBox11.Controls.Add(series_document_numberLabel);
+            this.groupBox11.Controls.Add(this.series_document_numberTextBox);
+            this.groupBox11.Controls.Add(dateLabel1);
+            this.groupBox11.Controls.Add(this.dateDateTimePicker1);
             this.groupBox11.Font = new System.Drawing.Font("Sitka Banner", 13.78723F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.groupBox11.ForeColor = System.Drawing.Color.Yellow;
             this.groupBox11.Location = new System.Drawing.Point(29, 26);
             this.groupBox11.Name = "groupBox11";
-            this.groupBox11.Size = new System.Drawing.Size(1012, 464);
+            this.groupBox11.Size = new System.Drawing.Size(1012, 539);
             this.groupBox11.TabIndex = 0;
             this.groupBox11.TabStop = false;
             this.groupBox11.Text = "Повышение квалификации";
             // 
-            // ID_qualificationTextBox
+            // iD_qualificationTextBox
             // 
-            this.ID_qualificationTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ID_qualificationTextBox.Location = new System.Drawing.Point(279, 49);
-            this.ID_qualificationTextBox.Name = "ID_qualificationTextBox";
-            this.ID_qualificationTextBox.Size = new System.Drawing.Size(81, 30);
-            this.ID_qualificationTextBox.TabIndex = 39;
-            // 
-            // dateTimePicker2
-            // 
-            this.dateTimePicker2.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.dateTimePicker2.Location = new System.Drawing.Point(106, 410);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(200, 30);
-            this.dateTimePicker2.TabIndex = 37;
-            // 
-            // series_document_numberTextBox
-            // 
-            this.series_document_numberTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.series_document_numberTextBox.Location = new System.Drawing.Point(388, 364);
-            this.series_document_numberTextBox.Name = "series_document_numberTextBox";
-            this.series_document_numberTextBox.Size = new System.Drawing.Size(242, 30);
-            this.series_document_numberTextBox.TabIndex = 35;
-            // 
-            // document_nameTextBox
-            // 
-            this.document_nameTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.document_nameTextBox.Location = new System.Drawing.Point(388, 319);
-            this.document_nameTextBox.Name = "document_nameTextBox";
-            this.document_nameTextBox.Size = new System.Drawing.Size(242, 30);
-            this.document_nameTextBox.TabIndex = 33;
-            // 
-            // its_locationTextBox
-            // 
-            this.its_locationTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.its_locationTextBox.Location = new System.Drawing.Point(343, 274);
-            this.its_locationTextBox.Name = "its_locationTextBox";
-            this.its_locationTextBox.Size = new System.Drawing.Size(242, 30);
-            this.its_locationTextBox.TabIndex = 31;
-            // 
-            // name_of_educational_institutionTextBox
-            // 
-            this.name_of_educational_institutionTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.name_of_educational_institutionTextBox.Location = new System.Drawing.Point(618, 229);
-            this.name_of_educational_institutionTextBox.Name = "name_of_educational_institutionTextBox";
-            this.name_of_educational_institutionTextBox.Size = new System.Drawing.Size(369, 30);
-            this.name_of_educational_institutionTextBox.TabIndex = 29;
-            // 
-            // type_of_qualificationTextBox
-            // 
-            this.type_of_qualificationTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.type_of_qualificationTextBox.Location = new System.Drawing.Point(468, 184);
-            this.type_of_qualificationTextBox.Name = "type_of_qualificationTextBox";
-            this.type_of_qualificationTextBox.Size = new System.Drawing.Size(213, 30);
-            this.type_of_qualificationTextBox.TabIndex = 27;
-            // 
-            // the_end_of_the_trainingDateTimePicker
-            // 
-            this.the_end_of_the_trainingDateTimePicker.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.the_end_of_the_trainingDateTimePicker.Location = new System.Drawing.Point(288, 140);
-            this.the_end_of_the_trainingDateTimePicker.Name = "the_end_of_the_trainingDateTimePicker";
-            this.the_end_of_the_trainingDateTimePicker.Size = new System.Drawing.Size(200, 30);
-            this.the_end_of_the_trainingDateTimePicker.TabIndex = 25;
+            this.iD_qualificationTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.advanced_trainingBindingSource, "ID_qualification", true));
+            this.iD_qualificationTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.iD_qualificationTextBox.Location = new System.Drawing.Point(325, 69);
+            this.iD_qualificationTextBox.Name = "iD_qualificationTextBox";
+            this.iD_qualificationTextBox.Size = new System.Drawing.Size(68, 30);
+            this.iD_qualificationTextBox.TabIndex = 1;
             // 
             // beginning_of_trainingDateTimePicker
             // 
-            this.beginning_of_trainingDateTimePicker.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.beginning_of_trainingDateTimePicker.Location = new System.Drawing.Point(288, 95);
+            this.beginning_of_trainingDateTimePicker.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.advanced_trainingBindingSource, "Beginning_of_training", true));
+            this.beginning_of_trainingDateTimePicker.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.beginning_of_trainingDateTimePicker.Location = new System.Drawing.Point(333, 117);
             this.beginning_of_trainingDateTimePicker.Name = "beginning_of_trainingDateTimePicker";
             this.beginning_of_trainingDateTimePicker.Size = new System.Drawing.Size(200, 30);
-            this.beginning_of_trainingDateTimePicker.TabIndex = 23;
+            this.beginning_of_trainingDateTimePicker.TabIndex = 3;
+            // 
+            // the_end_of_the_trainingDateTimePicker
+            // 
+            this.the_end_of_the_trainingDateTimePicker.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.advanced_trainingBindingSource, "The_end_of_the_training", true));
+            this.the_end_of_the_trainingDateTimePicker.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.the_end_of_the_trainingDateTimePicker.Location = new System.Drawing.Point(333, 166);
+            this.the_end_of_the_trainingDateTimePicker.Name = "the_end_of_the_trainingDateTimePicker";
+            this.the_end_of_the_trainingDateTimePicker.Size = new System.Drawing.Size(200, 30);
+            this.the_end_of_the_trainingDateTimePicker.TabIndex = 5;
+            // 
+            // type_of_qualificationTextBox
+            // 
+            this.type_of_qualificationTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.advanced_trainingBindingSource, "Type_of_qualification", true));
+            this.type_of_qualificationTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.type_of_qualificationTextBox.Location = new System.Drawing.Point(548, 215);
+            this.type_of_qualificationTextBox.Name = "type_of_qualificationTextBox";
+            this.type_of_qualificationTextBox.Size = new System.Drawing.Size(200, 30);
+            this.type_of_qualificationTextBox.TabIndex = 7;
+            // 
+            // name_of_educational_institutionTextBox
+            // 
+            this.name_of_educational_institutionTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.advanced_trainingBindingSource, "Name_of_educational_institution", true));
+            this.name_of_educational_institutionTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.name_of_educational_institutionTextBox.Location = new System.Drawing.Point(722, 271);
+            this.name_of_educational_institutionTextBox.Name = "name_of_educational_institutionTextBox";
+            this.name_of_educational_institutionTextBox.Size = new System.Drawing.Size(200, 30);
+            this.name_of_educational_institutionTextBox.TabIndex = 9;
+            // 
+            // its_locationTextBox
+            // 
+            this.its_locationTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.advanced_trainingBindingSource, "Its_location", true));
+            this.its_locationTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.its_locationTextBox.Location = new System.Drawing.Point(413, 311);
+            this.its_locationTextBox.Name = "its_locationTextBox";
+            this.its_locationTextBox.Size = new System.Drawing.Size(308, 30);
+            this.its_locationTextBox.TabIndex = 11;
+            // 
+            // document_nameTextBox
+            // 
+            this.document_nameTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.advanced_trainingBindingSource, "Document_name", true));
+            this.document_nameTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.document_nameTextBox.Location = new System.Drawing.Point(469, 359);
+            this.document_nameTextBox.Name = "document_nameTextBox";
+            this.document_nameTextBox.Size = new System.Drawing.Size(200, 30);
+            this.document_nameTextBox.TabIndex = 13;
+            // 
+            // series_document_numberTextBox
+            // 
+            this.series_document_numberTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.advanced_trainingBindingSource, "Series_document_number", true));
+            this.series_document_numberTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.series_document_numberTextBox.Location = new System.Drawing.Point(469, 411);
+            this.series_document_numberTextBox.Name = "series_document_numberTextBox";
+            this.series_document_numberTextBox.Size = new System.Drawing.Size(200, 30);
+            this.series_document_numberTextBox.TabIndex = 15;
+            // 
+            // dateDateTimePicker1
+            // 
+            this.dateDateTimePicker1.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.advanced_trainingBindingSource, "Date", true));
+            this.dateDateTimePicker1.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.dateDateTimePicker1.Location = new System.Drawing.Point(139, 455);
+            this.dateDateTimePicker1.Name = "dateDateTimePicker1";
+            this.dateDateTimePicker1.Size = new System.Drawing.Size(200, 30);
+            this.dateDateTimePicker1.TabIndex = 17;
             // 
             // buttonAdd5
             // 
@@ -2144,6 +2677,7 @@
             // tabPage5
             // 
             this.tabPage5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.tabPage5.Controls.Add(this.bindingNavigator5);
             this.tabPage5.Controls.Add(this.buttonBack18);
             this.tabPage5.Controls.Add(this.button7);
             this.tabPage5.Controls.Add(this.buttonAdd6);
@@ -2152,9 +2686,97 @@
             this.tabPage5.Location = new System.Drawing.Point(4, 29);
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(1280, 623);
+            this.tabPage5.Size = new System.Drawing.Size(1280, 664);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "Отпуск";
+            // 
+            // bindingNavigator5
+            // 
+            this.bindingNavigator5.AddNewItem = this.toolStripButton21;
+            this.bindingNavigator5.BindingSource = this.vacationBindingSource;
+            this.bindingNavigator5.CountItem = null;
+            this.bindingNavigator5.DeleteItem = this.toolStripButton22;
+            this.bindingNavigator5.Dock = System.Windows.Forms.DockStyle.None;
+            this.bindingNavigator5.ImageScalingSize = new System.Drawing.Size(24, 24);
+            this.bindingNavigator5.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripButton23,
+            this.toolStripTextBox5,
+            this.toolStripButton24,
+            this.toolStripButton21,
+            this.toolStripButton22,
+            this.toolStripButton25});
+            this.bindingNavigator5.Location = new System.Drawing.Point(1094, 60);
+            this.bindingNavigator5.MoveFirstItem = null;
+            this.bindingNavigator5.MoveLastItem = null;
+            this.bindingNavigator5.MoveNextItem = this.toolStripButton24;
+            this.bindingNavigator5.MovePreviousItem = this.toolStripButton23;
+            this.bindingNavigator5.Name = "bindingNavigator5";
+            this.bindingNavigator5.PositionItem = this.toolStripTextBox5;
+            this.bindingNavigator5.Size = new System.Drawing.Size(136, 32);
+            this.bindingNavigator5.TabIndex = 58;
+            this.bindingNavigator5.Text = "bindingNavigator5";
+            // 
+            // toolStripButton21
+            // 
+            this.toolStripButton21.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton21.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton21.Image")));
+            this.toolStripButton21.Name = "toolStripButton21";
+            this.toolStripButton21.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton21.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton21.Text = "Добавить";
+            this.toolStripButton21.Visible = false;
+            // 
+            // vacationBindingSource
+            // 
+            this.vacationBindingSource.DataMember = "Vacation";
+            this.vacationBindingSource.DataSource = this.personal_cardsDataSet;
+            // 
+            // toolStripButton22
+            // 
+            this.toolStripButton22.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton22.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton22.Image")));
+            this.toolStripButton22.Name = "toolStripButton22";
+            this.toolStripButton22.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton22.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton22.Text = "Удалить";
+            this.toolStripButton22.Visible = false;
+            // 
+            // toolStripButton23
+            // 
+            this.toolStripButton23.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton23.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton23.Image")));
+            this.toolStripButton23.Name = "toolStripButton23";
+            this.toolStripButton23.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton23.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton23.Text = "Переместить назад";
+            // 
+            // toolStripTextBox5
+            // 
+            this.toolStripTextBox5.AccessibleName = "Положение";
+            this.toolStripTextBox5.AutoSize = false;
+            this.toolStripTextBox5.Font = new System.Drawing.Font("Segoe UI", 9.191489F);
+            this.toolStripTextBox5.Name = "toolStripTextBox5";
+            this.toolStripTextBox5.Size = new System.Drawing.Size(50, 31);
+            this.toolStripTextBox5.Text = "0";
+            this.toolStripTextBox5.ToolTipText = "Текущее положение";
+            // 
+            // toolStripButton24
+            // 
+            this.toolStripButton24.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton24.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton24.Image")));
+            this.toolStripButton24.Name = "toolStripButton24";
+            this.toolStripButton24.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton24.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton24.Text = "Переместить вперед";
+            // 
+            // toolStripButton25
+            // 
+            this.toolStripButton25.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton25.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton25.Image")));
+            this.toolStripButton25.Name = "toolStripButton25";
+            this.toolStripButton25.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton25.Text = "Сохранить данные";
+            this.toolStripButton25.Visible = false;
             // 
             // buttonBack18
             // 
@@ -2196,87 +2818,95 @@
             // groupBox12
             // 
             this.groupBox12.Controls.Add(iD_vacationLabel);
-            this.groupBox12.Controls.Add(this.ID_vacationTextBox);
-            this.groupBox12.Controls.Add(expiry_dateLabel);
-            this.groupBox12.Controls.Add(this.expiry_dateDateTimePicker);
-            this.groupBox12.Controls.Add(start_dateLabel);
-            this.groupBox12.Controls.Add(this.start_dateDateTimePicker);
-            this.groupBox12.Controls.Add(number_of_vacation_daysLabel);
-            this.groupBox12.Controls.Add(this.number_of_vacation_daysTextBox);
-            this.groupBox12.Controls.Add(period_of_work_onLabel);
-            this.groupBox12.Controls.Add(this.period_of_work_onDateTimePicker);
-            this.groupBox12.Controls.Add(working_period_withLabel);
-            this.groupBox12.Controls.Add(this.working_period_withDateTimePicker);
+            this.groupBox12.Controls.Add(this.iD_vacationTextBox);
             this.groupBox12.Controls.Add(type_of_vacationLabel);
             this.groupBox12.Controls.Add(this.type_of_vacationTextBox);
+            this.groupBox12.Controls.Add(working_period_withLabel);
+            this.groupBox12.Controls.Add(this.working_period_withDateTimePicker);
+            this.groupBox12.Controls.Add(period_of_work_onLabel);
+            this.groupBox12.Controls.Add(this.period_of_work_onDateTimePicker);
+            this.groupBox12.Controls.Add(number_of_vacation_daysLabel);
+            this.groupBox12.Controls.Add(this.number_of_vacation_daysTextBox);
+            this.groupBox12.Controls.Add(start_dateLabel);
+            this.groupBox12.Controls.Add(this.start_dateDateTimePicker);
+            this.groupBox12.Controls.Add(expiry_dateLabel);
+            this.groupBox12.Controls.Add(this.expiry_dateDateTimePicker);
             this.groupBox12.Font = new System.Drawing.Font("Sitka Banner", 13.78723F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.groupBox12.ForeColor = System.Drawing.Color.Yellow;
-            this.groupBox12.Location = new System.Drawing.Point(319, 41);
+            this.groupBox12.Location = new System.Drawing.Point(292, 44);
             this.groupBox12.Name = "groupBox12";
-            this.groupBox12.Size = new System.Drawing.Size(654, 455);
+            this.groupBox12.Size = new System.Drawing.Size(669, 489);
             this.groupBox12.TabIndex = 0;
             this.groupBox12.TabStop = false;
             this.groupBox12.Text = "Отпуск";
             // 
-            // ID_vacationTextBox
+            // iD_vacationTextBox
             // 
-            this.ID_vacationTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ID_vacationTextBox.Location = new System.Drawing.Point(171, 46);
-            this.ID_vacationTextBox.Name = "ID_vacationTextBox";
-            this.ID_vacationTextBox.Size = new System.Drawing.Size(73, 30);
-            this.ID_vacationTextBox.TabIndex = 31;
-            // 
-            // expiry_dateDateTimePicker
-            // 
-            this.expiry_dateDateTimePicker.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.expiry_dateDateTimePicker.Location = new System.Drawing.Point(250, 399);
-            this.expiry_dateDateTimePicker.Name = "expiry_dateDateTimePicker";
-            this.expiry_dateDateTimePicker.Size = new System.Drawing.Size(178, 30);
-            this.expiry_dateDateTimePicker.TabIndex = 29;
-            // 
-            // start_dateDateTimePicker
-            // 
-            this.start_dateDateTimePicker.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.start_dateDateTimePicker.Location = new System.Drawing.Point(204, 337);
-            this.start_dateDateTimePicker.Name = "start_dateDateTimePicker";
-            this.start_dateDateTimePicker.Size = new System.Drawing.Size(179, 30);
-            this.start_dateDateTimePicker.TabIndex = 27;
-            // 
-            // number_of_vacation_daysTextBox
-            // 
-            this.number_of_vacation_daysTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.number_of_vacation_daysTextBox.Location = new System.Drawing.Point(359, 286);
-            this.number_of_vacation_daysTextBox.Name = "number_of_vacation_daysTextBox";
-            this.number_of_vacation_daysTextBox.Size = new System.Drawing.Size(144, 30);
-            this.number_of_vacation_daysTextBox.TabIndex = 25;
-            // 
-            // period_of_work_onDateTimePicker
-            // 
-            this.period_of_work_onDateTimePicker.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.period_of_work_onDateTimePicker.Location = new System.Drawing.Point(268, 196);
-            this.period_of_work_onDateTimePicker.Name = "period_of_work_onDateTimePicker";
-            this.period_of_work_onDateTimePicker.Size = new System.Drawing.Size(200, 30);
-            this.period_of_work_onDateTimePicker.TabIndex = 23;
-            // 
-            // working_period_withDateTimePicker
-            // 
-            this.working_period_withDateTimePicker.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.working_period_withDateTimePicker.Location = new System.Drawing.Point(250, 143);
-            this.working_period_withDateTimePicker.Name = "working_period_withDateTimePicker";
-            this.working_period_withDateTimePicker.Size = new System.Drawing.Size(200, 30);
-            this.working_period_withDateTimePicker.TabIndex = 21;
+            this.iD_vacationTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.vacationBindingSource, "ID_vacation", true));
+            this.iD_vacationTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.iD_vacationTextBox.Location = new System.Drawing.Point(215, 67);
+            this.iD_vacationTextBox.Name = "iD_vacationTextBox";
+            this.iD_vacationTextBox.Size = new System.Drawing.Size(75, 30);
+            this.iD_vacationTextBox.TabIndex = 1;
             // 
             // type_of_vacationTextBox
             // 
-            this.type_of_vacationTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.type_of_vacationTextBox.Location = new System.Drawing.Point(194, 88);
+            this.type_of_vacationTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.vacationBindingSource, "Type_of_vacation", true));
+            this.type_of_vacationTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.type_of_vacationTextBox.Location = new System.Drawing.Point(242, 116);
             this.type_of_vacationTextBox.Name = "type_of_vacationTextBox";
-            this.type_of_vacationTextBox.Size = new System.Drawing.Size(200, 30);
-            this.type_of_vacationTextBox.TabIndex = 19;
+            this.type_of_vacationTextBox.Size = new System.Drawing.Size(202, 30);
+            this.type_of_vacationTextBox.TabIndex = 3;
+            // 
+            // working_period_withDateTimePicker
+            // 
+            this.working_period_withDateTimePicker.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.vacationBindingSource, "Working_period_with", true));
+            this.working_period_withDateTimePicker.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.working_period_withDateTimePicker.Location = new System.Drawing.Point(310, 165);
+            this.working_period_withDateTimePicker.Name = "working_period_withDateTimePicker";
+            this.working_period_withDateTimePicker.Size = new System.Drawing.Size(200, 30);
+            this.working_period_withDateTimePicker.TabIndex = 5;
+            // 
+            // period_of_work_onDateTimePicker
+            // 
+            this.period_of_work_onDateTimePicker.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.vacationBindingSource, "Period_of_work_on", true));
+            this.period_of_work_onDateTimePicker.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.period_of_work_onDateTimePicker.Location = new System.Drawing.Point(329, 213);
+            this.period_of_work_onDateTimePicker.Name = "period_of_work_onDateTimePicker";
+            this.period_of_work_onDateTimePicker.Size = new System.Drawing.Size(200, 30);
+            this.period_of_work_onDateTimePicker.TabIndex = 7;
+            // 
+            // number_of_vacation_daysTextBox
+            // 
+            this.number_of_vacation_daysTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.vacationBindingSource, "Number_of_vacation_days", true));
+            this.number_of_vacation_daysTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.number_of_vacation_daysTextBox.Location = new System.Drawing.Point(421, 302);
+            this.number_of_vacation_daysTextBox.Name = "number_of_vacation_daysTextBox";
+            this.number_of_vacation_daysTextBox.Size = new System.Drawing.Size(224, 30);
+            this.number_of_vacation_daysTextBox.TabIndex = 9;
+            // 
+            // start_dateDateTimePicker
+            // 
+            this.start_dateDateTimePicker.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.vacationBindingSource, "Start_date", true));
+            this.start_dateDateTimePicker.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.start_dateDateTimePicker.Location = new System.Drawing.Point(265, 358);
+            this.start_dateDateTimePicker.Name = "start_dateDateTimePicker";
+            this.start_dateDateTimePicker.Size = new System.Drawing.Size(200, 30);
+            this.start_dateDateTimePicker.TabIndex = 11;
+            // 
+            // expiry_dateDateTimePicker
+            // 
+            this.expiry_dateDateTimePicker.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.vacationBindingSource, "Expiry_date", true));
+            this.expiry_dateDateTimePicker.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.expiry_dateDateTimePicker.Location = new System.Drawing.Point(329, 407);
+            this.expiry_dateDateTimePicker.Name = "expiry_dateDateTimePicker";
+            this.expiry_dateDateTimePicker.Size = new System.Drawing.Size(200, 30);
+            this.expiry_dateDateTimePicker.TabIndex = 13;
             // 
             // tabPage6
             // 
             this.tabPage6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.tabPage6.Controls.Add(this.bindingNavigator6);
             this.tabPage6.Controls.Add(this.buttonBack19);
             this.tabPage6.Controls.Add(this.button8);
             this.tabPage6.Controls.Add(this.buttonAdd12);
@@ -2285,16 +2915,104 @@
             this.tabPage6.Location = new System.Drawing.Point(4, 29);
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(1280, 623);
+            this.tabPage6.Size = new System.Drawing.Size(1280, 664);
             this.tabPage6.TabIndex = 5;
             this.tabPage6.Text = "Уровень образования";
+            // 
+            // bindingNavigator6
+            // 
+            this.bindingNavigator6.AddNewItem = this.toolStripButton26;
+            this.bindingNavigator6.BindingSource = this.level_of_educationBindingSource;
+            this.bindingNavigator6.CountItem = null;
+            this.bindingNavigator6.DeleteItem = this.toolStripButton27;
+            this.bindingNavigator6.Dock = System.Windows.Forms.DockStyle.None;
+            this.bindingNavigator6.ImageScalingSize = new System.Drawing.Size(24, 24);
+            this.bindingNavigator6.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripButton28,
+            this.toolStripTextBox6,
+            this.toolStripButton29,
+            this.toolStripButton26,
+            this.toolStripButton27,
+            this.toolStripButton30});
+            this.bindingNavigator6.Location = new System.Drawing.Point(1071, 52);
+            this.bindingNavigator6.MoveFirstItem = null;
+            this.bindingNavigator6.MoveLastItem = null;
+            this.bindingNavigator6.MoveNextItem = this.toolStripButton29;
+            this.bindingNavigator6.MovePreviousItem = this.toolStripButton28;
+            this.bindingNavigator6.Name = "bindingNavigator6";
+            this.bindingNavigator6.PositionItem = this.toolStripTextBox6;
+            this.bindingNavigator6.Size = new System.Drawing.Size(136, 32);
+            this.bindingNavigator6.TabIndex = 58;
+            this.bindingNavigator6.Text = "bindingNavigator6";
+            // 
+            // toolStripButton26
+            // 
+            this.toolStripButton26.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton26.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton26.Image")));
+            this.toolStripButton26.Name = "toolStripButton26";
+            this.toolStripButton26.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton26.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton26.Text = "Добавить";
+            this.toolStripButton26.Visible = false;
+            // 
+            // level_of_educationBindingSource
+            // 
+            this.level_of_educationBindingSource.DataMember = "Level_of_education";
+            this.level_of_educationBindingSource.DataSource = this.personal_cardsDataSet;
+            // 
+            // toolStripButton27
+            // 
+            this.toolStripButton27.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton27.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton27.Image")));
+            this.toolStripButton27.Name = "toolStripButton27";
+            this.toolStripButton27.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton27.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton27.Text = "Удалить";
+            this.toolStripButton27.Visible = false;
+            // 
+            // toolStripButton28
+            // 
+            this.toolStripButton28.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton28.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton28.Image")));
+            this.toolStripButton28.Name = "toolStripButton28";
+            this.toolStripButton28.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton28.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton28.Text = "Переместить назад";
+            // 
+            // toolStripTextBox6
+            // 
+            this.toolStripTextBox6.AccessibleName = "Положение";
+            this.toolStripTextBox6.AutoSize = false;
+            this.toolStripTextBox6.Font = new System.Drawing.Font("Segoe UI", 9.191489F);
+            this.toolStripTextBox6.Name = "toolStripTextBox6";
+            this.toolStripTextBox6.Size = new System.Drawing.Size(50, 31);
+            this.toolStripTextBox6.Text = "0";
+            this.toolStripTextBox6.ToolTipText = "Текущее положение";
+            // 
+            // toolStripButton29
+            // 
+            this.toolStripButton29.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton29.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton29.Image")));
+            this.toolStripButton29.Name = "toolStripButton29";
+            this.toolStripButton29.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton29.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton29.Text = "Переместить вперед";
+            // 
+            // toolStripButton30
+            // 
+            this.toolStripButton30.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton30.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton30.Image")));
+            this.toolStripButton30.Name = "toolStripButton30";
+            this.toolStripButton30.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton30.Text = "Сохранить данные";
+            this.toolStripButton30.Visible = false;
             // 
             // buttonBack19
             // 
             this.buttonBack19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.buttonBack19.Font = new System.Drawing.Font("Times New Roman", 12.25532F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonBack19.ForeColor = System.Drawing.Color.Black;
-            this.buttonBack19.Location = new System.Drawing.Point(1119, 329);
+            this.buttonBack19.Location = new System.Drawing.Point(1071, 329);
             this.buttonBack19.Name = "buttonBack19";
             this.buttonBack19.Size = new System.Drawing.Size(131, 49);
             this.buttonBack19.TabIndex = 55;
@@ -2306,7 +3024,7 @@
             // 
             this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.button8.Font = new System.Drawing.Font("Times New Roman", 12.25532F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button8.Location = new System.Drawing.Point(1119, 258);
+            this.button8.Location = new System.Drawing.Point(1071, 258);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(131, 49);
             this.button8.TabIndex = 30;
@@ -2318,7 +3036,7 @@
             // 
             this.buttonAdd12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.buttonAdd12.Font = new System.Drawing.Font("Times New Roman", 12.25532F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonAdd12.Location = new System.Drawing.Point(1119, 203);
+            this.buttonAdd12.Location = new System.Drawing.Point(1071, 203);
             this.buttonAdd12.Name = "buttonAdd12";
             this.buttonAdd12.Size = new System.Drawing.Size(131, 49);
             this.buttonAdd12.TabIndex = 29;
@@ -2329,37 +3047,40 @@
             // groupBox13
             // 
             this.groupBox13.Controls.Add(iD_level_of_educationLabel);
-            this.groupBox13.Controls.Add(this.ID_level_of_educationTextBox);
+            this.groupBox13.Controls.Add(this.iD_level_of_educationTextBox);
             this.groupBox13.Controls.Add(level_of_educationLabel);
             this.groupBox13.Controls.Add(this.level_of_educationTextBox);
             this.groupBox13.Font = new System.Drawing.Font("Sitka Banner", 13.78723F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.groupBox13.ForeColor = System.Drawing.Color.Yellow;
-            this.groupBox13.Location = new System.Drawing.Point(229, 97);
+            this.groupBox13.Location = new System.Drawing.Point(159, 96);
             this.groupBox13.Name = "groupBox13";
             this.groupBox13.Size = new System.Drawing.Size(799, 315);
             this.groupBox13.TabIndex = 0;
             this.groupBox13.TabStop = false;
             this.groupBox13.Text = "Уровень образования";
             // 
-            // ID_level_of_educationTextBox
+            // iD_level_of_educationTextBox
             // 
-            this.ID_level_of_educationTextBox.Font = new System.Drawing.Font("Sitka Banner", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ID_level_of_educationTextBox.Location = new System.Drawing.Point(453, 134);
-            this.ID_level_of_educationTextBox.Name = "ID_level_of_educationTextBox";
-            this.ID_level_of_educationTextBox.Size = new System.Drawing.Size(100, 33);
-            this.ID_level_of_educationTextBox.TabIndex = 31;
+            this.iD_level_of_educationTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.level_of_educationBindingSource, "ID_level_of_education", true));
+            this.iD_level_of_educationTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.iD_level_of_educationTextBox.Location = new System.Drawing.Point(469, 145);
+            this.iD_level_of_educationTextBox.Name = "iD_level_of_educationTextBox";
+            this.iD_level_of_educationTextBox.Size = new System.Drawing.Size(100, 30);
+            this.iD_level_of_educationTextBox.TabIndex = 1;
             // 
             // level_of_educationTextBox
             // 
-            this.level_of_educationTextBox.Font = new System.Drawing.Font("Sitka Banner", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.level_of_educationTextBox.Location = new System.Drawing.Point(453, 202);
+            this.level_of_educationTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.level_of_educationBindingSource, "Level_of_education", true));
+            this.level_of_educationTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.level_of_educationTextBox.Location = new System.Drawing.Point(469, 193);
             this.level_of_educationTextBox.Name = "level_of_educationTextBox";
-            this.level_of_educationTextBox.Size = new System.Drawing.Size(323, 33);
-            this.level_of_educationTextBox.TabIndex = 29;
+            this.level_of_educationTextBox.Size = new System.Drawing.Size(307, 30);
+            this.level_of_educationTextBox.TabIndex = 3;
             // 
             // tabPage7
             // 
             this.tabPage7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.tabPage7.Controls.Add(this.bindingNavigator7);
             this.tabPage7.Controls.Add(this.buttonBack20);
             this.tabPage7.Controls.Add(this.button9);
             this.tabPage7.Controls.Add(this.buttonAdd7);
@@ -2368,9 +3089,97 @@
             this.tabPage7.Location = new System.Drawing.Point(4, 29);
             this.tabPage7.Name = "tabPage7";
             this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage7.Size = new System.Drawing.Size(1280, 623);
+            this.tabPage7.Size = new System.Drawing.Size(1280, 664);
             this.tabPage7.TabIndex = 6;
             this.tabPage7.Text = "Награды";
+            // 
+            // bindingNavigator7
+            // 
+            this.bindingNavigator7.AddNewItem = this.toolStripButton31;
+            this.bindingNavigator7.BindingSource = this.rewardsBindingSource;
+            this.bindingNavigator7.CountItem = null;
+            this.bindingNavigator7.DeleteItem = this.toolStripButton32;
+            this.bindingNavigator7.Dock = System.Windows.Forms.DockStyle.None;
+            this.bindingNavigator7.ImageScalingSize = new System.Drawing.Size(24, 24);
+            this.bindingNavigator7.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripButton33,
+            this.toolStripTextBox7,
+            this.toolStripButton34,
+            this.toolStripButton31,
+            this.toolStripButton32,
+            this.toolStripButton35});
+            this.bindingNavigator7.Location = new System.Drawing.Point(1113, 62);
+            this.bindingNavigator7.MoveFirstItem = null;
+            this.bindingNavigator7.MoveLastItem = null;
+            this.bindingNavigator7.MoveNextItem = this.toolStripButton34;
+            this.bindingNavigator7.MovePreviousItem = this.toolStripButton33;
+            this.bindingNavigator7.Name = "bindingNavigator7";
+            this.bindingNavigator7.PositionItem = this.toolStripTextBox7;
+            this.bindingNavigator7.Size = new System.Drawing.Size(136, 32);
+            this.bindingNavigator7.TabIndex = 58;
+            this.bindingNavigator7.Text = "bindingNavigator7";
+            // 
+            // toolStripButton31
+            // 
+            this.toolStripButton31.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton31.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton31.Image")));
+            this.toolStripButton31.Name = "toolStripButton31";
+            this.toolStripButton31.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton31.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton31.Text = "Добавить";
+            this.toolStripButton31.Visible = false;
+            // 
+            // rewardsBindingSource
+            // 
+            this.rewardsBindingSource.DataMember = "Rewards";
+            this.rewardsBindingSource.DataSource = this.personal_cardsDataSet;
+            // 
+            // toolStripButton32
+            // 
+            this.toolStripButton32.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton32.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton32.Image")));
+            this.toolStripButton32.Name = "toolStripButton32";
+            this.toolStripButton32.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton32.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton32.Text = "Удалить";
+            this.toolStripButton32.Visible = false;
+            // 
+            // toolStripButton33
+            // 
+            this.toolStripButton33.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton33.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton33.Image")));
+            this.toolStripButton33.Name = "toolStripButton33";
+            this.toolStripButton33.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton33.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton33.Text = "Переместить назад";
+            // 
+            // toolStripTextBox7
+            // 
+            this.toolStripTextBox7.AccessibleName = "Положение";
+            this.toolStripTextBox7.AutoSize = false;
+            this.toolStripTextBox7.Font = new System.Drawing.Font("Segoe UI", 9.191489F);
+            this.toolStripTextBox7.Name = "toolStripTextBox7";
+            this.toolStripTextBox7.Size = new System.Drawing.Size(50, 31);
+            this.toolStripTextBox7.Text = "0";
+            this.toolStripTextBox7.ToolTipText = "Текущее положение";
+            // 
+            // toolStripButton34
+            // 
+            this.toolStripButton34.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton34.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton34.Image")));
+            this.toolStripButton34.Name = "toolStripButton34";
+            this.toolStripButton34.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton34.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton34.Text = "Переместить вперед";
+            // 
+            // toolStripButton35
+            // 
+            this.toolStripButton35.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton35.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton35.Image")));
+            this.toolStripButton35.Name = "toolStripButton35";
+            this.toolStripButton35.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton35.Text = "Сохранить данные";
+            this.toolStripButton35.Visible = false;
             // 
             // buttonBack20
             // 
@@ -2412,57 +3221,62 @@
             // groupBox14
             // 
             this.groupBox14.Controls.Add(iD_rewardsLabel);
-            this.groupBox14.Controls.Add(this.ID_rewardsTextBox);
-            this.groupBox14.Controls.Add(label3);
-            this.groupBox14.Controls.Add(this.dateTimePicker3);
-            this.groupBox14.Controls.Add(numberLabel);
-            this.groupBox14.Controls.Add(this.NumberTextBox);
+            this.groupBox14.Controls.Add(this.iD_rewardsTextBox);
             this.groupBox14.Controls.Add(the_name_of_the_awardsLabel);
-            this.groupBox14.Controls.Add(this.The_name_of_the_awardsTextBox);
+            this.groupBox14.Controls.Add(this.the_name_of_the_awardsTextBox);
+            this.groupBox14.Controls.Add(numberLabel);
+            this.groupBox14.Controls.Add(this.numberTextBox);
+            this.groupBox14.Controls.Add(dateLabel2);
+            this.groupBox14.Controls.Add(this.dateDateTimePicker2);
             this.groupBox14.Font = new System.Drawing.Font("Sitka Banner", 13.78723F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.groupBox14.ForeColor = System.Drawing.Color.Yellow;
             this.groupBox14.Location = new System.Drawing.Point(259, 74);
             this.groupBox14.Name = "groupBox14";
-            this.groupBox14.Size = new System.Drawing.Size(755, 361);
+            this.groupBox14.Size = new System.Drawing.Size(755, 368);
             this.groupBox14.TabIndex = 0;
             this.groupBox14.TabStop = false;
             this.groupBox14.Text = "Награды";
             // 
-            // ID_rewardsTextBox
+            // iD_rewardsTextBox
             // 
-            this.ID_rewardsTextBox.Font = new System.Drawing.Font("Sitka Banner", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ID_rewardsTextBox.Location = new System.Drawing.Point(231, 78);
-            this.ID_rewardsTextBox.Name = "ID_rewardsTextBox";
-            this.ID_rewardsTextBox.Size = new System.Drawing.Size(68, 33);
-            this.ID_rewardsTextBox.TabIndex = 23;
+            this.iD_rewardsTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.rewardsBindingSource, "ID_rewards", true));
+            this.iD_rewardsTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.iD_rewardsTextBox.Location = new System.Drawing.Point(255, 112);
+            this.iD_rewardsTextBox.Name = "iD_rewardsTextBox";
+            this.iD_rewardsTextBox.Size = new System.Drawing.Size(76, 30);
+            this.iD_rewardsTextBox.TabIndex = 1;
             // 
-            // dateTimePicker3
+            // the_name_of_the_awardsTextBox
             // 
-            this.dateTimePicker3.Font = new System.Drawing.Font("Sitka Banner", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.dateTimePicker3.Location = new System.Drawing.Point(152, 276);
-            this.dateTimePicker3.Name = "dateTimePicker3";
-            this.dateTimePicker3.Size = new System.Drawing.Size(176, 33);
-            this.dateTimePicker3.TabIndex = 21;
+            this.the_name_of_the_awardsTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.rewardsBindingSource, "The_name_of_the_awards", true));
+            this.the_name_of_the_awardsTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.the_name_of_the_awardsTextBox.Location = new System.Drawing.Point(441, 160);
+            this.the_name_of_the_awardsTextBox.Name = "the_name_of_the_awardsTextBox";
+            this.the_name_of_the_awardsTextBox.Size = new System.Drawing.Size(249, 30);
+            this.the_name_of_the_awardsTextBox.TabIndex = 3;
             // 
-            // NumberTextBox
+            // numberTextBox
             // 
-            this.NumberTextBox.Font = new System.Drawing.Font("Sitka Banner", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.NumberTextBox.Location = new System.Drawing.Point(152, 208);
-            this.NumberTextBox.Name = "NumberTextBox";
-            this.NumberTextBox.Size = new System.Drawing.Size(129, 33);
-            this.NumberTextBox.TabIndex = 19;
+            this.numberTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.rewardsBindingSource, "Number", true));
+            this.numberTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.numberTextBox.Location = new System.Drawing.Point(317, 208);
+            this.numberTextBox.Name = "numberTextBox";
+            this.numberTextBox.Size = new System.Drawing.Size(249, 30);
+            this.numberTextBox.TabIndex = 5;
             // 
-            // The_name_of_the_awardsTextBox
+            // dateDateTimePicker2
             // 
-            this.The_name_of_the_awardsTextBox.Font = new System.Drawing.Font("Sitka Banner", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.The_name_of_the_awardsTextBox.Location = new System.Drawing.Point(459, 140);
-            this.The_name_of_the_awardsTextBox.Name = "The_name_of_the_awardsTextBox";
-            this.The_name_of_the_awardsTextBox.Size = new System.Drawing.Size(246, 33);
-            this.The_name_of_the_awardsTextBox.TabIndex = 17;
+            this.dateDateTimePicker2.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.rewardsBindingSource, "Date", true));
+            this.dateDateTimePicker2.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.dateDateTimePicker2.Location = new System.Drawing.Point(153, 256);
+            this.dateDateTimePicker2.Name = "dateDateTimePicker2";
+            this.dateDateTimePicker2.Size = new System.Drawing.Size(178, 30);
+            this.dateDateTimePicker2.TabIndex = 7;
             // 
             // tabPage8
             // 
             this.tabPage8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.tabPage8.Controls.Add(this.bindingNavigator8);
             this.tabPage8.Controls.Add(this.buttonBack21);
             this.tabPage8.Controls.Add(this.button10);
             this.tabPage8.Controls.Add(this.buttonAdd8);
@@ -2471,9 +3285,97 @@
             this.tabPage8.Location = new System.Drawing.Point(4, 29);
             this.tabPage8.Name = "tabPage8";
             this.tabPage8.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage8.Size = new System.Drawing.Size(1280, 623);
+            this.tabPage8.Size = new System.Drawing.Size(1280, 664);
             this.tabPage8.TabIndex = 7;
             this.tabPage8.Text = "Воинский учет";
+            // 
+            // bindingNavigator8
+            // 
+            this.bindingNavigator8.AddNewItem = this.toolStripButton36;
+            this.bindingNavigator8.BindingSource = this.military_registrationBindingSource;
+            this.bindingNavigator8.CountItem = null;
+            this.bindingNavigator8.DeleteItem = this.toolStripButton37;
+            this.bindingNavigator8.Dock = System.Windows.Forms.DockStyle.None;
+            this.bindingNavigator8.ImageScalingSize = new System.Drawing.Size(24, 24);
+            this.bindingNavigator8.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripButton38,
+            this.toolStripTextBox8,
+            this.toolStripButton39,
+            this.toolStripButton36,
+            this.toolStripButton37,
+            this.toolStripButton40});
+            this.bindingNavigator8.Location = new System.Drawing.Point(1106, 43);
+            this.bindingNavigator8.MoveFirstItem = null;
+            this.bindingNavigator8.MoveLastItem = null;
+            this.bindingNavigator8.MoveNextItem = this.toolStripButton39;
+            this.bindingNavigator8.MovePreviousItem = this.toolStripButton38;
+            this.bindingNavigator8.Name = "bindingNavigator8";
+            this.bindingNavigator8.PositionItem = this.toolStripTextBox8;
+            this.bindingNavigator8.Size = new System.Drawing.Size(136, 32);
+            this.bindingNavigator8.TabIndex = 58;
+            this.bindingNavigator8.Text = "bindingNavigator8";
+            // 
+            // toolStripButton36
+            // 
+            this.toolStripButton36.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton36.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton36.Image")));
+            this.toolStripButton36.Name = "toolStripButton36";
+            this.toolStripButton36.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton36.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton36.Text = "Добавить";
+            this.toolStripButton36.Visible = false;
+            // 
+            // military_registrationBindingSource
+            // 
+            this.military_registrationBindingSource.DataMember = "Military_registration";
+            this.military_registrationBindingSource.DataSource = this.personal_cardsDataSet;
+            // 
+            // toolStripButton37
+            // 
+            this.toolStripButton37.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton37.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton37.Image")));
+            this.toolStripButton37.Name = "toolStripButton37";
+            this.toolStripButton37.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton37.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton37.Text = "Удалить";
+            this.toolStripButton37.Visible = false;
+            // 
+            // toolStripButton38
+            // 
+            this.toolStripButton38.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton38.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton38.Image")));
+            this.toolStripButton38.Name = "toolStripButton38";
+            this.toolStripButton38.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton38.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton38.Text = "Переместить назад";
+            // 
+            // toolStripTextBox8
+            // 
+            this.toolStripTextBox8.AccessibleName = "Положение";
+            this.toolStripTextBox8.AutoSize = false;
+            this.toolStripTextBox8.Font = new System.Drawing.Font("Segoe UI", 9.191489F);
+            this.toolStripTextBox8.Name = "toolStripTextBox8";
+            this.toolStripTextBox8.Size = new System.Drawing.Size(50, 31);
+            this.toolStripTextBox8.Text = "0";
+            this.toolStripTextBox8.ToolTipText = "Текущее положение";
+            // 
+            // toolStripButton39
+            // 
+            this.toolStripButton39.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton39.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton39.Image")));
+            this.toolStripButton39.Name = "toolStripButton39";
+            this.toolStripButton39.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton39.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton39.Text = "Переместить вперед";
+            // 
+            // toolStripButton40
+            // 
+            this.toolStripButton40.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton40.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton40.Image")));
+            this.toolStripButton40.Name = "toolStripButton40";
+            this.toolStripButton40.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton40.Text = "Сохранить данные";
+            this.toolStripButton40.Visible = false;
             // 
             // buttonBack21
             // 
@@ -2515,87 +3417,95 @@
             // groupBox15
             // 
             this.groupBox15.Controls.Add(iD_military_registrationLabel);
-            this.groupBox15.Controls.Add(this.ID_military_registrationTextBox);
-            this.groupBox15.Controls.Add(the_name_of_the_military_commissariatLabel);
-            this.groupBox15.Controls.Add(this.the_name_of_the_military_commissariatTextBox);
-            this.groupBox15.Controls.Add(category_of_fitness_for_military_serviceLabel);
-            this.groupBox15.Controls.Add(this.category_of_fitness_for_military_serviceTextBox);
-            this.groupBox15.Controls.Add(full_code_designation_VUSLabel);
-            this.groupBox15.Controls.Add(this.full_code_designation_VUSTextBox);
-            this.groupBox15.Controls.Add(composition_profileLabel);
-            this.groupBox15.Controls.Add(this.composition_profileTextBox);
-            this.groupBox15.Controls.Add(military_rankLabel);
-            this.groupBox15.Controls.Add(this.military_rankTextBox);
+            this.groupBox15.Controls.Add(this.iD_military_registrationTextBox);
             this.groupBox15.Controls.Add(stock_categoryLabel);
             this.groupBox15.Controls.Add(this.stock_categoryTextBox);
+            this.groupBox15.Controls.Add(military_rankLabel);
+            this.groupBox15.Controls.Add(this.military_rankTextBox);
+            this.groupBox15.Controls.Add(composition_profileLabel);
+            this.groupBox15.Controls.Add(this.composition_profileTextBox);
+            this.groupBox15.Controls.Add(full_code_designation_VUSLabel);
+            this.groupBox15.Controls.Add(this.full_code_designation_VUSTextBox);
+            this.groupBox15.Controls.Add(category_of_fitness_for_military_serviceLabel);
+            this.groupBox15.Controls.Add(this.category_of_fitness_for_military_serviceTextBox);
+            this.groupBox15.Controls.Add(the_name_of_the_military_commissariatLabel);
+            this.groupBox15.Controls.Add(this.the_name_of_the_military_commissariatTextBox);
             this.groupBox15.Font = new System.Drawing.Font("Sitka Banner", 13.78723F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.groupBox15.ForeColor = System.Drawing.Color.Yellow;
-            this.groupBox15.Location = new System.Drawing.Point(139, 6);
+            this.groupBox15.Location = new System.Drawing.Point(136, 43);
             this.groupBox15.Name = "groupBox15";
-            this.groupBox15.Size = new System.Drawing.Size(862, 545);
+            this.groupBox15.Size = new System.Drawing.Size(835, 497);
             this.groupBox15.TabIndex = 0;
             this.groupBox15.TabStop = false;
             this.groupBox15.Text = "Воинский учет";
             // 
-            // ID_military_registrationTextBox
+            // iD_military_registrationTextBox
             // 
-            this.ID_military_registrationTextBox.Font = new System.Drawing.Font("Sitka Banner", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ID_military_registrationTextBox.Location = new System.Drawing.Point(304, 47);
-            this.ID_military_registrationTextBox.Name = "ID_military_registrationTextBox";
-            this.ID_military_registrationTextBox.Size = new System.Drawing.Size(100, 33);
-            this.ID_military_registrationTextBox.TabIndex = 32;
-            // 
-            // the_name_of_the_military_commissariatTextBox
-            // 
-            this.the_name_of_the_military_commissariatTextBox.Font = new System.Drawing.Font("Sitka Banner", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.the_name_of_the_military_commissariatTextBox.Location = new System.Drawing.Point(454, 464);
-            this.the_name_of_the_military_commissariatTextBox.Name = "the_name_of_the_military_commissariatTextBox";
-            this.the_name_of_the_military_commissariatTextBox.Size = new System.Drawing.Size(256, 33);
-            this.the_name_of_the_military_commissariatTextBox.TabIndex = 30;
-            // 
-            // category_of_fitness_for_military_serviceTextBox
-            // 
-            this.category_of_fitness_for_military_serviceTextBox.Font = new System.Drawing.Font("Sitka Banner", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.category_of_fitness_for_military_serviceTextBox.Location = new System.Drawing.Point(332, 350);
-            this.category_of_fitness_for_military_serviceTextBox.Name = "category_of_fitness_for_military_serviceTextBox";
-            this.category_of_fitness_for_military_serviceTextBox.Size = new System.Drawing.Size(235, 33);
-            this.category_of_fitness_for_military_serviceTextBox.TabIndex = 28;
-            // 
-            // full_code_designation_VUSTextBox
-            // 
-            this.full_code_designation_VUSTextBox.Font = new System.Drawing.Font("Sitka Banner", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.full_code_designation_VUSTextBox.Location = new System.Drawing.Point(492, 267);
-            this.full_code_designation_VUSTextBox.Name = "full_code_designation_VUSTextBox";
-            this.full_code_designation_VUSTextBox.Size = new System.Drawing.Size(218, 33);
-            this.full_code_designation_VUSTextBox.TabIndex = 26;
-            // 
-            // composition_profileTextBox
-            // 
-            this.composition_profileTextBox.Font = new System.Drawing.Font("Sitka Banner", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.composition_profileTextBox.Location = new System.Drawing.Point(304, 208);
-            this.composition_profileTextBox.Name = "composition_profileTextBox";
-            this.composition_profileTextBox.Size = new System.Drawing.Size(218, 33);
-            this.composition_profileTextBox.TabIndex = 24;
-            // 
-            // military_rankTextBox
-            // 
-            this.military_rankTextBox.Font = new System.Drawing.Font("Sitka Banner", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.military_rankTextBox.Location = new System.Drawing.Point(304, 158);
-            this.military_rankTextBox.Name = "military_rankTextBox";
-            this.military_rankTextBox.Size = new System.Drawing.Size(218, 33);
-            this.military_rankTextBox.TabIndex = 22;
+            this.iD_military_registrationTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.military_registrationBindingSource, "ID_military_registration", true));
+            this.iD_military_registrationTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.iD_military_registrationTextBox.Location = new System.Drawing.Point(359, 95);
+            this.iD_military_registrationTextBox.Name = "iD_military_registrationTextBox";
+            this.iD_military_registrationTextBox.Size = new System.Drawing.Size(83, 30);
+            this.iD_military_registrationTextBox.TabIndex = 1;
             // 
             // stock_categoryTextBox
             // 
-            this.stock_categoryTextBox.Font = new System.Drawing.Font("Sitka Banner", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.stock_categoryTextBox.Location = new System.Drawing.Point(304, 104);
+            this.stock_categoryTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.military_registrationBindingSource, "Stock_category", true));
+            this.stock_categoryTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.stock_categoryTextBox.Location = new System.Drawing.Point(359, 143);
             this.stock_categoryTextBox.Name = "stock_categoryTextBox";
-            this.stock_categoryTextBox.Size = new System.Drawing.Size(218, 33);
-            this.stock_categoryTextBox.TabIndex = 20;
+            this.stock_categoryTextBox.Size = new System.Drawing.Size(204, 30);
+            this.stock_categoryTextBox.TabIndex = 3;
+            // 
+            // military_rankTextBox
+            // 
+            this.military_rankTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.military_registrationBindingSource, "Military_rank", true));
+            this.military_rankTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.military_rankTextBox.Location = new System.Drawing.Point(359, 191);
+            this.military_rankTextBox.Name = "military_rankTextBox";
+            this.military_rankTextBox.Size = new System.Drawing.Size(204, 30);
+            this.military_rankTextBox.TabIndex = 5;
+            // 
+            // composition_profileTextBox
+            // 
+            this.composition_profileTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.military_registrationBindingSource, "Composition_profile", true));
+            this.composition_profileTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.composition_profileTextBox.Location = new System.Drawing.Point(359, 239);
+            this.composition_profileTextBox.Name = "composition_profileTextBox";
+            this.composition_profileTextBox.Size = new System.Drawing.Size(204, 30);
+            this.composition_profileTextBox.TabIndex = 7;
+            // 
+            // full_code_designation_VUSTextBox
+            // 
+            this.full_code_designation_VUSTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.military_registrationBindingSource, "Full_code_designation_VUS", true));
+            this.full_code_designation_VUSTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.full_code_designation_VUSTextBox.Location = new System.Drawing.Point(588, 287);
+            this.full_code_designation_VUSTextBox.Name = "full_code_designation_VUSTextBox";
+            this.full_code_designation_VUSTextBox.Size = new System.Drawing.Size(204, 30);
+            this.full_code_designation_VUSTextBox.TabIndex = 9;
+            // 
+            // category_of_fitness_for_military_serviceTextBox
+            // 
+            this.category_of_fitness_for_military_serviceTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.military_registrationBindingSource, "Category_of_fitness_for_military_service", true));
+            this.category_of_fitness_for_military_serviceTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.category_of_fitness_for_military_serviceTextBox.Location = new System.Drawing.Point(368, 363);
+            this.category_of_fitness_for_military_serviceTextBox.Name = "category_of_fitness_for_military_serviceTextBox";
+            this.category_of_fitness_for_military_serviceTextBox.Size = new System.Drawing.Size(204, 30);
+            this.category_of_fitness_for_military_serviceTextBox.TabIndex = 11;
+            // 
+            // the_name_of_the_military_commissariatTextBox
+            // 
+            this.the_name_of_the_military_commissariatTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.military_registrationBindingSource, "The_name_of_the_military_commissariat", true));
+            this.the_name_of_the_military_commissariatTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.the_name_of_the_military_commissariatTextBox.Location = new System.Drawing.Point(514, 435);
+            this.the_name_of_the_military_commissariatTextBox.Name = "the_name_of_the_military_commissariatTextBox";
+            this.the_name_of_the_military_commissariatTextBox.Size = new System.Drawing.Size(204, 30);
+            this.the_name_of_the_military_commissariatTextBox.TabIndex = 13;
             // 
             // tabPage9
             // 
             this.tabPage9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.tabPage9.Controls.Add(this.bindingNavigator9);
             this.tabPage9.Controls.Add(this.buttonBack22);
             this.tabPage9.Controls.Add(this.button11);
             this.tabPage9.Controls.Add(this.buttonAdd9);
@@ -2604,9 +3514,97 @@
             this.tabPage9.Location = new System.Drawing.Point(4, 29);
             this.tabPage9.Name = "tabPage9";
             this.tabPage9.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage9.Size = new System.Drawing.Size(1280, 623);
+            this.tabPage9.Size = new System.Drawing.Size(1280, 664);
             this.tabPage9.TabIndex = 8;
             this.tabPage9.Text = "Аттестация";
+            // 
+            // bindingNavigator9
+            // 
+            this.bindingNavigator9.AddNewItem = this.toolStripButton41;
+            this.bindingNavigator9.BindingSource = this.certificationBindingSource;
+            this.bindingNavigator9.CountItem = null;
+            this.bindingNavigator9.DeleteItem = this.toolStripButton42;
+            this.bindingNavigator9.Dock = System.Windows.Forms.DockStyle.None;
+            this.bindingNavigator9.ImageScalingSize = new System.Drawing.Size(24, 24);
+            this.bindingNavigator9.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripButton43,
+            this.toolStripTextBox9,
+            this.toolStripButton44,
+            this.toolStripButton41,
+            this.toolStripButton42,
+            this.toolStripButton45});
+            this.bindingNavigator9.Location = new System.Drawing.Point(1035, 79);
+            this.bindingNavigator9.MoveFirstItem = null;
+            this.bindingNavigator9.MoveLastItem = null;
+            this.bindingNavigator9.MoveNextItem = this.toolStripButton44;
+            this.bindingNavigator9.MovePreviousItem = this.toolStripButton43;
+            this.bindingNavigator9.Name = "bindingNavigator9";
+            this.bindingNavigator9.PositionItem = this.toolStripTextBox9;
+            this.bindingNavigator9.Size = new System.Drawing.Size(136, 32);
+            this.bindingNavigator9.TabIndex = 58;
+            this.bindingNavigator9.Text = "bindingNavigator9";
+            // 
+            // toolStripButton41
+            // 
+            this.toolStripButton41.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton41.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton41.Image")));
+            this.toolStripButton41.Name = "toolStripButton41";
+            this.toolStripButton41.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton41.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton41.Text = "Добавить";
+            this.toolStripButton41.Visible = false;
+            // 
+            // certificationBindingSource
+            // 
+            this.certificationBindingSource.DataMember = "Certification";
+            this.certificationBindingSource.DataSource = this.personal_cardsDataSet;
+            // 
+            // toolStripButton42
+            // 
+            this.toolStripButton42.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton42.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton42.Image")));
+            this.toolStripButton42.Name = "toolStripButton42";
+            this.toolStripButton42.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton42.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton42.Text = "Удалить";
+            this.toolStripButton42.Visible = false;
+            // 
+            // toolStripButton43
+            // 
+            this.toolStripButton43.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton43.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton43.Image")));
+            this.toolStripButton43.Name = "toolStripButton43";
+            this.toolStripButton43.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton43.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton43.Text = "Переместить назад";
+            // 
+            // toolStripTextBox9
+            // 
+            this.toolStripTextBox9.AccessibleName = "Положение";
+            this.toolStripTextBox9.AutoSize = false;
+            this.toolStripTextBox9.Font = new System.Drawing.Font("Segoe UI", 9.191489F);
+            this.toolStripTextBox9.Name = "toolStripTextBox9";
+            this.toolStripTextBox9.Size = new System.Drawing.Size(50, 31);
+            this.toolStripTextBox9.Text = "0";
+            this.toolStripTextBox9.ToolTipText = "Текущее положение";
+            // 
+            // toolStripButton44
+            // 
+            this.toolStripButton44.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton44.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton44.Image")));
+            this.toolStripButton44.Name = "toolStripButton44";
+            this.toolStripButton44.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton44.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton44.Text = "Переместить вперед";
+            // 
+            // toolStripButton45
+            // 
+            this.toolStripButton45.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton45.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton45.Image")));
+            this.toolStripButton45.Name = "toolStripButton45";
+            this.toolStripButton45.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton45.Text = "Сохранить данные";
+            this.toolStripButton45.Visible = false;
             // 
             // buttonBack22
             // 
@@ -2648,67 +3646,73 @@
             // groupBox16
             // 
             this.groupBox16.Controls.Add(iD_certificationLabel);
-            this.groupBox16.Controls.Add(this.ID_certificationTextBox);
-            this.groupBox16.Controls.Add(date_of_reportLabel);
-            this.groupBox16.Controls.Add(this.date_of_reportDateTimePicker);
-            this.groupBox16.Controls.Add(protocol_numberLabel);
-            this.groupBox16.Controls.Add(this.protocol_numberTextBox);
-            this.groupBox16.Controls.Add(commission_decisionLabel);
-            this.groupBox16.Controls.Add(this.commission_decisionTextBox);
+            this.groupBox16.Controls.Add(this.iD_certificationTextBox);
             this.groupBox16.Controls.Add(date_of_certificationLabel);
             this.groupBox16.Controls.Add(this.date_of_certificationDateTimePicker);
+            this.groupBox16.Controls.Add(commission_decisionLabel);
+            this.groupBox16.Controls.Add(this.commission_decisionTextBox);
+            this.groupBox16.Controls.Add(protocol_numberLabel);
+            this.groupBox16.Controls.Add(this.protocol_numberTextBox);
+            this.groupBox16.Controls.Add(date_of_reportLabel);
+            this.groupBox16.Controls.Add(this.date_of_reportDateTimePicker);
             this.groupBox16.Font = new System.Drawing.Font("Sitka Banner", 13.78723F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.groupBox16.ForeColor = System.Drawing.Color.Yellow;
-            this.groupBox16.Location = new System.Drawing.Point(174, 64);
+            this.groupBox16.Location = new System.Drawing.Point(218, 79);
             this.groupBox16.Name = "groupBox16";
-            this.groupBox16.Size = new System.Drawing.Size(711, 402);
+            this.groupBox16.Size = new System.Drawing.Size(702, 402);
             this.groupBox16.TabIndex = 0;
             this.groupBox16.TabStop = false;
             this.groupBox16.Text = "Аттестация";
             // 
-            // ID_certificationTextBox
+            // iD_certificationTextBox
             // 
-            this.ID_certificationTextBox.Font = new System.Drawing.Font("Sitka Banner", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ID_certificationTextBox.Location = new System.Drawing.Point(281, 79);
-            this.ID_certificationTextBox.Name = "ID_certificationTextBox";
-            this.ID_certificationTextBox.Size = new System.Drawing.Size(77, 33);
-            this.ID_certificationTextBox.TabIndex = 28;
-            // 
-            // date_of_reportDateTimePicker
-            // 
-            this.date_of_reportDateTimePicker.Font = new System.Drawing.Font("Sitka Banner", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.date_of_reportDateTimePicker.Location = new System.Drawing.Point(131, 320);
-            this.date_of_reportDateTimePicker.Name = "date_of_reportDateTimePicker";
-            this.date_of_reportDateTimePicker.Size = new System.Drawing.Size(185, 33);
-            this.date_of_reportDateTimePicker.TabIndex = 26;
-            // 
-            // protocol_numberTextBox
-            // 
-            this.protocol_numberTextBox.Font = new System.Drawing.Font("Sitka Banner", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.protocol_numberTextBox.Location = new System.Drawing.Point(379, 262);
-            this.protocol_numberTextBox.Name = "protocol_numberTextBox";
-            this.protocol_numberTextBox.Size = new System.Drawing.Size(254, 33);
-            this.protocol_numberTextBox.TabIndex = 24;
-            // 
-            // commission_decisionTextBox
-            // 
-            this.commission_decisionTextBox.Font = new System.Drawing.Font("Sitka Banner", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.commission_decisionTextBox.Location = new System.Drawing.Point(379, 200);
-            this.commission_decisionTextBox.Name = "commission_decisionTextBox";
-            this.commission_decisionTextBox.Size = new System.Drawing.Size(254, 33);
-            this.commission_decisionTextBox.TabIndex = 22;
+            this.iD_certificationTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.certificationBindingSource, "ID_certification", true));
+            this.iD_certificationTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.iD_certificationTextBox.Location = new System.Drawing.Point(265, 102);
+            this.iD_certificationTextBox.Name = "iD_certificationTextBox";
+            this.iD_certificationTextBox.Size = new System.Drawing.Size(91, 30);
+            this.iD_certificationTextBox.TabIndex = 1;
             // 
             // date_of_certificationDateTimePicker
             // 
-            this.date_of_certificationDateTimePicker.Font = new System.Drawing.Font("Sitka Banner", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.date_of_certificationDateTimePicker.Location = new System.Drawing.Point(322, 136);
+            this.date_of_certificationDateTimePicker.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.certificationBindingSource, "Date_of_certification", true));
+            this.date_of_certificationDateTimePicker.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.date_of_certificationDateTimePicker.Location = new System.Drawing.Point(316, 150);
             this.date_of_certificationDateTimePicker.Name = "date_of_certificationDateTimePicker";
-            this.date_of_certificationDateTimePicker.Size = new System.Drawing.Size(174, 33);
-            this.date_of_certificationDateTimePicker.TabIndex = 20;
+            this.date_of_certificationDateTimePicker.Size = new System.Drawing.Size(200, 30);
+            this.date_of_certificationDateTimePicker.TabIndex = 3;
+            // 
+            // commission_decisionTextBox
+            // 
+            this.commission_decisionTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.certificationBindingSource, "Commission_decision", true));
+            this.commission_decisionTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.commission_decisionTextBox.Location = new System.Drawing.Point(343, 199);
+            this.commission_decisionTextBox.Name = "commission_decisionTextBox";
+            this.commission_decisionTextBox.Size = new System.Drawing.Size(200, 30);
+            this.commission_decisionTextBox.TabIndex = 5;
+            // 
+            // protocol_numberTextBox
+            // 
+            this.protocol_numberTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.certificationBindingSource, "Protocol_number", true));
+            this.protocol_numberTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.protocol_numberTextBox.Location = new System.Drawing.Point(343, 247);
+            this.protocol_numberTextBox.Name = "protocol_numberTextBox";
+            this.protocol_numberTextBox.Size = new System.Drawing.Size(200, 30);
+            this.protocol_numberTextBox.TabIndex = 7;
+            // 
+            // date_of_reportDateTimePicker
+            // 
+            this.date_of_reportDateTimePicker.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.certificationBindingSource, "Date_of_report", true));
+            this.date_of_reportDateTimePicker.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.date_of_reportDateTimePicker.Location = new System.Drawing.Point(125, 295);
+            this.date_of_reportDateTimePicker.Name = "date_of_reportDateTimePicker";
+            this.date_of_reportDateTimePicker.Size = new System.Drawing.Size(200, 30);
+            this.date_of_reportDateTimePicker.TabIndex = 9;
             // 
             // tabPage10
             // 
             this.tabPage10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.tabPage10.Controls.Add(this.bindingNavigator10);
             this.tabPage10.Controls.Add(this.buttonBack23);
             this.tabPage10.Controls.Add(this.button12);
             this.tabPage10.Controls.Add(this.buttonAdd10);
@@ -2717,9 +3721,97 @@
             this.tabPage10.Location = new System.Drawing.Point(4, 29);
             this.tabPage10.Name = "tabPage10";
             this.tabPage10.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage10.Size = new System.Drawing.Size(1280, 623);
+            this.tabPage10.Size = new System.Drawing.Size(1280, 664);
             this.tabPage10.TabIndex = 9;
             this.tabPage10.Text = "Образование";
+            // 
+            // bindingNavigator10
+            // 
+            this.bindingNavigator10.AddNewItem = this.toolStripButton46;
+            this.bindingNavigator10.BindingSource = this.educationBindingSource;
+            this.bindingNavigator10.CountItem = null;
+            this.bindingNavigator10.DeleteItem = this.toolStripButton47;
+            this.bindingNavigator10.Dock = System.Windows.Forms.DockStyle.None;
+            this.bindingNavigator10.ImageScalingSize = new System.Drawing.Size(24, 24);
+            this.bindingNavigator10.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripButton48,
+            this.toolStripTextBox10,
+            this.toolStripButton49,
+            this.toolStripButton46,
+            this.toolStripButton47,
+            this.toolStripButton50});
+            this.bindingNavigator10.Location = new System.Drawing.Point(1134, 79);
+            this.bindingNavigator10.MoveFirstItem = null;
+            this.bindingNavigator10.MoveLastItem = null;
+            this.bindingNavigator10.MoveNextItem = this.toolStripButton49;
+            this.bindingNavigator10.MovePreviousItem = this.toolStripButton48;
+            this.bindingNavigator10.Name = "bindingNavigator10";
+            this.bindingNavigator10.PositionItem = this.toolStripTextBox10;
+            this.bindingNavigator10.Size = new System.Drawing.Size(136, 32);
+            this.bindingNavigator10.TabIndex = 58;
+            this.bindingNavigator10.Text = "bindingNavigator10";
+            // 
+            // toolStripButton46
+            // 
+            this.toolStripButton46.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton46.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton46.Image")));
+            this.toolStripButton46.Name = "toolStripButton46";
+            this.toolStripButton46.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton46.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton46.Text = "Добавить";
+            this.toolStripButton46.Visible = false;
+            // 
+            // educationBindingSource
+            // 
+            this.educationBindingSource.DataMember = "Education";
+            this.educationBindingSource.DataSource = this.personal_cardsDataSet;
+            // 
+            // toolStripButton47
+            // 
+            this.toolStripButton47.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton47.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton47.Image")));
+            this.toolStripButton47.Name = "toolStripButton47";
+            this.toolStripButton47.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton47.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton47.Text = "Удалить";
+            this.toolStripButton47.Visible = false;
+            // 
+            // toolStripButton48
+            // 
+            this.toolStripButton48.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton48.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton48.Image")));
+            this.toolStripButton48.Name = "toolStripButton48";
+            this.toolStripButton48.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton48.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton48.Text = "Переместить назад";
+            // 
+            // toolStripTextBox10
+            // 
+            this.toolStripTextBox10.AccessibleName = "Положение";
+            this.toolStripTextBox10.AutoSize = false;
+            this.toolStripTextBox10.Font = new System.Drawing.Font("Segoe UI", 9.191489F);
+            this.toolStripTextBox10.Name = "toolStripTextBox10";
+            this.toolStripTextBox10.Size = new System.Drawing.Size(50, 31);
+            this.toolStripTextBox10.Text = "0";
+            this.toolStripTextBox10.ToolTipText = "Текущее положение";
+            // 
+            // toolStripButton49
+            // 
+            this.toolStripButton49.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton49.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton49.Image")));
+            this.toolStripButton49.Name = "toolStripButton49";
+            this.toolStripButton49.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton49.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton49.Text = "Переместить вперед";
+            // 
+            // toolStripButton50
+            // 
+            this.toolStripButton50.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton50.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton50.Image")));
+            this.toolStripButton50.Name = "toolStripButton50";
+            this.toolStripButton50.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton50.Text = "Сохранить данные";
+            this.toolStripButton50.Visible = false;
             // 
             // buttonBack23
             // 
@@ -2762,86 +3854,94 @@
             // 
             this.groupBox17.Controls.Add(iD_educationLabel);
             this.groupBox17.Controls.Add(this.iD_educationTextBox);
-            this.groupBox17.Controls.Add(year_of_graduationLabel);
-            this.groupBox17.Controls.Add(this.year_of_graduationDateTimePicker);
-            this.groupBox17.Controls.Add(label4);
-            this.groupBox17.Controls.Add(this.textBox1);
-            this.groupBox17.Controls.Add(seriesLabel);
-            this.groupBox17.Controls.Add(this.seriesTextBox);
+            this.groupBox17.Controls.Add(level_of_educationLabel1);
+            this.groupBox17.Controls.Add(this.level_of_educationTextBox1);
+            this.groupBox17.Controls.Add(name_of_educational_institutionLabel1);
+            this.groupBox17.Controls.Add(this.name_of_educational_institutionTextBox1);
             this.groupBox17.Controls.Add(name_of_the_document_on_educationLabel);
             this.groupBox17.Controls.Add(this.name_of_the_document_on_educationTextBox);
-            this.groupBox17.Controls.Add(label5);
-            this.groupBox17.Controls.Add(this.textBox2);
-            this.groupBox17.Controls.Add(label6);
-            this.groupBox17.Controls.Add(this.textBox3);
+            this.groupBox17.Controls.Add(seriesLabel);
+            this.groupBox17.Controls.Add(this.seriesTextBox);
+            this.groupBox17.Controls.Add(numberLabel1);
+            this.groupBox17.Controls.Add(this.numberTextBox1);
+            this.groupBox17.Controls.Add(year_of_graduationLabel);
+            this.groupBox17.Controls.Add(this.year_of_graduationDateTimePicker);
             this.groupBox17.Font = new System.Drawing.Font("Sitka Banner", 13.78723F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.groupBox17.ForeColor = System.Drawing.Color.Yellow;
-            this.groupBox17.Location = new System.Drawing.Point(31, 38);
+            this.groupBox17.Location = new System.Drawing.Point(46, 40);
             this.groupBox17.Name = "groupBox17";
-            this.groupBox17.Size = new System.Drawing.Size(1083, 503);
+            this.groupBox17.Size = new System.Drawing.Size(1017, 448);
             this.groupBox17.TabIndex = 0;
             this.groupBox17.TabStop = false;
             this.groupBox17.Text = "Образование";
             // 
             // iD_educationTextBox
             // 
+            this.iD_educationTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.educationBindingSource, "ID_education", true));
             this.iD_educationTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.iD_educationTextBox.Location = new System.Drawing.Point(284, 81);
+            this.iD_educationTextBox.Location = new System.Drawing.Point(294, 90);
             this.iD_educationTextBox.Name = "iD_educationTextBox";
-            this.iD_educationTextBox.Size = new System.Drawing.Size(76, 30);
-            this.iD_educationTextBox.TabIndex = 38;
+            this.iD_educationTextBox.Size = new System.Drawing.Size(134, 30);
+            this.iD_educationTextBox.TabIndex = 1;
             // 
-            // year_of_graduationDateTimePicker
+            // level_of_educationTextBox1
             // 
-            this.year_of_graduationDateTimePicker.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.year_of_graduationDateTimePicker.Location = new System.Drawing.Point(284, 430);
-            this.year_of_graduationDateTimePicker.Name = "year_of_graduationDateTimePicker";
-            this.year_of_graduationDateTimePicker.Size = new System.Drawing.Size(200, 30);
-            this.year_of_graduationDateTimePicker.TabIndex = 36;
+            this.level_of_educationTextBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.educationBindingSource, "Level_of_education", true));
+            this.level_of_educationTextBox1.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.level_of_educationTextBox1.Location = new System.Drawing.Point(393, 138);
+            this.level_of_educationTextBox1.Name = "level_of_educationTextBox1";
+            this.level_of_educationTextBox1.Size = new System.Drawing.Size(200, 30);
+            this.level_of_educationTextBox1.TabIndex = 3;
             // 
-            // textBox1
+            // name_of_educational_institutionTextBox1
             // 
-            this.textBox1.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox1.Location = new System.Drawing.Point(142, 374);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(181, 30);
-            this.textBox1.TabIndex = 34;
-            // 
-            // seriesTextBox
-            // 
-            this.seriesTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.seriesTextBox.Location = new System.Drawing.Point(142, 320);
-            this.seriesTextBox.Name = "seriesTextBox";
-            this.seriesTextBox.Size = new System.Drawing.Size(181, 30);
-            this.seriesTextBox.TabIndex = 32;
+            this.name_of_educational_institutionTextBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.educationBindingSource, "Name_of_educational_institution", true));
+            this.name_of_educational_institutionTextBox1.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.name_of_educational_institutionTextBox1.Location = new System.Drawing.Point(759, 186);
+            this.name_of_educational_institutionTextBox1.Name = "name_of_educational_institutionTextBox1";
+            this.name_of_educational_institutionTextBox1.Size = new System.Drawing.Size(200, 30);
+            this.name_of_educational_institutionTextBox1.TabIndex = 5;
             // 
             // name_of_the_document_on_educationTextBox
             // 
+            this.name_of_the_document_on_educationTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.educationBindingSource, "Name_of_the_document_on_education", true));
             this.name_of_the_document_on_educationTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.name_of_the_document_on_educationTextBox.Location = new System.Drawing.Point(703, 268);
+            this.name_of_the_document_on_educationTextBox.Location = new System.Drawing.Point(759, 234);
             this.name_of_the_document_on_educationTextBox.Name = "name_of_the_document_on_educationTextBox";
-            this.name_of_the_document_on_educationTextBox.Size = new System.Drawing.Size(217, 30);
-            this.name_of_the_document_on_educationTextBox.TabIndex = 30;
+            this.name_of_the_document_on_educationTextBox.Size = new System.Drawing.Size(200, 30);
+            this.name_of_the_document_on_educationTextBox.TabIndex = 7;
             // 
-            // textBox2
+            // seriesTextBox
             // 
-            this.textBox2.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox2.Location = new System.Drawing.Point(758, 207);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(302, 30);
-            this.textBox2.TabIndex = 28;
+            this.seriesTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.educationBindingSource, "Series", true));
+            this.seriesTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.seriesTextBox.Location = new System.Drawing.Point(160, 282);
+            this.seriesTextBox.Name = "seriesTextBox";
+            this.seriesTextBox.Size = new System.Drawing.Size(200, 30);
+            this.seriesTextBox.TabIndex = 9;
             // 
-            // textBox3
+            // numberTextBox1
             // 
-            this.textBox3.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox3.Location = new System.Drawing.Point(381, 149);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(378, 30);
-            this.textBox3.TabIndex = 26;
+            this.numberTextBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.educationBindingSource, "Number", true));
+            this.numberTextBox1.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.numberTextBox1.Location = new System.Drawing.Point(160, 330);
+            this.numberTextBox1.Name = "numberTextBox1";
+            this.numberTextBox1.Size = new System.Drawing.Size(200, 30);
+            this.numberTextBox1.TabIndex = 11;
+            // 
+            // year_of_graduationDateTimePicker
+            // 
+            this.year_of_graduationDateTimePicker.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.educationBindingSource, "Year_of_graduation", true));
+            this.year_of_graduationDateTimePicker.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.year_of_graduationDateTimePicker.Location = new System.Drawing.Point(308, 383);
+            this.year_of_graduationDateTimePicker.Name = "year_of_graduationDateTimePicker";
+            this.year_of_graduationDateTimePicker.Size = new System.Drawing.Size(200, 30);
+            this.year_of_graduationDateTimePicker.TabIndex = 13;
             // 
             // tabPage11
             // 
             this.tabPage11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.tabPage11.Controls.Add(this.bindingNavigator11);
             this.tabPage11.Controls.Add(this.buttonBack24);
             this.tabPage11.Controls.Add(this.button13);
             this.tabPage11.Controls.Add(this.buttonAdd11);
@@ -2850,9 +3950,97 @@
             this.tabPage11.Location = new System.Drawing.Point(4, 29);
             this.tabPage11.Name = "tabPage11";
             this.tabPage11.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage11.Size = new System.Drawing.Size(1280, 623);
+            this.tabPage11.Size = new System.Drawing.Size(1280, 664);
             this.tabPage11.TabIndex = 10;
             this.tabPage11.Text = "Проф.переподготовка";
+            // 
+            // bindingNavigator11
+            // 
+            this.bindingNavigator11.AddNewItem = this.toolStripButton51;
+            this.bindingNavigator11.BindingSource = this.retrainingBindingSource;
+            this.bindingNavigator11.CountItem = null;
+            this.bindingNavigator11.DeleteItem = this.toolStripButton52;
+            this.bindingNavigator11.Dock = System.Windows.Forms.DockStyle.None;
+            this.bindingNavigator11.ImageScalingSize = new System.Drawing.Size(24, 24);
+            this.bindingNavigator11.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripButton53,
+            this.toolStripTextBox11,
+            this.toolStripButton54,
+            this.toolStripButton51,
+            this.toolStripButton52,
+            this.toolStripButton55});
+            this.bindingNavigator11.Location = new System.Drawing.Point(1087, 101);
+            this.bindingNavigator11.MoveFirstItem = null;
+            this.bindingNavigator11.MoveLastItem = null;
+            this.bindingNavigator11.MoveNextItem = this.toolStripButton54;
+            this.bindingNavigator11.MovePreviousItem = this.toolStripButton53;
+            this.bindingNavigator11.Name = "bindingNavigator11";
+            this.bindingNavigator11.PositionItem = this.toolStripTextBox11;
+            this.bindingNavigator11.Size = new System.Drawing.Size(136, 32);
+            this.bindingNavigator11.TabIndex = 58;
+            this.bindingNavigator11.Text = "bindingNavigator11";
+            // 
+            // toolStripButton51
+            // 
+            this.toolStripButton51.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton51.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton51.Image")));
+            this.toolStripButton51.Name = "toolStripButton51";
+            this.toolStripButton51.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton51.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton51.Text = "Добавить";
+            this.toolStripButton51.Visible = false;
+            // 
+            // retrainingBindingSource
+            // 
+            this.retrainingBindingSource.DataMember = "Retraining";
+            this.retrainingBindingSource.DataSource = this.personal_cardsDataSet;
+            // 
+            // toolStripButton52
+            // 
+            this.toolStripButton52.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton52.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton52.Image")));
+            this.toolStripButton52.Name = "toolStripButton52";
+            this.toolStripButton52.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton52.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton52.Text = "Удалить";
+            this.toolStripButton52.Visible = false;
+            // 
+            // toolStripButton53
+            // 
+            this.toolStripButton53.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton53.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton53.Image")));
+            this.toolStripButton53.Name = "toolStripButton53";
+            this.toolStripButton53.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton53.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton53.Text = "Переместить назад";
+            // 
+            // toolStripTextBox11
+            // 
+            this.toolStripTextBox11.AccessibleName = "Положение";
+            this.toolStripTextBox11.AutoSize = false;
+            this.toolStripTextBox11.Font = new System.Drawing.Font("Segoe UI", 9.191489F);
+            this.toolStripTextBox11.Name = "toolStripTextBox11";
+            this.toolStripTextBox11.Size = new System.Drawing.Size(50, 31);
+            this.toolStripTextBox11.Text = "0";
+            this.toolStripTextBox11.ToolTipText = "Текущее положение";
+            // 
+            // toolStripButton54
+            // 
+            this.toolStripButton54.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton54.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton54.Image")));
+            this.toolStripButton54.Name = "toolStripButton54";
+            this.toolStripButton54.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton54.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton54.Text = "Переместить вперед";
+            // 
+            // toolStripButton55
+            // 
+            this.toolStripButton55.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton55.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton55.Image")));
+            this.toolStripButton55.Name = "toolStripButton55";
+            this.toolStripButton55.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton55.Text = "Сохранить данные";
+            this.toolStripButton55.Visible = false;
             // 
             // buttonBack24
             // 
@@ -2894,83 +4082,91 @@
             // groupBox18
             // 
             this.groupBox18.Controls.Add(iD_retrainingLabel);
-            this.groupBox18.Controls.Add(this.ID_retrainingTextBox);
-            this.groupBox18.Controls.Add(label7);
-            this.groupBox18.Controls.Add(this.dateTimePicker4);
-            this.groupBox18.Controls.Add(label8);
-            this.groupBox18.Controls.Add(this.textBox4);
-            this.groupBox18.Controls.Add(label9);
-            this.groupBox18.Controls.Add(this.textBox5);
-            this.groupBox18.Controls.Add(specialtyLabel);
-            this.groupBox18.Controls.Add(this.specialtyTextBox);
-            this.groupBox18.Controls.Add(completion_of_retrainingLabel);
-            this.groupBox18.Controls.Add(this.completion_of_retrainingDateTimePicker);
+            this.groupBox18.Controls.Add(this.iD_retrainingTextBox);
             this.groupBox18.Controls.Add(the_beginning_of_the_trainingLabel);
             this.groupBox18.Controls.Add(this.the_beginning_of_the_trainingDateTimePicker);
+            this.groupBox18.Controls.Add(completion_of_retrainingLabel);
+            this.groupBox18.Controls.Add(this.completion_of_retrainingDateTimePicker);
+            this.groupBox18.Controls.Add(specialtyLabel);
+            this.groupBox18.Controls.Add(this.specialtyTextBox);
+            this.groupBox18.Controls.Add(document_nameLabel1);
+            this.groupBox18.Controls.Add(this.document_nameTextBox1);
+            this.groupBox18.Controls.Add(document_numberLabel1);
+            this.groupBox18.Controls.Add(this.document_numberTextBox1);
+            this.groupBox18.Controls.Add(dateLabel3);
+            this.groupBox18.Controls.Add(this.dateDateTimePicker3);
             this.groupBox18.Font = new System.Drawing.Font("Sitka Banner", 13.78723F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.groupBox18.ForeColor = System.Drawing.Color.Yellow;
-            this.groupBox18.Location = new System.Drawing.Point(170, 45);
+            this.groupBox18.Location = new System.Drawing.Point(178, 45);
             this.groupBox18.Name = "groupBox18";
-            this.groupBox18.Size = new System.Drawing.Size(796, 496);
+            this.groupBox18.Size = new System.Drawing.Size(758, 452);
             this.groupBox18.TabIndex = 0;
             this.groupBox18.TabStop = false;
             this.groupBox18.Text = "Профессиональная переподготовка";
+            this.groupBox18.Enter += new System.EventHandler(this.groupBox18_Enter);
             // 
-            // ID_retrainingTextBox
+            // iD_retrainingTextBox
             // 
-            this.ID_retrainingTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ID_retrainingTextBox.Location = new System.Drawing.Point(365, 77);
-            this.ID_retrainingTextBox.Name = "ID_retrainingTextBox";
-            this.ID_retrainingTextBox.Size = new System.Drawing.Size(83, 30);
-            this.ID_retrainingTextBox.TabIndex = 38;
-            // 
-            // dateTimePicker4
-            // 
-            this.dateTimePicker4.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.dateTimePicker4.Location = new System.Drawing.Point(128, 417);
-            this.dateTimePicker4.Name = "dateTimePicker4";
-            this.dateTimePicker4.Size = new System.Drawing.Size(183, 30);
-            this.dateTimePicker4.TabIndex = 36;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox4.Location = new System.Drawing.Point(345, 359);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(200, 30);
-            this.textBox4.TabIndex = 34;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox5.Location = new System.Drawing.Point(494, 300);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(200, 30);
-            this.textBox5.TabIndex = 32;
-            // 
-            // specialtyTextBox
-            // 
-            this.specialtyTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.specialtyTextBox.Location = new System.Drawing.Point(302, 238);
-            this.specialtyTextBox.Name = "specialtyTextBox";
-            this.specialtyTextBox.Size = new System.Drawing.Size(200, 30);
-            this.specialtyTextBox.TabIndex = 30;
-            // 
-            // completion_of_retrainingDateTimePicker
-            // 
-            this.completion_of_retrainingDateTimePicker.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.completion_of_retrainingDateTimePicker.Location = new System.Drawing.Point(517, 184);
-            this.completion_of_retrainingDateTimePicker.Name = "completion_of_retrainingDateTimePicker";
-            this.completion_of_retrainingDateTimePicker.Size = new System.Drawing.Size(177, 30);
-            this.completion_of_retrainingDateTimePicker.TabIndex = 28;
+            this.iD_retrainingTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.retrainingBindingSource, "ID_retraining", true));
+            this.iD_retrainingTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.iD_retrainingTextBox.Location = new System.Drawing.Point(360, 98);
+            this.iD_retrainingTextBox.Name = "iD_retrainingTextBox";
+            this.iD_retrainingTextBox.Size = new System.Drawing.Size(141, 30);
+            this.iD_retrainingTextBox.TabIndex = 1;
             // 
             // the_beginning_of_the_trainingDateTimePicker
             // 
+            this.the_beginning_of_the_trainingDateTimePicker.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.retrainingBindingSource, "The_beginning_of_the_training", true));
             this.the_beginning_of_the_trainingDateTimePicker.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.the_beginning_of_the_trainingDateTimePicker.Location = new System.Drawing.Point(454, 133);
+            this.the_beginning_of_the_trainingDateTimePicker.Location = new System.Drawing.Point(497, 146);
             this.the_beginning_of_the_trainingDateTimePicker.Name = "the_beginning_of_the_trainingDateTimePicker";
-            this.the_beginning_of_the_trainingDateTimePicker.Size = new System.Drawing.Size(178, 30);
-            this.the_beginning_of_the_trainingDateTimePicker.TabIndex = 26;
+            this.the_beginning_of_the_trainingDateTimePicker.Size = new System.Drawing.Size(200, 30);
+            this.the_beginning_of_the_trainingDateTimePicker.TabIndex = 3;
+            // 
+            // completion_of_retrainingDateTimePicker
+            // 
+            this.completion_of_retrainingDateTimePicker.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.retrainingBindingSource, "Completion_of_retraining", true));
+            this.completion_of_retrainingDateTimePicker.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.completion_of_retrainingDateTimePicker.Location = new System.Drawing.Point(497, 195);
+            this.completion_of_retrainingDateTimePicker.Name = "completion_of_retrainingDateTimePicker";
+            this.completion_of_retrainingDateTimePicker.Size = new System.Drawing.Size(200, 30);
+            this.completion_of_retrainingDateTimePicker.TabIndex = 5;
+            // 
+            // specialtyTextBox
+            // 
+            this.specialtyTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.retrainingBindingSource, "Specialty", true));
+            this.specialtyTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.specialtyTextBox.Location = new System.Drawing.Point(289, 244);
+            this.specialtyTextBox.Name = "specialtyTextBox";
+            this.specialtyTextBox.Size = new System.Drawing.Size(200, 30);
+            this.specialtyTextBox.TabIndex = 7;
+            // 
+            // document_nameTextBox1
+            // 
+            this.document_nameTextBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.retrainingBindingSource, "Document_name", true));
+            this.document_nameTextBox1.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.document_nameTextBox1.Location = new System.Drawing.Point(459, 292);
+            this.document_nameTextBox1.Name = "document_nameTextBox1";
+            this.document_nameTextBox1.Size = new System.Drawing.Size(200, 30);
+            this.document_nameTextBox1.TabIndex = 9;
+            // 
+            // document_numberTextBox1
+            // 
+            this.document_numberTextBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.retrainingBindingSource, "Document_number", true));
+            this.document_numberTextBox1.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.document_numberTextBox1.Location = new System.Drawing.Point(329, 340);
+            this.document_numberTextBox1.Name = "document_numberTextBox1";
+            this.document_numberTextBox1.Size = new System.Drawing.Size(200, 30);
+            this.document_numberTextBox1.TabIndex = 11;
+            // 
+            // dateDateTimePicker3
+            // 
+            this.dateDateTimePicker3.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.retrainingBindingSource, "Date", true));
+            this.dateDateTimePicker3.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.dateDateTimePicker3.Location = new System.Drawing.Point(149, 388);
+            this.dateDateTimePicker3.Name = "dateDateTimePicker3";
+            this.dateDateTimePicker3.Size = new System.Drawing.Size(200, 30);
+            this.dateDateTimePicker3.TabIndex = 13;
             // 
             // employee_informationTableAdapter
             // 
@@ -2994,138 +4190,6 @@
             this.tableAdapterManager.UserTableAdapter = null;
             this.tableAdapterManager.VacationTableAdapter = null;
             // 
-            // employee_informationBindingNavigator
-            // 
-            this.employee_informationBindingNavigator.AddNewItem = this.bindingNavigatorAddNewItem;
-            this.employee_informationBindingNavigator.BindingSource = this.employee_informationBindingSource;
-            this.employee_informationBindingNavigator.CountItem = this.bindingNavigatorCountItem;
-            this.employee_informationBindingNavigator.DeleteItem = this.bindingNavigatorDeleteItem;
-            this.employee_informationBindingNavigator.ImageScalingSize = new System.Drawing.Size(24, 24);
-            this.employee_informationBindingNavigator.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.bindingNavigatorMoveFirstItem,
-            this.bindingNavigatorMovePreviousItem,
-            this.bindingNavigatorSeparator,
-            this.bindingNavigatorPositionItem,
-            this.bindingNavigatorCountItem,
-            this.bindingNavigatorSeparator1,
-            this.bindingNavigatorMoveNextItem,
-            this.bindingNavigatorMoveLastItem,
-            this.bindingNavigatorSeparator2,
-            this.bindingNavigatorAddNewItem,
-            this.bindingNavigatorDeleteItem,
-            this.employee_informationBindingNavigatorSaveItem});
-            this.employee_informationBindingNavigator.Location = new System.Drawing.Point(0, 0);
-            this.employee_informationBindingNavigator.MoveFirstItem = this.bindingNavigatorMoveFirstItem;
-            this.employee_informationBindingNavigator.MoveLastItem = this.bindingNavigatorMoveLastItem;
-            this.employee_informationBindingNavigator.MoveNextItem = this.bindingNavigatorMoveNextItem;
-            this.employee_informationBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
-            this.employee_informationBindingNavigator.Name = "employee_informationBindingNavigator";
-            this.employee_informationBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.employee_informationBindingNavigator.Size = new System.Drawing.Size(1357, 37);
-            this.employee_informationBindingNavigator.TabIndex = 1;
-            this.employee_informationBindingNavigator.Text = "bindingNavigator1";
-            // 
-            // bindingNavigatorAddNewItem
-            // 
-            this.bindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
-            this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
-            this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(34, 28);
-            this.bindingNavigatorAddNewItem.Text = "Добавить";
-            this.bindingNavigatorAddNewItem.Visible = false;
-            // 
-            // bindingNavigatorCountItem
-            // 
-            this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
-            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(65, 33);
-            this.bindingNavigatorCountItem.Text = "для {0}";
-            this.bindingNavigatorCountItem.ToolTipText = "Общее число элементов";
-            this.bindingNavigatorCountItem.Click += new System.EventHandler(this.bindingNavigatorCountItem_Click);
-            // 
-            // bindingNavigatorDeleteItem
-            // 
-            this.bindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorDeleteItem.Image")));
-            this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
-            this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(34, 28);
-            this.bindingNavigatorDeleteItem.Text = "Удалить";
-            this.bindingNavigatorDeleteItem.Visible = false;
-            // 
-            // bindingNavigatorMoveFirstItem
-            // 
-            this.bindingNavigatorMoveFirstItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorMoveFirstItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveFirstItem.Image")));
-            this.bindingNavigatorMoveFirstItem.Name = "bindingNavigatorMoveFirstItem";
-            this.bindingNavigatorMoveFirstItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveFirstItem.Size = new System.Drawing.Size(34, 33);
-            this.bindingNavigatorMoveFirstItem.Text = "Переместить в начало";
-            // 
-            // bindingNavigatorMovePreviousItem
-            // 
-            this.bindingNavigatorMovePreviousItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorMovePreviousItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMovePreviousItem.Image")));
-            this.bindingNavigatorMovePreviousItem.Name = "bindingNavigatorMovePreviousItem";
-            this.bindingNavigatorMovePreviousItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMovePreviousItem.Size = new System.Drawing.Size(34, 33);
-            this.bindingNavigatorMovePreviousItem.Text = "Переместить назад";
-            // 
-            // bindingNavigatorSeparator
-            // 
-            this.bindingNavigatorSeparator.Name = "bindingNavigatorSeparator";
-            this.bindingNavigatorSeparator.Size = new System.Drawing.Size(6, 37);
-            // 
-            // bindingNavigatorPositionItem
-            // 
-            this.bindingNavigatorPositionItem.AccessibleName = "Положение";
-            this.bindingNavigatorPositionItem.AutoSize = false;
-            this.bindingNavigatorPositionItem.Font = new System.Drawing.Font("Segoe UI", 9.191489F);
-            this.bindingNavigatorPositionItem.Name = "bindingNavigatorPositionItem";
-            this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(50, 31);
-            this.bindingNavigatorPositionItem.Text = "0";
-            this.bindingNavigatorPositionItem.ToolTipText = "Текущее положение";
-            this.bindingNavigatorPositionItem.Click += new System.EventHandler(this.bindingNavigatorPositionItem_Click);
-            // 
-            // bindingNavigatorSeparator1
-            // 
-            this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator1";
-            this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 37);
-            // 
-            // bindingNavigatorMoveNextItem
-            // 
-            this.bindingNavigatorMoveNextItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorMoveNextItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveNextItem.Image")));
-            this.bindingNavigatorMoveNextItem.Name = "bindingNavigatorMoveNextItem";
-            this.bindingNavigatorMoveNextItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveNextItem.Size = new System.Drawing.Size(34, 33);
-            this.bindingNavigatorMoveNextItem.Text = "Переместить вперед";
-            this.bindingNavigatorMoveNextItem.Click += new System.EventHandler(this.bindingNavigatorMoveNextItem_Click);
-            // 
-            // bindingNavigatorMoveLastItem
-            // 
-            this.bindingNavigatorMoveLastItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorMoveLastItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveLastItem.Image")));
-            this.bindingNavigatorMoveLastItem.Name = "bindingNavigatorMoveLastItem";
-            this.bindingNavigatorMoveLastItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveLastItem.Size = new System.Drawing.Size(34, 33);
-            this.bindingNavigatorMoveLastItem.Text = "Переместить в конец";
-            // 
-            // bindingNavigatorSeparator2
-            // 
-            this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator2";
-            this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 37);
-            // 
-            // employee_informationBindingNavigatorSaveItem
-            // 
-            this.employee_informationBindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.employee_informationBindingNavigatorSaveItem.Image = ((System.Drawing.Image)(resources.GetObject("employee_informationBindingNavigatorSaveItem.Image")));
-            this.employee_informationBindingNavigatorSaveItem.Name = "employee_informationBindingNavigatorSaveItem";
-            this.employee_informationBindingNavigatorSaveItem.Size = new System.Drawing.Size(34, 28);
-            this.employee_informationBindingNavigatorSaveItem.Text = "Сохранить данные";
-            this.employee_informationBindingNavigatorSaveItem.Visible = false;
-            this.employee_informationBindingNavigatorSaveItem.Click += new System.EventHandler(this.employee_informationBindingNavigatorSaveItem_Click);
-            // 
             // more_informationTableAdapter
             // 
             this.more_informationTableAdapter.ClearBeforeFill = true;
@@ -3144,12 +4208,47 @@
             this.socialbenefitsBindingSource.DataMember = "Social_benefits";
             this.socialbenefitsBindingSource.DataSource = this.personal_cardsDataSet;
             // 
+            // reception_and_transferTableAdapter
+            // 
+            this.reception_and_transferTableAdapter.ClearBeforeFill = true;
+            // 
+            // advanced_trainingTableAdapter
+            // 
+            this.advanced_trainingTableAdapter.ClearBeforeFill = true;
+            // 
+            // vacationTableAdapter
+            // 
+            this.vacationTableAdapter.ClearBeforeFill = true;
+            // 
+            // level_of_educationTableAdapter
+            // 
+            this.level_of_educationTableAdapter.ClearBeforeFill = true;
+            // 
+            // rewardsTableAdapter
+            // 
+            this.rewardsTableAdapter.ClearBeforeFill = true;
+            // 
+            // military_registrationTableAdapter
+            // 
+            this.military_registrationTableAdapter.ClearBeforeFill = true;
+            // 
+            // certificationTableAdapter
+            // 
+            this.certificationTableAdapter.ClearBeforeFill = true;
+            // 
+            // educationTableAdapter
+            // 
+            this.educationTableAdapter.ClearBeforeFill = true;
+            // 
+            // retrainingTableAdapter
+            // 
+            this.retrainingTableAdapter.ClearBeforeFill = true;
+            // 
             // FormProba
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1357, 746);
-            this.Controls.Add(this.employee_informationBindingNavigator);
             this.Controls.Add(this.groupBox1);
             this.Name = "FormProba";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -3160,10 +4259,13 @@
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
-            this.groupBox7.ResumeLayout(false);
-            this.groupBox7.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.employee_informationBindingNavigator)).EndInit();
+            this.employee_informationBindingNavigator.ResumeLayout(false);
+            this.employee_informationBindingNavigator.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.employee_informationBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.personal_cardsDataSet)).EndInit();
+            this.groupBox7.ResumeLayout(false);
+            this.groupBox7.PerformLayout();
             this.groupBox6.ResumeLayout(false);
             this.groupBox6.PerformLayout();
             this.groupBox5.ResumeLayout(false);
@@ -3175,47 +4277,96 @@
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.tabPage12.ResumeLayout(false);
+            this.tabPage12.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator2)).EndInit();
+            this.bindingNavigator2.ResumeLayout(false);
+            this.bindingNavigator2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.more_informationBindingSource)).EndInit();
             this.groupBox8.ResumeLayout(false);
             this.groupBox8.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.more_informationBindingSource)).EndInit();
             this.tabPage2.ResumeLayout(false);
+            this.tabPage2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator1)).EndInit();
+            this.bindingNavigator1.ResumeLayout(false);
+            this.bindingNavigator1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.social_benefitsBindingSource)).EndInit();
             this.groupBox9.ResumeLayout(false);
             this.groupBox9.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.social_benefitsBindingSource)).EndInit();
             this.tabPage3.ResumeLayout(false);
+            this.tabPage3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator3)).EndInit();
+            this.bindingNavigator3.ResumeLayout(false);
+            this.bindingNavigator3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.reception_and_transferBindingSource)).EndInit();
             this.groupBox10.ResumeLayout(false);
             this.groupBox10.PerformLayout();
             this.tabPage4.ResumeLayout(false);
+            this.tabPage4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator4)).EndInit();
+            this.bindingNavigator4.ResumeLayout(false);
+            this.bindingNavigator4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.advanced_trainingBindingSource)).EndInit();
             this.groupBox11.ResumeLayout(false);
             this.groupBox11.PerformLayout();
             this.tabPage5.ResumeLayout(false);
+            this.tabPage5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator5)).EndInit();
+            this.bindingNavigator5.ResumeLayout(false);
+            this.bindingNavigator5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.vacationBindingSource)).EndInit();
             this.groupBox12.ResumeLayout(false);
             this.groupBox12.PerformLayout();
             this.tabPage6.ResumeLayout(false);
+            this.tabPage6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator6)).EndInit();
+            this.bindingNavigator6.ResumeLayout(false);
+            this.bindingNavigator6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.level_of_educationBindingSource)).EndInit();
             this.groupBox13.ResumeLayout(false);
             this.groupBox13.PerformLayout();
             this.tabPage7.ResumeLayout(false);
+            this.tabPage7.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator7)).EndInit();
+            this.bindingNavigator7.ResumeLayout(false);
+            this.bindingNavigator7.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.rewardsBindingSource)).EndInit();
             this.groupBox14.ResumeLayout(false);
             this.groupBox14.PerformLayout();
             this.tabPage8.ResumeLayout(false);
+            this.tabPage8.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator8)).EndInit();
+            this.bindingNavigator8.ResumeLayout(false);
+            this.bindingNavigator8.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.military_registrationBindingSource)).EndInit();
             this.groupBox15.ResumeLayout(false);
             this.groupBox15.PerformLayout();
             this.tabPage9.ResumeLayout(false);
+            this.tabPage9.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator9)).EndInit();
+            this.bindingNavigator9.ResumeLayout(false);
+            this.bindingNavigator9.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.certificationBindingSource)).EndInit();
             this.groupBox16.ResumeLayout(false);
             this.groupBox16.PerformLayout();
             this.tabPage10.ResumeLayout(false);
+            this.tabPage10.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator10)).EndInit();
+            this.bindingNavigator10.ResumeLayout(false);
+            this.bindingNavigator10.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.educationBindingSource)).EndInit();
             this.groupBox17.ResumeLayout(false);
             this.groupBox17.PerformLayout();
             this.tabPage11.ResumeLayout(false);
+            this.tabPage11.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator11)).EndInit();
+            this.bindingNavigator11.ResumeLayout(false);
+            this.bindingNavigator11.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.retrainingBindingSource)).EndInit();
             this.groupBox18.ResumeLayout(false);
             this.groupBox18.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.employee_informationBindingNavigator)).EndInit();
-            this.employee_informationBindingNavigator.ResumeLayout(false);
-            this.employee_informationBindingNavigator.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.personalcardsDataSetBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.socialbenefitsBindingSource)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -3228,16 +4379,9 @@
         private Personal_cardsDataSetTableAdapters.TableAdapterManager tableAdapterManager;
         private System.Windows.Forms.BindingNavigator employee_informationBindingNavigator;
         private System.Windows.Forms.ToolStripButton bindingNavigatorAddNewItem;
-        private System.Windows.Forms.ToolStripLabel bindingNavigatorCountItem;
         private System.Windows.Forms.ToolStripButton bindingNavigatorDeleteItem;
-        private System.Windows.Forms.ToolStripButton bindingNavigatorMoveFirstItem;
         private System.Windows.Forms.ToolStripButton bindingNavigatorMovePreviousItem;
-        private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator;
-        private System.Windows.Forms.ToolStripTextBox bindingNavigatorPositionItem;
-        private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator1;
         private System.Windows.Forms.ToolStripButton bindingNavigatorMoveNextItem;
-        private System.Windows.Forms.ToolStripButton bindingNavigatorMoveLastItem;
-        private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator2;
         private System.Windows.Forms.ToolStripButton employee_informationBindingNavigatorSaveItem;
         private System.Windows.Forms.BindingSource more_informationBindingSource;
         private Personal_cardsDataSetTableAdapters.More_informationTableAdapter more_informationTableAdapter;
@@ -3293,93 +4437,40 @@
         private System.Windows.Forms.DateTimePicker date_of_issueDateTimePicker1;
         private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.GroupBox groupBox10;
-        private System.Windows.Forms.TextBox ID_of_reception_and_transfer_to_workTextBox;
-        private System.Windows.Forms.TextBox tariff_rateTextBox;
-        private System.Windows.Forms.TextBox positionTextBox;
-        private System.Windows.Forms.TextBox structural_subdivisionTextBox;
-        private System.Windows.Forms.DateTimePicker dateDateTimePicker;
         private System.Windows.Forms.Button buttonAdd4;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.TabPage tabPage4;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.GroupBox groupBox11;
-        private System.Windows.Forms.TextBox ID_qualificationTextBox;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
-        private System.Windows.Forms.TextBox series_document_numberTextBox;
-        private System.Windows.Forms.TextBox document_nameTextBox;
-        private System.Windows.Forms.TextBox its_locationTextBox;
-        private System.Windows.Forms.TextBox name_of_educational_institutionTextBox;
-        private System.Windows.Forms.TextBox type_of_qualificationTextBox;
-        private System.Windows.Forms.DateTimePicker the_end_of_the_trainingDateTimePicker;
-        private System.Windows.Forms.DateTimePicker beginning_of_trainingDateTimePicker;
         private System.Windows.Forms.Button buttonAdd5;
         private System.Windows.Forms.TabPage tabPage5;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button buttonAdd6;
         private System.Windows.Forms.GroupBox groupBox12;
-        private System.Windows.Forms.TextBox ID_vacationTextBox;
-        private System.Windows.Forms.DateTimePicker expiry_dateDateTimePicker;
-        private System.Windows.Forms.DateTimePicker start_dateDateTimePicker;
-        private System.Windows.Forms.TextBox number_of_vacation_daysTextBox;
-        private System.Windows.Forms.DateTimePicker period_of_work_onDateTimePicker;
-        private System.Windows.Forms.DateTimePicker working_period_withDateTimePicker;
-        private System.Windows.Forms.TextBox type_of_vacationTextBox;
         private System.Windows.Forms.TabPage tabPage6;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button buttonAdd12;
         private System.Windows.Forms.GroupBox groupBox13;
-        private System.Windows.Forms.TextBox ID_level_of_educationTextBox;
-        private System.Windows.Forms.TextBox level_of_educationTextBox;
         private System.Windows.Forms.TabPage tabPage7;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button buttonAdd7;
         private System.Windows.Forms.GroupBox groupBox14;
-        private System.Windows.Forms.TextBox ID_rewardsTextBox;
-        private System.Windows.Forms.DateTimePicker dateTimePicker3;
-        private System.Windows.Forms.TextBox NumberTextBox;
-        private System.Windows.Forms.TextBox The_name_of_the_awardsTextBox;
         private System.Windows.Forms.TabPage tabPage8;
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button buttonAdd8;
         private System.Windows.Forms.GroupBox groupBox15;
-        private System.Windows.Forms.TextBox ID_military_registrationTextBox;
-        private System.Windows.Forms.TextBox the_name_of_the_military_commissariatTextBox;
-        private System.Windows.Forms.TextBox category_of_fitness_for_military_serviceTextBox;
-        private System.Windows.Forms.TextBox full_code_designation_VUSTextBox;
-        private System.Windows.Forms.TextBox composition_profileTextBox;
-        private System.Windows.Forms.TextBox military_rankTextBox;
-        private System.Windows.Forms.TextBox stock_categoryTextBox;
         private System.Windows.Forms.TabPage tabPage9;
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button buttonAdd9;
         private System.Windows.Forms.GroupBox groupBox16;
-        private System.Windows.Forms.TextBox ID_certificationTextBox;
-        private System.Windows.Forms.DateTimePicker date_of_reportDateTimePicker;
-        private System.Windows.Forms.TextBox protocol_numberTextBox;
-        private System.Windows.Forms.TextBox commission_decisionTextBox;
-        private System.Windows.Forms.DateTimePicker date_of_certificationDateTimePicker;
         private System.Windows.Forms.TabPage tabPage10;
         private System.Windows.Forms.Button button12;
         private System.Windows.Forms.Button buttonAdd10;
         private System.Windows.Forms.GroupBox groupBox17;
-        private System.Windows.Forms.TextBox iD_educationTextBox;
-        private System.Windows.Forms.DateTimePicker year_of_graduationDateTimePicker;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox seriesTextBox;
-        private System.Windows.Forms.TextBox name_of_the_document_on_educationTextBox;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TabPage tabPage11;
         private System.Windows.Forms.Button button13;
         private System.Windows.Forms.Button buttonAdd11;
         private System.Windows.Forms.GroupBox groupBox18;
-        private System.Windows.Forms.TextBox ID_retrainingTextBox;
-        private System.Windows.Forms.DateTimePicker dateTimePicker4;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox specialtyTextBox;
-        private System.Windows.Forms.DateTimePicker completion_of_retrainingDateTimePicker;
-        private System.Windows.Forms.DateTimePicker the_beginning_of_the_trainingDateTimePicker;
         private System.Windows.Forms.Button button14;
         private System.Windows.Forms.Button buttonBack15;
         private System.Windows.Forms.Button buttonBack16;
@@ -3391,5 +4482,151 @@
         private System.Windows.Forms.Button buttonBack22;
         private System.Windows.Forms.Button buttonBack23;
         private System.Windows.Forms.Button buttonBack24;
+        private System.Windows.Forms.ToolStripTextBox bindingNavigatorPositionItem;
+        private System.Windows.Forms.BindingNavigator bindingNavigator2;
+        private System.Windows.Forms.ToolStripButton toolStripButton6;
+        private System.Windows.Forms.ToolStripButton toolStripButton7;
+        private System.Windows.Forms.ToolStripButton toolStripButton10;
+        private System.Windows.Forms.ToolStripTextBox toolStripTextBox2;
+        private System.Windows.Forms.ToolStripButton toolStripButton9;
+        private System.Windows.Forms.ToolStripButton toolStripButton8;
+        private System.Windows.Forms.BindingNavigator bindingNavigator1;
+        private System.Windows.Forms.ToolStripButton toolStripButton3;
+        private System.Windows.Forms.ToolStripTextBox toolStripTextBox1;
+        private System.Windows.Forms.ToolStripButton toolStripButton4;
+        private System.Windows.Forms.BindingNavigator bindingNavigator3;
+        private System.Windows.Forms.ToolStripButton toolStripButton11;
+        private System.Windows.Forms.ToolStripButton toolStripButton12;
+        private System.Windows.Forms.ToolStripButton toolStripButton13;
+        private System.Windows.Forms.ToolStripTextBox toolStripTextBox3;
+        private System.Windows.Forms.ToolStripButton toolStripButton14;
+        private System.Windows.Forms.ToolStripButton toolStripButton15;
+        private System.Windows.Forms.BindingNavigator bindingNavigator4;
+        private System.Windows.Forms.ToolStripButton toolStripButton16;
+        private System.Windows.Forms.ToolStripButton toolStripButton17;
+        private System.Windows.Forms.ToolStripButton toolStripButton18;
+        private System.Windows.Forms.ToolStripTextBox toolStripTextBox4;
+        private System.Windows.Forms.ToolStripButton toolStripButton19;
+        private System.Windows.Forms.ToolStripButton toolStripButton20;
+        private System.Windows.Forms.BindingNavigator bindingNavigator5;
+        private System.Windows.Forms.ToolStripButton toolStripButton21;
+        private System.Windows.Forms.ToolStripButton toolStripButton22;
+        private System.Windows.Forms.ToolStripButton toolStripButton23;
+        private System.Windows.Forms.ToolStripTextBox toolStripTextBox5;
+        private System.Windows.Forms.ToolStripButton toolStripButton24;
+        private System.Windows.Forms.ToolStripButton toolStripButton25;
+        private System.Windows.Forms.BindingNavigator bindingNavigator6;
+        private System.Windows.Forms.ToolStripButton toolStripButton26;
+        private System.Windows.Forms.ToolStripButton toolStripButton27;
+        private System.Windows.Forms.ToolStripButton toolStripButton28;
+        private System.Windows.Forms.ToolStripTextBox toolStripTextBox6;
+        private System.Windows.Forms.ToolStripButton toolStripButton29;
+        private System.Windows.Forms.ToolStripButton toolStripButton30;
+        private System.Windows.Forms.BindingNavigator bindingNavigator7;
+        private System.Windows.Forms.ToolStripButton toolStripButton31;
+        private System.Windows.Forms.ToolStripButton toolStripButton32;
+        private System.Windows.Forms.ToolStripButton toolStripButton33;
+        private System.Windows.Forms.ToolStripTextBox toolStripTextBox7;
+        private System.Windows.Forms.ToolStripButton toolStripButton34;
+        private System.Windows.Forms.ToolStripButton toolStripButton35;
+        private System.Windows.Forms.BindingNavigator bindingNavigator8;
+        private System.Windows.Forms.ToolStripButton toolStripButton36;
+        private System.Windows.Forms.ToolStripButton toolStripButton37;
+        private System.Windows.Forms.ToolStripButton toolStripButton38;
+        private System.Windows.Forms.ToolStripTextBox toolStripTextBox8;
+        private System.Windows.Forms.ToolStripButton toolStripButton39;
+        private System.Windows.Forms.ToolStripButton toolStripButton40;
+        private System.Windows.Forms.BindingNavigator bindingNavigator9;
+        private System.Windows.Forms.ToolStripButton toolStripButton41;
+        private System.Windows.Forms.ToolStripButton toolStripButton42;
+        private System.Windows.Forms.ToolStripButton toolStripButton43;
+        private System.Windows.Forms.ToolStripTextBox toolStripTextBox9;
+        private System.Windows.Forms.ToolStripButton toolStripButton44;
+        private System.Windows.Forms.ToolStripButton toolStripButton45;
+        private System.Windows.Forms.BindingNavigator bindingNavigator10;
+        private System.Windows.Forms.ToolStripButton toolStripButton46;
+        private System.Windows.Forms.ToolStripButton toolStripButton47;
+        private System.Windows.Forms.ToolStripButton toolStripButton48;
+        private System.Windows.Forms.ToolStripTextBox toolStripTextBox10;
+        private System.Windows.Forms.ToolStripButton toolStripButton49;
+        private System.Windows.Forms.ToolStripButton toolStripButton50;
+        private System.Windows.Forms.BindingNavigator bindingNavigator11;
+        private System.Windows.Forms.ToolStripButton toolStripButton51;
+        private System.Windows.Forms.ToolStripButton toolStripButton52;
+        private System.Windows.Forms.ToolStripButton toolStripButton53;
+        private System.Windows.Forms.ToolStripTextBox toolStripTextBox11;
+        private System.Windows.Forms.ToolStripButton toolStripButton54;
+        private System.Windows.Forms.ToolStripButton toolStripButton55;
+        private System.Windows.Forms.BindingSource reception_and_transferBindingSource;
+        private Personal_cardsDataSetTableAdapters.Reception_and_transferTableAdapter reception_and_transferTableAdapter;
+        private System.Windows.Forms.TextBox iD_of_reception_and_transfer_to_workTextBox;
+        private System.Windows.Forms.DateTimePicker dateDateTimePicker;
+        private System.Windows.Forms.TextBox structural_subdivisionTextBox;
+        private System.Windows.Forms.TextBox positionTextBox;
+        private System.Windows.Forms.TextBox tariff_rateTextBox;
+        private System.Windows.Forms.BindingSource advanced_trainingBindingSource;
+        private Personal_cardsDataSetTableAdapters.Advanced_trainingTableAdapter advanced_trainingTableAdapter;
+        private System.Windows.Forms.TextBox iD_qualificationTextBox;
+        private System.Windows.Forms.DateTimePicker beginning_of_trainingDateTimePicker;
+        private System.Windows.Forms.DateTimePicker the_end_of_the_trainingDateTimePicker;
+        private System.Windows.Forms.TextBox type_of_qualificationTextBox;
+        private System.Windows.Forms.TextBox name_of_educational_institutionTextBox;
+        private System.Windows.Forms.TextBox its_locationTextBox;
+        private System.Windows.Forms.TextBox document_nameTextBox;
+        private System.Windows.Forms.TextBox series_document_numberTextBox;
+        private System.Windows.Forms.DateTimePicker dateDateTimePicker1;
+        private System.Windows.Forms.BindingSource vacationBindingSource;
+        private Personal_cardsDataSetTableAdapters.VacationTableAdapter vacationTableAdapter;
+        private System.Windows.Forms.TextBox iD_vacationTextBox;
+        private System.Windows.Forms.TextBox type_of_vacationTextBox;
+        private System.Windows.Forms.DateTimePicker working_period_withDateTimePicker;
+        private System.Windows.Forms.DateTimePicker period_of_work_onDateTimePicker;
+        private System.Windows.Forms.TextBox number_of_vacation_daysTextBox;
+        private System.Windows.Forms.DateTimePicker start_dateDateTimePicker;
+        private System.Windows.Forms.DateTimePicker expiry_dateDateTimePicker;
+        private System.Windows.Forms.BindingSource level_of_educationBindingSource;
+        private Personal_cardsDataSetTableAdapters.Level_of_educationTableAdapter level_of_educationTableAdapter;
+        private System.Windows.Forms.TextBox iD_level_of_educationTextBox;
+        private System.Windows.Forms.TextBox level_of_educationTextBox;
+        private System.Windows.Forms.BindingSource rewardsBindingSource;
+        private Personal_cardsDataSetTableAdapters.RewardsTableAdapter rewardsTableAdapter;
+        private System.Windows.Forms.TextBox iD_rewardsTextBox;
+        private System.Windows.Forms.TextBox the_name_of_the_awardsTextBox;
+        private System.Windows.Forms.TextBox numberTextBox;
+        private System.Windows.Forms.DateTimePicker dateDateTimePicker2;
+        private System.Windows.Forms.BindingSource military_registrationBindingSource;
+        private Personal_cardsDataSetTableAdapters.Military_registrationTableAdapter military_registrationTableAdapter;
+        private System.Windows.Forms.TextBox iD_military_registrationTextBox;
+        private System.Windows.Forms.TextBox stock_categoryTextBox;
+        private System.Windows.Forms.TextBox military_rankTextBox;
+        private System.Windows.Forms.TextBox composition_profileTextBox;
+        private System.Windows.Forms.TextBox full_code_designation_VUSTextBox;
+        private System.Windows.Forms.TextBox category_of_fitness_for_military_serviceTextBox;
+        private System.Windows.Forms.TextBox the_name_of_the_military_commissariatTextBox;
+        private System.Windows.Forms.BindingSource certificationBindingSource;
+        private Personal_cardsDataSetTableAdapters.CertificationTableAdapter certificationTableAdapter;
+        private System.Windows.Forms.TextBox iD_certificationTextBox;
+        private System.Windows.Forms.DateTimePicker date_of_certificationDateTimePicker;
+        private System.Windows.Forms.TextBox commission_decisionTextBox;
+        private System.Windows.Forms.TextBox protocol_numberTextBox;
+        private System.Windows.Forms.DateTimePicker date_of_reportDateTimePicker;
+        private System.Windows.Forms.BindingSource educationBindingSource;
+        private Personal_cardsDataSetTableAdapters.EducationTableAdapter educationTableAdapter;
+        private System.Windows.Forms.TextBox iD_educationTextBox;
+        private System.Windows.Forms.TextBox level_of_educationTextBox1;
+        private System.Windows.Forms.TextBox name_of_educational_institutionTextBox1;
+        private System.Windows.Forms.TextBox name_of_the_document_on_educationTextBox;
+        private System.Windows.Forms.TextBox seriesTextBox;
+        private System.Windows.Forms.TextBox numberTextBox1;
+        private System.Windows.Forms.DateTimePicker year_of_graduationDateTimePicker;
+        private System.Windows.Forms.BindingSource retrainingBindingSource;
+        private Personal_cardsDataSetTableAdapters.RetrainingTableAdapter retrainingTableAdapter;
+        private System.Windows.Forms.TextBox iD_retrainingTextBox;
+        private System.Windows.Forms.DateTimePicker the_beginning_of_the_trainingDateTimePicker;
+        private System.Windows.Forms.DateTimePicker completion_of_retrainingDateTimePicker;
+        private System.Windows.Forms.TextBox specialtyTextBox;
+        private System.Windows.Forms.TextBox document_nameTextBox1;
+        private System.Windows.Forms.TextBox document_numberTextBox1;
+        private System.Windows.Forms.DateTimePicker dateDateTimePicker3;
     }
 }

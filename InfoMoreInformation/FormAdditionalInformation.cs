@@ -9,7 +9,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.Odbc;
-
+using Microsoft.Office.Interop.Excel;
+using Rectangle = System.Drawing.Rectangle;
+using Point = System.Drawing.Point;
+using Application = System.Windows.Forms.Application;
 
 namespace Personal_cardsApp1
 {
@@ -72,6 +75,29 @@ namespace Personal_cardsApp1
         private void buttonprint_Click(object sender, EventArgs e)
         {
             printDocument1.Print();
+        }
+
+        private void buttonExcel_Click(object sender, EventArgs e)
+        {
+            //Приложение
+            Microsoft.Office.Interop.Excel.Application ExcelApp = new Microsoft.Office.Interop.Excel.Application();
+            Microsoft.Office.Interop.Excel.Workbook ExcelWorkBook;
+            Microsoft.Office.Interop.Excel.Worksheet ExcelWorkSheet;
+            //Книга.
+            ExcelWorkBook = ExcelApp.Workbooks.Add(System.Reflection.Missing.Value);
+            //Таблица.
+            ExcelWorkSheet = (Microsoft.Office.Interop.Excel.Worksheet)ExcelWorkBook.Worksheets.get_Item(1);
+
+            for (int i = 0; i < more_informationDataGridView.Rows.Count; i++)
+            {
+                for (int j = 0; j < more_informationDataGridView.ColumnCount; j++)
+                {
+                    ExcelApp.Cells[i + 1, j + 1] = more_informationDataGridView.Rows[i].Cells[j].Value;
+                }
+            }
+            //Вызываем нашу созданную эксельку.
+            ExcelApp.Visible = true;
+            ExcelApp.UserControl = true;
         }
     }
 }

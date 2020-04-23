@@ -14,6 +14,7 @@ namespace Personal_cardsApp1
 {
     public partial class FormProba : Form
     {
+       
         public FormProba()
         {
             InitializeComponent();
@@ -34,6 +35,26 @@ namespace Personal_cardsApp1
 
         private void FormProba_Load(object sender, EventArgs e)
         {
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "personal_cardsDataSet.Retraining". При необходимости она может быть перемещена или удалена.
+            this.retrainingTableAdapter.Fill(this.personal_cardsDataSet.Retraining);
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "personal_cardsDataSet.Education". При необходимости она может быть перемещена или удалена.
+            this.educationTableAdapter.Fill(this.personal_cardsDataSet.Education);
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "personal_cardsDataSet.Certification". При необходимости она может быть перемещена или удалена.
+            this.certificationTableAdapter.Fill(this.personal_cardsDataSet.Certification);
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "personal_cardsDataSet.Military_registration". При необходимости она может быть перемещена или удалена.
+            this.military_registrationTableAdapter.Fill(this.personal_cardsDataSet.Military_registration);
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "personal_cardsDataSet.Rewards". При необходимости она может быть перемещена или удалена.
+            this.rewardsTableAdapter.Fill(this.personal_cardsDataSet.Rewards);
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "personal_cardsDataSet.Level_of_education". При необходимости она может быть перемещена или удалена.
+            this.level_of_educationTableAdapter.Fill(this.personal_cardsDataSet.Level_of_education);
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "personal_cardsDataSet.Vacation". При необходимости она может быть перемещена или удалена.
+            this.vacationTableAdapter.Fill(this.personal_cardsDataSet.Vacation);
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "personal_cardsDataSet.Advanced_training". При необходимости она может быть перемещена или удалена.
+            this.advanced_trainingTableAdapter.Fill(this.personal_cardsDataSet.Advanced_training);
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "personal_cardsDataSet.Advanced_training". При необходимости она может быть перемещена или удалена.
+            this.advanced_trainingTableAdapter.Fill(this.personal_cardsDataSet.Advanced_training);
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "personal_cardsDataSet.Reception_and_transfer". При необходимости она может быть перемещена или удалена.
+            this.reception_and_transferTableAdapter.Fill(this.personal_cardsDataSet.Reception_and_transfer);
             // TODO: данная строка кода позволяет загрузить данные в таблицу "personal_cardsDataSet.Social_benefits". При необходимости она может быть перемещена или удалена.
             this.social_benefitsTableAdapter.Fill(this.personal_cardsDataSet.Social_benefits);
             // TODO: данная строка кода позволяет загрузить данные в таблицу "personal_cardsDataSet.Social_benefits". При необходимости она может быть перемещена или удалена.
@@ -70,7 +91,7 @@ namespace Personal_cardsApp1
         {
             SqlConnection connection = new SqlConnection(@"Data Source=DESKTOP-DPL61M9\SQLEXPRESS;Initial Catalog=Personal_cards;Integrated Security=True");
             connection.Open();
-            String queryDelete = "DELETE FROM More_information where ID_additional_information ='" + iD_social_benefitsTextBox.Text + "'";
+            String queryDelete = "DELETE FROM More_information where ID_additional_information ='" + iD_additional_informationTextBox.Text + "'";
             SqlDataAdapter SDA = new SqlDataAdapter(queryDelete, connection);
             SDA.SelectCommand.ExecuteNonQuery();
             connection.Close();
@@ -106,7 +127,7 @@ namespace Personal_cardsApp1
         {
             SqlConnection connection = new SqlConnection(@"Data Source=DESKTOP-DPL61M9\SQLEXPRESS;Initial Catalog=Personal_cards;Integrated Security=True");
             connection.Open();
-            String queryDelete = "DELETE FROM Reception_and_transfer where ID_of_reception_and_transfer_to_work ='" + ID_of_reception_and_transfer_to_workTextBox.Text + "'";
+            String queryDelete = "DELETE FROM Reception_and_transfer where ID_of_reception_and_transfer_to_work ='" + iD_of_reception_and_transfer_to_workTextBox.Text + "'";
             SqlDataAdapter SDA = new SqlDataAdapter(queryDelete, connection);
             SDA.SelectCommand.ExecuteNonQuery();
             connection.Close();
@@ -124,7 +145,7 @@ namespace Personal_cardsApp1
         {
             SqlConnection connection = new SqlConnection(@"Data Source=DESKTOP-DPL61M9\SQLEXPRESS;Initial Catalog=Personal_cards;Integrated Security=True");
             connection.Open();
-            String queryDelete = "DELETE FROM Advanced_training where ID_qualification ='" + ID_qualificationTextBox.Text + "'";
+            String queryDelete = "DELETE FROM Advanced_training where ID_qualification ='" + iD_qualificationTextBox.Text + "'";
             SqlDataAdapter SDA = new SqlDataAdapter(queryDelete, connection);
             SDA.SelectCommand.ExecuteNonQuery();
             connection.Close();
@@ -142,7 +163,7 @@ namespace Personal_cardsApp1
         {
             SqlConnection connection = new SqlConnection(@"Data Source=DESKTOP-DPL61M9\SQLEXPRESS;Initial Catalog=Personal_cards;Integrated Security=True");
             connection.Open();
-            String queryDelete = "DELETE FROM Vacation where ID_vacation ='" + ID_vacationTextBox.Text + "'";
+            String queryDelete = "DELETE FROM Vacation where ID_vacation ='" + iD_vacationTextBox.Text + "'";
             SqlDataAdapter SDA = new SqlDataAdapter(queryDelete, connection);
             SDA.SelectCommand.ExecuteNonQuery();
             connection.Close();
@@ -160,7 +181,7 @@ namespace Personal_cardsApp1
         {
             SqlConnection connection = new SqlConnection(@"Data Source=DESKTOP-DPL61M9\SQLEXPRESS;Initial Catalog=Personal_cards;Integrated Security=True");
             connection.Open();
-            String queryDelete = "DELETE FROM Level_of_education where ID_level_of_education ='" + ID_level_of_educationTextBox.Text + "'";
+            String queryDelete = "DELETE FROM Level_of_education where ID_level_of_education ='" + iD_level_of_educationTextBox.Text + "'";
             SqlDataAdapter SDA = new SqlDataAdapter(queryDelete, connection);
             SDA.SelectCommand.ExecuteNonQuery();
             connection.Close();
@@ -178,7 +199,7 @@ namespace Personal_cardsApp1
         {
             SqlConnection connection = new SqlConnection(@"Data Source=DESKTOP-DPL61M9\SQLEXPRESS;Initial Catalog=Personal_cards;Integrated Security=True");
             connection.Open();
-            String queryDelete = "DELETE FROM Rewards where ID_rewards ='" + ID_rewardsTextBox.Text + "'";
+            String queryDelete = "DELETE FROM Rewards where ID_rewards ='" + iD_rewardsTextBox.Text + "'";
             SqlDataAdapter SDA = new SqlDataAdapter(queryDelete, connection);
             SDA.SelectCommand.ExecuteNonQuery();
             connection.Close();
@@ -196,7 +217,7 @@ namespace Personal_cardsApp1
         {
             SqlConnection connection = new SqlConnection(@"Data Source=DESKTOP-DPL61M9\SQLEXPRESS;Initial Catalog=Personal_cards;Integrated Security=True");
             connection.Open();
-            String queryDelete = "DELETE FROM Military_registration where ID_military_registration ='" + ID_military_registrationTextBox.Text + "'";
+            String queryDelete = "DELETE FROM Military_registration where ID_military_registration ='" + iD_military_registrationTextBox.Text + "'";
             SqlDataAdapter SDA = new SqlDataAdapter(queryDelete, connection);
             SDA.SelectCommand.ExecuteNonQuery();
             connection.Close();
@@ -214,7 +235,7 @@ namespace Personal_cardsApp1
         {
             SqlConnection connection = new SqlConnection(@"Data Source=DESKTOP-DPL61M9\SQLEXPRESS;Initial Catalog=Personal_cards;Integrated Security=True");
             connection.Open();
-            String queryDelete = "DELETE FROM Certification where ID_certification ='" + ID_certificationTextBox.Text + "'";
+            String queryDelete = "DELETE FROM Certification where ID_certification ='" + iD_certificationTextBox.Text + "'";
             SqlDataAdapter SDA = new SqlDataAdapter(queryDelete, connection);
             SDA.SelectCommand.ExecuteNonQuery();
             connection.Close();
@@ -250,7 +271,7 @@ namespace Personal_cardsApp1
         {
             SqlConnection connection = new SqlConnection(@"Data Source=DESKTOP-DPL61M9\SQLEXPRESS;Initial Catalog=Personal_cards;Integrated Security=True");
             connection.Open();
-            String queryDelete = "DELETE FROM Retraining where ID_retraining ='" + ID_retrainingTextBox.Text + "'";
+            String queryDelete = "DELETE FROM Retraining where ID_retraining ='" + iD_retrainingTextBox.Text + "'";
             SqlDataAdapter SDA = new SqlDataAdapter(queryDelete, connection);
             SDA.SelectCommand.ExecuteNonQuery();
             connection.Close();
@@ -277,12 +298,6 @@ namespace Personal_cardsApp1
         {
 
         }
-
-        private void bindingNavigatorCountItem_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void bindingNavigatorMoveNextItem_Click(object sender, EventArgs e)
         {
 
@@ -407,6 +422,27 @@ namespace Personal_cardsApp1
             Menu.Top = this.Top; // задаём открываемой форме позицию сверху равную позиции текущей формы
             Menu.Show(); // отображаем Form2
             this.Hide();
+        }
+
+        private void groupBox18_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonDelete_Click(object sender, EventArgs e)
+        {
+            SqlConnection connection = new SqlConnection(@"Data Source=DESKTOP-DPL61M9\SQLEXPRESS;Initial Catalog=Personal_cards;Integrated Security=True");
+            connection.Open();
+            String queryDelete = "DELETE FROM Employee_information where ID_employee ='" + iD_employeeTextBox.Text + "'";
+            SqlDataAdapter SDA = new SqlDataAdapter(queryDelete, connection);
+            SDA.SelectCommand.ExecuteNonQuery();
+            connection.Close();
+            MessageBox.Show("Запись успешно удалена");
+        }
+
+        private void buttonExcel_Click(object sender, EventArgs e)
+        {
+       
         }
     }
 }
