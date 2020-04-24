@@ -53,6 +53,8 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             this.staff_listBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
             this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
+            this.staff_listBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.personal_cardsDataSet = new Personal_cardsApp1.Personal_cardsDataSet();
             this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
             this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMoveFirstItem = new System.Windows.Forms.ToolStripButton();
@@ -62,29 +64,6 @@
             this.bindingNavigatorMoveLastItem = new System.Windows.Forms.ToolStripButton();
             this.staff_listBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
             this.staff_listDataGridView = new System.Windows.Forms.DataGridView();
-            this.buttonExcelStaffList = new System.Windows.Forms.Button();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.ID_schedulesTextBox = new System.Windows.Forms.TextBox();
-            this.Name_organizationTextBox = new System.Windows.Forms.TextBox();
-            this.Document_numberTextBox = new System.Windows.Forms.TextBox();
-            this.Date_compilationTextBox = new System.Windows.Forms.TextBox();
-            this.Order_organization_fromTextBox = new System.Windows.Forms.TextBox();
-            this.Order_numberTextBox = new System.Windows.Forms.TextBox();
-            this.For_periodTextBox = new System.Windows.Forms.TextBox();
-            this.DateTextBox = new System.Windows.Forms.TextBox();
-            this.Staff_number_unitsTextBox = new System.Windows.Forms.TextBox();
-            this.NameTextBox = new System.Windows.Forms.TextBox();
-            this.CodeTextBox = new System.Windows.Forms.TextBox();
-            this.PositionTextBox = new System.Windows.Forms.TextBox();
-            this.NumberunitsTextBox = new System.Windows.Forms.TextBox();
-            this.Tariff_rateTextBox = new System.Windows.Forms.TextBox();
-            this.AllowancesTextBox = new System.Windows.Forms.TextBox();
-            this.Total_rublesTextBox = new System.Windows.Forms.TextBox();
-            this.buttonAdd = new System.Windows.Forms.Button();
-            this.buttonDelete = new System.Windows.Forms.Button();
-            this.buttonPrint = new System.Windows.Forms.Button();
-            this.printDocument1 = new System.Drawing.Printing.PrintDocument();
-            this.buttonBack = new System.Windows.Forms.Button();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -101,8 +80,29 @@
             this.dataGridViewTextBoxColumn14 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn15 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn16 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.staff_listBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.personal_cardsDataSet = new Personal_cardsApp1.Personal_cardsDataSet();
+            this.buttonExcelStaffList = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.Total_rublesTextBox = new System.Windows.Forms.TextBox();
+            this.AllowancesTextBox = new System.Windows.Forms.TextBox();
+            this.Tariff_rateTextBox = new System.Windows.Forms.TextBox();
+            this.NumberunitsTextBox = new System.Windows.Forms.TextBox();
+            this.PositionTextBox = new System.Windows.Forms.TextBox();
+            this.CodeTextBox = new System.Windows.Forms.TextBox();
+            this.NameTextBox = new System.Windows.Forms.TextBox();
+            this.Staff_number_unitsTextBox = new System.Windows.Forms.TextBox();
+            this.DateTextBox = new System.Windows.Forms.TextBox();
+            this.For_periodTextBox = new System.Windows.Forms.TextBox();
+            this.Order_numberTextBox = new System.Windows.Forms.TextBox();
+            this.Order_organization_fromTextBox = new System.Windows.Forms.TextBox();
+            this.Date_compilationTextBox = new System.Windows.Forms.TextBox();
+            this.Document_numberTextBox = new System.Windows.Forms.TextBox();
+            this.Name_organizationTextBox = new System.Windows.Forms.TextBox();
+            this.ID_schedulesTextBox = new System.Windows.Forms.TextBox();
+            this.buttonAdd = new System.Windows.Forms.Button();
+            this.buttonDelete = new System.Windows.Forms.Button();
+            this.buttonPrint = new System.Windows.Forms.Button();
+            this.printDocument1 = new System.Drawing.Printing.PrintDocument();
+            this.buttonBack = new System.Windows.Forms.Button();
             this.staff_listTableAdapter = new Personal_cardsApp1.Personal_cardsDataSetTableAdapters.Staff_listTableAdapter();
             this.tableAdapterManager = new Personal_cardsApp1.Personal_cardsDataSetTableAdapters.TableAdapterManager();
             iD_schedulesLabel = new System.Windows.Forms.Label();
@@ -123,10 +123,10 @@
             total_rublesLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.staff_listBindingNavigator)).BeginInit();
             this.staff_listBindingNavigator.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.staff_listDataGridView)).BeginInit();
-            this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.staff_listBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.personal_cardsDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.staff_listDataGridView)).BeginInit();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // iD_schedulesLabel
@@ -323,7 +323,7 @@
             this.bindingNavigatorAddNewItem,
             this.bindingNavigatorDeleteItem,
             this.staff_listBindingNavigatorSaveItem});
-            this.staff_listBindingNavigator.Location = new System.Drawing.Point(727, 9);
+            this.staff_listBindingNavigator.Location = new System.Drawing.Point(734, 0);
             this.staff_listBindingNavigator.MoveFirstItem = this.bindingNavigatorMoveFirstItem;
             this.staff_listBindingNavigator.MoveLastItem = this.bindingNavigatorMoveLastItem;
             this.staff_listBindingNavigator.MoveNextItem = this.bindingNavigatorMoveNextItem;
@@ -342,6 +342,17 @@
             this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
             this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(34, 28);
             this.bindingNavigatorAddNewItem.Text = "Добавить";
+            this.bindingNavigatorAddNewItem.Visible = false;
+            // 
+            // staff_listBindingSource
+            // 
+            this.staff_listBindingSource.DataMember = "Staff_list";
+            this.staff_listBindingSource.DataSource = this.personal_cardsDataSet;
+            // 
+            // personal_cardsDataSet
+            // 
+            this.personal_cardsDataSet.DataSetName = "Personal_cardsDataSet";
+            this.personal_cardsDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // bindingNavigatorCountItem
             // 
@@ -358,6 +369,7 @@
             this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
             this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(34, 28);
             this.bindingNavigatorDeleteItem.Text = "Удалить";
+            this.bindingNavigatorDeleteItem.Visible = false;
             // 
             // bindingNavigatorMoveFirstItem
             // 
@@ -412,6 +424,7 @@
             this.staff_listBindingNavigatorSaveItem.Name = "staff_listBindingNavigatorSaveItem";
             this.staff_listBindingNavigatorSaveItem.Size = new System.Drawing.Size(34, 28);
             this.staff_listBindingNavigatorSaveItem.Text = "Сохранить данные";
+            this.staff_listBindingNavigatorSaveItem.Visible = false;
             this.staff_listBindingNavigatorSaveItem.Click += new System.EventHandler(this.staff_listBindingNavigatorSaveItem_Click);
             // 
             // staff_listDataGridView
@@ -471,241 +484,6 @@
             this.staff_listDataGridView.Size = new System.Drawing.Size(2315, 342);
             this.staff_listDataGridView.TabIndex = 1;
             this.staff_listDataGridView.UserDeletingRow += new System.Windows.Forms.DataGridViewRowCancelEventHandler(this.staff_listDataGridView_UserDeletingRow);
-            // 
-            // buttonExcelStaffList
-            // 
-            this.buttonExcelStaffList.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.buttonExcelStaffList.Font = new System.Drawing.Font("Times New Roman", 12.25532F);
-            this.buttonExcelStaffList.Location = new System.Drawing.Point(1432, 552);
-            this.buttonExcelStaffList.Name = "buttonExcelStaffList";
-            this.buttonExcelStaffList.Size = new System.Drawing.Size(218, 55);
-            this.buttonExcelStaffList.TabIndex = 102;
-            this.buttonExcelStaffList.Text = "Экспорт в Excel";
-            this.buttonExcelStaffList.UseVisualStyleBackColor = false;
-            this.buttonExcelStaffList.Click += new System.EventHandler(this.buttonExcelStaffList_Click);
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.Total_rublesTextBox);
-            this.groupBox1.Controls.Add(this.AllowancesTextBox);
-            this.groupBox1.Controls.Add(this.Tariff_rateTextBox);
-            this.groupBox1.Controls.Add(this.NumberunitsTextBox);
-            this.groupBox1.Controls.Add(this.PositionTextBox);
-            this.groupBox1.Controls.Add(this.CodeTextBox);
-            this.groupBox1.Controls.Add(this.NameTextBox);
-            this.groupBox1.Controls.Add(this.Staff_number_unitsTextBox);
-            this.groupBox1.Controls.Add(this.DateTextBox);
-            this.groupBox1.Controls.Add(this.For_periodTextBox);
-            this.groupBox1.Controls.Add(this.Order_numberTextBox);
-            this.groupBox1.Controls.Add(this.Order_organization_fromTextBox);
-            this.groupBox1.Controls.Add(this.Date_compilationTextBox);
-            this.groupBox1.Controls.Add(this.Document_numberTextBox);
-            this.groupBox1.Controls.Add(this.Name_organizationTextBox);
-            this.groupBox1.Controls.Add(this.ID_schedulesTextBox);
-            this.groupBox1.Controls.Add(iD_schedulesLabel);
-            this.groupBox1.Controls.Add(total_rublesLabel);
-            this.groupBox1.Controls.Add(name_organizationLabel);
-            this.groupBox1.Controls.Add(allowancesLabel);
-            this.groupBox1.Controls.Add(document_numberLabel);
-            this.groupBox1.Controls.Add(tariff_rateLabel);
-            this.groupBox1.Controls.Add(date_compilationLabel);
-            this.groupBox1.Controls.Add(number__staff_unitsLabel);
-            this.groupBox1.Controls.Add(order_organization_fromLabel);
-            this.groupBox1.Controls.Add(positionLabel);
-            this.groupBox1.Controls.Add(order_numberLabel);
-            this.groupBox1.Controls.Add(codeLabel);
-            this.groupBox1.Controls.Add(for_periodLabel);
-            this.groupBox1.Controls.Add(nameLabel);
-            this.groupBox1.Controls.Add(dateLabel);
-            this.groupBox1.Controls.Add(staff_number_unitsLabel);
-            this.groupBox1.Font = new System.Drawing.Font("Sitka Banner", 13.78723F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.groupBox1.ForeColor = System.Drawing.Color.Yellow;
-            this.groupBox1.Location = new System.Drawing.Point(97, 392);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(812, 647);
-            this.groupBox1.TabIndex = 134;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Добавление штатного расписания";
-            // 
-            // ID_schedulesTextBox
-            // 
-            this.ID_schedulesTextBox.Font = new System.Drawing.Font("Sitka Banner", 8.170213F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ID_schedulesTextBox.Location = new System.Drawing.Point(214, 50);
-            this.ID_schedulesTextBox.Name = "ID_schedulesTextBox";
-            this.ID_schedulesTextBox.Size = new System.Drawing.Size(89, 28);
-            this.ID_schedulesTextBox.TabIndex = 133;
-            // 
-            // Name_organizationTextBox
-            // 
-            this.Name_organizationTextBox.Font = new System.Drawing.Font("Sitka Banner", 8.170213F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Name_organizationTextBox.Location = new System.Drawing.Point(368, 81);
-            this.Name_organizationTextBox.Name = "Name_organizationTextBox";
-            this.Name_organizationTextBox.Size = new System.Drawing.Size(195, 28);
-            this.Name_organizationTextBox.TabIndex = 134;
-            // 
-            // Document_numberTextBox
-            // 
-            this.Document_numberTextBox.Font = new System.Drawing.Font("Sitka Banner", 8.170213F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Document_numberTextBox.Location = new System.Drawing.Point(245, 115);
-            this.Document_numberTextBox.Name = "Document_numberTextBox";
-            this.Document_numberTextBox.Size = new System.Drawing.Size(195, 28);
-            this.Document_numberTextBox.TabIndex = 135;
-            // 
-            // Date_compilationTextBox
-            // 
-            this.Date_compilationTextBox.Font = new System.Drawing.Font("Sitka Banner", 8.170213F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Date_compilationTextBox.Location = new System.Drawing.Point(245, 148);
-            this.Date_compilationTextBox.Name = "Date_compilationTextBox";
-            this.Date_compilationTextBox.Size = new System.Drawing.Size(195, 28);
-            this.Date_compilationTextBox.TabIndex = 136;
-            // 
-            // Order_organization_fromTextBox
-            // 
-            this.Order_organization_fromTextBox.Font = new System.Drawing.Font("Sitka Banner", 8.170213F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Order_organization_fromTextBox.Location = new System.Drawing.Point(343, 180);
-            this.Order_organization_fromTextBox.Name = "Order_organization_fromTextBox";
-            this.Order_organization_fromTextBox.Size = new System.Drawing.Size(195, 28);
-            this.Order_organization_fromTextBox.TabIndex = 137;
-            // 
-            // Order_numberTextBox
-            // 
-            this.Order_numberTextBox.Font = new System.Drawing.Font("Sitka Banner", 8.170213F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Order_numberTextBox.Location = new System.Drawing.Point(214, 211);
-            this.Order_numberTextBox.Name = "Order_numberTextBox";
-            this.Order_numberTextBox.Size = new System.Drawing.Size(195, 28);
-            this.Order_numberTextBox.TabIndex = 138;
-            // 
-            // For_periodTextBox
-            // 
-            this.For_periodTextBox.Font = new System.Drawing.Font("Sitka Banner", 8.170213F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.For_periodTextBox.Location = new System.Drawing.Point(168, 242);
-            this.For_periodTextBox.Name = "For_periodTextBox";
-            this.For_periodTextBox.Size = new System.Drawing.Size(195, 28);
-            this.For_periodTextBox.TabIndex = 139;
-            // 
-            // DateTextBox
-            // 
-            this.DateTextBox.Font = new System.Drawing.Font("Sitka Banner", 8.170213F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.DateTextBox.Location = new System.Drawing.Point(108, 276);
-            this.DateTextBox.Name = "DateTextBox";
-            this.DateTextBox.Size = new System.Drawing.Size(195, 28);
-            this.DateTextBox.TabIndex = 140;
-            // 
-            // Staff_number_unitsTextBox
-            // 
-            this.Staff_number_unitsTextBox.Font = new System.Drawing.Font("Sitka Banner", 8.170213F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Staff_number_unitsTextBox.Location = new System.Drawing.Point(387, 312);
-            this.Staff_number_unitsTextBox.Name = "Staff_number_unitsTextBox";
-            this.Staff_number_unitsTextBox.Size = new System.Drawing.Size(195, 28);
-            this.Staff_number_unitsTextBox.TabIndex = 141;
-            // 
-            // NameTextBox
-            // 
-            this.NameTextBox.Font = new System.Drawing.Font("Sitka Banner", 8.170213F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.NameTextBox.Location = new System.Drawing.Point(228, 351);
-            this.NameTextBox.Name = "NameTextBox";
-            this.NameTextBox.Size = new System.Drawing.Size(195, 28);
-            this.NameTextBox.TabIndex = 142;
-            // 
-            // CodeTextBox
-            // 
-            this.CodeTextBox.Font = new System.Drawing.Font("Sitka Banner", 8.170213F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.CodeTextBox.Location = new System.Drawing.Point(94, 392);
-            this.CodeTextBox.Name = "CodeTextBox";
-            this.CodeTextBox.Size = new System.Drawing.Size(195, 28);
-            this.CodeTextBox.TabIndex = 143;
-            // 
-            // PositionTextBox
-            // 
-            this.PositionTextBox.Font = new System.Drawing.Font("Sitka Banner", 8.170213F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.PositionTextBox.Location = new System.Drawing.Point(177, 431);
-            this.PositionTextBox.Name = "PositionTextBox";
-            this.PositionTextBox.Size = new System.Drawing.Size(195, 28);
-            this.PositionTextBox.TabIndex = 144;
-            // 
-            // NumberunitsTextBox
-            // 
-            this.NumberunitsTextBox.Font = new System.Drawing.Font("Sitka Banner", 8.170213F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.NumberunitsTextBox.Location = new System.Drawing.Point(387, 476);
-            this.NumberunitsTextBox.Name = "NumberunitsTextBox";
-            this.NumberunitsTextBox.Size = new System.Drawing.Size(195, 28);
-            this.NumberunitsTextBox.TabIndex = 145;
-            // 
-            // Tariff_rateTextBox
-            // 
-            this.Tariff_rateTextBox.Font = new System.Drawing.Font("Sitka Banner", 8.170213F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Tariff_rateTextBox.Location = new System.Drawing.Point(245, 521);
-            this.Tariff_rateTextBox.Name = "Tariff_rateTextBox";
-            this.Tariff_rateTextBox.Size = new System.Drawing.Size(195, 28);
-            this.Tariff_rateTextBox.TabIndex = 146;
-            // 
-            // AllowancesTextBox
-            // 
-            this.AllowancesTextBox.Font = new System.Drawing.Font("Sitka Banner", 8.170213F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.AllowancesTextBox.Location = new System.Drawing.Point(188, 566);
-            this.AllowancesTextBox.Name = "AllowancesTextBox";
-            this.AllowancesTextBox.Size = new System.Drawing.Size(195, 28);
-            this.AllowancesTextBox.TabIndex = 147;
-            // 
-            // Total_rublesTextBox
-            // 
-            this.Total_rublesTextBox.Font = new System.Drawing.Font("Sitka Banner", 8.170213F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Total_rublesTextBox.Location = new System.Drawing.Point(188, 611);
-            this.Total_rublesTextBox.Name = "Total_rublesTextBox";
-            this.Total_rublesTextBox.Size = new System.Drawing.Size(195, 28);
-            this.Total_rublesTextBox.TabIndex = 148;
-            // 
-            // buttonAdd
-            // 
-            this.buttonAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.buttonAdd.Font = new System.Drawing.Font("Times New Roman", 12.25532F);
-            this.buttonAdd.Location = new System.Drawing.Point(1432, 622);
-            this.buttonAdd.Name = "buttonAdd";
-            this.buttonAdd.Size = new System.Drawing.Size(218, 55);
-            this.buttonAdd.TabIndex = 135;
-            this.buttonAdd.Text = "Добавить";
-            this.buttonAdd.UseVisualStyleBackColor = false;
-            this.buttonAdd.Click += new System.EventHandler(this.buttonAdd_Click);
-            // 
-            // buttonDelete
-            // 
-            this.buttonDelete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.buttonDelete.Font = new System.Drawing.Font("Times New Roman", 12.25532F);
-            this.buttonDelete.Location = new System.Drawing.Point(1432, 696);
-            this.buttonDelete.Name = "buttonDelete";
-            this.buttonDelete.Size = new System.Drawing.Size(218, 55);
-            this.buttonDelete.TabIndex = 136;
-            this.buttonDelete.Text = "Удалить";
-            this.buttonDelete.UseVisualStyleBackColor = false;
-            this.buttonDelete.Click += new System.EventHandler(this.buttonDelete_Click);
-            // 
-            // buttonPrint
-            // 
-            this.buttonPrint.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.buttonPrint.Font = new System.Drawing.Font("Times New Roman", 12.25532F);
-            this.buttonPrint.Location = new System.Drawing.Point(1432, 770);
-            this.buttonPrint.Name = "buttonPrint";
-            this.buttonPrint.Size = new System.Drawing.Size(218, 55);
-            this.buttonPrint.TabIndex = 137;
-            this.buttonPrint.Text = "Печать";
-            this.buttonPrint.UseVisualStyleBackColor = false;
-            this.buttonPrint.Click += new System.EventHandler(this.buttonPrint_Click);
-            // 
-            // printDocument1
-            // 
-            this.printDocument1.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(this.printDocument1_PrintPage);
-            // 
-            // buttonBack
-            // 
-            this.buttonBack.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.buttonBack.Font = new System.Drawing.Font("Times New Roman", 12.25532F);
-            this.buttonBack.Location = new System.Drawing.Point(1432, 931);
-            this.buttonBack.Name = "buttonBack";
-            this.buttonBack.Size = new System.Drawing.Size(218, 55);
-            this.buttonBack.TabIndex = 138;
-            this.buttonBack.Text = "Назад";
-            this.buttonBack.UseVisualStyleBackColor = false;
-            this.buttonBack.Click += new System.EventHandler(this.buttonBack_Click);
             // 
             // dataGridViewTextBoxColumn1
             // 
@@ -835,15 +613,240 @@
             this.dataGridViewTextBoxColumn16.Name = "dataGridViewTextBoxColumn16";
             this.dataGridViewTextBoxColumn16.Width = 147;
             // 
-            // staff_listBindingSource
+            // buttonExcelStaffList
             // 
-            this.staff_listBindingSource.DataMember = "Staff_list";
-            this.staff_listBindingSource.DataSource = this.personal_cardsDataSet;
+            this.buttonExcelStaffList.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.buttonExcelStaffList.Font = new System.Drawing.Font("Times New Roman", 12.25532F);
+            this.buttonExcelStaffList.Location = new System.Drawing.Point(1432, 552);
+            this.buttonExcelStaffList.Name = "buttonExcelStaffList";
+            this.buttonExcelStaffList.Size = new System.Drawing.Size(218, 55);
+            this.buttonExcelStaffList.TabIndex = 102;
+            this.buttonExcelStaffList.Text = "Экспорт в Excel";
+            this.buttonExcelStaffList.UseVisualStyleBackColor = false;
+            this.buttonExcelStaffList.Click += new System.EventHandler(this.buttonExcelStaffList_Click);
             // 
-            // personal_cardsDataSet
+            // groupBox1
             // 
-            this.personal_cardsDataSet.DataSetName = "Personal_cardsDataSet";
-            this.personal_cardsDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            this.groupBox1.Controls.Add(this.Total_rublesTextBox);
+            this.groupBox1.Controls.Add(this.AllowancesTextBox);
+            this.groupBox1.Controls.Add(this.Tariff_rateTextBox);
+            this.groupBox1.Controls.Add(this.NumberunitsTextBox);
+            this.groupBox1.Controls.Add(this.PositionTextBox);
+            this.groupBox1.Controls.Add(this.CodeTextBox);
+            this.groupBox1.Controls.Add(this.NameTextBox);
+            this.groupBox1.Controls.Add(this.Staff_number_unitsTextBox);
+            this.groupBox1.Controls.Add(this.DateTextBox);
+            this.groupBox1.Controls.Add(this.For_periodTextBox);
+            this.groupBox1.Controls.Add(this.Order_numberTextBox);
+            this.groupBox1.Controls.Add(this.Order_organization_fromTextBox);
+            this.groupBox1.Controls.Add(this.Date_compilationTextBox);
+            this.groupBox1.Controls.Add(this.Document_numberTextBox);
+            this.groupBox1.Controls.Add(this.Name_organizationTextBox);
+            this.groupBox1.Controls.Add(this.ID_schedulesTextBox);
+            this.groupBox1.Controls.Add(iD_schedulesLabel);
+            this.groupBox1.Controls.Add(total_rublesLabel);
+            this.groupBox1.Controls.Add(name_organizationLabel);
+            this.groupBox1.Controls.Add(allowancesLabel);
+            this.groupBox1.Controls.Add(document_numberLabel);
+            this.groupBox1.Controls.Add(tariff_rateLabel);
+            this.groupBox1.Controls.Add(date_compilationLabel);
+            this.groupBox1.Controls.Add(number__staff_unitsLabel);
+            this.groupBox1.Controls.Add(order_organization_fromLabel);
+            this.groupBox1.Controls.Add(positionLabel);
+            this.groupBox1.Controls.Add(order_numberLabel);
+            this.groupBox1.Controls.Add(codeLabel);
+            this.groupBox1.Controls.Add(for_periodLabel);
+            this.groupBox1.Controls.Add(nameLabel);
+            this.groupBox1.Controls.Add(dateLabel);
+            this.groupBox1.Controls.Add(staff_number_unitsLabel);
+            this.groupBox1.Font = new System.Drawing.Font("Sitka Banner", 13.78723F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.groupBox1.ForeColor = System.Drawing.Color.Yellow;
+            this.groupBox1.Location = new System.Drawing.Point(97, 392);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(812, 647);
+            this.groupBox1.TabIndex = 134;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Добавление штатного расписания";
+            // 
+            // Total_rublesTextBox
+            // 
+            this.Total_rublesTextBox.Font = new System.Drawing.Font("Sitka Banner", 8.170213F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Total_rublesTextBox.Location = new System.Drawing.Point(188, 611);
+            this.Total_rublesTextBox.Name = "Total_rublesTextBox";
+            this.Total_rublesTextBox.Size = new System.Drawing.Size(195, 28);
+            this.Total_rublesTextBox.TabIndex = 148;
+            // 
+            // AllowancesTextBox
+            // 
+            this.AllowancesTextBox.Font = new System.Drawing.Font("Sitka Banner", 8.170213F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.AllowancesTextBox.Location = new System.Drawing.Point(188, 566);
+            this.AllowancesTextBox.Name = "AllowancesTextBox";
+            this.AllowancesTextBox.Size = new System.Drawing.Size(195, 28);
+            this.AllowancesTextBox.TabIndex = 147;
+            // 
+            // Tariff_rateTextBox
+            // 
+            this.Tariff_rateTextBox.Font = new System.Drawing.Font("Sitka Banner", 8.170213F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Tariff_rateTextBox.Location = new System.Drawing.Point(245, 521);
+            this.Tariff_rateTextBox.Name = "Tariff_rateTextBox";
+            this.Tariff_rateTextBox.Size = new System.Drawing.Size(195, 28);
+            this.Tariff_rateTextBox.TabIndex = 146;
+            // 
+            // NumberunitsTextBox
+            // 
+            this.NumberunitsTextBox.Font = new System.Drawing.Font("Sitka Banner", 8.170213F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.NumberunitsTextBox.Location = new System.Drawing.Point(387, 476);
+            this.NumberunitsTextBox.Name = "NumberunitsTextBox";
+            this.NumberunitsTextBox.Size = new System.Drawing.Size(195, 28);
+            this.NumberunitsTextBox.TabIndex = 145;
+            // 
+            // PositionTextBox
+            // 
+            this.PositionTextBox.Font = new System.Drawing.Font("Sitka Banner", 8.170213F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.PositionTextBox.Location = new System.Drawing.Point(177, 431);
+            this.PositionTextBox.Name = "PositionTextBox";
+            this.PositionTextBox.Size = new System.Drawing.Size(195, 28);
+            this.PositionTextBox.TabIndex = 144;
+            // 
+            // CodeTextBox
+            // 
+            this.CodeTextBox.Font = new System.Drawing.Font("Sitka Banner", 8.170213F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.CodeTextBox.Location = new System.Drawing.Point(94, 392);
+            this.CodeTextBox.Name = "CodeTextBox";
+            this.CodeTextBox.Size = new System.Drawing.Size(195, 28);
+            this.CodeTextBox.TabIndex = 143;
+            // 
+            // NameTextBox
+            // 
+            this.NameTextBox.Font = new System.Drawing.Font("Sitka Banner", 8.170213F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.NameTextBox.Location = new System.Drawing.Point(228, 351);
+            this.NameTextBox.Name = "NameTextBox";
+            this.NameTextBox.Size = new System.Drawing.Size(195, 28);
+            this.NameTextBox.TabIndex = 142;
+            // 
+            // Staff_number_unitsTextBox
+            // 
+            this.Staff_number_unitsTextBox.Font = new System.Drawing.Font("Sitka Banner", 8.170213F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Staff_number_unitsTextBox.Location = new System.Drawing.Point(387, 312);
+            this.Staff_number_unitsTextBox.Name = "Staff_number_unitsTextBox";
+            this.Staff_number_unitsTextBox.Size = new System.Drawing.Size(195, 28);
+            this.Staff_number_unitsTextBox.TabIndex = 141;
+            // 
+            // DateTextBox
+            // 
+            this.DateTextBox.Font = new System.Drawing.Font("Sitka Banner", 8.170213F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.DateTextBox.Location = new System.Drawing.Point(108, 276);
+            this.DateTextBox.Name = "DateTextBox";
+            this.DateTextBox.Size = new System.Drawing.Size(195, 28);
+            this.DateTextBox.TabIndex = 140;
+            // 
+            // For_periodTextBox
+            // 
+            this.For_periodTextBox.Font = new System.Drawing.Font("Sitka Banner", 8.170213F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.For_periodTextBox.Location = new System.Drawing.Point(168, 242);
+            this.For_periodTextBox.Name = "For_periodTextBox";
+            this.For_periodTextBox.Size = new System.Drawing.Size(195, 28);
+            this.For_periodTextBox.TabIndex = 139;
+            // 
+            // Order_numberTextBox
+            // 
+            this.Order_numberTextBox.Font = new System.Drawing.Font("Sitka Banner", 8.170213F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Order_numberTextBox.Location = new System.Drawing.Point(214, 211);
+            this.Order_numberTextBox.Name = "Order_numberTextBox";
+            this.Order_numberTextBox.Size = new System.Drawing.Size(195, 28);
+            this.Order_numberTextBox.TabIndex = 138;
+            // 
+            // Order_organization_fromTextBox
+            // 
+            this.Order_organization_fromTextBox.Font = new System.Drawing.Font("Sitka Banner", 8.170213F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Order_organization_fromTextBox.Location = new System.Drawing.Point(343, 180);
+            this.Order_organization_fromTextBox.Name = "Order_organization_fromTextBox";
+            this.Order_organization_fromTextBox.Size = new System.Drawing.Size(195, 28);
+            this.Order_organization_fromTextBox.TabIndex = 137;
+            // 
+            // Date_compilationTextBox
+            // 
+            this.Date_compilationTextBox.Font = new System.Drawing.Font("Sitka Banner", 8.170213F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Date_compilationTextBox.Location = new System.Drawing.Point(245, 148);
+            this.Date_compilationTextBox.Name = "Date_compilationTextBox";
+            this.Date_compilationTextBox.Size = new System.Drawing.Size(195, 28);
+            this.Date_compilationTextBox.TabIndex = 136;
+            // 
+            // Document_numberTextBox
+            // 
+            this.Document_numberTextBox.Font = new System.Drawing.Font("Sitka Banner", 8.170213F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Document_numberTextBox.Location = new System.Drawing.Point(245, 115);
+            this.Document_numberTextBox.Name = "Document_numberTextBox";
+            this.Document_numberTextBox.Size = new System.Drawing.Size(195, 28);
+            this.Document_numberTextBox.TabIndex = 135;
+            // 
+            // Name_organizationTextBox
+            // 
+            this.Name_organizationTextBox.Font = new System.Drawing.Font("Sitka Banner", 8.170213F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Name_organizationTextBox.Location = new System.Drawing.Point(368, 81);
+            this.Name_organizationTextBox.Name = "Name_organizationTextBox";
+            this.Name_organizationTextBox.Size = new System.Drawing.Size(195, 28);
+            this.Name_organizationTextBox.TabIndex = 134;
+            // 
+            // ID_schedulesTextBox
+            // 
+            this.ID_schedulesTextBox.Font = new System.Drawing.Font("Sitka Banner", 8.170213F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ID_schedulesTextBox.Location = new System.Drawing.Point(214, 50);
+            this.ID_schedulesTextBox.Name = "ID_schedulesTextBox";
+            this.ID_schedulesTextBox.Size = new System.Drawing.Size(89, 28);
+            this.ID_schedulesTextBox.TabIndex = 133;
+            // 
+            // buttonAdd
+            // 
+            this.buttonAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.buttonAdd.Font = new System.Drawing.Font("Times New Roman", 12.25532F);
+            this.buttonAdd.Location = new System.Drawing.Point(1432, 622);
+            this.buttonAdd.Name = "buttonAdd";
+            this.buttonAdd.Size = new System.Drawing.Size(218, 55);
+            this.buttonAdd.TabIndex = 135;
+            this.buttonAdd.Text = "Добавить";
+            this.buttonAdd.UseVisualStyleBackColor = false;
+            this.buttonAdd.Click += new System.EventHandler(this.buttonAdd_Click);
+            // 
+            // buttonDelete
+            // 
+            this.buttonDelete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.buttonDelete.Font = new System.Drawing.Font("Times New Roman", 12.25532F);
+            this.buttonDelete.Location = new System.Drawing.Point(1432, 696);
+            this.buttonDelete.Name = "buttonDelete";
+            this.buttonDelete.Size = new System.Drawing.Size(218, 55);
+            this.buttonDelete.TabIndex = 136;
+            this.buttonDelete.Text = "Удалить";
+            this.buttonDelete.UseVisualStyleBackColor = false;
+            this.buttonDelete.Click += new System.EventHandler(this.buttonDelete_Click);
+            // 
+            // buttonPrint
+            // 
+            this.buttonPrint.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.buttonPrint.Font = new System.Drawing.Font("Times New Roman", 12.25532F);
+            this.buttonPrint.Location = new System.Drawing.Point(1432, 770);
+            this.buttonPrint.Name = "buttonPrint";
+            this.buttonPrint.Size = new System.Drawing.Size(218, 55);
+            this.buttonPrint.TabIndex = 137;
+            this.buttonPrint.Text = "Печать";
+            this.buttonPrint.UseVisualStyleBackColor = false;
+            this.buttonPrint.Click += new System.EventHandler(this.buttonPrint_Click);
+            // 
+            // printDocument1
+            // 
+            this.printDocument1.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(this.printDocument1_PrintPage);
+            // 
+            // buttonBack
+            // 
+            this.buttonBack.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.buttonBack.Font = new System.Drawing.Font("Times New Roman", 12.25532F);
+            this.buttonBack.Location = new System.Drawing.Point(1432, 931);
+            this.buttonBack.Name = "buttonBack";
+            this.buttonBack.Size = new System.Drawing.Size(218, 55);
+            this.buttonBack.TabIndex = 138;
+            this.buttonBack.Text = "Назад";
+            this.buttonBack.UseVisualStyleBackColor = false;
+            this.buttonBack.Click += new System.EventHandler(this.buttonBack_Click);
             // 
             // staff_listTableAdapter
             // 
@@ -893,11 +896,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.staff_listBindingNavigator)).EndInit();
             this.staff_listBindingNavigator.ResumeLayout(false);
             this.staff_listBindingNavigator.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.staff_listBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.personal_cardsDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.staff_listDataGridView)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.staff_listBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.personal_cardsDataSet)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormGrantingLeave));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.Label iD_granting_leaveLabel;
             System.Windows.Forms.Label name_organizationLabel;
             System.Windows.Forms.Label document_numberLabel;
@@ -44,22 +42,24 @@
             System.Windows.Forms.Label number_vacation_daysLabel;
             System.Windows.Forms.Label provided_withLabel;
             System.Windows.Forms.Label provided__forLabel;
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormGrantingLeave));
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             this.personal_cardsDataSet = new Personal_cardsApp1.Personal_cardsDataSet();
             this.granting_leaveBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.granting_leaveTableAdapter = new Personal_cardsApp1.Personal_cardsDataSetTableAdapters.Granting_leaveTableAdapter();
             this.tableAdapterManager = new Personal_cardsApp1.Personal_cardsDataSetTableAdapters.TableAdapterManager();
             this.granting_leaveBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
+            this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
+            this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMoveFirstItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMovePreviousItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator = new System.Windows.Forms.ToolStripSeparator();
             this.bindingNavigatorPositionItem = new System.Windows.Forms.ToolStripTextBox();
-            this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
             this.bindingNavigatorSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.bindingNavigatorMoveNextItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMoveLastItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
             this.granting_leaveBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
             this.granting_leaveDataGridView = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -77,6 +77,23 @@
             this.dataGridViewTextBoxColumn13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.buttonExcelGrantingLeave = new System.Windows.Forms.Button();
+            this.Name_organizationTextBox = new System.Windows.Forms.TextBox();
+            this.Document_numberTextBox = new System.Windows.Forms.TextBox();
+            this.Date_compilationTextBox = new System.Windows.Forms.TextBox();
+            this.Service_numberTextBox = new System.Windows.Forms.TextBox();
+            this.FIOTextBox = new System.Windows.Forms.TextBox();
+            this.Structural_divisionTextBox = new System.Windows.Forms.TextBox();
+            this.PositionTextBox = new System.Windows.Forms.TextBox();
+            this.Period_working_withTextBox = new System.Windows.Forms.TextBox();
+            this.Period_forTextBox = new System.Windows.Forms.TextBox();
+            this.Number_vacation_daysTextBox = new System.Windows.Forms.TextBox();
+            this.Provided_withTextBox = new System.Windows.Forms.TextBox();
+            this.ProvidedforTextBox = new System.Windows.Forms.TextBox();
+            this.ID_granting_leaveTextBox = new System.Windows.Forms.TextBox();
+            this.buttonPrint = new System.Windows.Forms.Button();
+            this.buttonDelete = new System.Windows.Forms.Button();
+            this.buttonAdd = new System.Windows.Forms.Button();
+            this.buttonBack = new System.Windows.Forms.Button();
             iD_granting_leaveLabel = new System.Windows.Forms.Label();
             name_organizationLabel = new System.Windows.Forms.Label();
             document_numberLabel = new System.Windows.Forms.Label();
@@ -97,329 +114,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.granting_leaveDataGridView)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // personal_cardsDataSet
-            // 
-            this.personal_cardsDataSet.DataSetName = "Personal_cardsDataSet";
-            this.personal_cardsDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // granting_leaveBindingSource
-            // 
-            this.granting_leaveBindingSource.DataMember = "Granting_leave";
-            this.granting_leaveBindingSource.DataSource = this.personal_cardsDataSet;
-            // 
-            // granting_leaveTableAdapter
-            // 
-            this.granting_leaveTableAdapter.ClearBeforeFill = true;
-            // 
-            // tableAdapterManager
-            // 
-            this.tableAdapterManager.Advanced_trainingTableAdapter = null;
-            this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
-            this.tableAdapterManager.CertificationTableAdapter = null;
-            this.tableAdapterManager.EducationTableAdapter = null;
-            this.tableAdapterManager.Employee_informationTableAdapter = null;
-            this.tableAdapterManager.Granting_leaveTableAdapter = this.granting_leaveTableAdapter;
-            this.tableAdapterManager.Level_of_educationTableAdapter = null;
-            this.tableAdapterManager.Military_registrationTableAdapter = null;
-            this.tableAdapterManager.More_informationTableAdapter = null;
-            this.tableAdapterManager.Order_admissionTableAdapter = null;
-            this.tableAdapterManager.Reception_and_transferTableAdapter = null;
-            this.tableAdapterManager.RetrainingTableAdapter = null;
-            this.tableAdapterManager.RewardsTableAdapter = null;
-            this.tableAdapterManager.Social_benefitsTableAdapter = null;
-            this.tableAdapterManager.Staff_listTableAdapter = null;
-            this.tableAdapterManager.UpdateOrder = Personal_cardsApp1.Personal_cardsDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
-            this.tableAdapterManager.UserTableAdapter = null;
-            this.tableAdapterManager.VacationTableAdapter = null;
-            // 
-            // granting_leaveBindingNavigator
-            // 
-            this.granting_leaveBindingNavigator.AddNewItem = this.bindingNavigatorAddNewItem;
-            this.granting_leaveBindingNavigator.BindingSource = this.granting_leaveBindingSource;
-            this.granting_leaveBindingNavigator.CountItem = this.bindingNavigatorCountItem;
-            this.granting_leaveBindingNavigator.DeleteItem = this.bindingNavigatorDeleteItem;
-            this.granting_leaveBindingNavigator.ImageScalingSize = new System.Drawing.Size(24, 24);
-            this.granting_leaveBindingNavigator.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.bindingNavigatorMoveFirstItem,
-            this.bindingNavigatorMovePreviousItem,
-            this.bindingNavigatorSeparator,
-            this.bindingNavigatorPositionItem,
-            this.bindingNavigatorCountItem,
-            this.bindingNavigatorSeparator1,
-            this.bindingNavigatorMoveNextItem,
-            this.bindingNavigatorMoveLastItem,
-            this.bindingNavigatorSeparator2,
-            this.bindingNavigatorAddNewItem,
-            this.bindingNavigatorDeleteItem,
-            this.granting_leaveBindingNavigatorSaveItem});
-            this.granting_leaveBindingNavigator.Location = new System.Drawing.Point(0, 0);
-            this.granting_leaveBindingNavigator.MoveFirstItem = this.bindingNavigatorMoveFirstItem;
-            this.granting_leaveBindingNavigator.MoveLastItem = this.bindingNavigatorMoveLastItem;
-            this.granting_leaveBindingNavigator.MoveNextItem = this.bindingNavigatorMoveNextItem;
-            this.granting_leaveBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
-            this.granting_leaveBindingNavigator.Name = "granting_leaveBindingNavigator";
-            this.granting_leaveBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.granting_leaveBindingNavigator.Size = new System.Drawing.Size(1357, 37);
-            this.granting_leaveBindingNavigator.TabIndex = 0;
-            this.granting_leaveBindingNavigator.Text = "bindingNavigator1";
-            // 
-            // bindingNavigatorMoveFirstItem
-            // 
-            this.bindingNavigatorMoveFirstItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorMoveFirstItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveFirstItem.Image")));
-            this.bindingNavigatorMoveFirstItem.Name = "bindingNavigatorMoveFirstItem";
-            this.bindingNavigatorMoveFirstItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveFirstItem.Size = new System.Drawing.Size(34, 33);
-            this.bindingNavigatorMoveFirstItem.Text = "Переместить в начало";
-            // 
-            // bindingNavigatorMovePreviousItem
-            // 
-            this.bindingNavigatorMovePreviousItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorMovePreviousItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMovePreviousItem.Image")));
-            this.bindingNavigatorMovePreviousItem.Name = "bindingNavigatorMovePreviousItem";
-            this.bindingNavigatorMovePreviousItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMovePreviousItem.Size = new System.Drawing.Size(34, 33);
-            this.bindingNavigatorMovePreviousItem.Text = "Переместить назад";
-            // 
-            // bindingNavigatorSeparator
-            // 
-            this.bindingNavigatorSeparator.Name = "bindingNavigatorSeparator";
-            this.bindingNavigatorSeparator.Size = new System.Drawing.Size(6, 37);
-            // 
-            // bindingNavigatorPositionItem
-            // 
-            this.bindingNavigatorPositionItem.AccessibleName = "Положение";
-            this.bindingNavigatorPositionItem.AutoSize = false;
-            this.bindingNavigatorPositionItem.Font = new System.Drawing.Font("Segoe UI", 9.191489F);
-            this.bindingNavigatorPositionItem.Name = "bindingNavigatorPositionItem";
-            this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(50, 31);
-            this.bindingNavigatorPositionItem.Text = "0";
-            this.bindingNavigatorPositionItem.ToolTipText = "Текущее положение";
-            // 
-            // bindingNavigatorCountItem
-            // 
-            this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
-            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(65, 33);
-            this.bindingNavigatorCountItem.Text = "для {0}";
-            this.bindingNavigatorCountItem.ToolTipText = "Общее число элементов";
-            // 
-            // bindingNavigatorSeparator1
-            // 
-            this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator";
-            this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 37);
-            // 
-            // bindingNavigatorMoveNextItem
-            // 
-            this.bindingNavigatorMoveNextItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorMoveNextItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveNextItem.Image")));
-            this.bindingNavigatorMoveNextItem.Name = "bindingNavigatorMoveNextItem";
-            this.bindingNavigatorMoveNextItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveNextItem.Size = new System.Drawing.Size(34, 33);
-            this.bindingNavigatorMoveNextItem.Text = "Переместить вперед";
-            // 
-            // bindingNavigatorMoveLastItem
-            // 
-            this.bindingNavigatorMoveLastItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorMoveLastItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveLastItem.Image")));
-            this.bindingNavigatorMoveLastItem.Name = "bindingNavigatorMoveLastItem";
-            this.bindingNavigatorMoveLastItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveLastItem.Size = new System.Drawing.Size(34, 33);
-            this.bindingNavigatorMoveLastItem.Text = "Переместить в конец";
-            // 
-            // bindingNavigatorSeparator2
-            // 
-            this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator";
-            this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 37);
-            // 
-            // bindingNavigatorAddNewItem
-            // 
-            this.bindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
-            this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
-            this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(34, 33);
-            this.bindingNavigatorAddNewItem.Text = "Добавить";
-            // 
-            // bindingNavigatorDeleteItem
-            // 
-            this.bindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorDeleteItem.Image")));
-            this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
-            this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(34, 33);
-            this.bindingNavigatorDeleteItem.Text = "Удалить";
-            // 
-            // granting_leaveBindingNavigatorSaveItem
-            // 
-            this.granting_leaveBindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.granting_leaveBindingNavigatorSaveItem.Image = ((System.Drawing.Image)(resources.GetObject("granting_leaveBindingNavigatorSaveItem.Image")));
-            this.granting_leaveBindingNavigatorSaveItem.Name = "granting_leaveBindingNavigatorSaveItem";
-            this.granting_leaveBindingNavigatorSaveItem.Size = new System.Drawing.Size(34, 33);
-            this.granting_leaveBindingNavigatorSaveItem.Text = "Сохранить данные";
-            this.granting_leaveBindingNavigatorSaveItem.Click += new System.EventHandler(this.granting_leaveBindingNavigatorSaveItem_Click);
-            // 
-            // granting_leaveDataGridView
-            // 
-            this.granting_leaveDataGridView.AutoGenerateColumns = false;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.granting_leaveDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.granting_leaveDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.granting_leaveDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn1,
-            this.dataGridViewTextBoxColumn2,
-            this.dataGridViewTextBoxColumn3,
-            this.dataGridViewTextBoxColumn4,
-            this.dataGridViewTextBoxColumn5,
-            this.dataGridViewTextBoxColumn6,
-            this.dataGridViewTextBoxColumn7,
-            this.dataGridViewTextBoxColumn8,
-            this.dataGridViewTextBoxColumn9,
-            this.dataGridViewTextBoxColumn10,
-            this.dataGridViewTextBoxColumn11,
-            this.dataGridViewTextBoxColumn12,
-            this.dataGridViewTextBoxColumn13});
-            this.granting_leaveDataGridView.DataSource = this.granting_leaveBindingSource;
-            this.granting_leaveDataGridView.Location = new System.Drawing.Point(0, 52);
-            this.granting_leaveDataGridView.Name = "granting_leaveDataGridView";
-            this.granting_leaveDataGridView.RowHeadersWidth = 60;
-            this.granting_leaveDataGridView.RowTemplate.Height = 28;
-            this.granting_leaveDataGridView.Size = new System.Drawing.Size(1357, 290);
-            this.granting_leaveDataGridView.TabIndex = 1;
-            // 
-            // dataGridViewTextBoxColumn1
-            // 
-            this.dataGridViewTextBoxColumn1.DataPropertyName = "ID_granting_leave";
-            this.dataGridViewTextBoxColumn1.HeaderText = "ID_предоставления отпуска";
-            this.dataGridViewTextBoxColumn1.MinimumWidth = 7;
-            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            this.dataGridViewTextBoxColumn1.Width = 147;
-            // 
-            // dataGridViewTextBoxColumn2
-            // 
-            this.dataGridViewTextBoxColumn2.DataPropertyName = "Name_organization";
-            this.dataGridViewTextBoxColumn2.HeaderText = "Наименование организации";
-            this.dataGridViewTextBoxColumn2.MinimumWidth = 7;
-            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
-            this.dataGridViewTextBoxColumn2.Width = 147;
-            // 
-            // dataGridViewTextBoxColumn3
-            // 
-            this.dataGridViewTextBoxColumn3.DataPropertyName = "Document_number";
-            this.dataGridViewTextBoxColumn3.HeaderText = "Номер документа";
-            this.dataGridViewTextBoxColumn3.MinimumWidth = 7;
-            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
-            this.dataGridViewTextBoxColumn3.Width = 147;
-            // 
-            // dataGridViewTextBoxColumn4
-            // 
-            this.dataGridViewTextBoxColumn4.DataPropertyName = "Date_compilation";
-            this.dataGridViewTextBoxColumn4.HeaderText = "Дата составления";
-            this.dataGridViewTextBoxColumn4.MinimumWidth = 7;
-            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
-            this.dataGridViewTextBoxColumn4.Width = 147;
-            // 
-            // dataGridViewTextBoxColumn5
-            // 
-            this.dataGridViewTextBoxColumn5.DataPropertyName = "Service_number";
-            this.dataGridViewTextBoxColumn5.HeaderText = "Табельный номер";
-            this.dataGridViewTextBoxColumn5.MinimumWidth = 7;
-            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
-            this.dataGridViewTextBoxColumn5.Width = 147;
-            // 
-            // dataGridViewTextBoxColumn6
-            // 
-            this.dataGridViewTextBoxColumn6.DataPropertyName = "FIO";
-            this.dataGridViewTextBoxColumn6.HeaderText = "ФИО";
-            this.dataGridViewTextBoxColumn6.MinimumWidth = 7;
-            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
-            this.dataGridViewTextBoxColumn6.Width = 147;
-            // 
-            // dataGridViewTextBoxColumn7
-            // 
-            this.dataGridViewTextBoxColumn7.DataPropertyName = "Structural_division";
-            this.dataGridViewTextBoxColumn7.HeaderText = "Структурное подразделение";
-            this.dataGridViewTextBoxColumn7.MinimumWidth = 7;
-            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
-            this.dataGridViewTextBoxColumn7.Width = 147;
-            // 
-            // dataGridViewTextBoxColumn8
-            // 
-            this.dataGridViewTextBoxColumn8.DataPropertyName = "Position";
-            this.dataGridViewTextBoxColumn8.HeaderText = "Должность";
-            this.dataGridViewTextBoxColumn8.MinimumWidth = 7;
-            this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
-            this.dataGridViewTextBoxColumn8.Width = 147;
-            // 
-            // dataGridViewTextBoxColumn9
-            // 
-            this.dataGridViewTextBoxColumn9.DataPropertyName = "Period_working_with";
-            this.dataGridViewTextBoxColumn9.HeaderText = "За период работы с";
-            this.dataGridViewTextBoxColumn9.MinimumWidth = 7;
-            this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
-            this.dataGridViewTextBoxColumn9.Width = 147;
-            // 
-            // dataGridViewTextBoxColumn10
-            // 
-            this.dataGridViewTextBoxColumn10.DataPropertyName = "Period_working_ for";
-            this.dataGridViewTextBoxColumn10.HeaderText = "За период работы по";
-            this.dataGridViewTextBoxColumn10.MinimumWidth = 7;
-            this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
-            this.dataGridViewTextBoxColumn10.Width = 147;
-            // 
-            // dataGridViewTextBoxColumn11
-            // 
-            this.dataGridViewTextBoxColumn11.DataPropertyName = "Number_vacation_days";
-            this.dataGridViewTextBoxColumn11.HeaderText = "Количество календарных дней";
-            this.dataGridViewTextBoxColumn11.MinimumWidth = 7;
-            this.dataGridViewTextBoxColumn11.Name = "dataGridViewTextBoxColumn11";
-            this.dataGridViewTextBoxColumn11.Width = 147;
-            // 
-            // dataGridViewTextBoxColumn12
-            // 
-            this.dataGridViewTextBoxColumn12.DataPropertyName = "Provided_with";
-            this.dataGridViewTextBoxColumn12.HeaderText = "Предоставление отпуска с";
-            this.dataGridViewTextBoxColumn12.MinimumWidth = 7;
-            this.dataGridViewTextBoxColumn12.Name = "dataGridViewTextBoxColumn12";
-            this.dataGridViewTextBoxColumn12.Width = 147;
-            // 
-            // dataGridViewTextBoxColumn13
-            // 
-            this.dataGridViewTextBoxColumn13.DataPropertyName = "Provided_ for";
-            this.dataGridViewTextBoxColumn13.HeaderText = "Предоставление отпуска по";
-            this.dataGridViewTextBoxColumn13.MinimumWidth = 7;
-            this.dataGridViewTextBoxColumn13.Name = "dataGridViewTextBoxColumn13";
-            this.dataGridViewTextBoxColumn13.Width = 147;
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(iD_granting_leaveLabel);
-            this.groupBox1.Controls.Add(name_organizationLabel);
-            this.groupBox1.Controls.Add(document_numberLabel);
-            this.groupBox1.Controls.Add(date_compilationLabel);
-            this.groupBox1.Controls.Add(service_numberLabel);
-            this.groupBox1.Controls.Add(fIOLabel);
-            this.groupBox1.Controls.Add(structural_divisionLabel);
-            this.groupBox1.Controls.Add(positionLabel);
-            this.groupBox1.Controls.Add(period_working_withLabel);
-            this.groupBox1.Controls.Add(period_working__forLabel);
-            this.groupBox1.Controls.Add(number_vacation_daysLabel);
-            this.groupBox1.Controls.Add(provided_withLabel);
-            this.groupBox1.Controls.Add(provided__forLabel);
-            this.groupBox1.Font = new System.Drawing.Font("Sitka Banner", 12.25532F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.groupBox1.ForeColor = System.Drawing.Color.Yellow;
-            this.groupBox1.Location = new System.Drawing.Point(12, 348);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(874, 633);
-            this.groupBox1.TabIndex = 2;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Добавление отпуска";
             // 
             // iD_granting_leaveLabel
             // 
@@ -564,11 +258,347 @@
             provided__forLabel.TabIndex = 24;
             provided__forLabel.Text = "Предоставление по:";
             // 
+            // personal_cardsDataSet
+            // 
+            this.personal_cardsDataSet.DataSetName = "Personal_cardsDataSet";
+            this.personal_cardsDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // granting_leaveBindingSource
+            // 
+            this.granting_leaveBindingSource.DataMember = "Granting_leave";
+            this.granting_leaveBindingSource.DataSource = this.personal_cardsDataSet;
+            // 
+            // granting_leaveTableAdapter
+            // 
+            this.granting_leaveTableAdapter.ClearBeforeFill = true;
+            // 
+            // tableAdapterManager
+            // 
+            this.tableAdapterManager.Advanced_trainingTableAdapter = null;
+            this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
+            this.tableAdapterManager.CertificationTableAdapter = null;
+            this.tableAdapterManager.EducationTableAdapter = null;
+            this.tableAdapterManager.Employee_informationTableAdapter = null;
+            this.tableAdapterManager.Granting_leaveTableAdapter = this.granting_leaveTableAdapter;
+            this.tableAdapterManager.Level_of_educationTableAdapter = null;
+            this.tableAdapterManager.Military_registrationTableAdapter = null;
+            this.tableAdapterManager.More_informationTableAdapter = null;
+            this.tableAdapterManager.Order_admissionTableAdapter = null;
+            this.tableAdapterManager.Reception_and_transferTableAdapter = null;
+            this.tableAdapterManager.RetrainingTableAdapter = null;
+            this.tableAdapterManager.RewardsTableAdapter = null;
+            this.tableAdapterManager.Social_benefitsTableAdapter = null;
+            this.tableAdapterManager.Staff_listTableAdapter = null;
+            this.tableAdapterManager.UpdateOrder = Personal_cardsApp1.Personal_cardsDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
+            this.tableAdapterManager.UserTableAdapter = null;
+            this.tableAdapterManager.VacationTableAdapter = null;
+            // 
+            // granting_leaveBindingNavigator
+            // 
+            this.granting_leaveBindingNavigator.AddNewItem = this.bindingNavigatorAddNewItem;
+            this.granting_leaveBindingNavigator.BindingSource = this.granting_leaveBindingSource;
+            this.granting_leaveBindingNavigator.CountItem = this.bindingNavigatorCountItem;
+            this.granting_leaveBindingNavigator.DeleteItem = this.bindingNavigatorDeleteItem;
+            this.granting_leaveBindingNavigator.ImageScalingSize = new System.Drawing.Size(24, 24);
+            this.granting_leaveBindingNavigator.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.bindingNavigatorMoveFirstItem,
+            this.bindingNavigatorMovePreviousItem,
+            this.bindingNavigatorSeparator,
+            this.bindingNavigatorPositionItem,
+            this.bindingNavigatorCountItem,
+            this.bindingNavigatorSeparator1,
+            this.bindingNavigatorMoveNextItem,
+            this.bindingNavigatorMoveLastItem,
+            this.bindingNavigatorSeparator2,
+            this.bindingNavigatorAddNewItem,
+            this.bindingNavigatorDeleteItem,
+            this.granting_leaveBindingNavigatorSaveItem});
+            this.granting_leaveBindingNavigator.Location = new System.Drawing.Point(0, 0);
+            this.granting_leaveBindingNavigator.MoveFirstItem = this.bindingNavigatorMoveFirstItem;
+            this.granting_leaveBindingNavigator.MoveLastItem = this.bindingNavigatorMoveLastItem;
+            this.granting_leaveBindingNavigator.MoveNextItem = this.bindingNavigatorMoveNextItem;
+            this.granting_leaveBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
+            this.granting_leaveBindingNavigator.Name = "granting_leaveBindingNavigator";
+            this.granting_leaveBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
+            this.granting_leaveBindingNavigator.Size = new System.Drawing.Size(1357, 32);
+            this.granting_leaveBindingNavigator.TabIndex = 0;
+            this.granting_leaveBindingNavigator.Text = "bindingNavigator1";
+            // 
+            // bindingNavigatorAddNewItem
+            // 
+            this.bindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
+            this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
+            this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(34, 28);
+            this.bindingNavigatorAddNewItem.Text = "Добавить";
+            // 
+            // bindingNavigatorCountItem
+            // 
+            this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
+            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(65, 28);
+            this.bindingNavigatorCountItem.Text = "для {0}";
+            this.bindingNavigatorCountItem.ToolTipText = "Общее число элементов";
+            // 
+            // bindingNavigatorDeleteItem
+            // 
+            this.bindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorDeleteItem.Image")));
+            this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
+            this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(34, 28);
+            this.bindingNavigatorDeleteItem.Text = "Удалить";
+            // 
+            // bindingNavigatorMoveFirstItem
+            // 
+            this.bindingNavigatorMoveFirstItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorMoveFirstItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveFirstItem.Image")));
+            this.bindingNavigatorMoveFirstItem.Name = "bindingNavigatorMoveFirstItem";
+            this.bindingNavigatorMoveFirstItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorMoveFirstItem.Size = new System.Drawing.Size(34, 28);
+            this.bindingNavigatorMoveFirstItem.Text = "Переместить в начало";
+            // 
+            // bindingNavigatorMovePreviousItem
+            // 
+            this.bindingNavigatorMovePreviousItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorMovePreviousItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMovePreviousItem.Image")));
+            this.bindingNavigatorMovePreviousItem.Name = "bindingNavigatorMovePreviousItem";
+            this.bindingNavigatorMovePreviousItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorMovePreviousItem.Size = new System.Drawing.Size(34, 28);
+            this.bindingNavigatorMovePreviousItem.Text = "Переместить назад";
+            // 
+            // bindingNavigatorSeparator
+            // 
+            this.bindingNavigatorSeparator.Name = "bindingNavigatorSeparator";
+            this.bindingNavigatorSeparator.Size = new System.Drawing.Size(6, 32);
+            // 
+            // bindingNavigatorPositionItem
+            // 
+            this.bindingNavigatorPositionItem.AccessibleName = "Положение";
+            this.bindingNavigatorPositionItem.AutoSize = false;
+            this.bindingNavigatorPositionItem.Font = new System.Drawing.Font("Segoe UI", 9.191489F);
+            this.bindingNavigatorPositionItem.Name = "bindingNavigatorPositionItem";
+            this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(50, 31);
+            this.bindingNavigatorPositionItem.Text = "0";
+            this.bindingNavigatorPositionItem.ToolTipText = "Текущее положение";
+            // 
+            // bindingNavigatorSeparator1
+            // 
+            this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator1";
+            this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 32);
+            // 
+            // bindingNavigatorMoveNextItem
+            // 
+            this.bindingNavigatorMoveNextItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorMoveNextItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveNextItem.Image")));
+            this.bindingNavigatorMoveNextItem.Name = "bindingNavigatorMoveNextItem";
+            this.bindingNavigatorMoveNextItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorMoveNextItem.Size = new System.Drawing.Size(34, 28);
+            this.bindingNavigatorMoveNextItem.Text = "Переместить вперед";
+            // 
+            // bindingNavigatorMoveLastItem
+            // 
+            this.bindingNavigatorMoveLastItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorMoveLastItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveLastItem.Image")));
+            this.bindingNavigatorMoveLastItem.Name = "bindingNavigatorMoveLastItem";
+            this.bindingNavigatorMoveLastItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorMoveLastItem.Size = new System.Drawing.Size(34, 28);
+            this.bindingNavigatorMoveLastItem.Text = "Переместить в конец";
+            // 
+            // bindingNavigatorSeparator2
+            // 
+            this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator2";
+            this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 32);
+            // 
+            // granting_leaveBindingNavigatorSaveItem
+            // 
+            this.granting_leaveBindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.granting_leaveBindingNavigatorSaveItem.Image = ((System.Drawing.Image)(resources.GetObject("granting_leaveBindingNavigatorSaveItem.Image")));
+            this.granting_leaveBindingNavigatorSaveItem.Name = "granting_leaveBindingNavigatorSaveItem";
+            this.granting_leaveBindingNavigatorSaveItem.Size = new System.Drawing.Size(34, 28);
+            this.granting_leaveBindingNavigatorSaveItem.Text = "Сохранить данные";
+            this.granting_leaveBindingNavigatorSaveItem.Click += new System.EventHandler(this.granting_leaveBindingNavigatorSaveItem_Click);
+            // 
+            // granting_leaveDataGridView
+            // 
+            this.granting_leaveDataGridView.AutoGenerateColumns = false;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.granting_leaveDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            this.granting_leaveDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.granting_leaveDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn1,
+            this.dataGridViewTextBoxColumn2,
+            this.dataGridViewTextBoxColumn3,
+            this.dataGridViewTextBoxColumn4,
+            this.dataGridViewTextBoxColumn5,
+            this.dataGridViewTextBoxColumn6,
+            this.dataGridViewTextBoxColumn7,
+            this.dataGridViewTextBoxColumn8,
+            this.dataGridViewTextBoxColumn9,
+            this.dataGridViewTextBoxColumn10,
+            this.dataGridViewTextBoxColumn11,
+            this.dataGridViewTextBoxColumn12,
+            this.dataGridViewTextBoxColumn13});
+            this.granting_leaveDataGridView.DataSource = this.granting_leaveBindingSource;
+            this.granting_leaveDataGridView.Location = new System.Drawing.Point(0, 52);
+            this.granting_leaveDataGridView.Name = "granting_leaveDataGridView";
+            this.granting_leaveDataGridView.RowHeadersWidth = 60;
+            this.granting_leaveDataGridView.RowTemplate.Height = 28;
+            this.granting_leaveDataGridView.Size = new System.Drawing.Size(1357, 290);
+            this.granting_leaveDataGridView.TabIndex = 1;
+            // 
+            // dataGridViewTextBoxColumn1
+            // 
+            this.dataGridViewTextBoxColumn1.DataPropertyName = "ID_granting_leave";
+            this.dataGridViewTextBoxColumn1.HeaderText = "ID_предоставления отпуска";
+            this.dataGridViewTextBoxColumn1.MinimumWidth = 7;
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            this.dataGridViewTextBoxColumn1.Width = 147;
+            // 
+            // dataGridViewTextBoxColumn2
+            // 
+            this.dataGridViewTextBoxColumn2.DataPropertyName = "Name_organization";
+            this.dataGridViewTextBoxColumn2.HeaderText = "Наименование организации";
+            this.dataGridViewTextBoxColumn2.MinimumWidth = 7;
+            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
+            this.dataGridViewTextBoxColumn2.Width = 147;
+            // 
+            // dataGridViewTextBoxColumn3
+            // 
+            this.dataGridViewTextBoxColumn3.DataPropertyName = "Document_number";
+            this.dataGridViewTextBoxColumn3.HeaderText = "Номер документа";
+            this.dataGridViewTextBoxColumn3.MinimumWidth = 7;
+            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+            this.dataGridViewTextBoxColumn3.Width = 147;
+            // 
+            // dataGridViewTextBoxColumn4
+            // 
+            this.dataGridViewTextBoxColumn4.DataPropertyName = "Date_compilation";
+            this.dataGridViewTextBoxColumn4.HeaderText = "Дата составления";
+            this.dataGridViewTextBoxColumn4.MinimumWidth = 7;
+            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
+            this.dataGridViewTextBoxColumn4.Width = 147;
+            // 
+            // dataGridViewTextBoxColumn5
+            // 
+            this.dataGridViewTextBoxColumn5.DataPropertyName = "Service_number";
+            this.dataGridViewTextBoxColumn5.HeaderText = "Табельный номер";
+            this.dataGridViewTextBoxColumn5.MinimumWidth = 7;
+            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
+            this.dataGridViewTextBoxColumn5.Width = 147;
+            // 
+            // dataGridViewTextBoxColumn6
+            // 
+            this.dataGridViewTextBoxColumn6.DataPropertyName = "FIO";
+            this.dataGridViewTextBoxColumn6.HeaderText = "ФИО";
+            this.dataGridViewTextBoxColumn6.MinimumWidth = 7;
+            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
+            this.dataGridViewTextBoxColumn6.Width = 147;
+            // 
+            // dataGridViewTextBoxColumn7
+            // 
+            this.dataGridViewTextBoxColumn7.DataPropertyName = "Structural_division";
+            this.dataGridViewTextBoxColumn7.HeaderText = "Структурное подразделение";
+            this.dataGridViewTextBoxColumn7.MinimumWidth = 7;
+            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
+            this.dataGridViewTextBoxColumn7.Width = 147;
+            // 
+            // dataGridViewTextBoxColumn8
+            // 
+            this.dataGridViewTextBoxColumn8.DataPropertyName = "Position";
+            this.dataGridViewTextBoxColumn8.HeaderText = "Должность";
+            this.dataGridViewTextBoxColumn8.MinimumWidth = 7;
+            this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
+            this.dataGridViewTextBoxColumn8.Width = 147;
+            // 
+            // dataGridViewTextBoxColumn9
+            // 
+            this.dataGridViewTextBoxColumn9.DataPropertyName = "Period_working_with";
+            this.dataGridViewTextBoxColumn9.HeaderText = "За период работы с";
+            this.dataGridViewTextBoxColumn9.MinimumWidth = 7;
+            this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
+            this.dataGridViewTextBoxColumn9.Width = 147;
+            // 
+            // dataGridViewTextBoxColumn10
+            // 
+            this.dataGridViewTextBoxColumn10.DataPropertyName = "Period_working_ for";
+            this.dataGridViewTextBoxColumn10.HeaderText = "За период работы по";
+            this.dataGridViewTextBoxColumn10.MinimumWidth = 7;
+            this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
+            this.dataGridViewTextBoxColumn10.Width = 147;
+            // 
+            // dataGridViewTextBoxColumn11
+            // 
+            this.dataGridViewTextBoxColumn11.DataPropertyName = "Number_vacation_days";
+            this.dataGridViewTextBoxColumn11.HeaderText = "Количество календарных дней";
+            this.dataGridViewTextBoxColumn11.MinimumWidth = 7;
+            this.dataGridViewTextBoxColumn11.Name = "dataGridViewTextBoxColumn11";
+            this.dataGridViewTextBoxColumn11.Width = 147;
+            // 
+            // dataGridViewTextBoxColumn12
+            // 
+            this.dataGridViewTextBoxColumn12.DataPropertyName = "Provided_with";
+            this.dataGridViewTextBoxColumn12.HeaderText = "Предоставление отпуска с";
+            this.dataGridViewTextBoxColumn12.MinimumWidth = 7;
+            this.dataGridViewTextBoxColumn12.Name = "dataGridViewTextBoxColumn12";
+            this.dataGridViewTextBoxColumn12.Width = 147;
+            // 
+            // dataGridViewTextBoxColumn13
+            // 
+            this.dataGridViewTextBoxColumn13.DataPropertyName = "Provided_ for";
+            this.dataGridViewTextBoxColumn13.HeaderText = "Предоставление отпуска по";
+            this.dataGridViewTextBoxColumn13.MinimumWidth = 7;
+            this.dataGridViewTextBoxColumn13.Name = "dataGridViewTextBoxColumn13";
+            this.dataGridViewTextBoxColumn13.Width = 147;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.ID_granting_leaveTextBox);
+            this.groupBox1.Controls.Add(this.ProvidedforTextBox);
+            this.groupBox1.Controls.Add(this.Provided_withTextBox);
+            this.groupBox1.Controls.Add(this.Number_vacation_daysTextBox);
+            this.groupBox1.Controls.Add(this.Period_forTextBox);
+            this.groupBox1.Controls.Add(this.Period_working_withTextBox);
+            this.groupBox1.Controls.Add(this.PositionTextBox);
+            this.groupBox1.Controls.Add(this.Structural_divisionTextBox);
+            this.groupBox1.Controls.Add(this.FIOTextBox);
+            this.groupBox1.Controls.Add(this.Service_numberTextBox);
+            this.groupBox1.Controls.Add(this.Date_compilationTextBox);
+            this.groupBox1.Controls.Add(this.Document_numberTextBox);
+            this.groupBox1.Controls.Add(this.Name_organizationTextBox);
+            this.groupBox1.Controls.Add(iD_granting_leaveLabel);
+            this.groupBox1.Controls.Add(name_organizationLabel);
+            this.groupBox1.Controls.Add(document_numberLabel);
+            this.groupBox1.Controls.Add(date_compilationLabel);
+            this.groupBox1.Controls.Add(service_numberLabel);
+            this.groupBox1.Controls.Add(fIOLabel);
+            this.groupBox1.Controls.Add(structural_divisionLabel);
+            this.groupBox1.Controls.Add(positionLabel);
+            this.groupBox1.Controls.Add(period_working_withLabel);
+            this.groupBox1.Controls.Add(period_working__forLabel);
+            this.groupBox1.Controls.Add(number_vacation_daysLabel);
+            this.groupBox1.Controls.Add(provided_withLabel);
+            this.groupBox1.Controls.Add(provided__forLabel);
+            this.groupBox1.Font = new System.Drawing.Font("Sitka Banner", 12.25532F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.groupBox1.ForeColor = System.Drawing.Color.Yellow;
+            this.groupBox1.Location = new System.Drawing.Point(12, 348);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(874, 633);
+            this.groupBox1.TabIndex = 2;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Добавление отпуска";
+            // 
             // buttonExcelGrantingLeave
             // 
             this.buttonExcelGrantingLeave.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.buttonExcelGrantingLeave.Font = new System.Drawing.Font("Times New Roman", 12.25532F);
-            this.buttonExcelGrantingLeave.Location = new System.Drawing.Point(1108, 376);
+            this.buttonExcelGrantingLeave.Location = new System.Drawing.Point(1080, 432);
             this.buttonExcelGrantingLeave.Name = "buttonExcelGrantingLeave";
             this.buttonExcelGrantingLeave.Size = new System.Drawing.Size(218, 55);
             this.buttonExcelGrantingLeave.TabIndex = 102;
@@ -576,12 +606,166 @@
             this.buttonExcelGrantingLeave.UseVisualStyleBackColor = false;
             this.buttonExcelGrantingLeave.Click += new System.EventHandler(this.buttonExcelGrantingLeave_Click);
             // 
+            // Name_organizationTextBox
+            // 
+            this.Name_organizationTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Name_organizationTextBox.Location = new System.Drawing.Point(374, 97);
+            this.Name_organizationTextBox.Name = "Name_organizationTextBox";
+            this.Name_organizationTextBox.Size = new System.Drawing.Size(193, 30);
+            this.Name_organizationTextBox.TabIndex = 25;
+            // 
+            // Document_numberTextBox
+            // 
+            this.Document_numberTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Document_numberTextBox.Location = new System.Drawing.Point(242, 139);
+            this.Document_numberTextBox.Name = "Document_numberTextBox";
+            this.Document_numberTextBox.Size = new System.Drawing.Size(193, 30);
+            this.Document_numberTextBox.TabIndex = 26;
+            // 
+            // Date_compilationTextBox
+            // 
+            this.Date_compilationTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Date_compilationTextBox.Location = new System.Drawing.Point(242, 184);
+            this.Date_compilationTextBox.Name = "Date_compilationTextBox";
+            this.Date_compilationTextBox.Size = new System.Drawing.Size(193, 30);
+            this.Date_compilationTextBox.TabIndex = 27;
+            // 
+            // Service_numberTextBox
+            // 
+            this.Service_numberTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Service_numberTextBox.Location = new System.Drawing.Point(242, 228);
+            this.Service_numberTextBox.Name = "Service_numberTextBox";
+            this.Service_numberTextBox.Size = new System.Drawing.Size(193, 30);
+            this.Service_numberTextBox.TabIndex = 28;
+            // 
+            // FIOTextBox
+            // 
+            this.FIOTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.FIOTextBox.Location = new System.Drawing.Point(105, 272);
+            this.FIOTextBox.Name = "FIOTextBox";
+            this.FIOTextBox.Size = new System.Drawing.Size(193, 30);
+            this.FIOTextBox.TabIndex = 29;
+            // 
+            // Structural_divisionTextBox
+            // 
+            this.Structural_divisionTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Structural_divisionTextBox.Location = new System.Drawing.Point(374, 318);
+            this.Structural_divisionTextBox.Name = "Structural_divisionTextBox";
+            this.Structural_divisionTextBox.Size = new System.Drawing.Size(193, 30);
+            this.Structural_divisionTextBox.TabIndex = 30;
+            // 
+            // PositionTextBox
+            // 
+            this.PositionTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.PositionTextBox.Location = new System.Drawing.Point(189, 360);
+            this.PositionTextBox.Name = "PositionTextBox";
+            this.PositionTextBox.Size = new System.Drawing.Size(193, 30);
+            this.PositionTextBox.TabIndex = 31;
+            // 
+            // Period_working_withTextBox
+            // 
+            this.Period_working_withTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Period_working_withTextBox.Location = new System.Drawing.Point(302, 405);
+            this.Period_working_withTextBox.Name = "Period_working_withTextBox";
+            this.Period_working_withTextBox.Size = new System.Drawing.Size(193, 30);
+            this.Period_working_withTextBox.TabIndex = 32;
+            // 
+            // Period_forTextBox
+            // 
+            this.Period_forTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Period_forTextBox.Location = new System.Drawing.Point(302, 450);
+            this.Period_forTextBox.Name = "Period_forTextBox";
+            this.Period_forTextBox.Size = new System.Drawing.Size(193, 30);
+            this.Period_forTextBox.TabIndex = 33;
+            // 
+            // Number_vacation_daysTextBox
+            // 
+            this.Number_vacation_daysTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Number_vacation_daysTextBox.Location = new System.Drawing.Point(398, 494);
+            this.Number_vacation_daysTextBox.Name = "Number_vacation_daysTextBox";
+            this.Number_vacation_daysTextBox.Size = new System.Drawing.Size(193, 30);
+            this.Number_vacation_daysTextBox.TabIndex = 34;
+            // 
+            // Provided_withTextBox
+            // 
+            this.Provided_withTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Provided_withTextBox.Location = new System.Drawing.Point(278, 539);
+            this.Provided_withTextBox.Name = "Provided_withTextBox";
+            this.Provided_withTextBox.Size = new System.Drawing.Size(193, 30);
+            this.Provided_withTextBox.TabIndex = 35;
+            // 
+            // ProvidedforTextBox
+            // 
+            this.ProvidedforTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ProvidedforTextBox.Location = new System.Drawing.Point(278, 586);
+            this.ProvidedforTextBox.Name = "ProvidedforTextBox";
+            this.ProvidedforTextBox.Size = new System.Drawing.Size(193, 30);
+            this.ProvidedforTextBox.TabIndex = 36;
+            // 
+            // ID_granting_leaveTextBox
+            // 
+            this.ID_granting_leaveTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ID_granting_leaveTextBox.Location = new System.Drawing.Point(266, 51);
+            this.ID_granting_leaveTextBox.Name = "ID_granting_leaveTextBox";
+            this.ID_granting_leaveTextBox.Size = new System.Drawing.Size(67, 30);
+            this.ID_granting_leaveTextBox.TabIndex = 37;
+            // 
+            // buttonPrint
+            // 
+            this.buttonPrint.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.buttonPrint.Font = new System.Drawing.Font("Times New Roman", 12.25532F);
+            this.buttonPrint.Location = new System.Drawing.Point(1080, 650);
+            this.buttonPrint.Name = "buttonPrint";
+            this.buttonPrint.Size = new System.Drawing.Size(218, 55);
+            this.buttonPrint.TabIndex = 140;
+            this.buttonPrint.Text = "Печать";
+            this.buttonPrint.UseVisualStyleBackColor = false;
+            // 
+            // buttonDelete
+            // 
+            this.buttonDelete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.buttonDelete.Font = new System.Drawing.Font("Times New Roman", 12.25532F);
+            this.buttonDelete.Location = new System.Drawing.Point(1080, 576);
+            this.buttonDelete.Name = "buttonDelete";
+            this.buttonDelete.Size = new System.Drawing.Size(218, 55);
+            this.buttonDelete.TabIndex = 139;
+            this.buttonDelete.Text = "Удалить";
+            this.buttonDelete.UseVisualStyleBackColor = false;
+            // 
+            // buttonAdd
+            // 
+            this.buttonAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.buttonAdd.Font = new System.Drawing.Font("Times New Roman", 12.25532F);
+            this.buttonAdd.Location = new System.Drawing.Point(1080, 502);
+            this.buttonAdd.Name = "buttonAdd";
+            this.buttonAdd.Size = new System.Drawing.Size(218, 55);
+            this.buttonAdd.TabIndex = 138;
+            this.buttonAdd.Text = "Добавить";
+            this.buttonAdd.UseVisualStyleBackColor = false;
+            this.buttonAdd.Click += new System.EventHandler(this.buttonAdd_Click);
+            // 
+            // buttonBack
+            // 
+            this.buttonBack.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.buttonBack.Font = new System.Drawing.Font("Times New Roman", 12.25532F);
+            this.buttonBack.Location = new System.Drawing.Point(1080, 791);
+            this.buttonBack.Name = "buttonBack";
+            this.buttonBack.Size = new System.Drawing.Size(218, 55);
+            this.buttonBack.TabIndex = 141;
+            this.buttonBack.Text = "Назад";
+            this.buttonBack.UseVisualStyleBackColor = false;
+            this.buttonBack.Click += new System.EventHandler(this.buttonBack_Click);
+            // 
             // FormGrantingLeave
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(1357, 1010);
+            this.Controls.Add(this.buttonBack);
+            this.Controls.Add(this.buttonPrint);
+            this.Controls.Add(this.buttonDelete);
+            this.Controls.Add(this.buttonAdd);
             this.Controls.Add(this.buttonExcelGrantingLeave);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.granting_leaveDataGridView);
@@ -638,5 +822,22 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn13;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button buttonExcelGrantingLeave;
+        private System.Windows.Forms.TextBox ID_granting_leaveTextBox;
+        private System.Windows.Forms.TextBox ProvidedforTextBox;
+        private System.Windows.Forms.TextBox Provided_withTextBox;
+        private System.Windows.Forms.TextBox Number_vacation_daysTextBox;
+        private System.Windows.Forms.TextBox Period_forTextBox;
+        private System.Windows.Forms.TextBox Period_working_withTextBox;
+        private System.Windows.Forms.TextBox PositionTextBox;
+        private System.Windows.Forms.TextBox Structural_divisionTextBox;
+        private System.Windows.Forms.TextBox FIOTextBox;
+        private System.Windows.Forms.TextBox Service_numberTextBox;
+        private System.Windows.Forms.TextBox Date_compilationTextBox;
+        private System.Windows.Forms.TextBox Document_numberTextBox;
+        private System.Windows.Forms.TextBox Name_organizationTextBox;
+        private System.Windows.Forms.Button buttonPrint;
+        private System.Windows.Forms.Button buttonDelete;
+        private System.Windows.Forms.Button buttonAdd;
+        private System.Windows.Forms.Button buttonBack;
     }
 }

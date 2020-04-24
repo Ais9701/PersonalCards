@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -67,6 +68,29 @@ namespace Personal_cardsApp1.InfoPersonalCards
             {
                 worksheet.Cells[i + 2, 1] = granting_leaveDataGridView.Rows[i].HeaderCell.Value;
             }
+        }
+
+        private void buttonAdd_Click(object sender, EventArgs e)
+        {
+            SqlConnection connection = new SqlConnection(@"Data Source=DESKTOP-DPL61M9\SQLEXPRESS;Initial Catalog=Personal_cards;Integrated Security=True");
+            connection.Open();
+            int ID_granting_leave = int.Parse(ID_granting_leaveTextBox.Text);//эта строчка кода преобразует введенный ID клиента из строкового типа в тип int
+            String querySave = "INSERT INTO Granting_leave (ID_granting_leave, Name_organization, Document_number, Date_compilation, Service_number, FIO, Structural_division, Position, Period_working_with, [Period_working_ for], Number_vacation_days, Provided_with, [Provided_ for]) VALUES ('" + ID_granting_leave + "','" + Name_organizationTextBox.Text + "','" + Document_numberTextBox.Text + "','" + Date_compilationTextBox.Text + "','" + Service_numberTextBox.Text + "','" + FIOTextBox.Text + "','" + Structural_divisionTextBox.Text + "','" + PositionTextBox.Text + "','" + Period_working_withTextBox.Text + "','" + Period_forTextBox.Text + "','" + Number_vacation_daysTextBox.Text + "','" + Provided_withTextBox.Text + "','" + ProvidedforTextBox.Text + "')";
+            SqlDataAdapter SDA = new SqlDataAdapter(querySave, connection);
+            SDA.SelectCommand.ExecuteNonQuery();
+            connection.Close();
+            MessageBox.Show("Отпуск зарегистрирован");
+        }
+
+        private void buttonBack_Click(object sender, EventArgs e)
+        {
+            // вызываем главную форму, которая открыла текущую, главная форма всегда = 0 - [0]
+            Form Menu = Application.OpenForms[1];
+            Menu.StartPosition = FormStartPosition.Manual; // меняем параметр StartPosition у Form1, иначе она будет использовать тот, который у неё прописан в настройках и всегда будет открываться по центру экрана
+            Menu.Left = this.Left; // задаём открываемой форме позицию слева равную позиции текущей формы
+            Menu.Top = this.Top; // задаём открываемой форме позицию сверху равную позиции текущей формы
+            Menu.Show(); // отображаем Form2
+            this.Hide();
         }
     }
     }

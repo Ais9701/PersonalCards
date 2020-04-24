@@ -35,6 +35,7 @@
             this.buttonBack10 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
+            this.buttonGrantingLeave1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -125,12 +126,26 @@
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
+            // buttonGrantingLeave1
+            // 
+            this.buttonGrantingLeave1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.buttonGrantingLeave1.Font = new System.Drawing.Font("Sitka Banner", 15.82979F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.buttonGrantingLeave1.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            this.buttonGrantingLeave1.Location = new System.Drawing.Point(81, 435);
+            this.buttonGrantingLeave1.Name = "buttonGrantingLeave1";
+            this.buttonGrantingLeave1.Size = new System.Drawing.Size(463, 78);
+            this.buttonGrantingLeave1.TabIndex = 7;
+            this.buttonGrantingLeave1.Text = "Предоставление отпуска";
+            this.buttonGrantingLeave1.UseVisualStyleBackColor = false;
+            this.buttonGrantingLeave1.Click += new System.EventHandler(this.buttonGrantingLeave1_Click);
+            // 
             // FormMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(1357, 745);
+            this.Controls.Add(this.buttonGrantingLeave1);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.buttonBack10);
@@ -156,5 +171,6 @@
         private System.Windows.Forms.Button buttonBack10;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button buttonGrantingLeave1;
     }
 }
