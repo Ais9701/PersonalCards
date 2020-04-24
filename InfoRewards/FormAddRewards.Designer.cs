@@ -86,13 +86,16 @@
             this.tableAdapterManager.CertificationTableAdapter = null;
             this.tableAdapterManager.EducationTableAdapter = null;
             this.tableAdapterManager.Employee_informationTableAdapter = null;
+            this.tableAdapterManager.Granting_leaveTableAdapter = null;
             this.tableAdapterManager.Level_of_educationTableAdapter = null;
             this.tableAdapterManager.Military_registrationTableAdapter = null;
             this.tableAdapterManager.More_informationTableAdapter = null;
+            this.tableAdapterManager.Order_admissionTableAdapter = null;
             this.tableAdapterManager.Reception_and_transferTableAdapter = null;
             this.tableAdapterManager.RetrainingTableAdapter = null;
             this.tableAdapterManager.RewardsTableAdapter = this.rewardsTableAdapter;
             this.tableAdapterManager.Social_benefitsTableAdapter = null;
+            this.tableAdapterManager.Staff_listTableAdapter = null;
             this.tableAdapterManager.UpdateOrder = Personal_cardsApp1.Personal_cardsDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             this.tableAdapterManager.UserTableAdapter = null;
             this.tableAdapterManager.VacationTableAdapter = null;
@@ -124,7 +127,7 @@
             this.rewardsBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.rewardsBindingNavigator.Name = "rewardsBindingNavigator";
             this.rewardsBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.rewardsBindingNavigator.Size = new System.Drawing.Size(1357, 32);
+            this.rewardsBindingNavigator.Size = new System.Drawing.Size(1357, 37);
             this.rewardsBindingNavigator.TabIndex = 0;
             this.rewardsBindingNavigator.Text = "bindingNavigator1";
             // 
@@ -141,7 +144,7 @@
             // bindingNavigatorCountItem
             // 
             this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
-            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(65, 28);
+            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(65, 33);
             this.bindingNavigatorCountItem.Text = "для {0}";
             this.bindingNavigatorCountItem.ToolTipText = "Общее число элементов";
             // 
@@ -161,7 +164,7 @@
             this.bindingNavigatorMoveFirstItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveFirstItem.Image")));
             this.bindingNavigatorMoveFirstItem.Name = "bindingNavigatorMoveFirstItem";
             this.bindingNavigatorMoveFirstItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveFirstItem.Size = new System.Drawing.Size(34, 28);
+            this.bindingNavigatorMoveFirstItem.Size = new System.Drawing.Size(34, 33);
             this.bindingNavigatorMoveFirstItem.Text = "Переместить в начало";
             // 
             // bindingNavigatorMovePreviousItem
@@ -170,13 +173,13 @@
             this.bindingNavigatorMovePreviousItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMovePreviousItem.Image")));
             this.bindingNavigatorMovePreviousItem.Name = "bindingNavigatorMovePreviousItem";
             this.bindingNavigatorMovePreviousItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMovePreviousItem.Size = new System.Drawing.Size(34, 28);
+            this.bindingNavigatorMovePreviousItem.Size = new System.Drawing.Size(34, 33);
             this.bindingNavigatorMovePreviousItem.Text = "Переместить назад";
             // 
             // bindingNavigatorSeparator
             // 
             this.bindingNavigatorSeparator.Name = "bindingNavigatorSeparator";
-            this.bindingNavigatorSeparator.Size = new System.Drawing.Size(6, 32);
+            this.bindingNavigatorSeparator.Size = new System.Drawing.Size(6, 37);
             // 
             // bindingNavigatorPositionItem
             // 
@@ -191,7 +194,7 @@
             // bindingNavigatorSeparator1
             // 
             this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator1";
-            this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 32);
+            this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 37);
             // 
             // bindingNavigatorMoveNextItem
             // 
@@ -199,7 +202,7 @@
             this.bindingNavigatorMoveNextItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveNextItem.Image")));
             this.bindingNavigatorMoveNextItem.Name = "bindingNavigatorMoveNextItem";
             this.bindingNavigatorMoveNextItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveNextItem.Size = new System.Drawing.Size(34, 28);
+            this.bindingNavigatorMoveNextItem.Size = new System.Drawing.Size(34, 33);
             this.bindingNavigatorMoveNextItem.Text = "Переместить вперед";
             // 
             // bindingNavigatorMoveLastItem
@@ -208,13 +211,13 @@
             this.bindingNavigatorMoveLastItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveLastItem.Image")));
             this.bindingNavigatorMoveLastItem.Name = "bindingNavigatorMoveLastItem";
             this.bindingNavigatorMoveLastItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveLastItem.Size = new System.Drawing.Size(34, 28);
+            this.bindingNavigatorMoveLastItem.Size = new System.Drawing.Size(34, 33);
             this.bindingNavigatorMoveLastItem.Text = "Переместить в конец";
             // 
             // bindingNavigatorSeparator2
             // 
             this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator2";
-            this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 32);
+            this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 37);
             // 
             // rewardsBindingNavigatorSaveItem
             // 

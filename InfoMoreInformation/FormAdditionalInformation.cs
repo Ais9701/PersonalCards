@@ -9,10 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.Odbc;
-using Microsoft.Office.Interop.Excel;
-using Rectangle = System.Drawing.Rectangle;
-using Point = System.Drawing.Point;
-using Application = System.Windows.Forms.Application;
+
 
 namespace Personal_cardsApp1
 {
@@ -21,14 +18,6 @@ namespace Personal_cardsApp1
         public FormAdditionalInformation()
         {
             InitializeComponent();
-        }
-
-        private void more_informationBindingNavigatorSaveItem_Click(object sender, EventArgs e)
-        {
-            this.Validate();
-            this.more_informationBindingSource.EndEdit();
-            this.tableAdapterManager.UpdateAll(this.personal_cardsDataSet);
-
         }
 
         private void FormAdditionalInformation_Load(object sender, EventArgs e)
@@ -79,25 +68,49 @@ namespace Personal_cardsApp1
 
         private void buttonExcel_Click(object sender, EventArgs e)
         {
-            //Приложение
-            Microsoft.Office.Interop.Excel.Application ExcelApp = new Microsoft.Office.Interop.Excel.Application();
-            Microsoft.Office.Interop.Excel.Workbook ExcelWorkBook;
-            Microsoft.Office.Interop.Excel.Worksheet ExcelWorkSheet;
-            //Книга.
-            ExcelWorkBook = ExcelApp.Workbooks.Add(System.Reflection.Missing.Value);
-            //Таблица.
-            ExcelWorkSheet = (Microsoft.Office.Interop.Excel.Worksheet)ExcelWorkBook.Worksheets.get_Item(1);
+            DVG_TO_EXCEL(more_informationDataGridView);
+        }
 
-            for (int i = 0; i < more_informationDataGridView.Rows.Count; i++)
+       public void DVG_TO_EXCEL(DataGridView more_informationDataGridView)
+        {
+            Microsoft.Office.Interop.Excel._Application app = new Microsoft.Office.Interop.Excel.Application();
+            Microsoft.Office.Interop.Excel._Workbook workbook = app.Workbooks.Add(Type.Missing);
+            Microsoft.Office.Interop.Excel._Worksheet worksheet = null;
+            app.Visible = true;
+            worksheet = workbook.Sheets["Лист1"];
+            worksheet = workbook.ActiveSheet;
+            for (int i = 1; i < more_informationDataGridView.Columns.Count + 1; i++)
             {
-                for (int j = 0; j < more_informationDataGridView.ColumnCount; j++)
+                worksheet.Cells[1, i + 1] = more_informationDataGridView.Columns[i - 1].HeaderText;
+            }
+            for (int i = 0; i < more_informationDataGridView.Rows.Count - 1; i++)
+            {
+                for (int j = 0; j < more_informationDataGridView.Columns.Count; j++)
                 {
-                    ExcelApp.Cells[i + 1, j + 1] = more_informationDataGridView.Rows[i].Cells[j].Value;
+                    if (more_informationDataGridView.Rows[i].Cells[j].Value != null)
+                    {
+                        worksheet.Cells[i + 2, j + 2] = more_informationDataGridView.Rows[i].Cells[j].Value.ToString();
+                    }
+                    else
+                    {
+                        worksheet.Cells[i + 2, j + 2] = "";
+                    }
                 }
             }
-            //Вызываем нашу созданную эксельку.
-            ExcelApp.Visible = true;
-            ExcelApp.UserControl = true;
+            for (int i = 0; i < more_informationDataGridView.Rows.Count; i++)
+            {
+                worksheet.Cells[i + 2, 1] = more_informationDataGridView.Rows[i].HeaderCell.Value;
+            }
+        }
+
+        private void more_informationDataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void more_informationBindingNavigator_RefreshItems(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -43,6 +43,9 @@
             System.Windows.Forms.Label foreign_language_knowledge_proficiencyLabel;
             System.Windows.Forms.Label foreign_language_knowledge_nameLabel;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormAddPersonalCards1));
+            System.Windows.Forms.Label iD_schedulesLabel;
+            System.Windows.Forms.Label iD_granting_leaveLabel;
+            System.Windows.Forms.Label iD_orderLabel;
             this.personal_cardsDataSet = new Personal_cardsApp1.Personal_cardsDataSet();
             this.employee_informationBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.employee_informationTableAdapter = new Personal_cardsApp1.Personal_cardsDataSetTableAdapters.Employee_informationTableAdapter();
@@ -105,6 +108,9 @@
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
+            this.ID_schedulesTextBox = new System.Windows.Forms.TextBox();
+            this.ID_granting_leaveTextBox = new System.Windows.Forms.TextBox();
+            this.ID_orderTextBox = new System.Windows.Forms.TextBox();
             number_passportLabel = new System.Windows.Forms.Label();
             phoneLabel = new System.Windows.Forms.Label();
             citizenshipLabel = new System.Windows.Forms.Label();
@@ -118,6 +124,9 @@
             marital_statusLabel = new System.Windows.Forms.Label();
             foreign_language_knowledge_proficiencyLabel = new System.Windows.Forms.Label();
             foreign_language_knowledge_nameLabel = new System.Windows.Forms.Label();
+            iD_schedulesLabel = new System.Windows.Forms.Label();
+            iD_granting_leaveLabel = new System.Windows.Forms.Label();
+            iD_orderLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.personal_cardsDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.employee_informationBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.employee_informationBindingNavigator)).BeginInit();
@@ -289,13 +298,16 @@
             this.tableAdapterManager.CertificationTableAdapter = null;
             this.tableAdapterManager.EducationTableAdapter = null;
             this.tableAdapterManager.Employee_informationTableAdapter = this.employee_informationTableAdapter;
+            this.tableAdapterManager.Granting_leaveTableAdapter = null;
             this.tableAdapterManager.Level_of_educationTableAdapter = null;
             this.tableAdapterManager.Military_registrationTableAdapter = null;
             this.tableAdapterManager.More_informationTableAdapter = null;
+            this.tableAdapterManager.Order_admissionTableAdapter = null;
             this.tableAdapterManager.Reception_and_transferTableAdapter = null;
             this.tableAdapterManager.RetrainingTableAdapter = null;
             this.tableAdapterManager.RewardsTableAdapter = null;
             this.tableAdapterManager.Social_benefitsTableAdapter = null;
+            this.tableAdapterManager.Staff_listTableAdapter = null;
             this.tableAdapterManager.UpdateOrder = Personal_cardsApp1.Personal_cardsDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             this.tableAdapterManager.UserTableAdapter = null;
             this.tableAdapterManager.VacationTableAdapter = null;
@@ -815,12 +827,66 @@
             this.label15.TabIndex = 96;
             this.label15.Text = "Уровня образования:";
             // 
+            // iD_schedulesLabel
+            // 
+            iD_schedulesLabel.AutoSize = true;
+            iD_schedulesLabel.Location = new System.Drawing.Point(515, 880);
+            iD_schedulesLabel.Name = "iD_schedulesLabel";
+            iD_schedulesLabel.Size = new System.Drawing.Size(106, 20);
+            iD_schedulesLabel.TabIndex = 96;
+            iD_schedulesLabel.Text = "ID schedules:";
+            // 
+            // iD_granting_leaveLabel
+            // 
+            iD_granting_leaveLabel.AutoSize = true;
+            iD_granting_leaveLabel.Location = new System.Drawing.Point(515, 912);
+            iD_granting_leaveLabel.Name = "iD_granting_leaveLabel";
+            iD_granting_leaveLabel.Size = new System.Drawing.Size(133, 20);
+            iD_granting_leaveLabel.TabIndex = 97;
+            iD_granting_leaveLabel.Text = "ID granting leave:";
+            // 
+            // iD_orderLabel
+            // 
+            iD_orderLabel.AutoSize = true;
+            iD_orderLabel.Location = new System.Drawing.Point(515, 944);
+            iD_orderLabel.Name = "iD_orderLabel";
+            iD_orderLabel.Size = new System.Drawing.Size(71, 20);
+            iD_orderLabel.TabIndex = 98;
+            iD_orderLabel.Text = "ID order:";
+            // 
+            // ID_schedulesTextBox
+            // 
+            this.ID_schedulesTextBox.Location = new System.Drawing.Point(660, 875);
+            this.ID_schedulesTextBox.Name = "ID_schedulesTextBox";
+            this.ID_schedulesTextBox.Size = new System.Drawing.Size(100, 26);
+            this.ID_schedulesTextBox.TabIndex = 99;
+            // 
+            // ID_granting_leaveTextBox
+            // 
+            this.ID_granting_leaveTextBox.Location = new System.Drawing.Point(660, 912);
+            this.ID_granting_leaveTextBox.Name = "ID_granting_leaveTextBox";
+            this.ID_granting_leaveTextBox.Size = new System.Drawing.Size(100, 26);
+            this.ID_granting_leaveTextBox.TabIndex = 100;
+            // 
+            // ID_orderTextBox
+            // 
+            this.ID_orderTextBox.Location = new System.Drawing.Point(660, 944);
+            this.ID_orderTextBox.Name = "ID_orderTextBox";
+            this.ID_orderTextBox.Size = new System.Drawing.Size(100, 26);
+            this.ID_orderTextBox.TabIndex = 101;
+            // 
             // FormAddPersonalCards1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(1290, 1051);
+            this.Controls.Add(this.ID_orderTextBox);
+            this.Controls.Add(this.ID_granting_leaveTextBox);
+            this.Controls.Add(this.ID_schedulesTextBox);
+            this.Controls.Add(iD_orderLabel);
+            this.Controls.Add(iD_granting_leaveLabel);
+            this.Controls.Add(iD_schedulesLabel);
             this.Controls.Add(this.label15);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label13);
@@ -960,5 +1026,8 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.TextBox ID_schedulesTextBox;
+        private System.Windows.Forms.TextBox ID_granting_leaveTextBox;
+        private System.Windows.Forms.TextBox ID_orderTextBox;
     }
 }
