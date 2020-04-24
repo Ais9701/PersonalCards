@@ -105,6 +105,7 @@
             this.buttonBack = new System.Windows.Forms.Button();
             this.staff_listTableAdapter = new Personal_cardsApp1.Personal_cardsDataSetTableAdapters.Staff_listTableAdapter();
             this.tableAdapterManager = new Personal_cardsApp1.Personal_cardsDataSetTableAdapters.TableAdapterManager();
+            this.label1 = new System.Windows.Forms.Label();
             iD_schedulesLabel = new System.Windows.Forms.Label();
             name_organizationLabel = new System.Windows.Forms.Label();
             document_numberLabel = new System.Windows.Forms.Label();
@@ -824,7 +825,7 @@
             // 
             this.buttonPrint.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.buttonPrint.Font = new System.Drawing.Font("Times New Roman", 12.25532F);
-            this.buttonPrint.Location = new System.Drawing.Point(1432, 770);
+            this.buttonPrint.Location = new System.Drawing.Point(1432, 823);
             this.buttonPrint.Name = "buttonPrint";
             this.buttonPrint.Size = new System.Drawing.Size(218, 55);
             this.buttonPrint.TabIndex = 137;
@@ -873,12 +874,25 @@
             this.tableAdapterManager.UserTableAdapter = null;
             this.tableAdapterManager.VacationTableAdapter = null;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(1443, 754);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(191, 52);
+            this.label1.TabIndex = 143;
+            this.label1.Text = "(можно воспользоваться\r\nклавишей DEL)";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
             // FormStaffList
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(1880, 1051);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.buttonBack);
             this.Controls.Add(this.buttonPrint);
             this.Controls.Add(this.buttonDelete);
@@ -962,5 +976,6 @@
         private System.Windows.Forms.Button buttonPrint;
         private System.Drawing.Printing.PrintDocument printDocument1;
         private System.Windows.Forms.Button buttonBack;
+        private System.Windows.Forms.Label label1;
     }
 }

@@ -43,7 +43,7 @@
             System.Windows.Forms.Label provided_withLabel;
             System.Windows.Forms.Label provided__forLabel;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormGrantingLeave));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.personal_cardsDataSet = new Personal_cardsApp1.Personal_cardsDataSet();
             this.granting_leaveBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.granting_leaveTableAdapter = new Personal_cardsApp1.Personal_cardsDataSetTableAdapters.Granting_leaveTableAdapter();
@@ -94,6 +94,8 @@
             this.buttonDelete = new System.Windows.Forms.Button();
             this.buttonAdd = new System.Windows.Forms.Button();
             this.buttonBack = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.printDocument1 = new System.Drawing.Printing.PrintDocument();
             iD_granting_leaveLabel = new System.Windows.Forms.Label();
             name_organizationLabel = new System.Windows.Forms.Label();
             document_numberLabel = new System.Windows.Forms.Label();
@@ -422,14 +424,14 @@
             // granting_leaveDataGridView
             // 
             this.granting_leaveDataGridView.AutoGenerateColumns = false;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.granting_leaveDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.granting_leaveDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle6;
             this.granting_leaveDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.granting_leaveDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn1,
@@ -452,6 +454,7 @@
             this.granting_leaveDataGridView.RowTemplate.Height = 28;
             this.granting_leaveDataGridView.Size = new System.Drawing.Size(1357, 290);
             this.granting_leaveDataGridView.TabIndex = 1;
+            this.granting_leaveDataGridView.UserDeletingRow += new System.Windows.Forms.DataGridViewRowCancelEventHandler(this.granting_leaveDataGridView_UserDeletingRow);
             // 
             // dataGridViewTextBoxColumn1
             // 
@@ -598,7 +601,7 @@
             // 
             this.buttonExcelGrantingLeave.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.buttonExcelGrantingLeave.Font = new System.Drawing.Font("Times New Roman", 12.25532F);
-            this.buttonExcelGrantingLeave.Location = new System.Drawing.Point(1080, 432);
+            this.buttonExcelGrantingLeave.Location = new System.Drawing.Point(1080, 543);
             this.buttonExcelGrantingLeave.Name = "buttonExcelGrantingLeave";
             this.buttonExcelGrantingLeave.Size = new System.Drawing.Size(218, 55);
             this.buttonExcelGrantingLeave.TabIndex = 102;
@@ -714,29 +717,31 @@
             // 
             this.buttonPrint.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.buttonPrint.Font = new System.Drawing.Font("Times New Roman", 12.25532F);
-            this.buttonPrint.Location = new System.Drawing.Point(1080, 650);
+            this.buttonPrint.Location = new System.Drawing.Point(1080, 819);
             this.buttonPrint.Name = "buttonPrint";
             this.buttonPrint.Size = new System.Drawing.Size(218, 55);
             this.buttonPrint.TabIndex = 140;
             this.buttonPrint.Text = "Печать";
             this.buttonPrint.UseVisualStyleBackColor = false;
+            this.buttonPrint.Click += new System.EventHandler(this.buttonPrint_Click);
             // 
             // buttonDelete
             // 
             this.buttonDelete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.buttonDelete.Font = new System.Drawing.Font("Times New Roman", 12.25532F);
-            this.buttonDelete.Location = new System.Drawing.Point(1080, 576);
+            this.buttonDelete.Location = new System.Drawing.Point(1080, 687);
             this.buttonDelete.Name = "buttonDelete";
             this.buttonDelete.Size = new System.Drawing.Size(218, 55);
             this.buttonDelete.TabIndex = 139;
             this.buttonDelete.Text = "Удалить";
             this.buttonDelete.UseVisualStyleBackColor = false;
+            this.buttonDelete.Click += new System.EventHandler(this.buttonDelete_Click);
             // 
             // buttonAdd
             // 
             this.buttonAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.buttonAdd.Font = new System.Drawing.Font("Times New Roman", 12.25532F);
-            this.buttonAdd.Location = new System.Drawing.Point(1080, 502);
+            this.buttonAdd.Location = new System.Drawing.Point(1080, 613);
             this.buttonAdd.Name = "buttonAdd";
             this.buttonAdd.Size = new System.Drawing.Size(218, 55);
             this.buttonAdd.TabIndex = 138;
@@ -748,7 +753,7 @@
             // 
             this.buttonBack.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.buttonBack.Font = new System.Drawing.Font("Times New Roman", 12.25532F);
-            this.buttonBack.Location = new System.Drawing.Point(1080, 791);
+            this.buttonBack.Location = new System.Drawing.Point(1080, 926);
             this.buttonBack.Name = "buttonBack";
             this.buttonBack.Size = new System.Drawing.Size(218, 55);
             this.buttonBack.TabIndex = 141;
@@ -756,12 +761,29 @@
             this.buttonBack.UseVisualStyleBackColor = false;
             this.buttonBack.Click += new System.EventHandler(this.buttonBack_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(1096, 745);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(191, 52);
+            this.label1.TabIndex = 142;
+            this.label1.Text = "(можно воспользоваться\r\nклавишей DEL)";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // printDocument1
+            // 
+            this.printDocument1.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(this.printDocument1_PrintPage);
+            // 
             // FormGrantingLeave
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(1357, 1010);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.buttonBack);
             this.Controls.Add(this.buttonPrint);
             this.Controls.Add(this.buttonDelete);
@@ -773,6 +795,7 @@
             this.Name = "FormGrantingLeave";
             this.Text = "Предоставление отпуска";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormGrantingLeave_FormClosed);
             this.Load += new System.EventHandler(this.FormGrantingLeave_Load);
             ((System.ComponentModel.ISupportInitialize)(this.personal_cardsDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.granting_leaveBindingSource)).EndInit();
@@ -839,5 +862,7 @@
         private System.Windows.Forms.Button buttonDelete;
         private System.Windows.Forms.Button buttonAdd;
         private System.Windows.Forms.Button buttonBack;
+        private System.Windows.Forms.Label label1;
+        private System.Drawing.Printing.PrintDocument printDocument1;
     }
 }

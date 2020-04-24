@@ -92,6 +92,40 @@ namespace Personal_cardsApp1.InfoPersonalCards
             Menu.Show(); // отображаем Form2
             this.Hide();
         }
+
+        private void buttonDelete_Click(object sender, EventArgs e)
+        {
+            granting_leaveDataGridView.Rows.RemoveAt(granting_leaveDataGridView.CurrentCell.RowIndex);
+            granting_leaveTableAdapter.Update(personal_cardsDataSet);
+            MessageBox.Show("Запись удалена из базы данных");
+        }
+
+        private void granting_leaveDataGridView_UserDeletingRow(object sender, DataGridViewRowCancelEventArgs e)
+        {
+            DialogResult dr = MessageBox.Show("Удалить запись?", "Удаление", MessageBoxButtons.OKCancel,
+            MessageBoxIcon.Warning, MessageBoxDefaultButton.Button2);
+            if (dr == DialogResult.Cancel)
+            {
+                e.Cancel = true;
+            }
+        }
+
+        private void printDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
+        {
+            var bitmap = new Bitmap(Width, Height);
+            DrawToBitmap(bitmap, new Rectangle(Point.Empty, bitmap.Size));
+            e.Graphics.DrawImage(bitmap, new Point(40, 40));
+        }
+
+        private void buttonPrint_Click(object sender, EventArgs e)
+        {
+            printDocument1.Print();
+        }
+
+        private void FormGrantingLeave_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            System.Windows.Forms.Application.Exit();
+        }
     }
     }
 
