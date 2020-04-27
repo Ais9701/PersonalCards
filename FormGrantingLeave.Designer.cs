@@ -43,7 +43,7 @@
             System.Windows.Forms.Label provided_withLabel;
             System.Windows.Forms.Label provided__forLabel;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormGrantingLeave));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.personal_cardsDataSet = new Personal_cardsApp1.Personal_cardsDataSet();
             this.granting_leaveBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.granting_leaveTableAdapter = new Personal_cardsApp1.Personal_cardsDataSetTableAdapters.Granting_leaveTableAdapter();
@@ -76,26 +76,29 @@
             this.dataGridViewTextBoxColumn12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.buttonExcelGrantingLeave = new System.Windows.Forms.Button();
-            this.Name_organizationTextBox = new System.Windows.Forms.TextBox();
-            this.Document_numberTextBox = new System.Windows.Forms.TextBox();
-            this.Date_compilationTextBox = new System.Windows.Forms.TextBox();
-            this.Service_numberTextBox = new System.Windows.Forms.TextBox();
-            this.FIOTextBox = new System.Windows.Forms.TextBox();
-            this.Structural_divisionTextBox = new System.Windows.Forms.TextBox();
-            this.PositionTextBox = new System.Windows.Forms.TextBox();
-            this.Period_working_withTextBox = new System.Windows.Forms.TextBox();
-            this.Period_forTextBox = new System.Windows.Forms.TextBox();
-            this.Number_vacation_daysTextBox = new System.Windows.Forms.TextBox();
-            this.Provided_withTextBox = new System.Windows.Forms.TextBox();
-            this.ProvidedforTextBox = new System.Windows.Forms.TextBox();
             this.ID_granting_leaveTextBox = new System.Windows.Forms.TextBox();
+            this.ProvidedforTextBox = new System.Windows.Forms.TextBox();
+            this.Provided_withTextBox = new System.Windows.Forms.TextBox();
+            this.Number_vacation_daysTextBox = new System.Windows.Forms.TextBox();
+            this.Period_forTextBox = new System.Windows.Forms.TextBox();
+            this.Period_working_withTextBox = new System.Windows.Forms.TextBox();
+            this.PositionTextBox = new System.Windows.Forms.TextBox();
+            this.Structural_divisionTextBox = new System.Windows.Forms.TextBox();
+            this.FIOTextBox = new System.Windows.Forms.TextBox();
+            this.Service_numberTextBox = new System.Windows.Forms.TextBox();
+            this.Date_compilationTextBox = new System.Windows.Forms.TextBox();
+            this.Document_numberTextBox = new System.Windows.Forms.TextBox();
+            this.Name_organizationTextBox = new System.Windows.Forms.TextBox();
+            this.buttonExcelGrantingLeave = new System.Windows.Forms.Button();
             this.buttonPrint = new System.Windows.Forms.Button();
             this.buttonDelete = new System.Windows.Forms.Button();
             this.buttonAdd = new System.Windows.Forms.Button();
             this.buttonBack = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.printDocument1 = new System.Drawing.Printing.PrintDocument();
+            this.textBoxavtozapolnenie = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.buttonotobrazitvse = new System.Windows.Forms.Button();
             iD_granting_leaveLabel = new System.Windows.Forms.Label();
             name_organizationLabel = new System.Windows.Forms.Label();
             document_numberLabel = new System.Windows.Forms.Label();
@@ -334,6 +337,7 @@
             this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
             this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(34, 28);
             this.bindingNavigatorAddNewItem.Text = "Добавить";
+            this.bindingNavigatorAddNewItem.Visible = false;
             // 
             // bindingNavigatorCountItem
             // 
@@ -350,6 +354,7 @@
             this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
             this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(34, 28);
             this.bindingNavigatorDeleteItem.Text = "Удалить";
+            this.bindingNavigatorDeleteItem.Visible = false;
             // 
             // bindingNavigatorMoveFirstItem
             // 
@@ -419,19 +424,20 @@
             this.granting_leaveBindingNavigatorSaveItem.Name = "granting_leaveBindingNavigatorSaveItem";
             this.granting_leaveBindingNavigatorSaveItem.Size = new System.Drawing.Size(34, 28);
             this.granting_leaveBindingNavigatorSaveItem.Text = "Сохранить данные";
+            this.granting_leaveBindingNavigatorSaveItem.Visible = false;
             this.granting_leaveBindingNavigatorSaveItem.Click += new System.EventHandler(this.granting_leaveBindingNavigatorSaveItem_Click);
             // 
             // granting_leaveDataGridView
             // 
             this.granting_leaveDataGridView.AutoGenerateColumns = false;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.granting_leaveDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.granting_leaveDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.granting_leaveDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.granting_leaveDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn1,
@@ -597,6 +603,110 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Добавление отпуска";
             // 
+            // ID_granting_leaveTextBox
+            // 
+            this.ID_granting_leaveTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ID_granting_leaveTextBox.Location = new System.Drawing.Point(266, 51);
+            this.ID_granting_leaveTextBox.Name = "ID_granting_leaveTextBox";
+            this.ID_granting_leaveTextBox.Size = new System.Drawing.Size(67, 30);
+            this.ID_granting_leaveTextBox.TabIndex = 37;
+            // 
+            // ProvidedforTextBox
+            // 
+            this.ProvidedforTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ProvidedforTextBox.Location = new System.Drawing.Point(278, 586);
+            this.ProvidedforTextBox.Name = "ProvidedforTextBox";
+            this.ProvidedforTextBox.Size = new System.Drawing.Size(193, 30);
+            this.ProvidedforTextBox.TabIndex = 36;
+            // 
+            // Provided_withTextBox
+            // 
+            this.Provided_withTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Provided_withTextBox.Location = new System.Drawing.Point(278, 539);
+            this.Provided_withTextBox.Name = "Provided_withTextBox";
+            this.Provided_withTextBox.Size = new System.Drawing.Size(193, 30);
+            this.Provided_withTextBox.TabIndex = 35;
+            // 
+            // Number_vacation_daysTextBox
+            // 
+            this.Number_vacation_daysTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Number_vacation_daysTextBox.Location = new System.Drawing.Point(398, 494);
+            this.Number_vacation_daysTextBox.Name = "Number_vacation_daysTextBox";
+            this.Number_vacation_daysTextBox.Size = new System.Drawing.Size(193, 30);
+            this.Number_vacation_daysTextBox.TabIndex = 34;
+            // 
+            // Period_forTextBox
+            // 
+            this.Period_forTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Period_forTextBox.Location = new System.Drawing.Point(302, 450);
+            this.Period_forTextBox.Name = "Period_forTextBox";
+            this.Period_forTextBox.Size = new System.Drawing.Size(193, 30);
+            this.Period_forTextBox.TabIndex = 33;
+            // 
+            // Period_working_withTextBox
+            // 
+            this.Period_working_withTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Period_working_withTextBox.Location = new System.Drawing.Point(302, 405);
+            this.Period_working_withTextBox.Name = "Period_working_withTextBox";
+            this.Period_working_withTextBox.Size = new System.Drawing.Size(193, 30);
+            this.Period_working_withTextBox.TabIndex = 32;
+            // 
+            // PositionTextBox
+            // 
+            this.PositionTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.PositionTextBox.Location = new System.Drawing.Point(189, 360);
+            this.PositionTextBox.Name = "PositionTextBox";
+            this.PositionTextBox.Size = new System.Drawing.Size(193, 30);
+            this.PositionTextBox.TabIndex = 31;
+            // 
+            // Structural_divisionTextBox
+            // 
+            this.Structural_divisionTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Structural_divisionTextBox.Location = new System.Drawing.Point(374, 318);
+            this.Structural_divisionTextBox.Name = "Structural_divisionTextBox";
+            this.Structural_divisionTextBox.Size = new System.Drawing.Size(193, 30);
+            this.Structural_divisionTextBox.TabIndex = 30;
+            // 
+            // FIOTextBox
+            // 
+            this.FIOTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.FIOTextBox.Location = new System.Drawing.Point(105, 272);
+            this.FIOTextBox.Name = "FIOTextBox";
+            this.FIOTextBox.Size = new System.Drawing.Size(193, 30);
+            this.FIOTextBox.TabIndex = 29;
+            // 
+            // Service_numberTextBox
+            // 
+            this.Service_numberTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Service_numberTextBox.Location = new System.Drawing.Point(242, 228);
+            this.Service_numberTextBox.Name = "Service_numberTextBox";
+            this.Service_numberTextBox.Size = new System.Drawing.Size(193, 30);
+            this.Service_numberTextBox.TabIndex = 28;
+            // 
+            // Date_compilationTextBox
+            // 
+            this.Date_compilationTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Date_compilationTextBox.Location = new System.Drawing.Point(242, 184);
+            this.Date_compilationTextBox.Name = "Date_compilationTextBox";
+            this.Date_compilationTextBox.Size = new System.Drawing.Size(193, 30);
+            this.Date_compilationTextBox.TabIndex = 27;
+            // 
+            // Document_numberTextBox
+            // 
+            this.Document_numberTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Document_numberTextBox.Location = new System.Drawing.Point(242, 139);
+            this.Document_numberTextBox.Name = "Document_numberTextBox";
+            this.Document_numberTextBox.Size = new System.Drawing.Size(193, 30);
+            this.Document_numberTextBox.TabIndex = 26;
+            // 
+            // Name_organizationTextBox
+            // 
+            this.Name_organizationTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Name_organizationTextBox.Location = new System.Drawing.Point(374, 97);
+            this.Name_organizationTextBox.Name = "Name_organizationTextBox";
+            this.Name_organizationTextBox.Size = new System.Drawing.Size(193, 30);
+            this.Name_organizationTextBox.TabIndex = 25;
+            // 
             // buttonExcelGrantingLeave
             // 
             this.buttonExcelGrantingLeave.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
@@ -609,115 +719,11 @@
             this.buttonExcelGrantingLeave.UseVisualStyleBackColor = false;
             this.buttonExcelGrantingLeave.Click += new System.EventHandler(this.buttonExcelGrantingLeave_Click);
             // 
-            // Name_organizationTextBox
-            // 
-            this.Name_organizationTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Name_organizationTextBox.Location = new System.Drawing.Point(374, 97);
-            this.Name_organizationTextBox.Name = "Name_organizationTextBox";
-            this.Name_organizationTextBox.Size = new System.Drawing.Size(193, 30);
-            this.Name_organizationTextBox.TabIndex = 25;
-            // 
-            // Document_numberTextBox
-            // 
-            this.Document_numberTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Document_numberTextBox.Location = new System.Drawing.Point(242, 139);
-            this.Document_numberTextBox.Name = "Document_numberTextBox";
-            this.Document_numberTextBox.Size = new System.Drawing.Size(193, 30);
-            this.Document_numberTextBox.TabIndex = 26;
-            // 
-            // Date_compilationTextBox
-            // 
-            this.Date_compilationTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Date_compilationTextBox.Location = new System.Drawing.Point(242, 184);
-            this.Date_compilationTextBox.Name = "Date_compilationTextBox";
-            this.Date_compilationTextBox.Size = new System.Drawing.Size(193, 30);
-            this.Date_compilationTextBox.TabIndex = 27;
-            // 
-            // Service_numberTextBox
-            // 
-            this.Service_numberTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Service_numberTextBox.Location = new System.Drawing.Point(242, 228);
-            this.Service_numberTextBox.Name = "Service_numberTextBox";
-            this.Service_numberTextBox.Size = new System.Drawing.Size(193, 30);
-            this.Service_numberTextBox.TabIndex = 28;
-            // 
-            // FIOTextBox
-            // 
-            this.FIOTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.FIOTextBox.Location = new System.Drawing.Point(105, 272);
-            this.FIOTextBox.Name = "FIOTextBox";
-            this.FIOTextBox.Size = new System.Drawing.Size(193, 30);
-            this.FIOTextBox.TabIndex = 29;
-            // 
-            // Structural_divisionTextBox
-            // 
-            this.Structural_divisionTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Structural_divisionTextBox.Location = new System.Drawing.Point(374, 318);
-            this.Structural_divisionTextBox.Name = "Structural_divisionTextBox";
-            this.Structural_divisionTextBox.Size = new System.Drawing.Size(193, 30);
-            this.Structural_divisionTextBox.TabIndex = 30;
-            // 
-            // PositionTextBox
-            // 
-            this.PositionTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.PositionTextBox.Location = new System.Drawing.Point(189, 360);
-            this.PositionTextBox.Name = "PositionTextBox";
-            this.PositionTextBox.Size = new System.Drawing.Size(193, 30);
-            this.PositionTextBox.TabIndex = 31;
-            // 
-            // Period_working_withTextBox
-            // 
-            this.Period_working_withTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Period_working_withTextBox.Location = new System.Drawing.Point(302, 405);
-            this.Period_working_withTextBox.Name = "Period_working_withTextBox";
-            this.Period_working_withTextBox.Size = new System.Drawing.Size(193, 30);
-            this.Period_working_withTextBox.TabIndex = 32;
-            // 
-            // Period_forTextBox
-            // 
-            this.Period_forTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Period_forTextBox.Location = new System.Drawing.Point(302, 450);
-            this.Period_forTextBox.Name = "Period_forTextBox";
-            this.Period_forTextBox.Size = new System.Drawing.Size(193, 30);
-            this.Period_forTextBox.TabIndex = 33;
-            // 
-            // Number_vacation_daysTextBox
-            // 
-            this.Number_vacation_daysTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Number_vacation_daysTextBox.Location = new System.Drawing.Point(398, 494);
-            this.Number_vacation_daysTextBox.Name = "Number_vacation_daysTextBox";
-            this.Number_vacation_daysTextBox.Size = new System.Drawing.Size(193, 30);
-            this.Number_vacation_daysTextBox.TabIndex = 34;
-            // 
-            // Provided_withTextBox
-            // 
-            this.Provided_withTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Provided_withTextBox.Location = new System.Drawing.Point(278, 539);
-            this.Provided_withTextBox.Name = "Provided_withTextBox";
-            this.Provided_withTextBox.Size = new System.Drawing.Size(193, 30);
-            this.Provided_withTextBox.TabIndex = 35;
-            // 
-            // ProvidedforTextBox
-            // 
-            this.ProvidedforTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ProvidedforTextBox.Location = new System.Drawing.Point(278, 586);
-            this.ProvidedforTextBox.Name = "ProvidedforTextBox";
-            this.ProvidedforTextBox.Size = new System.Drawing.Size(193, 30);
-            this.ProvidedforTextBox.TabIndex = 36;
-            // 
-            // ID_granting_leaveTextBox
-            // 
-            this.ID_granting_leaveTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ID_granting_leaveTextBox.Location = new System.Drawing.Point(266, 51);
-            this.ID_granting_leaveTextBox.Name = "ID_granting_leaveTextBox";
-            this.ID_granting_leaveTextBox.Size = new System.Drawing.Size(67, 30);
-            this.ID_granting_leaveTextBox.TabIndex = 37;
-            // 
             // buttonPrint
             // 
             this.buttonPrint.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.buttonPrint.Font = new System.Drawing.Font("Times New Roman", 12.25532F);
-            this.buttonPrint.Location = new System.Drawing.Point(1080, 819);
+            this.buttonPrint.Location = new System.Drawing.Point(1080, 798);
             this.buttonPrint.Name = "buttonPrint";
             this.buttonPrint.Size = new System.Drawing.Size(218, 55);
             this.buttonPrint.TabIndex = 140;
@@ -764,18 +770,53 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Font = new System.Drawing.Font("Sitka Banner", 8.170213F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(1096, 745);
+            this.label1.Location = new System.Drawing.Point(1106, 745);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(191, 52);
+            this.label1.Size = new System.Drawing.Size(167, 46);
             this.label1.TabIndex = 142;
             this.label1.Text = "(можно воспользоваться\r\nклавишей DEL)";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.label1.Visible = false;
             // 
             // printDocument1
             // 
             this.printDocument1.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(this.printDocument1_PrintPage);
+            // 
+            // textBoxavtozapolnenie
+            // 
+            this.textBoxavtozapolnenie.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.textBoxavtozapolnenie.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
+            this.textBoxavtozapolnenie.Location = new System.Drawing.Point(1080, 405);
+            this.textBoxavtozapolnenie.Name = "textBoxavtozapolnenie";
+            this.textBoxavtozapolnenie.Size = new System.Drawing.Size(218, 26);
+            this.textBoxavtozapolnenie.TabIndex = 143;
+            this.textBoxavtozapolnenie.TextChanged += new System.EventHandler(this.textBoxavtozapolnenie_TextChanged);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Sitka Banner", 8.170213F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(1106, 356);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(158, 46);
+            this.label2.TabIndex = 144;
+            this.label2.Text = "Для поиска ФИО\r\nвведите нужную букву";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // buttonotobrazitvse
+            // 
+            this.buttonotobrazitvse.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.buttonotobrazitvse.Font = new System.Drawing.Font("Times New Roman", 12.25532F);
+            this.buttonotobrazitvse.Location = new System.Drawing.Point(1080, 437);
+            this.buttonotobrazitvse.Name = "buttonotobrazitvse";
+            this.buttonotobrazitvse.Size = new System.Drawing.Size(218, 55);
+            this.buttonotobrazitvse.TabIndex = 145;
+            this.buttonotobrazitvse.Text = "Отобразить все";
+            this.buttonotobrazitvse.UseVisualStyleBackColor = false;
+            this.buttonotobrazitvse.Click += new System.EventHandler(this.buttonotobrazitvse_Click);
             // 
             // FormGrantingLeave
             // 
@@ -783,6 +824,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(1357, 1010);
+            this.Controls.Add(this.buttonotobrazitvse);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.textBoxavtozapolnenie);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.buttonBack);
             this.Controls.Add(this.buttonPrint);
@@ -864,5 +908,8 @@
         private System.Windows.Forms.Button buttonBack;
         private System.Windows.Forms.Label label1;
         private System.Drawing.Printing.PrintDocument printDocument1;
+        private System.Windows.Forms.TextBox textBoxavtozapolnenie;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button buttonotobrazitvse;
     }
 }

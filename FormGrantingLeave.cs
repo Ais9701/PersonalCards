@@ -30,8 +30,20 @@ namespace Personal_cardsApp1.InfoPersonalCards
         {
             // TODO: данная строка кода позволяет загрузить данные в таблицу "personal_cardsDataSet.Granting_leave". При необходимости она может быть перемещена или удалена.
             this.granting_leaveTableAdapter.Fill(this.personal_cardsDataSet.Granting_leave);
-
+            SqlConnection con = new SqlConnection("Data Source='.\\SQLEXPRESS';Integrated Security = 'true'; Initial Catalog = 'Personal_cards'");
+            SqlCommand cmd = new SqlCommand("SELECT FIO FROM granting_leave", con);
+            con.Open();
+            SqlDataReader reader = cmd.ExecuteReader();
+            AutoCompleteStringCollection SCollection = new
+           AutoCompleteStringCollection();
+            while (reader.Read())
+            {
+                SCollection.Add(reader.GetString(0));
+            }
+            textBoxavtozapolnenie.AutoCompleteCustomSource = SCollection;
+            con.Close();
         }
+
 
         private void buttonExcelGrantingLeave_Click(object sender, EventArgs e)
         {
@@ -125,6 +137,17 @@ namespace Personal_cardsApp1.InfoPersonalCards
         private void FormGrantingLeave_FormClosed(object sender, FormClosedEventArgs e)
         {
             System.Windows.Forms.Application.Exit();
+        }
+
+        private void textBoxavtozapolnenie_TextChanged(object sender, EventArgs e)
+        {
+            granting_leaveBindingSource.Filter = "FIO = \'" + textBoxavtozapolnenie.Text + "\'";
+        }
+
+        private void buttonotobrazitvse_Click(object sender, EventArgs e)
+        {
+            granting_leaveBindingSource.Filter = null;
+            textBoxavtozapolnenie.Clear();
         }
     }
     }
