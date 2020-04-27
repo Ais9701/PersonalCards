@@ -48,7 +48,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(463, 78);
             this.button1.TabIndex = 0;
-            this.button1.Text = "Личная карточка";
+            this.button1.Text = "Личная карточка(КР)";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -57,7 +57,7 @@
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.button2.Font = new System.Drawing.Font("Sitka Banner", 15.82979F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button2.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            this.button2.Location = new System.Drawing.Point(763, 280);
+            this.button2.Location = new System.Drawing.Point(829, 267);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(463, 78);
             this.button2.TabIndex = 1;
@@ -70,7 +70,7 @@
             this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.button3.Font = new System.Drawing.Font("Sitka Banner", 15.82979F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button3.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            this.button3.Location = new System.Drawing.Point(763, 364);
+            this.button3.Location = new System.Drawing.Point(829, 351);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(463, 78);
             this.button3.TabIndex = 2;
@@ -93,7 +93,7 @@
             // 
             this.buttonBack10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.buttonBack10.Font = new System.Drawing.Font("Times New Roman", 13.78723F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonBack10.Location = new System.Drawing.Point(1053, 525);
+            this.buttonBack10.Location = new System.Drawing.Point(1119, 535);
             this.buttonBack10.Name = "buttonBack10";
             this.buttonBack10.Size = new System.Drawing.Size(173, 62);
             this.buttonBack10.TabIndex = 4;
@@ -110,7 +110,7 @@
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(463, 78);
             this.button4.TabIndex = 5;
-            this.button4.Text = "Проба";
+            this.button4.Text = "Личная карточка";
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
@@ -142,12 +142,15 @@
             // 
             // buttonPrikaz
             // 
-            this.buttonPrikaz.Location = new System.Drawing.Point(90, 548);
+            this.buttonPrikaz.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.buttonPrikaz.Font = new System.Drawing.Font("Sitka Banner", 15.82979F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.buttonPrikaz.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            this.buttonPrikaz.Location = new System.Drawing.Point(81, 519);
             this.buttonPrikaz.Name = "buttonPrikaz";
-            this.buttonPrikaz.Size = new System.Drawing.Size(454, 61);
+            this.buttonPrikaz.Size = new System.Drawing.Size(463, 78);
             this.buttonPrikaz.TabIndex = 8;
-            this.buttonPrikaz.Text = "button6";
-            this.buttonPrikaz.UseVisualStyleBackColor = true;
+            this.buttonPrikaz.Text = "Приказ о приеме на работу";
+            this.buttonPrikaz.UseVisualStyleBackColor = false;
             this.buttonPrikaz.Click += new System.EventHandler(this.buttonPrikaz_Click);
             // 
             // FormMenu

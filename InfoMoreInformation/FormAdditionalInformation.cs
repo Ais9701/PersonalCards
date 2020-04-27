@@ -65,52 +65,6 @@ namespace Personal_cardsApp1
         {
             printDocument1.Print();
         }
-
-        private void buttonExcel_Click(object sender, EventArgs e)
-        {
-            DVG_TO_EXCEL(more_informationDataGridView);
         }
 
-       public void DVG_TO_EXCEL(DataGridView more_informationDataGridView)
-        {
-            Microsoft.Office.Interop.Excel._Application app = new Microsoft.Office.Interop.Excel.Application();
-            Microsoft.Office.Interop.Excel._Workbook workbook = app.Workbooks.Add(Type.Missing);
-            Microsoft.Office.Interop.Excel._Worksheet worksheet = null;
-            app.Visible = true;
-            worksheet = workbook.Sheets["Лист1"];
-            worksheet = workbook.ActiveSheet;
-            for (int i = 1; i < more_informationDataGridView.Columns.Count + 1; i++)
-            {
-                worksheet.Cells[1, i + 1] = more_informationDataGridView.Columns[i - 1].HeaderText;
-            }
-            for (int i = 0; i < more_informationDataGridView.Rows.Count - 1; i++)
-            {
-                for (int j = 0; j < more_informationDataGridView.Columns.Count; j++)
-                {
-                    if (more_informationDataGridView.Rows[i].Cells[j].Value != null)
-                    {
-                        worksheet.Cells[i + 2, j + 2] = more_informationDataGridView.Rows[i].Cells[j].Value.ToString();
-                    }
-                    else
-                    {
-                        worksheet.Cells[i + 2, j + 2] = "";
-                    }
-                }
-            }
-            for (int i = 0; i < more_informationDataGridView.Rows.Count; i++)
-            {
-                worksheet.Cells[i + 2, 1] = more_informationDataGridView.Rows[i].HeaderCell.Value;
-            }
-        }
-
-        private void more_informationDataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void more_informationBindingNavigator_RefreshItems(object sender, EventArgs e)
-        {
-
-        }
     }
-}

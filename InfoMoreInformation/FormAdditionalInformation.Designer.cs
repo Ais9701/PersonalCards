@@ -29,28 +29,13 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormAdditionalInformation));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.personal_cardsDataSet = new Personal_cardsApp1.Personal_cardsDataSet();
             this.more_informationBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.more_informationTableAdapter = new Personal_cardsApp1.Personal_cardsDataSetTableAdapters.More_informationTableAdapter();
             this.tableAdapterManager = new Personal_cardsApp1.Personal_cardsDataSetTableAdapters.TableAdapterManager();
-            this.more_informationBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
             this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
-            this.bindingNavigatorMoveFirstItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorMovePreviousItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorPositionItem = new System.Windows.Forms.ToolStripTextBox();
-            this.bindingNavigatorSeparator1 = new System.Windows.Forms.ToolStripLabel();
-            this.bindingNavigatorMoveNextItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorMoveLastItem = new System.Windows.Forms.ToolStripButton();
             this.buttonBack3 = new System.Windows.Forms.Button();
             this.buttonAdd = new System.Windows.Forms.Button();
-            this.more_informationDataGridView = new System.Windows.Forms.DataGridView();
-            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -63,12 +48,8 @@
             this.Date_of_orderTextBox = new System.Windows.Forms.TextBox();
             this.printDocument1 = new System.Drawing.Printing.PrintDocument();
             this.buttonprint = new System.Windows.Forms.Button();
-            this.buttonExcel = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.personal_cardsDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.more_informationBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.more_informationBindingNavigator)).BeginInit();
-            this.more_informationBindingNavigator.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.more_informationDataGridView)).BeginInit();
             this.SuspendLayout();
             // 
             // personal_cardsDataSet
@@ -106,98 +87,21 @@
             this.tableAdapterManager.UserTableAdapter = null;
             this.tableAdapterManager.VacationTableAdapter = null;
             // 
-            // more_informationBindingNavigator
-            // 
-            this.more_informationBindingNavigator.AddNewItem = null;
-            this.more_informationBindingNavigator.BindingSource = this.more_informationBindingSource;
-            this.more_informationBindingNavigator.CountItem = this.bindingNavigatorCountItem;
-            this.more_informationBindingNavigator.DeleteItem = null;
-            this.more_informationBindingNavigator.Dock = System.Windows.Forms.DockStyle.None;
-            this.more_informationBindingNavigator.ImageScalingSize = new System.Drawing.Size(24, 24);
-            this.more_informationBindingNavigator.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.bindingNavigatorMoveFirstItem,
-            this.bindingNavigatorMovePreviousItem,
-            this.bindingNavigatorPositionItem,
-            this.bindingNavigatorSeparator1,
-            this.bindingNavigatorMoveNextItem,
-            this.bindingNavigatorMoveLastItem});
-            this.more_informationBindingNavigator.Location = new System.Drawing.Point(989, 23);
-            this.more_informationBindingNavigator.MoveFirstItem = this.bindingNavigatorMoveFirstItem;
-            this.more_informationBindingNavigator.MoveLastItem = this.bindingNavigatorMoveLastItem;
-            this.more_informationBindingNavigator.MoveNextItem = this.bindingNavigatorMoveNextItem;
-            this.more_informationBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
-            this.more_informationBindingNavigator.Name = "more_informationBindingNavigator";
-            this.more_informationBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.more_informationBindingNavigator.Size = new System.Drawing.Size(204, 37);
-            this.more_informationBindingNavigator.TabIndex = 0;
-            this.more_informationBindingNavigator.Text = "bindingNavigator1";
-            this.more_informationBindingNavigator.RefreshItems += new System.EventHandler(this.more_informationBindingNavigator_RefreshItems);
-            // 
             // bindingNavigatorCountItem
             // 
+            this.bindingNavigatorCountItem.Enabled = false;
             this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
             this.bindingNavigatorCountItem.Size = new System.Drawing.Size(65, 28);
-            this.bindingNavigatorCountItem.Text = "для {0}";
+            this.bindingNavigatorCountItem.Text = "для 0";
             this.bindingNavigatorCountItem.ToolTipText = "Общее число элементов";
-            // 
-            // bindingNavigatorMoveFirstItem
-            // 
-            this.bindingNavigatorMoveFirstItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorMoveFirstItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveFirstItem.Image")));
-            this.bindingNavigatorMoveFirstItem.Name = "bindingNavigatorMoveFirstItem";
-            this.bindingNavigatorMoveFirstItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveFirstItem.Size = new System.Drawing.Size(34, 33);
-            this.bindingNavigatorMoveFirstItem.Text = "Переместить в начало";
-            // 
-            // bindingNavigatorMovePreviousItem
-            // 
-            this.bindingNavigatorMovePreviousItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorMovePreviousItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMovePreviousItem.Image")));
-            this.bindingNavigatorMovePreviousItem.Name = "bindingNavigatorMovePreviousItem";
-            this.bindingNavigatorMovePreviousItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMovePreviousItem.Size = new System.Drawing.Size(34, 33);
-            this.bindingNavigatorMovePreviousItem.Text = "Переместить назад";
-            // 
-            // bindingNavigatorPositionItem
-            // 
-            this.bindingNavigatorPositionItem.AccessibleName = "Положение";
-            this.bindingNavigatorPositionItem.AutoSize = false;
-            this.bindingNavigatorPositionItem.Font = new System.Drawing.Font("Segoe UI", 9.191489F);
-            this.bindingNavigatorPositionItem.Name = "bindingNavigatorPositionItem";
-            this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(50, 31);
-            this.bindingNavigatorPositionItem.Text = "0";
-            this.bindingNavigatorPositionItem.ToolTipText = "Текущее положение";
-            // 
-            // bindingNavigatorSeparator1
-            // 
-            this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator1";
-            this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(0, 33);
-            // 
-            // bindingNavigatorMoveNextItem
-            // 
-            this.bindingNavigatorMoveNextItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorMoveNextItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveNextItem.Image")));
-            this.bindingNavigatorMoveNextItem.Name = "bindingNavigatorMoveNextItem";
-            this.bindingNavigatorMoveNextItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveNextItem.Size = new System.Drawing.Size(34, 33);
-            this.bindingNavigatorMoveNextItem.Text = "Переместить вперед";
-            // 
-            // bindingNavigatorMoveLastItem
-            // 
-            this.bindingNavigatorMoveLastItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorMoveLastItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveLastItem.Image")));
-            this.bindingNavigatorMoveLastItem.Name = "bindingNavigatorMoveLastItem";
-            this.bindingNavigatorMoveLastItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveLastItem.Size = new System.Drawing.Size(34, 33);
-            this.bindingNavigatorMoveLastItem.Text = "Переместить в конец";
             // 
             // buttonBack3
             // 
             this.buttonBack3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.buttonBack3.Font = new System.Drawing.Font("Times New Roman", 12.25532F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonBack3.Location = new System.Drawing.Point(1029, 543);
+            this.buttonBack3.Location = new System.Drawing.Point(1072, 470);
             this.buttonBack3.Name = "buttonBack3";
-            this.buttonBack3.Size = new System.Drawing.Size(140, 52);
+            this.buttonBack3.Size = new System.Drawing.Size(151, 52);
             this.buttonBack3.TabIndex = 2;
             this.buttonBack3.Text = "Назад";
             this.buttonBack3.UseVisualStyleBackColor = false;
@@ -207,87 +111,20 @@
             // 
             this.buttonAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.buttonAdd.Font = new System.Drawing.Font("Times New Roman", 12.25532F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonAdd.Location = new System.Drawing.Point(951, 369);
+            this.buttonAdd.Location = new System.Drawing.Point(1072, 296);
             this.buttonAdd.Name = "buttonAdd";
-            this.buttonAdd.Size = new System.Drawing.Size(218, 55);
+            this.buttonAdd.Size = new System.Drawing.Size(151, 55);
             this.buttonAdd.TabIndex = 13;
             this.buttonAdd.Text = "Добавить";
             this.buttonAdd.UseVisualStyleBackColor = false;
             this.buttonAdd.Click += new System.EventHandler(this.buttonAdd_Click);
-            // 
-            // more_informationDataGridView
-            // 
-            this.more_informationDataGridView.AutoGenerateColumns = false;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Times New Roman", 12.25532F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.more_informationDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
-            this.more_informationDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.more_informationDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn1,
-            this.dataGridViewTextBoxColumn2,
-            this.dataGridViewTextBoxColumn3,
-            this.dataGridViewTextBoxColumn4,
-            this.dataGridViewTextBoxColumn5});
-            this.more_informationDataGridView.DataSource = this.more_informationBindingSource;
-            this.more_informationDataGridView.Location = new System.Drawing.Point(12, 12);
-            this.more_informationDataGridView.Name = "more_informationDataGridView";
-            this.more_informationDataGridView.RowHeadersWidth = 60;
-            this.more_informationDataGridView.RowTemplate.Height = 28;
-            this.more_informationDataGridView.Size = new System.Drawing.Size(936, 290);
-            this.more_informationDataGridView.TabIndex = 99;
-            this.more_informationDataGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.more_informationDataGridView_CellContentClick);
-            // 
-            // dataGridViewTextBoxColumn1
-            // 
-            this.dataGridViewTextBoxColumn1.DataPropertyName = "ID_additional_information";
-            this.dataGridViewTextBoxColumn1.HeaderText = "ID сотрудника";
-            this.dataGridViewTextBoxColumn1.MinimumWidth = 7;
-            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            this.dataGridViewTextBoxColumn1.Width = 147;
-            // 
-            // dataGridViewTextBoxColumn2
-            // 
-            this.dataGridViewTextBoxColumn2.DataPropertyName = "Dismissal";
-            this.dataGridViewTextBoxColumn2.HeaderText = "Увольнение";
-            this.dataGridViewTextBoxColumn2.MinimumWidth = 7;
-            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
-            this.dataGridViewTextBoxColumn2.Width = 147;
-            // 
-            // dataGridViewTextBoxColumn3
-            // 
-            this.dataGridViewTextBoxColumn3.DataPropertyName = "Date_of_dismissal";
-            this.dataGridViewTextBoxColumn3.HeaderText = "Дата увольнения";
-            this.dataGridViewTextBoxColumn3.MinimumWidth = 7;
-            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
-            this.dataGridViewTextBoxColumn3.Width = 147;
-            // 
-            // dataGridViewTextBoxColumn4
-            // 
-            this.dataGridViewTextBoxColumn4.DataPropertyName = "The_order_number";
-            this.dataGridViewTextBoxColumn4.HeaderText = "Номер приказа";
-            this.dataGridViewTextBoxColumn4.MinimumWidth = 7;
-            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
-            this.dataGridViewTextBoxColumn4.Width = 147;
-            // 
-            // dataGridViewTextBoxColumn5
-            // 
-            this.dataGridViewTextBoxColumn5.DataPropertyName = "Date_of_order";
-            this.dataGridViewTextBoxColumn5.HeaderText = "Дата приказа";
-            this.dataGridViewTextBoxColumn5.MinimumWidth = 7;
-            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
-            this.dataGridViewTextBoxColumn5.Width = 147;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            this.label1.Location = new System.Drawing.Point(12, 287);
+            this.label1.Location = new System.Drawing.Point(261, 241);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(247, 50);
             this.label1.TabIndex = 3;
@@ -298,7 +135,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label2.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            this.label2.Location = new System.Drawing.Point(12, 354);
+            this.label2.Location = new System.Drawing.Point(261, 308);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(212, 50);
             this.label2.TabIndex = 4;
@@ -309,7 +146,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label3.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            this.label3.Location = new System.Drawing.Point(12, 410);
+            this.label3.Location = new System.Drawing.Point(261, 364);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(290, 50);
             this.label3.TabIndex = 5;
@@ -320,7 +157,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label4.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            this.label4.Location = new System.Drawing.Point(12, 473);
+            this.label4.Location = new System.Drawing.Point(261, 427);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(261, 50);
             this.label4.TabIndex = 6;
@@ -331,7 +168,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Sitka Banner", 17.87234F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label5.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            this.label5.Location = new System.Drawing.Point(12, 537);
+            this.label5.Location = new System.Drawing.Point(261, 491);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(234, 50);
             this.label5.TabIndex = 7;
@@ -339,35 +176,35 @@
             // 
             // ID_additional_informationTextBox
             // 
-            this.ID_additional_informationTextBox.Location = new System.Drawing.Point(346, 308);
+            this.ID_additional_informationTextBox.Location = new System.Drawing.Point(595, 262);
             this.ID_additional_informationTextBox.Name = "ID_additional_informationTextBox";
             this.ID_additional_informationTextBox.Size = new System.Drawing.Size(100, 26);
             this.ID_additional_informationTextBox.TabIndex = 8;
             // 
             // dismissalTextBox
             // 
-            this.dismissalTextBox.Location = new System.Drawing.Point(346, 371);
+            this.dismissalTextBox.Location = new System.Drawing.Point(595, 325);
             this.dismissalTextBox.Name = "dismissalTextBox";
             this.dismissalTextBox.Size = new System.Drawing.Size(266, 26);
             this.dismissalTextBox.TabIndex = 9;
             // 
             // the_order_numberTextBox
             // 
-            this.the_order_numberTextBox.Location = new System.Drawing.Point(346, 494);
+            this.the_order_numberTextBox.Location = new System.Drawing.Point(595, 448);
             this.the_order_numberTextBox.Name = "the_order_numberTextBox";
             this.the_order_numberTextBox.Size = new System.Drawing.Size(100, 26);
             this.the_order_numberTextBox.TabIndex = 11;
             // 
             // Date_of_dismissalTextBox
             // 
-            this.Date_of_dismissalTextBox.Location = new System.Drawing.Point(346, 431);
+            this.Date_of_dismissalTextBox.Location = new System.Drawing.Point(595, 385);
             this.Date_of_dismissalTextBox.Name = "Date_of_dismissalTextBox";
             this.Date_of_dismissalTextBox.Size = new System.Drawing.Size(158, 26);
             this.Date_of_dismissalTextBox.TabIndex = 14;
             // 
             // Date_of_orderTextBox
             // 
-            this.Date_of_orderTextBox.Location = new System.Drawing.Point(346, 558);
+            this.Date_of_orderTextBox.Location = new System.Drawing.Point(595, 512);
             this.Date_of_orderTextBox.Name = "Date_of_orderTextBox";
             this.Date_of_orderTextBox.Size = new System.Drawing.Size(158, 26);
             this.Date_of_orderTextBox.TabIndex = 15;
@@ -380,25 +217,13 @@
             // 
             this.buttonprint.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.buttonprint.Font = new System.Drawing.Font("Times New Roman", 12.25532F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonprint.Location = new System.Drawing.Point(951, 430);
+            this.buttonprint.Location = new System.Drawing.Point(1072, 357);
             this.buttonprint.Name = "buttonprint";
-            this.buttonprint.Size = new System.Drawing.Size(218, 55);
+            this.buttonprint.Size = new System.Drawing.Size(151, 55);
             this.buttonprint.TabIndex = 100;
             this.buttonprint.Text = "Печать";
             this.buttonprint.UseVisualStyleBackColor = false;
             this.buttonprint.Click += new System.EventHandler(this.buttonprint_Click);
-            // 
-            // buttonExcel
-            // 
-            this.buttonExcel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.buttonExcel.Font = new System.Drawing.Font("Times New Roman", 12.25532F);
-            this.buttonExcel.Location = new System.Drawing.Point(951, 308);
-            this.buttonExcel.Name = "buttonExcel";
-            this.buttonExcel.Size = new System.Drawing.Size(218, 55);
-            this.buttonExcel.TabIndex = 101;
-            this.buttonExcel.Text = "Экспорт в Excel";
-            this.buttonExcel.UseVisualStyleBackColor = false;
-            this.buttonExcel.Click += new System.EventHandler(this.buttonExcel_Click);
             // 
             // FormAdditionalInformation
             // 
@@ -406,9 +231,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(1357, 746);
-            this.Controls.Add(this.buttonExcel);
             this.Controls.Add(this.buttonprint);
-            this.Controls.Add(this.more_informationDataGridView);
             this.Controls.Add(this.Date_of_orderTextBox);
             this.Controls.Add(this.Date_of_dismissalTextBox);
             this.Controls.Add(this.buttonAdd);
@@ -421,7 +244,6 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.buttonBack3);
-            this.Controls.Add(this.more_informationBindingNavigator);
             this.Name = "FormAdditionalInformation";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Добавление дополнительных сведений";
@@ -429,10 +251,6 @@
             this.Load += new System.EventHandler(this.FormAdditionalInformation_Load);
             ((System.ComponentModel.ISupportInitialize)(this.personal_cardsDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.more_informationBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.more_informationBindingNavigator)).EndInit();
-            this.more_informationBindingNavigator.ResumeLayout(false);
-            this.more_informationBindingNavigator.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.more_informationDataGridView)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -444,15 +262,8 @@
         private System.Windows.Forms.BindingSource more_informationBindingSource;
         private Personal_cardsDataSetTableAdapters.More_informationTableAdapter more_informationTableAdapter;
         private Personal_cardsDataSetTableAdapters.TableAdapterManager tableAdapterManager;
-        private System.Windows.Forms.BindingNavigator more_informationBindingNavigator;
-        private System.Windows.Forms.ToolStripButton bindingNavigatorMoveFirstItem;
-        private System.Windows.Forms.ToolStripButton bindingNavigatorMovePreviousItem;
-        private System.Windows.Forms.ToolStripTextBox bindingNavigatorPositionItem;
-        private System.Windows.Forms.ToolStripButton bindingNavigatorMoveNextItem;
-        private System.Windows.Forms.ToolStripButton bindingNavigatorMoveLastItem;
         private System.Windows.Forms.Button buttonBack3;
         private System.Windows.Forms.Button buttonAdd;
-        private System.Windows.Forms.DataGridView more_informationDataGridView;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
@@ -463,15 +274,8 @@
         private System.Windows.Forms.TextBox the_order_numberTextBox;
         private System.Windows.Forms.TextBox Date_of_dismissalTextBox;
         private System.Windows.Forms.TextBox Date_of_orderTextBox;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
         private System.Drawing.Printing.PrintDocument printDocument1;
         private System.Windows.Forms.Button buttonprint;
-        private System.Windows.Forms.Button buttonExcel;
         private System.Windows.Forms.ToolStripLabel bindingNavigatorCountItem;
-        private System.Windows.Forms.ToolStripLabel bindingNavigatorSeparator1;
     }
 }

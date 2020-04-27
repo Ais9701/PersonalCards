@@ -64,6 +64,12 @@
     <Compile Include="FormOrderAdmission.Designer.cs">
       <DependentUpon>FormOrderAdmission.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormOrderAdmission1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOrderAdmission1.Designer.cs">
+      <DependentUpon>FormOrderAdmission1.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormProba.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -266,6 +272,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormOrderAdmission.resx">
       <DependentUpon>FormOrderAdmission.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOrderAdmission1.resx">
+      <DependentUpon>FormOrderAdmission1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormProba.resx">
       <DependentUpon>FormProba.cs</DependentUpon>
