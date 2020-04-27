@@ -88,5 +88,14 @@ namespace Personal_cardsApp1
             ifrm.Show(); // отображаем Form2
             this.Hide(); // скрываем Form1 (this - текущая форма)
         }
+
+        private void buttonPrikaz_Click(object sender, EventArgs e)
+        {
+            Form ifrm = new FormOrderAdmission();
+            ifrm.Left = this.Left; // задаём открываемой форме позицию слева равную позиции текущей формы
+            ifrm.Top = this.Top; // задаём открываемой форме позицию сверху равную позиции текущей формы
+            ifrm.Show(); // отображаем Form2
+            this.Hide(); // скрываем Form1 (this - текущая форма)
+        }
     }
 }

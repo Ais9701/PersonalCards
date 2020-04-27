@@ -36,6 +36,7 @@
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.buttonGrantingLeave1 = new System.Windows.Forms.Button();
+            this.buttonPrikaz = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -139,12 +140,23 @@
             this.buttonGrantingLeave1.UseVisualStyleBackColor = false;
             this.buttonGrantingLeave1.Click += new System.EventHandler(this.buttonGrantingLeave1_Click);
             // 
+            // buttonPrikaz
+            // 
+            this.buttonPrikaz.Location = new System.Drawing.Point(90, 548);
+            this.buttonPrikaz.Name = "buttonPrikaz";
+            this.buttonPrikaz.Size = new System.Drawing.Size(454, 61);
+            this.buttonPrikaz.TabIndex = 8;
+            this.buttonPrikaz.Text = "button6";
+            this.buttonPrikaz.UseVisualStyleBackColor = true;
+            this.buttonPrikaz.Click += new System.EventHandler(this.buttonPrikaz_Click);
+            // 
             // FormMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(1357, 745);
+            this.Controls.Add(this.buttonPrikaz);
             this.Controls.Add(this.buttonGrantingLeave1);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
@@ -172,5 +184,6 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button buttonGrantingLeave1;
+        private System.Windows.Forms.Button buttonPrikaz;
     }
 }
