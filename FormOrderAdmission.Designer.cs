@@ -46,46 +46,47 @@
             System.Windows.Forms.Label contract_numberLabel;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormOrderAdmission));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.ContractTextBox = new System.Windows.Forms.TextBox();
+            this.TakeWithTextBox = new System.Windows.Forms.TextBox();
+            this.CompilationTextBox = new System.Windows.Forms.TextBox();
+            this.ContractNumTextBox = new System.Windows.Forms.TextBox();
+            this.PeriodTextBox = new System.Windows.Forms.TextBox();
+            this.PremiumTextBox = new System.Windows.Forms.TextBox();
+            this.TariffTextBox = new System.Windows.Forms.TextBox();
+            this.WorkTextBox = new System.Windows.Forms.TextBox();
+            this.PositionTextBox = new System.Windows.Forms.TextBox();
+            this.DivisionTextBox = new System.Windows.Forms.TextBox();
+            this.FIOTextBox = new System.Windows.Forms.TextBox();
+            this.ServiceNumberTextBox = new System.Windows.Forms.TextBox();
+            this.DocumentNumberTextBox = new System.Windows.Forms.TextBox();
+            this.NameOrganizationTextBox = new System.Windows.Forms.TextBox();
+            this.ID_orderTextBox = new System.Windows.Forms.TextBox();
             this.personal_cardsDataSet = new Personal_cardsApp1.Personal_cardsDataSet();
             this.order_admissionBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.order_admissionTableAdapter = new Personal_cardsApp1.Personal_cardsDataSetTableAdapters.Order_admissionTableAdapter();
             this.tableAdapterManager = new Personal_cardsApp1.Personal_cardsDataSetTableAdapters.TableAdapterManager();
+            this.advanced_trainingTableAdapter1 = new Personal_cardsApp1.Personal_cardsDataSetTableAdapters.Advanced_trainingTableAdapter();
             this.order_admissionBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
-            this.bindingNavigatorSeparator = new System.Windows.Forms.ToolStripSeparator();
-            this.bindingNavigatorPositionItem = new System.Windows.Forms.ToolStripTextBox();
-            this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
-            this.bindingNavigatorSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.ID_orderTextBox = new System.Windows.Forms.TextBox();
-            this.NameOrganizationTextBox = new System.Windows.Forms.TextBox();
-            this.DocumentNumberTextBox = new System.Windows.Forms.TextBox();
-            this.ServiceNumberTextBox = new System.Windows.Forms.TextBox();
-            this.FIOTextBox = new System.Windows.Forms.TextBox();
-            this.DivisionTextBox = new System.Windows.Forms.TextBox();
-            this.PositionTextBox = new System.Windows.Forms.TextBox();
-            this.WorkTextBox = new System.Windows.Forms.TextBox();
-            this.TariffTextBox = new System.Windows.Forms.TextBox();
-            this.PremiumTextBox = new System.Windows.Forms.TextBox();
-            this.PeriodTextBox = new System.Windows.Forms.TextBox();
-            this.ContractNumTextBox = new System.Windows.Forms.TextBox();
-            this.buttonExportWord = new System.Windows.Forms.Button();
             this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
             this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMoveFirstItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMovePreviousItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorSeparator = new System.Windows.Forms.ToolStripSeparator();
+            this.bindingNavigatorPositionItem = new System.Windows.Forms.ToolStripTextBox();
+            this.bindingNavigatorSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.bindingNavigatorMoveNextItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMoveLastItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.order_admissionBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
+            this.buttonExportWord = new System.Windows.Forms.Button();
             this.buttonAdd = new System.Windows.Forms.Button();
             this.buttonBack = new System.Windows.Forms.Button();
             this.buttonDelete = new System.Windows.Forms.Button();
-            this.advanced_trainingTableAdapter1 = new Personal_cardsApp1.Personal_cardsDataSetTableAdapters.Advanced_trainingTableAdapter();
-            this.CompilationTextBox = new System.Windows.Forms.TextBox();
-            this.TakeWithTextBox = new System.Windows.Forms.TextBox();
-            this.ContractTextBox = new System.Windows.Forms.TextBox();
-            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
+            this.label1 = new System.Windows.Forms.Label();
             iD_orderLabel = new System.Windows.Forms.Label();
             name_organizationLabel = new System.Windows.Forms.Label();
             document_numberLabel = new System.Windows.Forms.Label();
@@ -107,151 +108,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.order_admissionBindingNavigator)).BeginInit();
             this.order_admissionBindingNavigator.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.ContractTextBox);
-            this.groupBox1.Controls.Add(this.TakeWithTextBox);
-            this.groupBox1.Controls.Add(this.CompilationTextBox);
-            this.groupBox1.Controls.Add(this.ContractNumTextBox);
-            this.groupBox1.Controls.Add(this.PeriodTextBox);
-            this.groupBox1.Controls.Add(this.PremiumTextBox);
-            this.groupBox1.Controls.Add(this.TariffTextBox);
-            this.groupBox1.Controls.Add(this.WorkTextBox);
-            this.groupBox1.Controls.Add(this.PositionTextBox);
-            this.groupBox1.Controls.Add(this.DivisionTextBox);
-            this.groupBox1.Controls.Add(this.FIOTextBox);
-            this.groupBox1.Controls.Add(this.ServiceNumberTextBox);
-            this.groupBox1.Controls.Add(this.DocumentNumberTextBox);
-            this.groupBox1.Controls.Add(this.NameOrganizationTextBox);
-            this.groupBox1.Controls.Add(this.ID_orderTextBox);
-            this.groupBox1.Controls.Add(iD_orderLabel);
-            this.groupBox1.Controls.Add(name_organizationLabel);
-            this.groupBox1.Controls.Add(document_numberLabel);
-            this.groupBox1.Controls.Add(date_compilationLabel);
-            this.groupBox1.Controls.Add(to_take_withLabel);
-            this.groupBox1.Controls.Add(service_numberLabel);
-            this.groupBox1.Controls.Add(fIOLabel);
-            this.groupBox1.Controls.Add(structural_divisionLabel);
-            this.groupBox1.Controls.Add(positionLabel);
-            this.groupBox1.Controls.Add(nature_workLabel);
-            this.groupBox1.Controls.Add(with_tariff_rateLabel);
-            this.groupBox1.Controls.Add(at_premiumLabel);
-            this.groupBox1.Controls.Add(with_trial_periodLabel);
-            this.groupBox1.Controls.Add(employment_contract_fromLabel);
-            this.groupBox1.Controls.Add(contract_numberLabel);
-            this.groupBox1.Font = new System.Drawing.Font("Sitka Banner", 12.25532F);
-            this.groupBox1.ForeColor = System.Drawing.Color.Yellow;
-            this.groupBox1.Location = new System.Drawing.Point(48, 72);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(906, 759);
-            this.groupBox1.TabIndex = 0;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Добавление приказа";
-            // 
-            // personal_cardsDataSet
-            // 
-            this.personal_cardsDataSet.DataSetName = "Personal_cardsDataSet";
-            this.personal_cardsDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // order_admissionBindingSource
-            // 
-            this.order_admissionBindingSource.DataMember = "Order_admission";
-            this.order_admissionBindingSource.DataSource = this.personal_cardsDataSet;
-            // 
-            // order_admissionTableAdapter
-            // 
-            this.order_admissionTableAdapter.ClearBeforeFill = true;
-            // 
-            // tableAdapterManager
-            // 
-            this.tableAdapterManager.Advanced_trainingTableAdapter = this.advanced_trainingTableAdapter1;
-            this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
-            this.tableAdapterManager.CertificationTableAdapter = null;
-            this.tableAdapterManager.EducationTableAdapter = null;
-            this.tableAdapterManager.Employee_informationTableAdapter = null;
-            this.tableAdapterManager.Granting_leaveTableAdapter = null;
-            this.tableAdapterManager.Level_of_educationTableAdapter = null;
-            this.tableAdapterManager.Military_registrationTableAdapter = null;
-            this.tableAdapterManager.More_informationTableAdapter = null;
-            this.tableAdapterManager.Order_admissionTableAdapter = this.order_admissionTableAdapter;
-            this.tableAdapterManager.Reception_and_transferTableAdapter = null;
-            this.tableAdapterManager.RetrainingTableAdapter = null;
-            this.tableAdapterManager.RewardsTableAdapter = null;
-            this.tableAdapterManager.Social_benefitsTableAdapter = null;
-            this.tableAdapterManager.Staff_listTableAdapter = null;
-            this.tableAdapterManager.UpdateOrder = Personal_cardsApp1.Personal_cardsDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
-            this.tableAdapterManager.UserTableAdapter = null;
-            this.tableAdapterManager.VacationTableAdapter = null;
-            // 
-            // order_admissionBindingNavigator
-            // 
-            this.order_admissionBindingNavigator.AddNewItem = this.bindingNavigatorAddNewItem;
-            this.order_admissionBindingNavigator.BindingSource = this.order_admissionBindingSource;
-            this.order_admissionBindingNavigator.CountItem = this.bindingNavigatorCountItem;
-            this.order_admissionBindingNavigator.DeleteItem = this.bindingNavigatorDeleteItem;
-            this.order_admissionBindingNavigator.ImageScalingSize = new System.Drawing.Size(24, 24);
-            this.order_admissionBindingNavigator.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.bindingNavigatorMoveFirstItem,
-            this.bindingNavigatorMovePreviousItem,
-            this.bindingNavigatorSeparator,
-            this.bindingNavigatorPositionItem,
-            this.bindingNavigatorCountItem,
-            this.bindingNavigatorSeparator1,
-            this.bindingNavigatorMoveNextItem,
-            this.bindingNavigatorMoveLastItem,
-            this.bindingNavigatorSeparator2,
-            this.toolStripButton3,
-            this.toolStripButton2,
-            this.toolStripButton1,
-            this.bindingNavigatorAddNewItem,
-            this.bindingNavigatorDeleteItem,
-            this.order_admissionBindingNavigatorSaveItem});
-            this.order_admissionBindingNavigator.Location = new System.Drawing.Point(0, 0);
-            this.order_admissionBindingNavigator.MoveFirstItem = this.bindingNavigatorMoveFirstItem;
-            this.order_admissionBindingNavigator.MoveLastItem = this.bindingNavigatorMoveLastItem;
-            this.order_admissionBindingNavigator.MoveNextItem = this.bindingNavigatorMoveNextItem;
-            this.order_admissionBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
-            this.order_admissionBindingNavigator.Name = "order_admissionBindingNavigator";
-            this.order_admissionBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.order_admissionBindingNavigator.Size = new System.Drawing.Size(1357, 32);
-            this.order_admissionBindingNavigator.TabIndex = 1;
-            this.order_admissionBindingNavigator.Text = "bindingNavigator1";
-            this.order_admissionBindingNavigator.Visible = false;
-            // 
-            // bindingNavigatorSeparator
-            // 
-            this.bindingNavigatorSeparator.Name = "bindingNavigatorSeparator";
-            this.bindingNavigatorSeparator.Size = new System.Drawing.Size(6, 32);
-            // 
-            // bindingNavigatorPositionItem
-            // 
-            this.bindingNavigatorPositionItem.AccessibleName = "Положение";
-            this.bindingNavigatorPositionItem.AutoSize = false;
-            this.bindingNavigatorPositionItem.Font = new System.Drawing.Font("Times New Roman", 9.191489F);
-            this.bindingNavigatorPositionItem.Name = "bindingNavigatorPositionItem";
-            this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(50, 28);
-            this.bindingNavigatorPositionItem.Text = "0";
-            this.bindingNavigatorPositionItem.ToolTipText = "Текущее положение";
-            // 
-            // bindingNavigatorCountItem
-            // 
-            this.bindingNavigatorCountItem.Font = new System.Drawing.Font("Times New Roman", 9.191489F);
-            this.bindingNavigatorCountItem.ForeColor = System.Drawing.Color.Black;
-            this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
-            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(67, 28);
-            this.bindingNavigatorCountItem.Text = "для {0}";
-            this.bindingNavigatorCountItem.ToolTipText = "Общее число элементов";
-            // 
-            // bindingNavigatorSeparator1
-            // 
-            this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator";
-            this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 32);
-            // 
-            // bindingNavigatorSeparator2
-            // 
-            this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator";
-            this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 32);
             // 
             // iD_orderLabel
             // 
@@ -418,114 +274,241 @@
             contract_numberLabel.TabIndex = 28;
             contract_numberLabel.Text = "Номер договора:";
             // 
-            // ID_orderTextBox
+            // groupBox1
             // 
-            this.ID_orderTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ID_orderTextBox.Location = new System.Drawing.Point(170, 59);
-            this.ID_orderTextBox.Name = "ID_orderTextBox";
-            this.ID_orderTextBox.Size = new System.Drawing.Size(66, 28);
-            this.ID_orderTextBox.TabIndex = 29;
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Controls.Add(this.ContractTextBox);
+            this.groupBox1.Controls.Add(this.TakeWithTextBox);
+            this.groupBox1.Controls.Add(this.CompilationTextBox);
+            this.groupBox1.Controls.Add(this.ContractNumTextBox);
+            this.groupBox1.Controls.Add(this.PeriodTextBox);
+            this.groupBox1.Controls.Add(this.PremiumTextBox);
+            this.groupBox1.Controls.Add(this.TariffTextBox);
+            this.groupBox1.Controls.Add(this.WorkTextBox);
+            this.groupBox1.Controls.Add(this.PositionTextBox);
+            this.groupBox1.Controls.Add(this.DivisionTextBox);
+            this.groupBox1.Controls.Add(this.FIOTextBox);
+            this.groupBox1.Controls.Add(this.ServiceNumberTextBox);
+            this.groupBox1.Controls.Add(this.DocumentNumberTextBox);
+            this.groupBox1.Controls.Add(this.NameOrganizationTextBox);
+            this.groupBox1.Controls.Add(this.ID_orderTextBox);
+            this.groupBox1.Controls.Add(iD_orderLabel);
+            this.groupBox1.Controls.Add(name_organizationLabel);
+            this.groupBox1.Controls.Add(document_numberLabel);
+            this.groupBox1.Controls.Add(date_compilationLabel);
+            this.groupBox1.Controls.Add(to_take_withLabel);
+            this.groupBox1.Controls.Add(service_numberLabel);
+            this.groupBox1.Controls.Add(fIOLabel);
+            this.groupBox1.Controls.Add(structural_divisionLabel);
+            this.groupBox1.Controls.Add(positionLabel);
+            this.groupBox1.Controls.Add(nature_workLabel);
+            this.groupBox1.Controls.Add(with_tariff_rateLabel);
+            this.groupBox1.Controls.Add(at_premiumLabel);
+            this.groupBox1.Controls.Add(with_trial_periodLabel);
+            this.groupBox1.Controls.Add(employment_contract_fromLabel);
+            this.groupBox1.Controls.Add(contract_numberLabel);
+            this.groupBox1.Font = new System.Drawing.Font("Sitka Banner", 12.25532F);
+            this.groupBox1.ForeColor = System.Drawing.Color.Yellow;
+            this.groupBox1.Location = new System.Drawing.Point(48, 72);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(906, 759);
+            this.groupBox1.TabIndex = 0;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Добавление приказа";
             // 
-            // NameOrganizationTextBox
+            // ContractTextBox
             // 
-            this.NameOrganizationTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.NameOrganizationTextBox.Location = new System.Drawing.Point(393, 106);
-            this.NameOrganizationTextBox.Name = "NameOrganizationTextBox";
-            this.NameOrganizationTextBox.Size = new System.Drawing.Size(185, 28);
-            this.NameOrganizationTextBox.TabIndex = 30;
+            this.ContractTextBox.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ContractTextBox.Location = new System.Drawing.Point(394, 651);
+            this.ContractTextBox.Name = "ContractTextBox";
+            this.ContractTextBox.Size = new System.Drawing.Size(311, 30);
+            this.ContractTextBox.TabIndex = 46;
             // 
-            // DocumentNumberTextBox
+            // TakeWithTextBox
             // 
-            this.DocumentNumberTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.DocumentNumberTextBox.Location = new System.Drawing.Point(267, 151);
-            this.DocumentNumberTextBox.Name = "DocumentNumberTextBox";
-            this.DocumentNumberTextBox.Size = new System.Drawing.Size(185, 28);
-            this.DocumentNumberTextBox.TabIndex = 31;
+            this.TakeWithTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.TakeWithTextBox.Location = new System.Drawing.Point(394, 245);
+            this.TakeWithTextBox.Name = "TakeWithTextBox";
+            this.TakeWithTextBox.Size = new System.Drawing.Size(311, 28);
+            this.TakeWithTextBox.TabIndex = 45;
             // 
-            // ServiceNumberTextBox
+            // CompilationTextBox
             // 
-            this.ServiceNumberTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ServiceNumberTextBox.Location = new System.Drawing.Point(267, 288);
-            this.ServiceNumberTextBox.Name = "ServiceNumberTextBox";
-            this.ServiceNumberTextBox.Size = new System.Drawing.Size(185, 28);
-            this.ServiceNumberTextBox.TabIndex = 34;
-            // 
-            // FIOTextBox
-            // 
-            this.FIOTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.FIOTextBox.Location = new System.Drawing.Point(94, 331);
-            this.FIOTextBox.Name = "FIOTextBox";
-            this.FIOTextBox.Size = new System.Drawing.Size(358, 28);
-            this.FIOTextBox.TabIndex = 35;
-            // 
-            // DivisionTextBox
-            // 
-            this.DivisionTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.DivisionTextBox.Location = new System.Drawing.Point(372, 378);
-            this.DivisionTextBox.Name = "DivisionTextBox";
-            this.DivisionTextBox.Size = new System.Drawing.Size(185, 28);
-            this.DivisionTextBox.TabIndex = 36;
-            // 
-            // PositionTextBox
-            // 
-            this.PositionTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.PositionTextBox.Location = new System.Drawing.Point(177, 423);
-            this.PositionTextBox.Name = "PositionTextBox";
-            this.PositionTextBox.Size = new System.Drawing.Size(185, 28);
-            this.PositionTextBox.TabIndex = 37;
-            // 
-            // WorkTextBox
-            // 
-            this.WorkTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.WorkTextBox.Location = new System.Drawing.Point(248, 468);
-            this.WorkTextBox.Name = "WorkTextBox";
-            this.WorkTextBox.Size = new System.Drawing.Size(185, 28);
-            this.WorkTextBox.TabIndex = 38;
-            // 
-            // TariffTextBox
-            // 
-            this.TariffTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.TariffTextBox.Location = new System.Drawing.Point(285, 513);
-            this.TariffTextBox.Name = "TariffTextBox";
-            this.TariffTextBox.Size = new System.Drawing.Size(185, 28);
-            this.TariffTextBox.TabIndex = 39;
-            // 
-            // PremiumTextBox
-            // 
-            this.PremiumTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.PremiumTextBox.Location = new System.Drawing.Point(198, 558);
-            this.PremiumTextBox.Name = "PremiumTextBox";
-            this.PremiumTextBox.Size = new System.Drawing.Size(185, 28);
-            this.PremiumTextBox.TabIndex = 40;
-            // 
-            // PeriodTextBox
-            // 
-            this.PeriodTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.PeriodTextBox.Location = new System.Drawing.Point(304, 603);
-            this.PeriodTextBox.Name = "PeriodTextBox";
-            this.PeriodTextBox.Size = new System.Drawing.Size(185, 28);
-            this.PeriodTextBox.TabIndex = 41;
+            this.CompilationTextBox.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.CompilationTextBox.Location = new System.Drawing.Point(394, 199);
+            this.CompilationTextBox.Name = "CompilationTextBox";
+            this.CompilationTextBox.Size = new System.Drawing.Size(311, 30);
+            this.CompilationTextBox.TabIndex = 44;
             // 
             // ContractNumTextBox
             // 
-            this.ContractNumTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ContractNumTextBox.Location = new System.Drawing.Point(304, 694);
+            this.ContractNumTextBox.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ContractNumTextBox.Location = new System.Drawing.Point(394, 696);
             this.ContractNumTextBox.Name = "ContractNumTextBox";
-            this.ContractNumTextBox.Size = new System.Drawing.Size(185, 28);
+            this.ContractNumTextBox.Size = new System.Drawing.Size(311, 30);
             this.ContractNumTextBox.TabIndex = 42;
             // 
-            // buttonExportWord
+            // PeriodTextBox
             // 
-            this.buttonExportWord.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.buttonExportWord.Font = new System.Drawing.Font("Times New Roman", 12.25532F);
-            this.buttonExportWord.ForeColor = System.Drawing.Color.Black;
-            this.buttonExportWord.Location = new System.Drawing.Point(1082, 227);
-            this.buttonExportWord.Name = "buttonExportWord";
-            this.buttonExportWord.Size = new System.Drawing.Size(218, 55);
-            this.buttonExportWord.TabIndex = 2;
-            this.buttonExportWord.Text = "Экспорт в Word";
-            this.buttonExportWord.UseVisualStyleBackColor = false;
-            this.buttonExportWord.Click += new System.EventHandler(this.buttonExportWord_Click);
+            this.PeriodTextBox.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.PeriodTextBox.Location = new System.Drawing.Point(394, 605);
+            this.PeriodTextBox.Name = "PeriodTextBox";
+            this.PeriodTextBox.Size = new System.Drawing.Size(311, 30);
+            this.PeriodTextBox.TabIndex = 41;
+            // 
+            // PremiumTextBox
+            // 
+            this.PremiumTextBox.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.PremiumTextBox.Location = new System.Drawing.Point(394, 560);
+            this.PremiumTextBox.Name = "PremiumTextBox";
+            this.PremiumTextBox.Size = new System.Drawing.Size(311, 30);
+            this.PremiumTextBox.TabIndex = 40;
+            // 
+            // TariffTextBox
+            // 
+            this.TariffTextBox.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.TariffTextBox.Location = new System.Drawing.Point(394, 515);
+            this.TariffTextBox.Name = "TariffTextBox";
+            this.TariffTextBox.Size = new System.Drawing.Size(311, 30);
+            this.TariffTextBox.TabIndex = 39;
+            // 
+            // WorkTextBox
+            // 
+            this.WorkTextBox.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.WorkTextBox.Location = new System.Drawing.Point(394, 470);
+            this.WorkTextBox.Name = "WorkTextBox";
+            this.WorkTextBox.Size = new System.Drawing.Size(311, 30);
+            this.WorkTextBox.TabIndex = 38;
+            // 
+            // PositionTextBox
+            // 
+            this.PositionTextBox.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.PositionTextBox.Location = new System.Drawing.Point(394, 425);
+            this.PositionTextBox.Name = "PositionTextBox";
+            this.PositionTextBox.Size = new System.Drawing.Size(311, 30);
+            this.PositionTextBox.TabIndex = 37;
+            // 
+            // DivisionTextBox
+            // 
+            this.DivisionTextBox.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.DivisionTextBox.Location = new System.Drawing.Point(394, 380);
+            this.DivisionTextBox.Name = "DivisionTextBox";
+            this.DivisionTextBox.Size = new System.Drawing.Size(311, 30);
+            this.DivisionTextBox.TabIndex = 36;
+            // 
+            // FIOTextBox
+            // 
+            this.FIOTextBox.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.FIOTextBox.Location = new System.Drawing.Point(394, 335);
+            this.FIOTextBox.Name = "FIOTextBox";
+            this.FIOTextBox.Size = new System.Drawing.Size(311, 30);
+            this.FIOTextBox.TabIndex = 35;
+            // 
+            // ServiceNumberTextBox
+            // 
+            this.ServiceNumberTextBox.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ServiceNumberTextBox.Location = new System.Drawing.Point(394, 290);
+            this.ServiceNumberTextBox.Name = "ServiceNumberTextBox";
+            this.ServiceNumberTextBox.Size = new System.Drawing.Size(311, 30);
+            this.ServiceNumberTextBox.TabIndex = 34;
+            // 
+            // DocumentNumberTextBox
+            // 
+            this.DocumentNumberTextBox.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.DocumentNumberTextBox.Location = new System.Drawing.Point(394, 153);
+            this.DocumentNumberTextBox.Name = "DocumentNumberTextBox";
+            this.DocumentNumberTextBox.Size = new System.Drawing.Size(311, 30);
+            this.DocumentNumberTextBox.TabIndex = 31;
+            // 
+            // NameOrganizationTextBox
+            // 
+            this.NameOrganizationTextBox.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.NameOrganizationTextBox.Location = new System.Drawing.Point(394, 108);
+            this.NameOrganizationTextBox.Name = "NameOrganizationTextBox";
+            this.NameOrganizationTextBox.Size = new System.Drawing.Size(311, 30);
+            this.NameOrganizationTextBox.TabIndex = 30;
+            // 
+            // ID_orderTextBox
+            // 
+            this.ID_orderTextBox.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ID_orderTextBox.Location = new System.Drawing.Point(170, 63);
+            this.ID_orderTextBox.Name = "ID_orderTextBox";
+            this.ID_orderTextBox.Size = new System.Drawing.Size(66, 30);
+            this.ID_orderTextBox.TabIndex = 29;
+            // 
+            // personal_cardsDataSet
+            // 
+            this.personal_cardsDataSet.DataSetName = "Personal_cardsDataSet";
+            this.personal_cardsDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // order_admissionBindingSource
+            // 
+            this.order_admissionBindingSource.DataMember = "Order_admission";
+            this.order_admissionBindingSource.DataSource = this.personal_cardsDataSet;
+            // 
+            // order_admissionTableAdapter
+            // 
+            this.order_admissionTableAdapter.ClearBeforeFill = true;
+            // 
+            // tableAdapterManager
+            // 
+            this.tableAdapterManager.Advanced_trainingTableAdapter = this.advanced_trainingTableAdapter1;
+            this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
+            this.tableAdapterManager.CertificationTableAdapter = null;
+            this.tableAdapterManager.EducationTableAdapter = null;
+            this.tableAdapterManager.Employee_informationTableAdapter = null;
+            this.tableAdapterManager.Granting_leaveTableAdapter = null;
+            this.tableAdapterManager.Level_of_educationTableAdapter = null;
+            this.tableAdapterManager.Military_registrationTableAdapter = null;
+            this.tableAdapterManager.More_informationTableAdapter = null;
+            this.tableAdapterManager.Order_admissionTableAdapter = this.order_admissionTableAdapter;
+            this.tableAdapterManager.Reception_and_transferTableAdapter = null;
+            this.tableAdapterManager.RetrainingTableAdapter = null;
+            this.tableAdapterManager.RewardsTableAdapter = null;
+            this.tableAdapterManager.Social_benefitsTableAdapter = null;
+            this.tableAdapterManager.Staff_listTableAdapter = null;
+            this.tableAdapterManager.UpdateOrder = Personal_cardsApp1.Personal_cardsDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
+            this.tableAdapterManager.UserTableAdapter = null;
+            this.tableAdapterManager.VacationTableAdapter = null;
+            // 
+            // advanced_trainingTableAdapter1
+            // 
+            this.advanced_trainingTableAdapter1.ClearBeforeFill = true;
+            // 
+            // order_admissionBindingNavigator
+            // 
+            this.order_admissionBindingNavigator.AddNewItem = this.bindingNavigatorAddNewItem;
+            this.order_admissionBindingNavigator.BindingSource = this.order_admissionBindingSource;
+            this.order_admissionBindingNavigator.CountItem = this.bindingNavigatorCountItem;
+            this.order_admissionBindingNavigator.DeleteItem = this.bindingNavigatorDeleteItem;
+            this.order_admissionBindingNavigator.ImageScalingSize = new System.Drawing.Size(24, 24);
+            this.order_admissionBindingNavigator.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.bindingNavigatorMoveFirstItem,
+            this.bindingNavigatorMovePreviousItem,
+            this.bindingNavigatorSeparator,
+            this.bindingNavigatorPositionItem,
+            this.bindingNavigatorCountItem,
+            this.bindingNavigatorSeparator1,
+            this.bindingNavigatorMoveNextItem,
+            this.bindingNavigatorMoveLastItem,
+            this.bindingNavigatorSeparator2,
+            this.toolStripButton3,
+            this.toolStripButton2,
+            this.toolStripButton1,
+            this.bindingNavigatorAddNewItem,
+            this.bindingNavigatorDeleteItem,
+            this.order_admissionBindingNavigatorSaveItem});
+            this.order_admissionBindingNavigator.Location = new System.Drawing.Point(0, 0);
+            this.order_admissionBindingNavigator.MoveFirstItem = this.bindingNavigatorMoveFirstItem;
+            this.order_admissionBindingNavigator.MoveLastItem = this.bindingNavigatorMoveLastItem;
+            this.order_admissionBindingNavigator.MoveNextItem = this.bindingNavigatorMoveNextItem;
+            this.order_admissionBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
+            this.order_admissionBindingNavigator.Name = "order_admissionBindingNavigator";
+            this.order_admissionBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
+            this.order_admissionBindingNavigator.Size = new System.Drawing.Size(1357, 32);
+            this.order_admissionBindingNavigator.TabIndex = 1;
+            this.order_admissionBindingNavigator.Text = "bindingNavigator1";
+            this.order_admissionBindingNavigator.Visible = false;
             // 
             // bindingNavigatorAddNewItem
             // 
@@ -536,6 +519,15 @@
             this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(34, 28);
             this.bindingNavigatorAddNewItem.Text = "Добавить";
             this.bindingNavigatorAddNewItem.Visible = false;
+            // 
+            // bindingNavigatorCountItem
+            // 
+            this.bindingNavigatorCountItem.Font = new System.Drawing.Font("Times New Roman", 9.191489F);
+            this.bindingNavigatorCountItem.ForeColor = System.Drawing.Color.Black;
+            this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
+            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(67, 28);
+            this.bindingNavigatorCountItem.Text = "для {0}";
+            this.bindingNavigatorCountItem.ToolTipText = "Общее число элементов";
             // 
             // bindingNavigatorDeleteItem
             // 
@@ -565,6 +557,26 @@
             this.bindingNavigatorMovePreviousItem.Size = new System.Drawing.Size(34, 28);
             this.bindingNavigatorMovePreviousItem.Text = "Переместить назад";
             // 
+            // bindingNavigatorSeparator
+            // 
+            this.bindingNavigatorSeparator.Name = "bindingNavigatorSeparator";
+            this.bindingNavigatorSeparator.Size = new System.Drawing.Size(6, 32);
+            // 
+            // bindingNavigatorPositionItem
+            // 
+            this.bindingNavigatorPositionItem.AccessibleName = "Положение";
+            this.bindingNavigatorPositionItem.AutoSize = false;
+            this.bindingNavigatorPositionItem.Font = new System.Drawing.Font("Times New Roman", 9.191489F);
+            this.bindingNavigatorPositionItem.Name = "bindingNavigatorPositionItem";
+            this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(50, 28);
+            this.bindingNavigatorPositionItem.Text = "0";
+            this.bindingNavigatorPositionItem.ToolTipText = "Текущее положение";
+            // 
+            // bindingNavigatorSeparator1
+            // 
+            this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator1";
+            this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 32);
+            // 
             // bindingNavigatorMoveNextItem
             // 
             this.bindingNavigatorMoveNextItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
@@ -583,6 +595,41 @@
             this.bindingNavigatorMoveLastItem.Size = new System.Drawing.Size(34, 28);
             this.bindingNavigatorMoveLastItem.Text = "Переместить в конец";
             // 
+            // bindingNavigatorSeparator2
+            // 
+            this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator2";
+            this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 32);
+            // 
+            // toolStripButton3
+            // 
+            this.toolStripButton3.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton3.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton3.Image")));
+            this.toolStripButton3.Name = "toolStripButton3";
+            this.toolStripButton3.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton3.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton3.Text = "Добавить";
+            this.toolStripButton3.Visible = false;
+            // 
+            // toolStripButton2
+            // 
+            this.toolStripButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton2.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton2.Image")));
+            this.toolStripButton2.Name = "toolStripButton2";
+            this.toolStripButton2.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton2.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton2.Text = "Удалить";
+            this.toolStripButton2.Visible = false;
+            // 
+            // toolStripButton1
+            // 
+            this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
+            this.toolStripButton1.Name = "toolStripButton1";
+            this.toolStripButton1.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton1.Text = "Сохранить данные";
+            this.toolStripButton1.Visible = false;
+            this.toolStripButton1.Click += new System.EventHandler(this.order_admissionBindingNavigatorSaveItem_Click);
+            // 
             // order_admissionBindingNavigatorSaveItem
             // 
             this.order_admissionBindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
@@ -592,6 +639,19 @@
             this.order_admissionBindingNavigatorSaveItem.Text = "Сохранить данные";
             this.order_admissionBindingNavigatorSaveItem.Visible = false;
             this.order_admissionBindingNavigatorSaveItem.Click += new System.EventHandler(this.order_admissionBindingNavigatorSaveItem_Click);
+            // 
+            // buttonExportWord
+            // 
+            this.buttonExportWord.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.buttonExportWord.Font = new System.Drawing.Font("Times New Roman", 12.25532F);
+            this.buttonExportWord.ForeColor = System.Drawing.Color.Black;
+            this.buttonExportWord.Location = new System.Drawing.Point(1082, 227);
+            this.buttonExportWord.Name = "buttonExportWord";
+            this.buttonExportWord.Size = new System.Drawing.Size(218, 55);
+            this.buttonExportWord.TabIndex = 2;
+            this.buttonExportWord.Text = "Экспорт в Word";
+            this.buttonExportWord.UseVisualStyleBackColor = false;
+            this.buttonExportWord.Click += new System.EventHandler(this.buttonExportWord_Click);
             // 
             // buttonAdd
             // 
@@ -631,63 +691,16 @@
             this.buttonDelete.Text = "Удалить";
             this.buttonDelete.UseVisualStyleBackColor = false;
             // 
-            // advanced_trainingTableAdapter1
+            // label1
             // 
-            this.advanced_trainingTableAdapter1.ClearBeforeFill = true;
-            // 
-            // CompilationTextBox
-            // 
-            this.CompilationTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.CompilationTextBox.Location = new System.Drawing.Point(267, 195);
-            this.CompilationTextBox.Name = "CompilationTextBox";
-            this.CompilationTextBox.Size = new System.Drawing.Size(185, 28);
-            this.CompilationTextBox.TabIndex = 44;
-            // 
-            // TakeWithTextBox
-            // 
-            this.TakeWithTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.TakeWithTextBox.Location = new System.Drawing.Point(342, 241);
-            this.TakeWithTextBox.Name = "TakeWithTextBox";
-            this.TakeWithTextBox.Size = new System.Drawing.Size(203, 28);
-            this.TakeWithTextBox.TabIndex = 45;
-            // 
-            // ContractTextBox
-            // 
-            this.ContractTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ContractTextBox.Location = new System.Drawing.Point(304, 649);
-            this.ContractTextBox.Name = "ContractTextBox";
-            this.ContractTextBox.Size = new System.Drawing.Size(185, 28);
-            this.ContractTextBox.TabIndex = 46;
-            // 
-            // toolStripButton1
-            // 
-            this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
-            this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(34, 28);
-            this.toolStripButton1.Text = "Сохранить данные";
-            this.toolStripButton1.Visible = false;
-            this.toolStripButton1.Click += new System.EventHandler(this.order_admissionBindingNavigatorSaveItem_Click);
-            // 
-            // toolStripButton2
-            // 
-            this.toolStripButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton2.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton2.Image")));
-            this.toolStripButton2.Name = "toolStripButton2";
-            this.toolStripButton2.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton2.Size = new System.Drawing.Size(34, 28);
-            this.toolStripButton2.Text = "Удалить";
-            this.toolStripButton2.Visible = false;
-            // 
-            // toolStripButton3
-            // 
-            this.toolStripButton3.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton3.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton3.Image")));
-            this.toolStripButton3.Name = "toolStripButton3";
-            this.toolStripButton3.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton3.Size = new System.Drawing.Size(34, 28);
-            this.toolStripButton3.Text = "Добавить";
-            this.toolStripButton3.Visible = false;
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Sitka Banner", 13.78723F, System.Drawing.FontStyle.Bold);
+            this.label1.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            this.label1.Location = new System.Drawing.Point(711, 594);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(85, 39);
+            this.label1.TabIndex = 47;
+            this.label1.Text = "(мес.)";
             // 
             // FormOrderAdmission
             // 
@@ -763,5 +776,6 @@
         private System.Windows.Forms.ToolStripButton toolStripButton3;
         private System.Windows.Forms.ToolStripButton toolStripButton2;
         private System.Windows.Forms.ToolStripButton toolStripButton1;
+        private System.Windows.Forms.Label label1;
     }
 }

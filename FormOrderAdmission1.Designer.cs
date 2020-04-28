@@ -85,6 +85,7 @@
             this.buttonpoisk = new System.Windows.Forms.Button();
             this.buttonfilter = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             iD_orderLabel = new System.Windows.Forms.Label();
             name_organizationLabel = new System.Windows.Forms.Label();
             document_numberLabel = new System.Windows.Forms.Label();
@@ -274,6 +275,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(iD_orderLabel);
             this.groupBox1.Controls.Add(this.iD_orderTextBox);
             this.groupBox1.Controls.Add(name_organizationLabel);
@@ -316,10 +318,10 @@
             // iD_orderTextBox
             // 
             this.iD_orderTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.order_admissionBindingSource, "ID_order", true));
-            this.iD_orderTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.iD_orderTextBox.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.iD_orderTextBox.Location = new System.Drawing.Point(182, 43);
             this.iD_orderTextBox.Name = "iD_orderTextBox";
-            this.iD_orderTextBox.Size = new System.Drawing.Size(53, 28);
+            this.iD_orderTextBox.Size = new System.Drawing.Size(53, 30);
             this.iD_orderTextBox.TabIndex = 1;
             // 
             // order_admissionBindingSource
@@ -335,127 +337,127 @@
             // name_organizationTextBox
             // 
             this.name_organizationTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.order_admissionBindingSource, "Name_organization", true));
-            this.name_organizationTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.name_organizationTextBox.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.name_organizationTextBox.Location = new System.Drawing.Point(390, 86);
             this.name_organizationTextBox.Name = "name_organizationTextBox";
-            this.name_organizationTextBox.Size = new System.Drawing.Size(200, 28);
+            this.name_organizationTextBox.Size = new System.Drawing.Size(316, 30);
             this.name_organizationTextBox.TabIndex = 3;
             // 
             // document_numberTextBox
             // 
             this.document_numberTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.order_admissionBindingSource, "Document_number", true));
-            this.document_numberTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.document_numberTextBox.Location = new System.Drawing.Point(251, 131);
+            this.document_numberTextBox.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.document_numberTextBox.Location = new System.Drawing.Point(390, 135);
             this.document_numberTextBox.Name = "document_numberTextBox";
-            this.document_numberTextBox.Size = new System.Drawing.Size(200, 28);
+            this.document_numberTextBox.Size = new System.Drawing.Size(316, 30);
             this.document_numberTextBox.TabIndex = 5;
             // 
             // date_compilationDateTimePicker
             // 
             this.date_compilationDateTimePicker.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.order_admissionBindingSource, "Date_compilation", true));
-            this.date_compilationDateTimePicker.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.date_compilationDateTimePicker.Location = new System.Drawing.Point(251, 179);
+            this.date_compilationDateTimePicker.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.date_compilationDateTimePicker.Location = new System.Drawing.Point(390, 179);
             this.date_compilationDateTimePicker.Name = "date_compilationDateTimePicker";
-            this.date_compilationDateTimePicker.Size = new System.Drawing.Size(200, 28);
+            this.date_compilationDateTimePicker.Size = new System.Drawing.Size(316, 30);
             this.date_compilationDateTimePicker.TabIndex = 7;
             // 
             // to_take_withDateTimePicker
             // 
             this.to_take_withDateTimePicker.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.order_admissionBindingSource, "To_take_with", true));
-            this.to_take_withDateTimePicker.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.to_take_withDateTimePicker.Location = new System.Drawing.Point(297, 225);
+            this.to_take_withDateTimePicker.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.to_take_withDateTimePicker.Location = new System.Drawing.Point(390, 225);
             this.to_take_withDateTimePicker.Name = "to_take_withDateTimePicker";
-            this.to_take_withDateTimePicker.Size = new System.Drawing.Size(200, 28);
+            this.to_take_withDateTimePicker.Size = new System.Drawing.Size(316, 30);
             this.to_take_withDateTimePicker.TabIndex = 9;
             // 
             // service_numberTextBox
             // 
             this.service_numberTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.order_admissionBindingSource, "Service_number", true));
-            this.service_numberTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.service_numberTextBox.Location = new System.Drawing.Point(297, 270);
+            this.service_numberTextBox.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.service_numberTextBox.Location = new System.Drawing.Point(390, 261);
             this.service_numberTextBox.Name = "service_numberTextBox";
-            this.service_numberTextBox.Size = new System.Drawing.Size(200, 28);
+            this.service_numberTextBox.Size = new System.Drawing.Size(316, 30);
             this.service_numberTextBox.TabIndex = 11;
             // 
             // fIOTextBox
             // 
             this.fIOTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.order_admissionBindingSource, "FIO", true));
-            this.fIOTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.fIOTextBox.Location = new System.Drawing.Point(105, 313);
+            this.fIOTextBox.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.fIOTextBox.Location = new System.Drawing.Point(390, 315);
             this.fIOTextBox.Name = "fIOTextBox";
-            this.fIOTextBox.Size = new System.Drawing.Size(392, 28);
+            this.fIOTextBox.Size = new System.Drawing.Size(316, 30);
             this.fIOTextBox.TabIndex = 13;
             // 
             // structural_divisionTextBox
             // 
             this.structural_divisionTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.order_admissionBindingSource, "Structural_division", true));
-            this.structural_divisionTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.structural_divisionTextBox.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.structural_divisionTextBox.Location = new System.Drawing.Point(390, 360);
             this.structural_divisionTextBox.Name = "structural_divisionTextBox";
-            this.structural_divisionTextBox.Size = new System.Drawing.Size(200, 28);
+            this.structural_divisionTextBox.Size = new System.Drawing.Size(316, 30);
             this.structural_divisionTextBox.TabIndex = 15;
             // 
             // positionTextBox
             // 
             this.positionTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.order_admissionBindingSource, "Position", true));
-            this.positionTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.positionTextBox.Location = new System.Drawing.Point(182, 405);
+            this.positionTextBox.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.positionTextBox.Location = new System.Drawing.Point(390, 407);
             this.positionTextBox.Name = "positionTextBox";
-            this.positionTextBox.Size = new System.Drawing.Size(200, 28);
+            this.positionTextBox.Size = new System.Drawing.Size(316, 30);
             this.positionTextBox.TabIndex = 17;
             // 
             // nature_workTextBox
             // 
             this.nature_workTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.order_admissionBindingSource, "Nature_work", true));
-            this.nature_workTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.nature_workTextBox.Location = new System.Drawing.Point(251, 450);
+            this.nature_workTextBox.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.nature_workTextBox.Location = new System.Drawing.Point(390, 452);
             this.nature_workTextBox.Name = "nature_workTextBox";
-            this.nature_workTextBox.Size = new System.Drawing.Size(200, 28);
+            this.nature_workTextBox.Size = new System.Drawing.Size(316, 30);
             this.nature_workTextBox.TabIndex = 19;
             // 
             // with_tariff_rateTextBox
             // 
             this.with_tariff_rateTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.order_admissionBindingSource, "With_tariff_rate", true));
-            this.with_tariff_rateTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.with_tariff_rateTextBox.Location = new System.Drawing.Point(297, 495);
+            this.with_tariff_rateTextBox.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.with_tariff_rateTextBox.Location = new System.Drawing.Point(390, 497);
             this.with_tariff_rateTextBox.Name = "with_tariff_rateTextBox";
-            this.with_tariff_rateTextBox.Size = new System.Drawing.Size(200, 28);
+            this.with_tariff_rateTextBox.Size = new System.Drawing.Size(316, 30);
             this.with_tariff_rateTextBox.TabIndex = 21;
             // 
             // at_premiumTextBox
             // 
             this.at_premiumTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.order_admissionBindingSource, "At_premium", true));
-            this.at_premiumTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.at_premiumTextBox.Location = new System.Drawing.Point(182, 540);
+            this.at_premiumTextBox.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.at_premiumTextBox.Location = new System.Drawing.Point(390, 542);
             this.at_premiumTextBox.Name = "at_premiumTextBox";
-            this.at_premiumTextBox.Size = new System.Drawing.Size(200, 28);
+            this.at_premiumTextBox.Size = new System.Drawing.Size(316, 30);
             this.at_premiumTextBox.TabIndex = 23;
             // 
             // with_trial_periodTextBox
             // 
             this.with_trial_periodTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.order_admissionBindingSource, "With_trial_period", true));
-            this.with_trial_periodTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.with_trial_periodTextBox.Location = new System.Drawing.Point(297, 585);
+            this.with_trial_periodTextBox.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.with_trial_periodTextBox.Location = new System.Drawing.Point(390, 587);
             this.with_trial_periodTextBox.Name = "with_trial_periodTextBox";
-            this.with_trial_periodTextBox.Size = new System.Drawing.Size(200, 28);
+            this.with_trial_periodTextBox.Size = new System.Drawing.Size(316, 30);
             this.with_trial_periodTextBox.TabIndex = 25;
             // 
             // employment_contract_fromDateTimePicker
             // 
             this.employment_contract_fromDateTimePicker.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.order_admissionBindingSource, "Employment_contract_from", true));
-            this.employment_contract_fromDateTimePicker.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.employment_contract_fromDateTimePicker.Location = new System.Drawing.Point(297, 631);
+            this.employment_contract_fromDateTimePicker.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.employment_contract_fromDateTimePicker.Location = new System.Drawing.Point(390, 633);
             this.employment_contract_fromDateTimePicker.Name = "employment_contract_fromDateTimePicker";
-            this.employment_contract_fromDateTimePicker.Size = new System.Drawing.Size(200, 28);
+            this.employment_contract_fromDateTimePicker.Size = new System.Drawing.Size(316, 30);
             this.employment_contract_fromDateTimePicker.TabIndex = 27;
             // 
             // contract_numberTextBox
             // 
             this.contract_numberTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.order_admissionBindingSource, "Contract_number", true));
-            this.contract_numberTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.contract_numberTextBox.Location = new System.Drawing.Point(297, 676);
+            this.contract_numberTextBox.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.contract_numberTextBox.Location = new System.Drawing.Point(390, 678);
             this.contract_numberTextBox.Name = "contract_numberTextBox";
-            this.contract_numberTextBox.Size = new System.Drawing.Size(200, 28);
+            this.contract_numberTextBox.Size = new System.Drawing.Size(316, 30);
             this.contract_numberTextBox.TabIndex = 29;
             // 
             // order_admissionTableAdapter
@@ -504,14 +506,14 @@
             this.bindingNavigatorAddNewItem,
             this.bindingNavigatorDeleteItem,
             this.order_admissionBindingNavigatorSaveItem});
-            this.order_admissionBindingNavigator.Location = new System.Drawing.Point(593, 9);
+            this.order_admissionBindingNavigator.Location = new System.Drawing.Point(729, 9);
             this.order_admissionBindingNavigator.MoveFirstItem = this.bindingNavigatorMoveFirstItem;
             this.order_admissionBindingNavigator.MoveLastItem = this.bindingNavigatorMoveLastItem;
             this.order_admissionBindingNavigator.MoveNextItem = this.bindingNavigatorMoveNextItem;
             this.order_admissionBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.order_admissionBindingNavigator.Name = "order_admissionBindingNavigator";
             this.order_admissionBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.order_admissionBindingNavigator.Size = new System.Drawing.Size(289, 32);
+            this.order_admissionBindingNavigator.Size = new System.Drawing.Size(289, 37);
             this.order_admissionBindingNavigator.TabIndex = 1;
             this.order_admissionBindingNavigator.Text = "bindingNavigator1";
             // 
@@ -530,7 +532,7 @@
             this.bindingNavigatorCountItem.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.bindingNavigatorCountItem.ForeColor = System.Drawing.Color.Black;
             this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
-            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(67, 33);
+            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(67, 28);
             this.bindingNavigatorCountItem.Text = "для {0}";
             this.bindingNavigatorCountItem.ToolTipText = "Общее число элементов";
             // 
@@ -540,7 +542,7 @@
             this.bindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorDeleteItem.Image")));
             this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
             this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(34, 33);
+            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(34, 28);
             this.bindingNavigatorDeleteItem.Text = "Удалить";
             this.bindingNavigatorDeleteItem.Visible = false;
             // 
@@ -550,7 +552,7 @@
             this.bindingNavigatorMoveFirstItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveFirstItem.Image")));
             this.bindingNavigatorMoveFirstItem.Name = "bindingNavigatorMoveFirstItem";
             this.bindingNavigatorMoveFirstItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveFirstItem.Size = new System.Drawing.Size(34, 33);
+            this.bindingNavigatorMoveFirstItem.Size = new System.Drawing.Size(34, 28);
             this.bindingNavigatorMoveFirstItem.Text = "Переместить в начало";
             // 
             // bindingNavigatorMovePreviousItem
@@ -559,13 +561,13 @@
             this.bindingNavigatorMovePreviousItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMovePreviousItem.Image")));
             this.bindingNavigatorMovePreviousItem.Name = "bindingNavigatorMovePreviousItem";
             this.bindingNavigatorMovePreviousItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMovePreviousItem.Size = new System.Drawing.Size(34, 33);
+            this.bindingNavigatorMovePreviousItem.Size = new System.Drawing.Size(34, 28);
             this.bindingNavigatorMovePreviousItem.Text = "Переместить назад";
             // 
             // bindingNavigatorSeparator
             // 
             this.bindingNavigatorSeparator.Name = "bindingNavigatorSeparator";
-            this.bindingNavigatorSeparator.Size = new System.Drawing.Size(6, 37);
+            this.bindingNavigatorSeparator.Size = new System.Drawing.Size(6, 32);
             // 
             // bindingNavigatorPositionItem
             // 
@@ -580,7 +582,7 @@
             // bindingNavigatorSeparator1
             // 
             this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator1";
-            this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 37);
+            this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 32);
             // 
             // bindingNavigatorMoveNextItem
             // 
@@ -588,7 +590,7 @@
             this.bindingNavigatorMoveNextItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveNextItem.Image")));
             this.bindingNavigatorMoveNextItem.Name = "bindingNavigatorMoveNextItem";
             this.bindingNavigatorMoveNextItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveNextItem.Size = new System.Drawing.Size(34, 33);
+            this.bindingNavigatorMoveNextItem.Size = new System.Drawing.Size(34, 28);
             this.bindingNavigatorMoveNextItem.Text = "Переместить вперед";
             // 
             // bindingNavigatorMoveLastItem
@@ -597,20 +599,20 @@
             this.bindingNavigatorMoveLastItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveLastItem.Image")));
             this.bindingNavigatorMoveLastItem.Name = "bindingNavigatorMoveLastItem";
             this.bindingNavigatorMoveLastItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveLastItem.Size = new System.Drawing.Size(34, 33);
+            this.bindingNavigatorMoveLastItem.Size = new System.Drawing.Size(34, 28);
             this.bindingNavigatorMoveLastItem.Text = "Переместить в конец";
             // 
             // bindingNavigatorSeparator2
             // 
             this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator2";
-            this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 37);
+            this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 32);
             // 
             // order_admissionBindingNavigatorSaveItem
             // 
             this.order_admissionBindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.order_admissionBindingNavigatorSaveItem.Image = ((System.Drawing.Image)(resources.GetObject("order_admissionBindingNavigatorSaveItem.Image")));
             this.order_admissionBindingNavigatorSaveItem.Name = "order_admissionBindingNavigatorSaveItem";
-            this.order_admissionBindingNavigatorSaveItem.Size = new System.Drawing.Size(34, 33);
+            this.order_admissionBindingNavigatorSaveItem.Size = new System.Drawing.Size(34, 28);
             this.order_admissionBindingNavigatorSaveItem.Text = "Сохранить данные";
             this.order_admissionBindingNavigatorSaveItem.Visible = false;
             this.order_admissionBindingNavigatorSaveItem.Click += new System.EventHandler(this.order_admissionBindingNavigatorSaveItem_Click);
@@ -620,7 +622,7 @@
             this.buttonAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.buttonAdd.Font = new System.Drawing.Font("Times New Roman", 12.25532F);
             this.buttonAdd.ForeColor = System.Drawing.Color.Black;
-            this.buttonAdd.Location = new System.Drawing.Point(1064, 368);
+            this.buttonAdd.Location = new System.Drawing.Point(1059, 427);
             this.buttonAdd.Name = "buttonAdd";
             this.buttonAdd.Size = new System.Drawing.Size(218, 55);
             this.buttonAdd.TabIndex = 139;
@@ -633,7 +635,7 @@
             this.buttonBack.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.buttonBack.Font = new System.Drawing.Font("Times New Roman", 12.25532F);
             this.buttonBack.ForeColor = System.Drawing.Color.Black;
-            this.buttonBack.Location = new System.Drawing.Point(1064, 758);
+            this.buttonBack.Location = new System.Drawing.Point(1059, 758);
             this.buttonBack.Name = "buttonBack";
             this.buttonBack.Size = new System.Drawing.Size(218, 55);
             this.buttonBack.TabIndex = 142;
@@ -646,7 +648,7 @@
             this.buttonDelete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.buttonDelete.Font = new System.Drawing.Font("Times New Roman", 12.25532F);
             this.buttonDelete.ForeColor = System.Drawing.Color.Black;
-            this.buttonDelete.Location = new System.Drawing.Point(1064, 440);
+            this.buttonDelete.Location = new System.Drawing.Point(1059, 499);
             this.buttonDelete.Name = "buttonDelete";
             this.buttonDelete.Size = new System.Drawing.Size(218, 55);
             this.buttonDelete.TabIndex = 143;
@@ -655,7 +657,7 @@
             // 
             // textBoxpoisk
             // 
-            this.textBoxpoisk.Location = new System.Drawing.Point(1064, 114);
+            this.textBoxpoisk.Location = new System.Drawing.Point(1059, 173);
             this.textBoxpoisk.Name = "textBoxpoisk";
             this.textBoxpoisk.Size = new System.Drawing.Size(218, 26);
             this.textBoxpoisk.TabIndex = 144;
@@ -665,7 +667,7 @@
             this.buttonpoisk.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.buttonpoisk.Font = new System.Drawing.Font("Times New Roman", 12.25532F);
             this.buttonpoisk.ForeColor = System.Drawing.Color.Black;
-            this.buttonpoisk.Location = new System.Drawing.Point(1064, 157);
+            this.buttonpoisk.Location = new System.Drawing.Point(1059, 216);
             this.buttonpoisk.Name = "buttonpoisk";
             this.buttonpoisk.Size = new System.Drawing.Size(218, 55);
             this.buttonpoisk.TabIndex = 145;
@@ -678,7 +680,7 @@
             this.buttonfilter.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.buttonfilter.Font = new System.Drawing.Font("Times New Roman", 12.25532F);
             this.buttonfilter.ForeColor = System.Drawing.Color.Black;
-            this.buttonfilter.Location = new System.Drawing.Point(1064, 218);
+            this.buttonfilter.Location = new System.Drawing.Point(1059, 277);
             this.buttonfilter.Name = "buttonfilter";
             this.buttonfilter.Size = new System.Drawing.Size(218, 55);
             this.buttonfilter.TabIndex = 146;
@@ -691,11 +693,22 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Sitka Banner", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(1099, 82);
+            this.label1.Location = new System.Drawing.Point(1094, 141);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(151, 29);
+            this.label1.Size = new System.Drawing.Size(157, 30);
             this.label1.TabIndex = 147;
             this.label1.Text = "Для поиска ФИО";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Sitka Banner", 13.78723F, System.Drawing.FontStyle.Bold);
+            this.label2.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            this.label2.Location = new System.Drawing.Point(712, 578);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(85, 39);
+            this.label2.TabIndex = 48;
+            this.label2.Text = "(мес.)";
             // 
             // FormOrderAdmission1
             // 
@@ -773,5 +786,6 @@
         private System.Windows.Forms.Button buttonpoisk;
         private System.Windows.Forms.Button buttonfilter;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }

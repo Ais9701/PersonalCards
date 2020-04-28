@@ -126,5 +126,10 @@ namespace Personal_cardsApp1
                 e.Cancel = true;
             }
         }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
     }
