@@ -64,22 +64,6 @@
             this.bindingNavigatorMoveLastItem = new System.Windows.Forms.ToolStripButton();
             this.staff_listBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
             this.staff_listDataGridView = new System.Windows.Forms.DataGridView();
-            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn14 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn15 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn16 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.buttonExcelStaffList = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.Total_rublesTextBox = new System.Windows.Forms.TextBox();
@@ -106,6 +90,22 @@
             this.staff_listTableAdapter = new Personal_cardsApp1.Personal_cardsDataSetTableAdapters.Staff_listTableAdapter();
             this.tableAdapterManager = new Personal_cardsApp1.Personal_cardsDataSetTableAdapters.TableAdapterManager();
             this.label1 = new System.Windows.Forms.Label();
+            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn14 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn15 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn16 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             iD_schedulesLabel = new System.Windows.Forms.Label();
             name_organizationLabel = new System.Windows.Forms.Label();
             document_numberLabel = new System.Windows.Forms.Label();
@@ -430,7 +430,7 @@
             // 
             // staff_listDataGridView
             // 
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Times New Roman", 12.25532F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.staff_listDataGridView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.staff_listDataGridView.AutoGenerateColumns = false;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
@@ -485,134 +485,6 @@
             this.staff_listDataGridView.Size = new System.Drawing.Size(2315, 342);
             this.staff_listDataGridView.TabIndex = 1;
             this.staff_listDataGridView.UserDeletingRow += new System.Windows.Forms.DataGridViewRowCancelEventHandler(this.staff_listDataGridView_UserDeletingRow);
-            // 
-            // dataGridViewTextBoxColumn1
-            // 
-            this.dataGridViewTextBoxColumn1.DataPropertyName = "ID_schedules";
-            this.dataGridViewTextBoxColumn1.HeaderText = "ID_расписания";
-            this.dataGridViewTextBoxColumn1.MinimumWidth = 7;
-            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            this.dataGridViewTextBoxColumn1.Width = 147;
-            // 
-            // dataGridViewTextBoxColumn2
-            // 
-            this.dataGridViewTextBoxColumn2.DataPropertyName = "Name_organization";
-            this.dataGridViewTextBoxColumn2.HeaderText = "Наименование организации";
-            this.dataGridViewTextBoxColumn2.MinimumWidth = 7;
-            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
-            this.dataGridViewTextBoxColumn2.Width = 147;
-            // 
-            // dataGridViewTextBoxColumn3
-            // 
-            this.dataGridViewTextBoxColumn3.DataPropertyName = "Document_number";
-            this.dataGridViewTextBoxColumn3.HeaderText = "Номер документа";
-            this.dataGridViewTextBoxColumn3.MinimumWidth = 7;
-            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
-            this.dataGridViewTextBoxColumn3.Width = 147;
-            // 
-            // dataGridViewTextBoxColumn4
-            // 
-            this.dataGridViewTextBoxColumn4.DataPropertyName = "Date_compilation";
-            this.dataGridViewTextBoxColumn4.HeaderText = "Дата составления";
-            this.dataGridViewTextBoxColumn4.MinimumWidth = 7;
-            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
-            this.dataGridViewTextBoxColumn4.Width = 147;
-            // 
-            // dataGridViewTextBoxColumn5
-            // 
-            this.dataGridViewTextBoxColumn5.DataPropertyName = "Order_organization_from";
-            this.dataGridViewTextBoxColumn5.HeaderText = "Приказом организации от";
-            this.dataGridViewTextBoxColumn5.MinimumWidth = 7;
-            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
-            this.dataGridViewTextBoxColumn5.Width = 147;
-            // 
-            // dataGridViewTextBoxColumn6
-            // 
-            this.dataGridViewTextBoxColumn6.DataPropertyName = "Order_number";
-            this.dataGridViewTextBoxColumn6.HeaderText = "Номер приказа";
-            this.dataGridViewTextBoxColumn6.MinimumWidth = 7;
-            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
-            this.dataGridViewTextBoxColumn6.Width = 147;
-            // 
-            // dataGridViewTextBoxColumn7
-            // 
-            this.dataGridViewTextBoxColumn7.DataPropertyName = "For_period";
-            this.dataGridViewTextBoxColumn7.HeaderText = "На период";
-            this.dataGridViewTextBoxColumn7.MinimumWidth = 7;
-            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
-            this.dataGridViewTextBoxColumn7.Width = 147;
-            // 
-            // dataGridViewTextBoxColumn8
-            // 
-            this.dataGridViewTextBoxColumn8.DataPropertyName = "Date";
-            this.dataGridViewTextBoxColumn8.HeaderText = "Дата";
-            this.dataGridViewTextBoxColumn8.MinimumWidth = 7;
-            this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
-            this.dataGridViewTextBoxColumn8.Width = 147;
-            // 
-            // dataGridViewTextBoxColumn9
-            // 
-            this.dataGridViewTextBoxColumn9.DataPropertyName = "Staff_number_units";
-            this.dataGridViewTextBoxColumn9.HeaderText = "Штат в количестве (единиц)";
-            this.dataGridViewTextBoxColumn9.MinimumWidth = 7;
-            this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
-            this.dataGridViewTextBoxColumn9.Width = 147;
-            // 
-            // dataGridViewTextBoxColumn10
-            // 
-            this.dataGridViewTextBoxColumn10.DataPropertyName = "Name";
-            this.dataGridViewTextBoxColumn10.HeaderText = "Наименование";
-            this.dataGridViewTextBoxColumn10.MinimumWidth = 7;
-            this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
-            this.dataGridViewTextBoxColumn10.Width = 147;
-            // 
-            // dataGridViewTextBoxColumn11
-            // 
-            this.dataGridViewTextBoxColumn11.DataPropertyName = "Code";
-            this.dataGridViewTextBoxColumn11.HeaderText = "Код";
-            this.dataGridViewTextBoxColumn11.MinimumWidth = 7;
-            this.dataGridViewTextBoxColumn11.Name = "dataGridViewTextBoxColumn11";
-            this.dataGridViewTextBoxColumn11.Width = 147;
-            // 
-            // dataGridViewTextBoxColumn12
-            // 
-            this.dataGridViewTextBoxColumn12.DataPropertyName = "Position";
-            this.dataGridViewTextBoxColumn12.HeaderText = "Должность";
-            this.dataGridViewTextBoxColumn12.MinimumWidth = 7;
-            this.dataGridViewTextBoxColumn12.Name = "dataGridViewTextBoxColumn12";
-            this.dataGridViewTextBoxColumn12.Width = 147;
-            // 
-            // dataGridViewTextBoxColumn13
-            // 
-            this.dataGridViewTextBoxColumn13.DataPropertyName = "Number_ staff_units";
-            this.dataGridViewTextBoxColumn13.HeaderText = "Количество штатных единиц";
-            this.dataGridViewTextBoxColumn13.MinimumWidth = 7;
-            this.dataGridViewTextBoxColumn13.Name = "dataGridViewTextBoxColumn13";
-            this.dataGridViewTextBoxColumn13.Width = 147;
-            // 
-            // dataGridViewTextBoxColumn14
-            // 
-            this.dataGridViewTextBoxColumn14.DataPropertyName = "Tariff_rate";
-            this.dataGridViewTextBoxColumn14.HeaderText = "Тарифная ставка";
-            this.dataGridViewTextBoxColumn14.MinimumWidth = 7;
-            this.dataGridViewTextBoxColumn14.Name = "dataGridViewTextBoxColumn14";
-            this.dataGridViewTextBoxColumn14.Width = 147;
-            // 
-            // dataGridViewTextBoxColumn15
-            // 
-            this.dataGridViewTextBoxColumn15.DataPropertyName = "Allowances";
-            this.dataGridViewTextBoxColumn15.HeaderText = "Надбавки";
-            this.dataGridViewTextBoxColumn15.MinimumWidth = 7;
-            this.dataGridViewTextBoxColumn15.Name = "dataGridViewTextBoxColumn15";
-            this.dataGridViewTextBoxColumn15.Width = 147;
-            // 
-            // dataGridViewTextBoxColumn16
-            // 
-            this.dataGridViewTextBoxColumn16.DataPropertyName = "Total_rubles";
-            this.dataGridViewTextBoxColumn16.HeaderText = "Всего (руб)";
-            this.dataGridViewTextBoxColumn16.MinimumWidth = 7;
-            this.dataGridViewTextBoxColumn16.Name = "dataGridViewTextBoxColumn16";
-            this.dataGridViewTextBoxColumn16.Width = 147;
             // 
             // buttonExcelStaffList
             // 
@@ -671,7 +543,7 @@
             // 
             // Total_rublesTextBox
             // 
-            this.Total_rublesTextBox.Font = new System.Drawing.Font("Sitka Banner", 8.170213F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Total_rublesTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Total_rublesTextBox.Location = new System.Drawing.Point(188, 611);
             this.Total_rublesTextBox.Name = "Total_rublesTextBox";
             this.Total_rublesTextBox.Size = new System.Drawing.Size(195, 28);
@@ -679,7 +551,7 @@
             // 
             // AllowancesTextBox
             // 
-            this.AllowancesTextBox.Font = new System.Drawing.Font("Sitka Banner", 8.170213F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.AllowancesTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.AllowancesTextBox.Location = new System.Drawing.Point(188, 566);
             this.AllowancesTextBox.Name = "AllowancesTextBox";
             this.AllowancesTextBox.Size = new System.Drawing.Size(195, 28);
@@ -687,7 +559,7 @@
             // 
             // Tariff_rateTextBox
             // 
-            this.Tariff_rateTextBox.Font = new System.Drawing.Font("Sitka Banner", 8.170213F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Tariff_rateTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Tariff_rateTextBox.Location = new System.Drawing.Point(245, 521);
             this.Tariff_rateTextBox.Name = "Tariff_rateTextBox";
             this.Tariff_rateTextBox.Size = new System.Drawing.Size(195, 28);
@@ -695,7 +567,7 @@
             // 
             // NumberunitsTextBox
             // 
-            this.NumberunitsTextBox.Font = new System.Drawing.Font("Sitka Banner", 8.170213F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.NumberunitsTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.NumberunitsTextBox.Location = new System.Drawing.Point(387, 476);
             this.NumberunitsTextBox.Name = "NumberunitsTextBox";
             this.NumberunitsTextBox.Size = new System.Drawing.Size(195, 28);
@@ -703,7 +575,7 @@
             // 
             // PositionTextBox
             // 
-            this.PositionTextBox.Font = new System.Drawing.Font("Sitka Banner", 8.170213F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.PositionTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.PositionTextBox.Location = new System.Drawing.Point(177, 431);
             this.PositionTextBox.Name = "PositionTextBox";
             this.PositionTextBox.Size = new System.Drawing.Size(195, 28);
@@ -711,7 +583,7 @@
             // 
             // CodeTextBox
             // 
-            this.CodeTextBox.Font = new System.Drawing.Font("Sitka Banner", 8.170213F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.CodeTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.CodeTextBox.Location = new System.Drawing.Point(94, 392);
             this.CodeTextBox.Name = "CodeTextBox";
             this.CodeTextBox.Size = new System.Drawing.Size(195, 28);
@@ -719,7 +591,7 @@
             // 
             // NameTextBox
             // 
-            this.NameTextBox.Font = new System.Drawing.Font("Sitka Banner", 8.170213F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.NameTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.NameTextBox.Location = new System.Drawing.Point(228, 351);
             this.NameTextBox.Name = "NameTextBox";
             this.NameTextBox.Size = new System.Drawing.Size(195, 28);
@@ -727,7 +599,7 @@
             // 
             // Staff_number_unitsTextBox
             // 
-            this.Staff_number_unitsTextBox.Font = new System.Drawing.Font("Sitka Banner", 8.170213F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Staff_number_unitsTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Staff_number_unitsTextBox.Location = new System.Drawing.Point(387, 312);
             this.Staff_number_unitsTextBox.Name = "Staff_number_unitsTextBox";
             this.Staff_number_unitsTextBox.Size = new System.Drawing.Size(195, 28);
@@ -735,7 +607,7 @@
             // 
             // DateTextBox
             // 
-            this.DateTextBox.Font = new System.Drawing.Font("Sitka Banner", 8.170213F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.DateTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.DateTextBox.Location = new System.Drawing.Point(108, 276);
             this.DateTextBox.Name = "DateTextBox";
             this.DateTextBox.Size = new System.Drawing.Size(195, 28);
@@ -743,7 +615,7 @@
             // 
             // For_periodTextBox
             // 
-            this.For_periodTextBox.Font = new System.Drawing.Font("Sitka Banner", 8.170213F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.For_periodTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.For_periodTextBox.Location = new System.Drawing.Point(168, 242);
             this.For_periodTextBox.Name = "For_periodTextBox";
             this.For_periodTextBox.Size = new System.Drawing.Size(195, 28);
@@ -751,7 +623,7 @@
             // 
             // Order_numberTextBox
             // 
-            this.Order_numberTextBox.Font = new System.Drawing.Font("Sitka Banner", 8.170213F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Order_numberTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Order_numberTextBox.Location = new System.Drawing.Point(214, 211);
             this.Order_numberTextBox.Name = "Order_numberTextBox";
             this.Order_numberTextBox.Size = new System.Drawing.Size(195, 28);
@@ -759,7 +631,7 @@
             // 
             // Order_organization_fromTextBox
             // 
-            this.Order_organization_fromTextBox.Font = new System.Drawing.Font("Sitka Banner", 8.170213F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Order_organization_fromTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Order_organization_fromTextBox.Location = new System.Drawing.Point(343, 180);
             this.Order_organization_fromTextBox.Name = "Order_organization_fromTextBox";
             this.Order_organization_fromTextBox.Size = new System.Drawing.Size(195, 28);
@@ -767,7 +639,7 @@
             // 
             // Date_compilationTextBox
             // 
-            this.Date_compilationTextBox.Font = new System.Drawing.Font("Sitka Banner", 8.170213F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Date_compilationTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Date_compilationTextBox.Location = new System.Drawing.Point(245, 148);
             this.Date_compilationTextBox.Name = "Date_compilationTextBox";
             this.Date_compilationTextBox.Size = new System.Drawing.Size(195, 28);
@@ -775,7 +647,7 @@
             // 
             // Document_numberTextBox
             // 
-            this.Document_numberTextBox.Font = new System.Drawing.Font("Sitka Banner", 8.170213F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Document_numberTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Document_numberTextBox.Location = new System.Drawing.Point(245, 115);
             this.Document_numberTextBox.Name = "Document_numberTextBox";
             this.Document_numberTextBox.Size = new System.Drawing.Size(195, 28);
@@ -783,7 +655,7 @@
             // 
             // Name_organizationTextBox
             // 
-            this.Name_organizationTextBox.Font = new System.Drawing.Font("Sitka Banner", 8.170213F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Name_organizationTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Name_organizationTextBox.Location = new System.Drawing.Point(368, 81);
             this.Name_organizationTextBox.Name = "Name_organizationTextBox";
             this.Name_organizationTextBox.Size = new System.Drawing.Size(195, 28);
@@ -791,7 +663,7 @@
             // 
             // ID_schedulesTextBox
             // 
-            this.ID_schedulesTextBox.Font = new System.Drawing.Font("Sitka Banner", 8.170213F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ID_schedulesTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ID_schedulesTextBox.Location = new System.Drawing.Point(214, 50);
             this.ID_schedulesTextBox.Name = "ID_schedulesTextBox";
             this.ID_schedulesTextBox.Size = new System.Drawing.Size(89, 28);
@@ -886,6 +758,128 @@
             this.label1.Text = "(можно воспользоваться\r\nклавишей DEL)";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
+            // dataGridViewTextBoxColumn1
+            // 
+            this.dataGridViewTextBoxColumn1.DataPropertyName = "ID_schedules";
+            this.dataGridViewTextBoxColumn1.HeaderText = "ID_расписания";
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            this.dataGridViewTextBoxColumn1.Width = 137;
+            // 
+            // dataGridViewTextBoxColumn2
+            // 
+            this.dataGridViewTextBoxColumn2.DataPropertyName = "Name_organization";
+            this.dataGridViewTextBoxColumn2.HeaderText = "Наименование организации";
+            this.dataGridViewTextBoxColumn2.MinimumWidth = 7;
+            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
+            this.dataGridViewTextBoxColumn2.Width = 147;
+            // 
+            // dataGridViewTextBoxColumn3
+            // 
+            this.dataGridViewTextBoxColumn3.DataPropertyName = "Document_number";
+            this.dataGridViewTextBoxColumn3.HeaderText = "Номер документа";
+            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+            this.dataGridViewTextBoxColumn3.Width = 137;
+            // 
+            // dataGridViewTextBoxColumn4
+            // 
+            this.dataGridViewTextBoxColumn4.DataPropertyName = "Date_compilation";
+            this.dataGridViewTextBoxColumn4.HeaderText = "Дата составления";
+            this.dataGridViewTextBoxColumn4.MinimumWidth = 7;
+            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
+            this.dataGridViewTextBoxColumn4.Width = 147;
+            // 
+            // dataGridViewTextBoxColumn5
+            // 
+            this.dataGridViewTextBoxColumn5.DataPropertyName = "Order_organization_from";
+            this.dataGridViewTextBoxColumn5.HeaderText = "Приказом организации от";
+            this.dataGridViewTextBoxColumn5.MinimumWidth = 7;
+            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
+            this.dataGridViewTextBoxColumn5.Width = 147;
+            // 
+            // dataGridViewTextBoxColumn6
+            // 
+            this.dataGridViewTextBoxColumn6.DataPropertyName = "Order_number";
+            this.dataGridViewTextBoxColumn6.HeaderText = "Номер приказа";
+            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
+            this.dataGridViewTextBoxColumn6.Width = 130;
+            // 
+            // dataGridViewTextBoxColumn7
+            // 
+            this.dataGridViewTextBoxColumn7.DataPropertyName = "For_period";
+            this.dataGridViewTextBoxColumn7.HeaderText = "На период";
+            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
+            this.dataGridViewTextBoxColumn7.Width = 137;
+            // 
+            // dataGridViewTextBoxColumn8
+            // 
+            this.dataGridViewTextBoxColumn8.DataPropertyName = "Date";
+            this.dataGridViewTextBoxColumn8.HeaderText = "Дата";
+            this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
+            this.dataGridViewTextBoxColumn8.Width = 130;
+            // 
+            // dataGridViewTextBoxColumn9
+            // 
+            this.dataGridViewTextBoxColumn9.DataPropertyName = "Staff_number_units";
+            this.dataGridViewTextBoxColumn9.HeaderText = "Штат в количестве (единиц)";
+            this.dataGridViewTextBoxColumn9.MinimumWidth = 7;
+            this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
+            this.dataGridViewTextBoxColumn9.Width = 147;
+            // 
+            // dataGridViewTextBoxColumn10
+            // 
+            this.dataGridViewTextBoxColumn10.DataPropertyName = "Name";
+            this.dataGridViewTextBoxColumn10.HeaderText = "Наименование";
+            this.dataGridViewTextBoxColumn10.MinimumWidth = 7;
+            this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
+            this.dataGridViewTextBoxColumn10.Width = 147;
+            // 
+            // dataGridViewTextBoxColumn11
+            // 
+            this.dataGridViewTextBoxColumn11.DataPropertyName = "Code";
+            this.dataGridViewTextBoxColumn11.HeaderText = "Код";
+            this.dataGridViewTextBoxColumn11.Name = "dataGridViewTextBoxColumn11";
+            this.dataGridViewTextBoxColumn11.Width = 137;
+            // 
+            // dataGridViewTextBoxColumn12
+            // 
+            this.dataGridViewTextBoxColumn12.DataPropertyName = "Position";
+            this.dataGridViewTextBoxColumn12.HeaderText = "Должность";
+            this.dataGridViewTextBoxColumn12.MinimumWidth = 7;
+            this.dataGridViewTextBoxColumn12.Name = "dataGridViewTextBoxColumn12";
+            this.dataGridViewTextBoxColumn12.Width = 147;
+            // 
+            // dataGridViewTextBoxColumn13
+            // 
+            this.dataGridViewTextBoxColumn13.DataPropertyName = "Number_ staff_units";
+            this.dataGridViewTextBoxColumn13.HeaderText = "Количество штатных единиц";
+            this.dataGridViewTextBoxColumn13.MinimumWidth = 7;
+            this.dataGridViewTextBoxColumn13.Name = "dataGridViewTextBoxColumn13";
+            this.dataGridViewTextBoxColumn13.Width = 147;
+            // 
+            // dataGridViewTextBoxColumn14
+            // 
+            this.dataGridViewTextBoxColumn14.DataPropertyName = "Tariff_rate";
+            this.dataGridViewTextBoxColumn14.HeaderText = "Тарифная ставка";
+            this.dataGridViewTextBoxColumn14.MinimumWidth = 7;
+            this.dataGridViewTextBoxColumn14.Name = "dataGridViewTextBoxColumn14";
+            this.dataGridViewTextBoxColumn14.Width = 147;
+            // 
+            // dataGridViewTextBoxColumn15
+            // 
+            this.dataGridViewTextBoxColumn15.DataPropertyName = "Allowances";
+            this.dataGridViewTextBoxColumn15.HeaderText = "Надбавки";
+            this.dataGridViewTextBoxColumn15.MinimumWidth = 7;
+            this.dataGridViewTextBoxColumn15.Name = "dataGridViewTextBoxColumn15";
+            this.dataGridViewTextBoxColumn15.Width = 147;
+            // 
+            // dataGridViewTextBoxColumn16
+            // 
+            this.dataGridViewTextBoxColumn16.DataPropertyName = "Total_rubles";
+            this.dataGridViewTextBoxColumn16.HeaderText = "Всего (руб)";
+            this.dataGridViewTextBoxColumn16.MinimumWidth = 7;
+            this.dataGridViewTextBoxColumn16.Name = "dataGridViewTextBoxColumn16";
+            this.dataGridViewTextBoxColumn16.Width = 147;
+            // 
             // FormStaffList
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -938,22 +932,6 @@
         private System.Windows.Forms.ToolStripButton staff_listBindingNavigatorSaveItem;
         private System.Windows.Forms.DataGridView staff_listDataGridView;
         private System.Windows.Forms.Button buttonExcelStaffList;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn7;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn8;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn9;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn10;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn11;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn12;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn13;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn14;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn15;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn16;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.TextBox Total_rublesTextBox;
         private System.Windows.Forms.TextBox AllowancesTextBox;
@@ -977,5 +955,21 @@
         private System.Drawing.Printing.PrintDocument printDocument1;
         private System.Windows.Forms.Button buttonBack;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn7;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn8;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn9;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn10;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn11;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn12;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn13;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn14;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn15;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn16;
     }
 }

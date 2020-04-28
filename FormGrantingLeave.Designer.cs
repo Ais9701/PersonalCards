@@ -43,7 +43,7 @@
             System.Windows.Forms.Label provided_withLabel;
             System.Windows.Forms.Label provided__forLabel;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormGrantingLeave));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.personal_cardsDataSet = new Personal_cardsApp1.Personal_cardsDataSet();
             this.granting_leaveBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.granting_leaveTableAdapter = new Personal_cardsApp1.Personal_cardsDataSetTableAdapters.Granting_leaveTableAdapter();
@@ -341,8 +341,9 @@
             // 
             // bindingNavigatorCountItem
             // 
+            this.bindingNavigatorCountItem.Font = new System.Drawing.Font("Times New Roman", 9.191489F);
             this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
-            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(65, 28);
+            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(67, 28);
             this.bindingNavigatorCountItem.Text = "для {0}";
             this.bindingNavigatorCountItem.ToolTipText = "Общее число элементов";
             // 
@@ -383,9 +384,9 @@
             // 
             this.bindingNavigatorPositionItem.AccessibleName = "Положение";
             this.bindingNavigatorPositionItem.AutoSize = false;
-            this.bindingNavigatorPositionItem.Font = new System.Drawing.Font("Segoe UI", 9.191489F);
+            this.bindingNavigatorPositionItem.Font = new System.Drawing.Font("Times New Roman", 9.191489F);
             this.bindingNavigatorPositionItem.Name = "bindingNavigatorPositionItem";
-            this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(50, 31);
+            this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(50, 28);
             this.bindingNavigatorPositionItem.Text = "0";
             this.bindingNavigatorPositionItem.ToolTipText = "Текущее положение";
             // 
@@ -430,14 +431,14 @@
             // granting_leaveDataGridView
             // 
             this.granting_leaveDataGridView.AutoGenerateColumns = false;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.granting_leaveDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.granting_leaveDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.granting_leaveDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.granting_leaveDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn1,
@@ -605,106 +606,106 @@
             // 
             // ID_granting_leaveTextBox
             // 
-            this.ID_granting_leaveTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ID_granting_leaveTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F);
             this.ID_granting_leaveTextBox.Location = new System.Drawing.Point(266, 51);
             this.ID_granting_leaveTextBox.Name = "ID_granting_leaveTextBox";
-            this.ID_granting_leaveTextBox.Size = new System.Drawing.Size(67, 30);
+            this.ID_granting_leaveTextBox.Size = new System.Drawing.Size(67, 28);
             this.ID_granting_leaveTextBox.TabIndex = 37;
             // 
             // ProvidedforTextBox
             // 
-            this.ProvidedforTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ProvidedforTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F);
             this.ProvidedforTextBox.Location = new System.Drawing.Point(278, 586);
             this.ProvidedforTextBox.Name = "ProvidedforTextBox";
-            this.ProvidedforTextBox.Size = new System.Drawing.Size(193, 30);
+            this.ProvidedforTextBox.Size = new System.Drawing.Size(193, 28);
             this.ProvidedforTextBox.TabIndex = 36;
             // 
             // Provided_withTextBox
             // 
-            this.Provided_withTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Provided_withTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F);
             this.Provided_withTextBox.Location = new System.Drawing.Point(278, 539);
             this.Provided_withTextBox.Name = "Provided_withTextBox";
-            this.Provided_withTextBox.Size = new System.Drawing.Size(193, 30);
+            this.Provided_withTextBox.Size = new System.Drawing.Size(193, 28);
             this.Provided_withTextBox.TabIndex = 35;
             // 
             // Number_vacation_daysTextBox
             // 
-            this.Number_vacation_daysTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Number_vacation_daysTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F);
             this.Number_vacation_daysTextBox.Location = new System.Drawing.Point(398, 494);
             this.Number_vacation_daysTextBox.Name = "Number_vacation_daysTextBox";
-            this.Number_vacation_daysTextBox.Size = new System.Drawing.Size(193, 30);
+            this.Number_vacation_daysTextBox.Size = new System.Drawing.Size(193, 28);
             this.Number_vacation_daysTextBox.TabIndex = 34;
             // 
             // Period_forTextBox
             // 
-            this.Period_forTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Period_forTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F);
             this.Period_forTextBox.Location = new System.Drawing.Point(302, 450);
             this.Period_forTextBox.Name = "Period_forTextBox";
-            this.Period_forTextBox.Size = new System.Drawing.Size(193, 30);
+            this.Period_forTextBox.Size = new System.Drawing.Size(193, 28);
             this.Period_forTextBox.TabIndex = 33;
             // 
             // Period_working_withTextBox
             // 
-            this.Period_working_withTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Period_working_withTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F);
             this.Period_working_withTextBox.Location = new System.Drawing.Point(302, 405);
             this.Period_working_withTextBox.Name = "Period_working_withTextBox";
-            this.Period_working_withTextBox.Size = new System.Drawing.Size(193, 30);
+            this.Period_working_withTextBox.Size = new System.Drawing.Size(193, 28);
             this.Period_working_withTextBox.TabIndex = 32;
             // 
             // PositionTextBox
             // 
-            this.PositionTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.PositionTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F);
             this.PositionTextBox.Location = new System.Drawing.Point(189, 360);
             this.PositionTextBox.Name = "PositionTextBox";
-            this.PositionTextBox.Size = new System.Drawing.Size(193, 30);
+            this.PositionTextBox.Size = new System.Drawing.Size(193, 28);
             this.PositionTextBox.TabIndex = 31;
             // 
             // Structural_divisionTextBox
             // 
-            this.Structural_divisionTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Structural_divisionTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F);
             this.Structural_divisionTextBox.Location = new System.Drawing.Point(374, 318);
             this.Structural_divisionTextBox.Name = "Structural_divisionTextBox";
-            this.Structural_divisionTextBox.Size = new System.Drawing.Size(193, 30);
+            this.Structural_divisionTextBox.Size = new System.Drawing.Size(193, 28);
             this.Structural_divisionTextBox.TabIndex = 30;
             // 
             // FIOTextBox
             // 
-            this.FIOTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.FIOTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F);
             this.FIOTextBox.Location = new System.Drawing.Point(105, 272);
             this.FIOTextBox.Name = "FIOTextBox";
-            this.FIOTextBox.Size = new System.Drawing.Size(193, 30);
+            this.FIOTextBox.Size = new System.Drawing.Size(193, 28);
             this.FIOTextBox.TabIndex = 29;
             // 
             // Service_numberTextBox
             // 
-            this.Service_numberTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Service_numberTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F);
             this.Service_numberTextBox.Location = new System.Drawing.Point(242, 228);
             this.Service_numberTextBox.Name = "Service_numberTextBox";
-            this.Service_numberTextBox.Size = new System.Drawing.Size(193, 30);
+            this.Service_numberTextBox.Size = new System.Drawing.Size(193, 28);
             this.Service_numberTextBox.TabIndex = 28;
             // 
             // Date_compilationTextBox
             // 
-            this.Date_compilationTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Date_compilationTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F);
             this.Date_compilationTextBox.Location = new System.Drawing.Point(242, 184);
             this.Date_compilationTextBox.Name = "Date_compilationTextBox";
-            this.Date_compilationTextBox.Size = new System.Drawing.Size(193, 30);
+            this.Date_compilationTextBox.Size = new System.Drawing.Size(193, 28);
             this.Date_compilationTextBox.TabIndex = 27;
             // 
             // Document_numberTextBox
             // 
-            this.Document_numberTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Document_numberTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F);
             this.Document_numberTextBox.Location = new System.Drawing.Point(242, 139);
             this.Document_numberTextBox.Name = "Document_numberTextBox";
-            this.Document_numberTextBox.Size = new System.Drawing.Size(193, 30);
+            this.Document_numberTextBox.Size = new System.Drawing.Size(193, 28);
             this.Document_numberTextBox.TabIndex = 26;
             // 
             // Name_organizationTextBox
             // 
-            this.Name_organizationTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Name_organizationTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F);
             this.Name_organizationTextBox.Location = new System.Drawing.Point(374, 97);
             this.Name_organizationTextBox.Name = "Name_organizationTextBox";
-            this.Name_organizationTextBox.Size = new System.Drawing.Size(193, 30);
+            this.Name_organizationTextBox.Size = new System.Drawing.Size(193, 28);
             this.Name_organizationTextBox.TabIndex = 25;
             // 
             // buttonExcelGrantingLeave
@@ -723,7 +724,7 @@
             // 
             this.buttonPrint.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.buttonPrint.Font = new System.Drawing.Font("Times New Roman", 12.25532F);
-            this.buttonPrint.Location = new System.Drawing.Point(1080, 798);
+            this.buttonPrint.Location = new System.Drawing.Point(1080, 819);
             this.buttonPrint.Name = "buttonPrint";
             this.buttonPrint.Size = new System.Drawing.Size(218, 55);
             this.buttonPrint.TabIndex = 140;
@@ -770,15 +771,14 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Sitka Banner", 8.170213F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(1106, 745);
+            this.label1.Location = new System.Drawing.Point(1093, 743);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(167, 46);
+            this.label1.Size = new System.Drawing.Size(191, 52);
             this.label1.TabIndex = 142;
             this.label1.Text = "(можно воспользоваться\r\nклавишей DEL)";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.label1.Visible = false;
             // 
             // printDocument1
             // 
@@ -788,7 +788,7 @@
             // 
             this.textBoxavtozapolnenie.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.textBoxavtozapolnenie.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
-            this.textBoxavtozapolnenie.Location = new System.Drawing.Point(1080, 405);
+            this.textBoxavtozapolnenie.Location = new System.Drawing.Point(1080, 413);
             this.textBoxavtozapolnenie.Name = "textBoxavtozapolnenie";
             this.textBoxavtozapolnenie.Size = new System.Drawing.Size(218, 26);
             this.textBoxavtozapolnenie.TabIndex = 143;
@@ -797,11 +797,11 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Sitka Banner", 8.170213F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(1106, 356);
+            this.label2.Location = new System.Drawing.Point(1093, 348);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(158, 46);
+            this.label2.Size = new System.Drawing.Size(178, 52);
             this.label2.TabIndex = 144;
             this.label2.Text = "Для поиска ФИО\r\nвведите нужную букву";
             this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -810,7 +810,7 @@
             // 
             this.buttonotobrazitvse.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.buttonotobrazitvse.Font = new System.Drawing.Font("Times New Roman", 12.25532F);
-            this.buttonotobrazitvse.Location = new System.Drawing.Point(1080, 437);
+            this.buttonotobrazitvse.Location = new System.Drawing.Point(1080, 445);
             this.buttonotobrazitvse.Name = "buttonotobrazitvse";
             this.buttonotobrazitvse.Size = new System.Drawing.Size(218, 55);
             this.buttonotobrazitvse.TabIndex = 145;

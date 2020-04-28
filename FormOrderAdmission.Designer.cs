@@ -83,6 +83,9 @@
             this.CompilationTextBox = new System.Windows.Forms.TextBox();
             this.TakeWithTextBox = new System.Windows.Forms.TextBox();
             this.ContractTextBox = new System.Windows.Forms.TextBox();
+            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
             iD_orderLabel = new System.Windows.Forms.Label();
             name_organizationLabel = new System.Windows.Forms.Label();
             document_numberLabel = new System.Windows.Forms.Label();
@@ -198,6 +201,9 @@
             this.bindingNavigatorMoveNextItem,
             this.bindingNavigatorMoveLastItem,
             this.bindingNavigatorSeparator2,
+            this.toolStripButton3,
+            this.toolStripButton2,
+            this.toolStripButton1,
             this.bindingNavigatorAddNewItem,
             this.bindingNavigatorDeleteItem,
             this.order_admissionBindingNavigatorSaveItem});
@@ -208,9 +214,10 @@
             this.order_admissionBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.order_admissionBindingNavigator.Name = "order_admissionBindingNavigator";
             this.order_admissionBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.order_admissionBindingNavigator.Size = new System.Drawing.Size(1357, 37);
+            this.order_admissionBindingNavigator.Size = new System.Drawing.Size(1357, 32);
             this.order_admissionBindingNavigator.TabIndex = 1;
             this.order_admissionBindingNavigator.Text = "bindingNavigator1";
+            this.order_admissionBindingNavigator.Visible = false;
             // 
             // bindingNavigatorSeparator
             // 
@@ -221,16 +228,18 @@
             // 
             this.bindingNavigatorPositionItem.AccessibleName = "Положение";
             this.bindingNavigatorPositionItem.AutoSize = false;
-            this.bindingNavigatorPositionItem.Font = new System.Drawing.Font("Segoe UI", 9.191489F);
+            this.bindingNavigatorPositionItem.Font = new System.Drawing.Font("Times New Roman", 9.191489F);
             this.bindingNavigatorPositionItem.Name = "bindingNavigatorPositionItem";
-            this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(50, 31);
+            this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(50, 28);
             this.bindingNavigatorPositionItem.Text = "0";
             this.bindingNavigatorPositionItem.ToolTipText = "Текущее положение";
             // 
             // bindingNavigatorCountItem
             // 
+            this.bindingNavigatorCountItem.Font = new System.Drawing.Font("Times New Roman", 9.191489F);
+            this.bindingNavigatorCountItem.ForeColor = System.Drawing.Color.Black;
             this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
-            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(65, 28);
+            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(67, 28);
             this.bindingNavigatorCountItem.Text = "для {0}";
             this.bindingNavigatorCountItem.ToolTipText = "Общее число элементов";
             // 
@@ -411,98 +420,98 @@
             // 
             // ID_orderTextBox
             // 
-            this.ID_orderTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ID_orderTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ID_orderTextBox.Location = new System.Drawing.Point(170, 59);
             this.ID_orderTextBox.Name = "ID_orderTextBox";
-            this.ID_orderTextBox.Size = new System.Drawing.Size(66, 30);
+            this.ID_orderTextBox.Size = new System.Drawing.Size(66, 28);
             this.ID_orderTextBox.TabIndex = 29;
             // 
             // NameOrganizationTextBox
             // 
-            this.NameOrganizationTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.NameOrganizationTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.NameOrganizationTextBox.Location = new System.Drawing.Point(393, 106);
             this.NameOrganizationTextBox.Name = "NameOrganizationTextBox";
-            this.NameOrganizationTextBox.Size = new System.Drawing.Size(185, 30);
+            this.NameOrganizationTextBox.Size = new System.Drawing.Size(185, 28);
             this.NameOrganizationTextBox.TabIndex = 30;
             // 
             // DocumentNumberTextBox
             // 
-            this.DocumentNumberTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.DocumentNumberTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.DocumentNumberTextBox.Location = new System.Drawing.Point(267, 151);
             this.DocumentNumberTextBox.Name = "DocumentNumberTextBox";
-            this.DocumentNumberTextBox.Size = new System.Drawing.Size(185, 30);
+            this.DocumentNumberTextBox.Size = new System.Drawing.Size(185, 28);
             this.DocumentNumberTextBox.TabIndex = 31;
             // 
             // ServiceNumberTextBox
             // 
-            this.ServiceNumberTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ServiceNumberTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ServiceNumberTextBox.Location = new System.Drawing.Point(267, 288);
             this.ServiceNumberTextBox.Name = "ServiceNumberTextBox";
-            this.ServiceNumberTextBox.Size = new System.Drawing.Size(185, 30);
+            this.ServiceNumberTextBox.Size = new System.Drawing.Size(185, 28);
             this.ServiceNumberTextBox.TabIndex = 34;
             // 
             // FIOTextBox
             // 
-            this.FIOTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.FIOTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.FIOTextBox.Location = new System.Drawing.Point(94, 331);
             this.FIOTextBox.Name = "FIOTextBox";
-            this.FIOTextBox.Size = new System.Drawing.Size(358, 30);
+            this.FIOTextBox.Size = new System.Drawing.Size(358, 28);
             this.FIOTextBox.TabIndex = 35;
             // 
             // DivisionTextBox
             // 
-            this.DivisionTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.DivisionTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.DivisionTextBox.Location = new System.Drawing.Point(372, 378);
             this.DivisionTextBox.Name = "DivisionTextBox";
-            this.DivisionTextBox.Size = new System.Drawing.Size(185, 30);
+            this.DivisionTextBox.Size = new System.Drawing.Size(185, 28);
             this.DivisionTextBox.TabIndex = 36;
             // 
             // PositionTextBox
             // 
-            this.PositionTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.PositionTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.PositionTextBox.Location = new System.Drawing.Point(177, 423);
             this.PositionTextBox.Name = "PositionTextBox";
-            this.PositionTextBox.Size = new System.Drawing.Size(185, 30);
+            this.PositionTextBox.Size = new System.Drawing.Size(185, 28);
             this.PositionTextBox.TabIndex = 37;
             // 
             // WorkTextBox
             // 
-            this.WorkTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.WorkTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.WorkTextBox.Location = new System.Drawing.Point(248, 468);
             this.WorkTextBox.Name = "WorkTextBox";
-            this.WorkTextBox.Size = new System.Drawing.Size(185, 30);
+            this.WorkTextBox.Size = new System.Drawing.Size(185, 28);
             this.WorkTextBox.TabIndex = 38;
             // 
             // TariffTextBox
             // 
-            this.TariffTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.TariffTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.TariffTextBox.Location = new System.Drawing.Point(285, 513);
             this.TariffTextBox.Name = "TariffTextBox";
-            this.TariffTextBox.Size = new System.Drawing.Size(185, 30);
+            this.TariffTextBox.Size = new System.Drawing.Size(185, 28);
             this.TariffTextBox.TabIndex = 39;
             // 
             // PremiumTextBox
             // 
-            this.PremiumTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.PremiumTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.PremiumTextBox.Location = new System.Drawing.Point(198, 558);
             this.PremiumTextBox.Name = "PremiumTextBox";
-            this.PremiumTextBox.Size = new System.Drawing.Size(185, 30);
+            this.PremiumTextBox.Size = new System.Drawing.Size(185, 28);
             this.PremiumTextBox.TabIndex = 40;
             // 
             // PeriodTextBox
             // 
-            this.PeriodTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.PeriodTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.PeriodTextBox.Location = new System.Drawing.Point(304, 603);
             this.PeriodTextBox.Name = "PeriodTextBox";
-            this.PeriodTextBox.Size = new System.Drawing.Size(185, 30);
+            this.PeriodTextBox.Size = new System.Drawing.Size(185, 28);
             this.PeriodTextBox.TabIndex = 41;
             // 
             // ContractNumTextBox
             // 
-            this.ContractNumTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ContractNumTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ContractNumTextBox.Location = new System.Drawing.Point(304, 694);
             this.ContractNumTextBox.Name = "ContractNumTextBox";
-            this.ContractNumTextBox.Size = new System.Drawing.Size(185, 30);
+            this.ContractNumTextBox.Size = new System.Drawing.Size(185, 28);
             this.ContractNumTextBox.TabIndex = 42;
             // 
             // buttonExportWord
@@ -524,8 +533,9 @@
             this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
             this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
             this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(34, 33);
+            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(34, 28);
             this.bindingNavigatorAddNewItem.Text = "Добавить";
+            this.bindingNavigatorAddNewItem.Visible = false;
             // 
             // bindingNavigatorDeleteItem
             // 
@@ -535,6 +545,7 @@
             this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
             this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(34, 28);
             this.bindingNavigatorDeleteItem.Text = "Удалить";
+            this.bindingNavigatorDeleteItem.Visible = false;
             // 
             // bindingNavigatorMoveFirstItem
             // 
@@ -579,6 +590,7 @@
             this.order_admissionBindingNavigatorSaveItem.Name = "order_admissionBindingNavigatorSaveItem";
             this.order_admissionBindingNavigatorSaveItem.Size = new System.Drawing.Size(34, 28);
             this.order_admissionBindingNavigatorSaveItem.Text = "Сохранить данные";
+            this.order_admissionBindingNavigatorSaveItem.Visible = false;
             this.order_admissionBindingNavigatorSaveItem.Click += new System.EventHandler(this.order_admissionBindingNavigatorSaveItem_Click);
             // 
             // buttonAdd
@@ -625,27 +637,57 @@
             // 
             // CompilationTextBox
             // 
-            this.CompilationTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.CompilationTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.CompilationTextBox.Location = new System.Drawing.Point(267, 195);
             this.CompilationTextBox.Name = "CompilationTextBox";
-            this.CompilationTextBox.Size = new System.Drawing.Size(185, 30);
+            this.CompilationTextBox.Size = new System.Drawing.Size(185, 28);
             this.CompilationTextBox.TabIndex = 44;
             // 
             // TakeWithTextBox
             // 
-            this.TakeWithTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.TakeWithTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.TakeWithTextBox.Location = new System.Drawing.Point(342, 241);
             this.TakeWithTextBox.Name = "TakeWithTextBox";
-            this.TakeWithTextBox.Size = new System.Drawing.Size(203, 30);
+            this.TakeWithTextBox.Size = new System.Drawing.Size(203, 28);
             this.TakeWithTextBox.TabIndex = 45;
             // 
             // ContractTextBox
             // 
-            this.ContractTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ContractTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ContractTextBox.Location = new System.Drawing.Point(304, 649);
             this.ContractTextBox.Name = "ContractTextBox";
-            this.ContractTextBox.Size = new System.Drawing.Size(185, 30);
+            this.ContractTextBox.Size = new System.Drawing.Size(185, 28);
             this.ContractTextBox.TabIndex = 46;
+            // 
+            // toolStripButton1
+            // 
+            this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
+            this.toolStripButton1.Name = "toolStripButton1";
+            this.toolStripButton1.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton1.Text = "Сохранить данные";
+            this.toolStripButton1.Visible = false;
+            this.toolStripButton1.Click += new System.EventHandler(this.order_admissionBindingNavigatorSaveItem_Click);
+            // 
+            // toolStripButton2
+            // 
+            this.toolStripButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton2.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton2.Image")));
+            this.toolStripButton2.Name = "toolStripButton2";
+            this.toolStripButton2.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton2.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton2.Text = "Удалить";
+            this.toolStripButton2.Visible = false;
+            // 
+            // toolStripButton3
+            // 
+            this.toolStripButton3.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton3.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton3.Image")));
+            this.toolStripButton3.Name = "toolStripButton3";
+            this.toolStripButton3.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton3.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton3.Text = "Добавить";
+            this.toolStripButton3.Visible = false;
             // 
             // FormOrderAdmission
             // 
@@ -718,5 +760,8 @@
         private Personal_cardsDataSetTableAdapters.Advanced_trainingTableAdapter advanced_trainingTableAdapter1;
         private System.Windows.Forms.TextBox TakeWithTextBox;
         private System.Windows.Forms.TextBox ContractTextBox;
+        private System.Windows.Forms.ToolStripButton toolStripButton3;
+        private System.Windows.Forms.ToolStripButton toolStripButton2;
+        private System.Windows.Forms.ToolStripButton toolStripButton1;
     }
 }

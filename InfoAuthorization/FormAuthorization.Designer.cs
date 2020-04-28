@@ -96,13 +96,16 @@
             this.tableAdapterManager.CertificationTableAdapter = null;
             this.tableAdapterManager.EducationTableAdapter = null;
             this.tableAdapterManager.Employee_informationTableAdapter = null;
+            this.tableAdapterManager.Granting_leaveTableAdapter = null;
             this.tableAdapterManager.Level_of_educationTableAdapter = null;
             this.tableAdapterManager.Military_registrationTableAdapter = null;
             this.tableAdapterManager.More_informationTableAdapter = null;
+            this.tableAdapterManager.Order_admissionTableAdapter = null;
             this.tableAdapterManager.Reception_and_transferTableAdapter = null;
             this.tableAdapterManager.RetrainingTableAdapter = null;
             this.tableAdapterManager.RewardsTableAdapter = null;
             this.tableAdapterManager.Social_benefitsTableAdapter = null;
+            this.tableAdapterManager.Staff_listTableAdapter = null;
             this.tableAdapterManager.UpdateOrder = Personal_cardsApp1.Personal_cardsDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             this.tableAdapterManager.UserTableAdapter = this.userTableAdapter;
             this.tableAdapterManager.VacationTableAdapter = null;
@@ -127,20 +130,20 @@
             // 
             // txtboxlog
             // 
-            this.txtboxlog.Font = new System.Drawing.Font("Microsoft Sans Serif", 17.87234F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.txtboxlog.Font = new System.Drawing.Font("Times New Roman", 15.82979F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.txtboxlog.Location = new System.Drawing.Point(316, 240);
             this.txtboxlog.Name = "txtboxlog";
-            this.txtboxlog.Size = new System.Drawing.Size(297, 47);
+            this.txtboxlog.Size = new System.Drawing.Size(297, 43);
             this.txtboxlog.TabIndex = 9;
             this.txtboxlog.Text = "admin";
             // 
             // txtboxpas
             // 
-            this.txtboxpas.Font = new System.Drawing.Font("Microsoft Sans Serif", 17.87234F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.txtboxpas.Font = new System.Drawing.Font("Times New Roman", 15.82979F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.txtboxpas.Location = new System.Drawing.Point(316, 329);
             this.txtboxpas.Name = "txtboxpas";
             this.txtboxpas.PasswordChar = '*';
-            this.txtboxpas.Size = new System.Drawing.Size(297, 47);
+            this.txtboxpas.Size = new System.Drawing.Size(297, 43);
             this.txtboxpas.TabIndex = 10;
             this.txtboxpas.Text = "123";
             // 

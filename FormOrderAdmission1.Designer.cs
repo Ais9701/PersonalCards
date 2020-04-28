@@ -84,6 +84,7 @@
             this.textBoxpoisk = new System.Windows.Forms.TextBox();
             this.buttonpoisk = new System.Windows.Forms.Button();
             this.buttonfilter = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             iD_orderLabel = new System.Windows.Forms.Label();
             name_organizationLabel = new System.Windows.Forms.Label();
             document_numberLabel = new System.Windows.Forms.Label();
@@ -315,10 +316,10 @@
             // iD_orderTextBox
             // 
             this.iD_orderTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.order_admissionBindingSource, "ID_order", true));
-            this.iD_orderTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.iD_orderTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.iD_orderTextBox.Location = new System.Drawing.Point(182, 43);
             this.iD_orderTextBox.Name = "iD_orderTextBox";
-            this.iD_orderTextBox.Size = new System.Drawing.Size(53, 30);
+            this.iD_orderTextBox.Size = new System.Drawing.Size(53, 28);
             this.iD_orderTextBox.TabIndex = 1;
             // 
             // order_admissionBindingSource
@@ -334,127 +335,127 @@
             // name_organizationTextBox
             // 
             this.name_organizationTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.order_admissionBindingSource, "Name_organization", true));
-            this.name_organizationTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.name_organizationTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.name_organizationTextBox.Location = new System.Drawing.Point(390, 86);
             this.name_organizationTextBox.Name = "name_organizationTextBox";
-            this.name_organizationTextBox.Size = new System.Drawing.Size(200, 30);
+            this.name_organizationTextBox.Size = new System.Drawing.Size(200, 28);
             this.name_organizationTextBox.TabIndex = 3;
             // 
             // document_numberTextBox
             // 
             this.document_numberTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.order_admissionBindingSource, "Document_number", true));
-            this.document_numberTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.document_numberTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.document_numberTextBox.Location = new System.Drawing.Point(251, 131);
             this.document_numberTextBox.Name = "document_numberTextBox";
-            this.document_numberTextBox.Size = new System.Drawing.Size(200, 30);
+            this.document_numberTextBox.Size = new System.Drawing.Size(200, 28);
             this.document_numberTextBox.TabIndex = 5;
             // 
             // date_compilationDateTimePicker
             // 
             this.date_compilationDateTimePicker.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.order_admissionBindingSource, "Date_compilation", true));
-            this.date_compilationDateTimePicker.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.date_compilationDateTimePicker.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.date_compilationDateTimePicker.Location = new System.Drawing.Point(251, 179);
             this.date_compilationDateTimePicker.Name = "date_compilationDateTimePicker";
-            this.date_compilationDateTimePicker.Size = new System.Drawing.Size(200, 30);
+            this.date_compilationDateTimePicker.Size = new System.Drawing.Size(200, 28);
             this.date_compilationDateTimePicker.TabIndex = 7;
             // 
             // to_take_withDateTimePicker
             // 
             this.to_take_withDateTimePicker.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.order_admissionBindingSource, "To_take_with", true));
-            this.to_take_withDateTimePicker.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.to_take_withDateTimePicker.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.to_take_withDateTimePicker.Location = new System.Drawing.Point(297, 225);
             this.to_take_withDateTimePicker.Name = "to_take_withDateTimePicker";
-            this.to_take_withDateTimePicker.Size = new System.Drawing.Size(200, 30);
+            this.to_take_withDateTimePicker.Size = new System.Drawing.Size(200, 28);
             this.to_take_withDateTimePicker.TabIndex = 9;
             // 
             // service_numberTextBox
             // 
             this.service_numberTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.order_admissionBindingSource, "Service_number", true));
-            this.service_numberTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.service_numberTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.service_numberTextBox.Location = new System.Drawing.Point(297, 270);
             this.service_numberTextBox.Name = "service_numberTextBox";
-            this.service_numberTextBox.Size = new System.Drawing.Size(200, 30);
+            this.service_numberTextBox.Size = new System.Drawing.Size(200, 28);
             this.service_numberTextBox.TabIndex = 11;
             // 
             // fIOTextBox
             // 
             this.fIOTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.order_admissionBindingSource, "FIO", true));
-            this.fIOTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.fIOTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.fIOTextBox.Location = new System.Drawing.Point(105, 313);
             this.fIOTextBox.Name = "fIOTextBox";
-            this.fIOTextBox.Size = new System.Drawing.Size(392, 30);
+            this.fIOTextBox.Size = new System.Drawing.Size(392, 28);
             this.fIOTextBox.TabIndex = 13;
             // 
             // structural_divisionTextBox
             // 
             this.structural_divisionTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.order_admissionBindingSource, "Structural_division", true));
-            this.structural_divisionTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.structural_divisionTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.structural_divisionTextBox.Location = new System.Drawing.Point(390, 360);
             this.structural_divisionTextBox.Name = "structural_divisionTextBox";
-            this.structural_divisionTextBox.Size = new System.Drawing.Size(200, 30);
+            this.structural_divisionTextBox.Size = new System.Drawing.Size(200, 28);
             this.structural_divisionTextBox.TabIndex = 15;
             // 
             // positionTextBox
             // 
             this.positionTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.order_admissionBindingSource, "Position", true));
-            this.positionTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.positionTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.positionTextBox.Location = new System.Drawing.Point(182, 405);
             this.positionTextBox.Name = "positionTextBox";
-            this.positionTextBox.Size = new System.Drawing.Size(200, 30);
+            this.positionTextBox.Size = new System.Drawing.Size(200, 28);
             this.positionTextBox.TabIndex = 17;
             // 
             // nature_workTextBox
             // 
             this.nature_workTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.order_admissionBindingSource, "Nature_work", true));
-            this.nature_workTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.nature_workTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.nature_workTextBox.Location = new System.Drawing.Point(251, 450);
             this.nature_workTextBox.Name = "nature_workTextBox";
-            this.nature_workTextBox.Size = new System.Drawing.Size(200, 30);
+            this.nature_workTextBox.Size = new System.Drawing.Size(200, 28);
             this.nature_workTextBox.TabIndex = 19;
             // 
             // with_tariff_rateTextBox
             // 
             this.with_tariff_rateTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.order_admissionBindingSource, "With_tariff_rate", true));
-            this.with_tariff_rateTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.with_tariff_rateTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.with_tariff_rateTextBox.Location = new System.Drawing.Point(297, 495);
             this.with_tariff_rateTextBox.Name = "with_tariff_rateTextBox";
-            this.with_tariff_rateTextBox.Size = new System.Drawing.Size(200, 30);
+            this.with_tariff_rateTextBox.Size = new System.Drawing.Size(200, 28);
             this.with_tariff_rateTextBox.TabIndex = 21;
             // 
             // at_premiumTextBox
             // 
             this.at_premiumTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.order_admissionBindingSource, "At_premium", true));
-            this.at_premiumTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.at_premiumTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.at_premiumTextBox.Location = new System.Drawing.Point(182, 540);
             this.at_premiumTextBox.Name = "at_premiumTextBox";
-            this.at_premiumTextBox.Size = new System.Drawing.Size(200, 30);
+            this.at_premiumTextBox.Size = new System.Drawing.Size(200, 28);
             this.at_premiumTextBox.TabIndex = 23;
             // 
             // with_trial_periodTextBox
             // 
             this.with_trial_periodTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.order_admissionBindingSource, "With_trial_period", true));
-            this.with_trial_periodTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.with_trial_periodTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.with_trial_periodTextBox.Location = new System.Drawing.Point(297, 585);
             this.with_trial_periodTextBox.Name = "with_trial_periodTextBox";
-            this.with_trial_periodTextBox.Size = new System.Drawing.Size(200, 30);
+            this.with_trial_periodTextBox.Size = new System.Drawing.Size(200, 28);
             this.with_trial_periodTextBox.TabIndex = 25;
             // 
             // employment_contract_fromDateTimePicker
             // 
             this.employment_contract_fromDateTimePicker.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.order_admissionBindingSource, "Employment_contract_from", true));
-            this.employment_contract_fromDateTimePicker.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.employment_contract_fromDateTimePicker.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.employment_contract_fromDateTimePicker.Location = new System.Drawing.Point(297, 631);
             this.employment_contract_fromDateTimePicker.Name = "employment_contract_fromDateTimePicker";
-            this.employment_contract_fromDateTimePicker.Size = new System.Drawing.Size(200, 30);
+            this.employment_contract_fromDateTimePicker.Size = new System.Drawing.Size(200, 28);
             this.employment_contract_fromDateTimePicker.TabIndex = 27;
             // 
             // contract_numberTextBox
             // 
             this.contract_numberTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.order_admissionBindingSource, "Contract_number", true));
-            this.contract_numberTextBox.Font = new System.Drawing.Font("Sitka Banner", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.contract_numberTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.contract_numberTextBox.Location = new System.Drawing.Point(297, 676);
             this.contract_numberTextBox.Name = "contract_numberTextBox";
-            this.contract_numberTextBox.Size = new System.Drawing.Size(200, 30);
+            this.contract_numberTextBox.Size = new System.Drawing.Size(200, 28);
             this.contract_numberTextBox.TabIndex = 29;
             // 
             // order_admissionTableAdapter
@@ -510,7 +511,7 @@
             this.order_admissionBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.order_admissionBindingNavigator.Name = "order_admissionBindingNavigator";
             this.order_admissionBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.order_admissionBindingNavigator.Size = new System.Drawing.Size(287, 32);
+            this.order_admissionBindingNavigator.Size = new System.Drawing.Size(289, 32);
             this.order_admissionBindingNavigator.TabIndex = 1;
             this.order_admissionBindingNavigator.Text = "bindingNavigator1";
             // 
@@ -526,9 +527,10 @@
             // 
             // bindingNavigatorCountItem
             // 
+            this.bindingNavigatorCountItem.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.bindingNavigatorCountItem.ForeColor = System.Drawing.Color.Black;
             this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
-            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(65, 28);
+            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(67, 33);
             this.bindingNavigatorCountItem.Text = "для {0}";
             this.bindingNavigatorCountItem.ToolTipText = "Общее число элементов";
             // 
@@ -538,7 +540,7 @@
             this.bindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorDeleteItem.Image")));
             this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
             this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(34, 28);
+            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(34, 33);
             this.bindingNavigatorDeleteItem.Text = "Удалить";
             this.bindingNavigatorDeleteItem.Visible = false;
             // 
@@ -548,7 +550,7 @@
             this.bindingNavigatorMoveFirstItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveFirstItem.Image")));
             this.bindingNavigatorMoveFirstItem.Name = "bindingNavigatorMoveFirstItem";
             this.bindingNavigatorMoveFirstItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveFirstItem.Size = new System.Drawing.Size(34, 28);
+            this.bindingNavigatorMoveFirstItem.Size = new System.Drawing.Size(34, 33);
             this.bindingNavigatorMoveFirstItem.Text = "Переместить в начало";
             // 
             // bindingNavigatorMovePreviousItem
@@ -557,28 +559,28 @@
             this.bindingNavigatorMovePreviousItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMovePreviousItem.Image")));
             this.bindingNavigatorMovePreviousItem.Name = "bindingNavigatorMovePreviousItem";
             this.bindingNavigatorMovePreviousItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMovePreviousItem.Size = new System.Drawing.Size(34, 28);
+            this.bindingNavigatorMovePreviousItem.Size = new System.Drawing.Size(34, 33);
             this.bindingNavigatorMovePreviousItem.Text = "Переместить назад";
             // 
             // bindingNavigatorSeparator
             // 
             this.bindingNavigatorSeparator.Name = "bindingNavigatorSeparator";
-            this.bindingNavigatorSeparator.Size = new System.Drawing.Size(6, 32);
+            this.bindingNavigatorSeparator.Size = new System.Drawing.Size(6, 37);
             // 
             // bindingNavigatorPositionItem
             // 
             this.bindingNavigatorPositionItem.AccessibleName = "Положение";
             this.bindingNavigatorPositionItem.AutoSize = false;
-            this.bindingNavigatorPositionItem.Font = new System.Drawing.Font("Segoe UI", 9.191489F);
+            this.bindingNavigatorPositionItem.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.bindingNavigatorPositionItem.Name = "bindingNavigatorPositionItem";
-            this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(50, 31);
+            this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(50, 28);
             this.bindingNavigatorPositionItem.Text = "0";
             this.bindingNavigatorPositionItem.ToolTipText = "Текущее положение";
             // 
             // bindingNavigatorSeparator1
             // 
             this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator1";
-            this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 32);
+            this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 37);
             // 
             // bindingNavigatorMoveNextItem
             // 
@@ -586,7 +588,7 @@
             this.bindingNavigatorMoveNextItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveNextItem.Image")));
             this.bindingNavigatorMoveNextItem.Name = "bindingNavigatorMoveNextItem";
             this.bindingNavigatorMoveNextItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveNextItem.Size = new System.Drawing.Size(34, 28);
+            this.bindingNavigatorMoveNextItem.Size = new System.Drawing.Size(34, 33);
             this.bindingNavigatorMoveNextItem.Text = "Переместить вперед";
             // 
             // bindingNavigatorMoveLastItem
@@ -595,20 +597,20 @@
             this.bindingNavigatorMoveLastItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveLastItem.Image")));
             this.bindingNavigatorMoveLastItem.Name = "bindingNavigatorMoveLastItem";
             this.bindingNavigatorMoveLastItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveLastItem.Size = new System.Drawing.Size(34, 28);
+            this.bindingNavigatorMoveLastItem.Size = new System.Drawing.Size(34, 33);
             this.bindingNavigatorMoveLastItem.Text = "Переместить в конец";
             // 
             // bindingNavigatorSeparator2
             // 
             this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator2";
-            this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 32);
+            this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 37);
             // 
             // order_admissionBindingNavigatorSaveItem
             // 
             this.order_admissionBindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.order_admissionBindingNavigatorSaveItem.Image = ((System.Drawing.Image)(resources.GetObject("order_admissionBindingNavigatorSaveItem.Image")));
             this.order_admissionBindingNavigatorSaveItem.Name = "order_admissionBindingNavigatorSaveItem";
-            this.order_admissionBindingNavigatorSaveItem.Size = new System.Drawing.Size(34, 28);
+            this.order_admissionBindingNavigatorSaveItem.Size = new System.Drawing.Size(34, 33);
             this.order_admissionBindingNavigatorSaveItem.Text = "Сохранить данные";
             this.order_admissionBindingNavigatorSaveItem.Visible = false;
             this.order_admissionBindingNavigatorSaveItem.Click += new System.EventHandler(this.order_admissionBindingNavigatorSaveItem_Click);
@@ -684,12 +686,24 @@
             this.buttonfilter.UseVisualStyleBackColor = false;
             this.buttonfilter.Click += new System.EventHandler(this.buttonfilter_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Sitka Banner", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(1099, 82);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(151, 29);
+            this.label1.TabIndex = 147;
+            this.label1.Text = "Для поиска ФИО";
+            // 
             // FormOrderAdmission1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(1357, 1010);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.buttonfilter);
             this.Controls.Add(this.buttonpoisk);
             this.Controls.Add(this.textBoxpoisk);
@@ -758,5 +772,6 @@
         private System.Windows.Forms.TextBox textBoxpoisk;
         private System.Windows.Forms.Button buttonpoisk;
         private System.Windows.Forms.Button buttonfilter;
+        private System.Windows.Forms.Label label1;
     }
 }
