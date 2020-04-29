@@ -12,10 +12,10 @@ using Word = Microsoft.Office.Interop.Word;
 
 namespace Personal_cardsApp1
 {
-    public partial class FormOrderAdmission : Form
+    public partial class FormRegistraciya : Form
     {
         private readonly string TemplateFileName = @"c:\prikaz1.docx";
-        public FormOrderAdmission()
+        public FormRegistraciya()
         {
             InitializeComponent();
         }

@@ -1,6 +1,6 @@
 ﻿namespace Personal_cardsApp1
 {
-    partial class FormOrderAdmission
+    partial class FormRegistraciya
     {
         /// <summary>
         /// Required designer variable.
@@ -44,7 +44,7 @@
             System.Windows.Forms.Label with_trial_periodLabel;
             System.Windows.Forms.Label employment_contract_fromLabel;
             System.Windows.Forms.Label contract_numberLabel;
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormOrderAdmission));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormRegistraciya));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
             this.ContractTextBox = new System.Windows.Forms.TextBox();

@@ -40,7 +40,7 @@ namespace Personal_cardsApp1
 
         private void buttonAdd_Click(object sender, EventArgs e)
         {
-            FormOrderAdmission f30 = new FormOrderAdmission();
+            FormRegistraciya f30 = new FormRegistraciya();
             f30.StartPosition = FormStartPosition.CenterScreen;
             f30.ShowDialog(this);
         }

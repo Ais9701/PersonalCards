@@ -96,6 +96,18 @@ namespace Personal_cardsApp1
         }
         int a = 0, b = 15, s = 0, d = 15;
 
+        private void buttonreg_Click(object sender, EventArgs e)
+        {
+            FormReg f32 = new FormReg();
+            f32.StartPosition = FormStartPosition.CenterScreen;
+            f32.ShowDialog(this);
+        }
+
+        private void buttonregistraciya_Click_1(object sender, EventArgs e)
+        {
+           
+        }
+
         private void timer1_Tick(object sender, EventArgs e)
         {
             if (b > 0)
