@@ -46,6 +46,7 @@
             System.Windows.Forms.Label contract_numberLabel;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormOrderAdmission));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.ContractTextBox = new System.Windows.Forms.TextBox();
             this.TakeWithTextBox = new System.Windows.Forms.TextBox();
             this.CompilationTextBox = new System.Windows.Forms.TextBox();
@@ -85,8 +86,6 @@
             this.buttonExportWord = new System.Windows.Forms.Button();
             this.buttonAdd = new System.Windows.Forms.Button();
             this.buttonBack = new System.Windows.Forms.Button();
-            this.buttonDelete = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             iD_orderLabel = new System.Windows.Forms.Label();
             name_organizationLabel = new System.Windows.Forms.Label();
             document_numberLabel = new System.Windows.Forms.Label();
@@ -315,6 +314,17 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Добавление приказа";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Sitka Banner", 13.78723F, System.Drawing.FontStyle.Bold);
+            this.label1.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            this.label1.Location = new System.Drawing.Point(711, 594);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(85, 39);
+            this.label1.TabIndex = 47;
+            this.label1.Text = "(мес.)";
             // 
             // ContractTextBox
             // 
@@ -645,7 +655,7 @@
             this.buttonExportWord.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.buttonExportWord.Font = new System.Drawing.Font("Times New Roman", 12.25532F);
             this.buttonExportWord.ForeColor = System.Drawing.Color.Black;
-            this.buttonExportWord.Location = new System.Drawing.Point(1082, 227);
+            this.buttonExportWord.Location = new System.Drawing.Point(1093, 364);
             this.buttonExportWord.Name = "buttonExportWord";
             this.buttonExportWord.Size = new System.Drawing.Size(218, 55);
             this.buttonExportWord.TabIndex = 2;
@@ -658,7 +668,7 @@
             this.buttonAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.buttonAdd.Font = new System.Drawing.Font("Times New Roman", 12.25532F);
             this.buttonAdd.ForeColor = System.Drawing.Color.Black;
-            this.buttonAdd.Location = new System.Drawing.Point(1082, 288);
+            this.buttonAdd.Location = new System.Drawing.Point(1093, 425);
             this.buttonAdd.Name = "buttonAdd";
             this.buttonAdd.Size = new System.Drawing.Size(218, 55);
             this.buttonAdd.TabIndex = 140;
@@ -679,36 +689,12 @@
             this.buttonBack.UseVisualStyleBackColor = false;
             this.buttonBack.Click += new System.EventHandler(this.buttonBack_Click);
             // 
-            // buttonDelete
-            // 
-            this.buttonDelete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.buttonDelete.Font = new System.Drawing.Font("Times New Roman", 12.25532F);
-            this.buttonDelete.ForeColor = System.Drawing.Color.Black;
-            this.buttonDelete.Location = new System.Drawing.Point(1082, 349);
-            this.buttonDelete.Name = "buttonDelete";
-            this.buttonDelete.Size = new System.Drawing.Size(218, 55);
-            this.buttonDelete.TabIndex = 143;
-            this.buttonDelete.Text = "Удалить";
-            this.buttonDelete.UseVisualStyleBackColor = false;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Sitka Banner", 13.78723F, System.Drawing.FontStyle.Bold);
-            this.label1.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            this.label1.Location = new System.Drawing.Point(711, 594);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(85, 39);
-            this.label1.TabIndex = 47;
-            this.label1.Text = "(мес.)";
-            // 
             // FormOrderAdmission
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(1357, 1010);
-            this.Controls.Add(this.buttonDelete);
             this.Controls.Add(this.buttonBack);
             this.Controls.Add(this.buttonAdd);
             this.Controls.Add(this.buttonExportWord);
@@ -768,7 +754,6 @@
         private System.Windows.Forms.Button buttonExportWord;
         private System.Windows.Forms.Button buttonAdd;
         private System.Windows.Forms.Button buttonBack;
-        private System.Windows.Forms.Button buttonDelete;
         private System.Windows.Forms.TextBox CompilationTextBox;
         private Personal_cardsDataSetTableAdapters.Advanced_trainingTableAdapter advanced_trainingTableAdapter1;
         private System.Windows.Forms.TextBox TakeWithTextBox;

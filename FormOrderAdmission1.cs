@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -63,6 +64,29 @@ namespace Personal_cardsApp1
         private void buttonfilter_Click(object sender, EventArgs e)
         {
             order_admissionBindingSource.Filter = null;
+        }
+
+        private void buttonDelete_Click(object sender, EventArgs e)
+        {
+            SqlConnection connection = new SqlConnection(@"Data Source=DESKTOP-DPL61M9\SQLEXPRESS;Initial Catalog=Personal_cards;Integrated Security=True");
+            connection.Open();
+            String queryDelete = "DELETE FROM Order_admission where iD_order ='" + iD_orderTextBox.Text + "'";
+            SqlDataAdapter SDA = new SqlDataAdapter(queryDelete, connection);
+            SDA.SelectCommand.ExecuteNonQuery();
+            connection.Close();
+            MessageBox.Show("Запись успешно удалена");
+        }
+
+        private void printDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
+        {
+            var bitmap = new Bitmap(Width, Height);
+            DrawToBitmap(bitmap, new Rectangle(Point.Empty, bitmap.Size));
+            e.Graphics.DrawImage(bitmap, new Point(40, 40));
+        }
+
+        private void buttonSeal10_Click(object sender, EventArgs e)
+        {
+            printDocument1.Print();
         }
     }
 }

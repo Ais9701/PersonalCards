@@ -46,6 +46,7 @@
             System.Windows.Forms.Label contract_numberLabel;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormOrderAdmission1));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.iD_orderTextBox = new System.Windows.Forms.TextBox();
             this.order_admissionBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.personal_cardsDataSet = new Personal_cardsApp1.Personal_cardsDataSet();
@@ -85,7 +86,8 @@
             this.buttonpoisk = new System.Windows.Forms.Button();
             this.buttonfilter = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.buttonSeal10 = new System.Windows.Forms.Button();
+            this.printDocument1 = new System.Drawing.Printing.PrintDocument();
             iD_orderLabel = new System.Windows.Forms.Label();
             name_organizationLabel = new System.Windows.Forms.Label();
             document_numberLabel = new System.Windows.Forms.Label();
@@ -315,6 +317,17 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Приказы";
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Sitka Banner", 13.78723F, System.Drawing.FontStyle.Bold);
+            this.label2.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            this.label2.Location = new System.Drawing.Point(712, 578);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(85, 39);
+            this.label2.TabIndex = 48;
+            this.label2.Text = "(мес.)";
+            // 
             // iD_orderTextBox
             // 
             this.iD_orderTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.order_admissionBindingSource, "ID_order", true));
@@ -513,7 +526,7 @@
             this.order_admissionBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.order_admissionBindingNavigator.Name = "order_admissionBindingNavigator";
             this.order_admissionBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.order_admissionBindingNavigator.Size = new System.Drawing.Size(289, 37);
+            this.order_admissionBindingNavigator.Size = new System.Drawing.Size(289, 32);
             this.order_admissionBindingNavigator.TabIndex = 1;
             this.order_admissionBindingNavigator.Text = "bindingNavigator1";
             // 
@@ -654,6 +667,7 @@
             this.buttonDelete.TabIndex = 143;
             this.buttonDelete.Text = "Удалить";
             this.buttonDelete.UseVisualStyleBackColor = false;
+            this.buttonDelete.Click += new System.EventHandler(this.buttonDelete_Click);
             // 
             // textBoxpoisk
             // 
@@ -699,16 +713,22 @@
             this.label1.TabIndex = 147;
             this.label1.Text = "Для поиска ФИО";
             // 
-            // label2
+            // buttonSeal10
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Sitka Banner", 13.78723F, System.Drawing.FontStyle.Bold);
-            this.label2.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            this.label2.Location = new System.Drawing.Point(712, 578);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(85, 39);
-            this.label2.TabIndex = 48;
-            this.label2.Text = "(мес.)";
+            this.buttonSeal10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.buttonSeal10.Font = new System.Drawing.Font("Times New Roman", 12.25532F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonSeal10.ForeColor = System.Drawing.Color.Black;
+            this.buttonSeal10.Location = new System.Drawing.Point(1059, 577);
+            this.buttonSeal10.Name = "buttonSeal10";
+            this.buttonSeal10.Size = new System.Drawing.Size(218, 55);
+            this.buttonSeal10.TabIndex = 148;
+            this.buttonSeal10.Text = "Печать";
+            this.buttonSeal10.UseVisualStyleBackColor = false;
+            this.buttonSeal10.Click += new System.EventHandler(this.buttonSeal10_Click);
+            // 
+            // printDocument1
+            // 
+            this.printDocument1.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(this.printDocument1_PrintPage);
             // 
             // FormOrderAdmission1
             // 
@@ -716,6 +736,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(1357, 1010);
+            this.Controls.Add(this.buttonSeal10);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.buttonfilter);
             this.Controls.Add(this.buttonpoisk);
@@ -787,5 +808,7 @@
         private System.Windows.Forms.Button buttonfilter;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button buttonSeal10;
+        private System.Drawing.Printing.PrintDocument printDocument1;
     }
 }
