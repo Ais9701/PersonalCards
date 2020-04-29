@@ -37,9 +37,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Personal_cardsApp1.Properties.Resources._1;
-            this.pictureBox1.Location = new System.Drawing.Point(21, 104);
+            this.pictureBox1.Location = new System.Drawing.Point(24, 104);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(380, 469);
+            this.pictureBox1.Size = new System.Drawing.Size(356, 448);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -61,9 +61,9 @@
             // 
             this.buttonBack11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.buttonBack11.Font = new System.Drawing.Font("Times New Roman", 13.78723F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonBack11.Location = new System.Drawing.Point(1174, 567);
+            this.buttonBack11.Location = new System.Drawing.Point(1083, 567);
             this.buttonBack11.Name = "buttonBack11";
-            this.buttonBack11.Size = new System.Drawing.Size(132, 57);
+            this.buttonBack11.Size = new System.Drawing.Size(195, 57);
             this.buttonBack11.TabIndex = 5;
             this.buttonBack11.Text = "Назад";
             this.buttonBack11.UseVisualStyleBackColor = false;

@@ -58,34 +58,34 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DB.cs" />
-    <Compile Include="FormOrderAdmission.cs">
+    <Compile Include="InfoOrderAdmission\FormOrderAdmission.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormOrderAdmission.Designer.cs">
+    <Compile Include="InfoOrderAdmission\FormOrderAdmission.Designer.cs">
       <DependentUpon>FormOrderAdmission.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormOrderAdmission1.cs">
+    <Compile Include="InfoOrderAdmission\FormOrderAdmission1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormOrderAdmission1.Designer.cs">
+    <Compile Include="InfoOrderAdmission\FormOrderAdmission1.Designer.cs">
       <DependentUpon>FormOrderAdmission1.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormProba.cs">
+    <Compile Include="InfoProbaLK\FormProba.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormProba.Designer.cs">
+    <Compile Include="InfoProbaLK\FormProba.Designer.cs">
       <DependentUpon>FormProba.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormReg.cs">
+    <Compile Include="InfoReg\FormReg.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormReg.Designer.cs">
+    <Compile Include="InfoReg\FormReg.Designer.cs">
       <DependentUpon>FormReg.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormStaffList.cs">
+    <Compile Include="InfoStaffList\FormStaffList.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormStaffList.Designer.cs">
+    <Compile Include="InfoStaffList\FormStaffList.Designer.cs">
       <DependentUpon>FormStaffList.cs</DependentUpon>
     </Compile>
     <Compile Include="InfoDeveloper\FormDeveloper.cs">
@@ -100,10 +100,10 @@
     <Compile Include="InfoMenu\FormMenu.Designer.cs">
       <DependentUpon>FormMenu.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormGrantingLeave.cs">
+    <Compile Include="InfoGrantingLeave\FormGrantingLeave.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormGrantingLeave.Designer.cs">
+    <Compile Include="InfoGrantingLeave\FormGrantingLeave.Designer.cs">
       <DependentUpon>FormGrantingLeave.cs</DependentUpon>
     </Compile>
     <Compile Include="InfoPersonalCards\SqlDataTimeAdapter.cs" />
@@ -276,19 +276,19 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FormOrderAdmission.resx">
+    <EmbeddedResource Include="InfoOrderAdmission\FormOrderAdmission.resx">
       <DependentUpon>FormOrderAdmission.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormOrderAdmission1.resx">
+    <EmbeddedResource Include="InfoOrderAdmission\FormOrderAdmission1.resx">
       <DependentUpon>FormOrderAdmission1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormProba.resx">
+    <EmbeddedResource Include="InfoProbaLK\FormProba.resx">
       <DependentUpon>FormProba.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormReg.resx">
+    <EmbeddedResource Include="InfoReg\FormReg.resx">
       <DependentUpon>FormReg.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormStaffList.resx">
+    <EmbeddedResource Include="InfoStaffList\FormStaffList.resx">
       <DependentUpon>FormStaffList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="InfoDeveloper\FormDeveloper.resx">
@@ -297,7 +297,7 @@
     <EmbeddedResource Include="InfoMenu\FormMenu.resx">
       <DependentUpon>FormMenu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormGrantingLeave.resx">
+    <EmbeddedResource Include="InfoGrantingLeave\FormGrantingLeave.resx">
       <DependentUpon>FormGrantingLeave.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="InfoProgram\FormProgram.resx">
