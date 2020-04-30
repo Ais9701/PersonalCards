@@ -8,11 +8,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Word = Microsoft.Office.Interop.Word;
 
 namespace Personal_cardsApp1
 {
     public partial class FormOrderAdmission1 : Form
     {
+        private readonly string TemplateFileName = @"c:\prikaz1.docx";
         public FormOrderAdmission1()
         {
             InitializeComponent();
@@ -70,7 +72,7 @@ namespace Personal_cardsApp1
         {
             SqlConnection connection = new SqlConnection(@"Data Source=DESKTOP-DPL61M9\SQLEXPRESS;Initial Catalog=Personal_cards;Integrated Security=True");
             connection.Open();
-            String queryDelete = "DELETE FROM Order_admission where iD_order ='" + iD_orderTextBox.Text + "'";
+            String queryDelete = "DELETE FROM Order_admission where iD_order ='" + ID_orderTextBox.Text + "'";
             SqlDataAdapter SDA = new SqlDataAdapter(queryDelete, connection);
             SDA.SelectCommand.ExecuteNonQuery();
             connection.Close();
@@ -88,5 +90,62 @@ namespace Personal_cardsApp1
         {
             printDocument1.Print();
         }
+
+        private void buttonExportWord_Click(object sender, EventArgs e)
+        {
+            var ID_order = ID_orderTextBox.Text;
+            var NameOrganization = NameOrganizationTextBox.Text;
+            var DocumentNumber = DocumentNumberTextBox.Text;
+            var Compilation = CompilationDateTimePicker.Value.ToShortDateString();
+            var TakeWith = TakeWithDateTimePicker.Value.ToShortDateString();
+            var ServiceNumber = ServiceNumberTextBox.Text;
+            var FIO = FIOTextBox.Text;
+            var Division = DivisionTextBox.Text;
+            var Position = PositionTextBox.Text;
+            var Work = WorkTextBox.Text;
+            var Tariff = TariffTextBox.Text;
+            var Premium = PremiumTextBox.Text;
+            var Period = PeriodTextBox.Text;
+            var Contract = ContractDateTimePicker.Value.ToShortDateString();
+            var ContractNum = ContractNumTextBox.Text;
+
+            //TODO: Word Export
+            var wordApp = new Word.Application();
+            wordApp.Visible = false;
+
+            try
+            {
+                var wordDocument = wordApp.Documents.Open(TemplateFileName);
+                ReplaceWordStub("{iD_order}", ID_order, wordDocument);
+                ReplaceWordStub("{NameOrganization}", NameOrganization, wordDocument);
+                ReplaceWordStub("{DocumentNumber}", DocumentNumber, wordDocument);
+                ReplaceWordStub("{Compilation}", Compilation, wordDocument);
+                ReplaceWordStub("{TakeWith}", TakeWith, wordDocument);
+                ReplaceWordStub("{ServiceNumber}", ServiceNumber, wordDocument);
+                ReplaceWordStub("{FIO}", FIO, wordDocument);
+                ReplaceWordStub("{Division}", Division, wordDocument);
+                ReplaceWordStub("{Position}", Position, wordDocument);
+                ReplaceWordStub("{Work}", Work, wordDocument);
+                ReplaceWordStub("{Tariff}", Tariff, wordDocument);
+                ReplaceWordStub("{Premium}", Premium, wordDocument);
+                ReplaceWordStub("{Period}", Period, wordDocument);
+                ReplaceWordStub("{Contract}", Contract, wordDocument);
+                ReplaceWordStub("{ContractNum}", ContractNum, wordDocument);
+
+                wordDocument.SaveAs(@"C:\result.docx");
+                wordApp.Visible = true;
+            }
+            catch
+            {
+                MessageBox.Show("Произошла ошибка");
+            }
+        }
+            private void ReplaceWordStub(string stubToReplace, string text, Word.Document wordDocument)
+            {
+                var range = wordDocument.Content;
+                range.Find.ClearFormatting();
+                range.Find.Execute(FindText: stubToReplace, ReplaceWith: text);
+            }
+        }
     }
-}
+

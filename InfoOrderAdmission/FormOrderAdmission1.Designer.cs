@@ -47,23 +47,23 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormOrderAdmission1));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.iD_orderTextBox = new System.Windows.Forms.TextBox();
+            this.ID_orderTextBox = new System.Windows.Forms.TextBox();
             this.order_admissionBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.personal_cardsDataSet = new Personal_cardsApp1.Personal_cardsDataSet();
-            this.name_organizationTextBox = new System.Windows.Forms.TextBox();
-            this.document_numberTextBox = new System.Windows.Forms.TextBox();
-            this.date_compilationDateTimePicker = new System.Windows.Forms.DateTimePicker();
-            this.to_take_withDateTimePicker = new System.Windows.Forms.DateTimePicker();
-            this.service_numberTextBox = new System.Windows.Forms.TextBox();
-            this.fIOTextBox = new System.Windows.Forms.TextBox();
-            this.structural_divisionTextBox = new System.Windows.Forms.TextBox();
-            this.positionTextBox = new System.Windows.Forms.TextBox();
-            this.nature_workTextBox = new System.Windows.Forms.TextBox();
-            this.with_tariff_rateTextBox = new System.Windows.Forms.TextBox();
-            this.at_premiumTextBox = new System.Windows.Forms.TextBox();
-            this.with_trial_periodTextBox = new System.Windows.Forms.TextBox();
-            this.employment_contract_fromDateTimePicker = new System.Windows.Forms.DateTimePicker();
-            this.contract_numberTextBox = new System.Windows.Forms.TextBox();
+            this.NameOrganizationTextBox = new System.Windows.Forms.TextBox();
+            this.DocumentNumberTextBox = new System.Windows.Forms.TextBox();
+            this.CompilationDateTimePicker = new System.Windows.Forms.DateTimePicker();
+            this.TakeWithDateTimePicker = new System.Windows.Forms.DateTimePicker();
+            this.ServiceNumberTextBox = new System.Windows.Forms.TextBox();
+            this.FIOTextBox = new System.Windows.Forms.TextBox();
+            this.DivisionTextBox = new System.Windows.Forms.TextBox();
+            this.PositionTextBox = new System.Windows.Forms.TextBox();
+            this.WorkTextBox = new System.Windows.Forms.TextBox();
+            this.TariffTextBox = new System.Windows.Forms.TextBox();
+            this.PremiumTextBox = new System.Windows.Forms.TextBox();
+            this.PeriodTextBox = new System.Windows.Forms.TextBox();
+            this.ContractDateTimePicker = new System.Windows.Forms.DateTimePicker();
+            this.ContractNumTextBox = new System.Windows.Forms.TextBox();
             this.order_admissionTableAdapter = new Personal_cardsApp1.Personal_cardsDataSetTableAdapters.Order_admissionTableAdapter();
             this.tableAdapterManager = new Personal_cardsApp1.Personal_cardsDataSetTableAdapters.TableAdapterManager();
             this.order_admissionBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
@@ -88,6 +88,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.buttonSeal10 = new System.Windows.Forms.Button();
             this.printDocument1 = new System.Drawing.Printing.PrintDocument();
+            this.buttonExportWord = new System.Windows.Forms.Button();
             iD_orderLabel = new System.Windows.Forms.Label();
             name_organizationLabel = new System.Windows.Forms.Label();
             document_numberLabel = new System.Windows.Forms.Label();
@@ -279,35 +280,35 @@
             // 
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(iD_orderLabel);
-            this.groupBox1.Controls.Add(this.iD_orderTextBox);
+            this.groupBox1.Controls.Add(this.ID_orderTextBox);
             this.groupBox1.Controls.Add(name_organizationLabel);
-            this.groupBox1.Controls.Add(this.name_organizationTextBox);
+            this.groupBox1.Controls.Add(this.NameOrganizationTextBox);
             this.groupBox1.Controls.Add(document_numberLabel);
-            this.groupBox1.Controls.Add(this.document_numberTextBox);
+            this.groupBox1.Controls.Add(this.DocumentNumberTextBox);
             this.groupBox1.Controls.Add(date_compilationLabel);
-            this.groupBox1.Controls.Add(this.date_compilationDateTimePicker);
+            this.groupBox1.Controls.Add(this.CompilationDateTimePicker);
             this.groupBox1.Controls.Add(to_take_withLabel);
-            this.groupBox1.Controls.Add(this.to_take_withDateTimePicker);
+            this.groupBox1.Controls.Add(this.TakeWithDateTimePicker);
             this.groupBox1.Controls.Add(service_numberLabel);
-            this.groupBox1.Controls.Add(this.service_numberTextBox);
+            this.groupBox1.Controls.Add(this.ServiceNumberTextBox);
             this.groupBox1.Controls.Add(fIOLabel);
-            this.groupBox1.Controls.Add(this.fIOTextBox);
+            this.groupBox1.Controls.Add(this.FIOTextBox);
             this.groupBox1.Controls.Add(structural_divisionLabel);
-            this.groupBox1.Controls.Add(this.structural_divisionTextBox);
+            this.groupBox1.Controls.Add(this.DivisionTextBox);
             this.groupBox1.Controls.Add(positionLabel);
-            this.groupBox1.Controls.Add(this.positionTextBox);
+            this.groupBox1.Controls.Add(this.PositionTextBox);
             this.groupBox1.Controls.Add(nature_workLabel);
-            this.groupBox1.Controls.Add(this.nature_workTextBox);
+            this.groupBox1.Controls.Add(this.WorkTextBox);
             this.groupBox1.Controls.Add(with_tariff_rateLabel);
-            this.groupBox1.Controls.Add(this.with_tariff_rateTextBox);
+            this.groupBox1.Controls.Add(this.TariffTextBox);
             this.groupBox1.Controls.Add(at_premiumLabel);
-            this.groupBox1.Controls.Add(this.at_premiumTextBox);
+            this.groupBox1.Controls.Add(this.PremiumTextBox);
             this.groupBox1.Controls.Add(with_trial_periodLabel);
-            this.groupBox1.Controls.Add(this.with_trial_periodTextBox);
+            this.groupBox1.Controls.Add(this.PeriodTextBox);
             this.groupBox1.Controls.Add(employment_contract_fromLabel);
-            this.groupBox1.Controls.Add(this.employment_contract_fromDateTimePicker);
+            this.groupBox1.Controls.Add(this.ContractDateTimePicker);
             this.groupBox1.Controls.Add(contract_numberLabel);
-            this.groupBox1.Controls.Add(this.contract_numberTextBox);
+            this.groupBox1.Controls.Add(this.ContractNumTextBox);
             this.groupBox1.Font = new System.Drawing.Font("Sitka Banner", 12.25532F);
             this.groupBox1.ForeColor = System.Drawing.Color.Yellow;
             this.groupBox1.Location = new System.Drawing.Point(12, 80);
@@ -328,14 +329,14 @@
             this.label2.TabIndex = 48;
             this.label2.Text = "(мес.)";
             // 
-            // iD_orderTextBox
+            // ID_orderTextBox
             // 
-            this.iD_orderTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.order_admissionBindingSource, "ID_order", true));
-            this.iD_orderTextBox.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.iD_orderTextBox.Location = new System.Drawing.Point(182, 43);
-            this.iD_orderTextBox.Name = "iD_orderTextBox";
-            this.iD_orderTextBox.Size = new System.Drawing.Size(53, 30);
-            this.iD_orderTextBox.TabIndex = 1;
+            this.ID_orderTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.order_admissionBindingSource, "ID_order", true));
+            this.ID_orderTextBox.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ID_orderTextBox.Location = new System.Drawing.Point(182, 43);
+            this.ID_orderTextBox.Name = "ID_orderTextBox";
+            this.ID_orderTextBox.Size = new System.Drawing.Size(53, 30);
+            this.ID_orderTextBox.TabIndex = 1;
             // 
             // order_admissionBindingSource
             // 
@@ -347,131 +348,131 @@
             this.personal_cardsDataSet.DataSetName = "Personal_cardsDataSet";
             this.personal_cardsDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // name_organizationTextBox
+            // NameOrganizationTextBox
             // 
-            this.name_organizationTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.order_admissionBindingSource, "Name_organization", true));
-            this.name_organizationTextBox.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.name_organizationTextBox.Location = new System.Drawing.Point(390, 86);
-            this.name_organizationTextBox.Name = "name_organizationTextBox";
-            this.name_organizationTextBox.Size = new System.Drawing.Size(316, 30);
-            this.name_organizationTextBox.TabIndex = 3;
+            this.NameOrganizationTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.order_admissionBindingSource, "Name_organization", true));
+            this.NameOrganizationTextBox.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.NameOrganizationTextBox.Location = new System.Drawing.Point(390, 86);
+            this.NameOrganizationTextBox.Name = "NameOrganizationTextBox";
+            this.NameOrganizationTextBox.Size = new System.Drawing.Size(316, 30);
+            this.NameOrganizationTextBox.TabIndex = 3;
             // 
-            // document_numberTextBox
+            // DocumentNumberTextBox
             // 
-            this.document_numberTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.order_admissionBindingSource, "Document_number", true));
-            this.document_numberTextBox.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.document_numberTextBox.Location = new System.Drawing.Point(390, 135);
-            this.document_numberTextBox.Name = "document_numberTextBox";
-            this.document_numberTextBox.Size = new System.Drawing.Size(316, 30);
-            this.document_numberTextBox.TabIndex = 5;
+            this.DocumentNumberTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.order_admissionBindingSource, "Document_number", true));
+            this.DocumentNumberTextBox.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.DocumentNumberTextBox.Location = new System.Drawing.Point(390, 135);
+            this.DocumentNumberTextBox.Name = "DocumentNumberTextBox";
+            this.DocumentNumberTextBox.Size = new System.Drawing.Size(316, 30);
+            this.DocumentNumberTextBox.TabIndex = 5;
             // 
-            // date_compilationDateTimePicker
+            // CompilationDateTimePicker
             // 
-            this.date_compilationDateTimePicker.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.order_admissionBindingSource, "Date_compilation", true));
-            this.date_compilationDateTimePicker.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.date_compilationDateTimePicker.Location = new System.Drawing.Point(390, 179);
-            this.date_compilationDateTimePicker.Name = "date_compilationDateTimePicker";
-            this.date_compilationDateTimePicker.Size = new System.Drawing.Size(316, 30);
-            this.date_compilationDateTimePicker.TabIndex = 7;
+            this.CompilationDateTimePicker.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.order_admissionBindingSource, "Date_compilation", true));
+            this.CompilationDateTimePicker.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.CompilationDateTimePicker.Location = new System.Drawing.Point(390, 179);
+            this.CompilationDateTimePicker.Name = "CompilationDateTimePicker";
+            this.CompilationDateTimePicker.Size = new System.Drawing.Size(316, 30);
+            this.CompilationDateTimePicker.TabIndex = 7;
             // 
-            // to_take_withDateTimePicker
+            // TakeWithDateTimePicker
             // 
-            this.to_take_withDateTimePicker.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.order_admissionBindingSource, "To_take_with", true));
-            this.to_take_withDateTimePicker.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.to_take_withDateTimePicker.Location = new System.Drawing.Point(390, 225);
-            this.to_take_withDateTimePicker.Name = "to_take_withDateTimePicker";
-            this.to_take_withDateTimePicker.Size = new System.Drawing.Size(316, 30);
-            this.to_take_withDateTimePicker.TabIndex = 9;
+            this.TakeWithDateTimePicker.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.order_admissionBindingSource, "To_take_with", true));
+            this.TakeWithDateTimePicker.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.TakeWithDateTimePicker.Location = new System.Drawing.Point(390, 225);
+            this.TakeWithDateTimePicker.Name = "TakeWithDateTimePicker";
+            this.TakeWithDateTimePicker.Size = new System.Drawing.Size(316, 30);
+            this.TakeWithDateTimePicker.TabIndex = 9;
             // 
-            // service_numberTextBox
+            // ServiceNumberTextBox
             // 
-            this.service_numberTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.order_admissionBindingSource, "Service_number", true));
-            this.service_numberTextBox.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.service_numberTextBox.Location = new System.Drawing.Point(390, 261);
-            this.service_numberTextBox.Name = "service_numberTextBox";
-            this.service_numberTextBox.Size = new System.Drawing.Size(316, 30);
-            this.service_numberTextBox.TabIndex = 11;
+            this.ServiceNumberTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.order_admissionBindingSource, "Service_number", true));
+            this.ServiceNumberTextBox.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ServiceNumberTextBox.Location = new System.Drawing.Point(390, 270);
+            this.ServiceNumberTextBox.Name = "ServiceNumberTextBox";
+            this.ServiceNumberTextBox.Size = new System.Drawing.Size(316, 30);
+            this.ServiceNumberTextBox.TabIndex = 11;
             // 
-            // fIOTextBox
+            // FIOTextBox
             // 
-            this.fIOTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.order_admissionBindingSource, "FIO", true));
-            this.fIOTextBox.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.fIOTextBox.Location = new System.Drawing.Point(390, 315);
-            this.fIOTextBox.Name = "fIOTextBox";
-            this.fIOTextBox.Size = new System.Drawing.Size(316, 30);
-            this.fIOTextBox.TabIndex = 13;
+            this.FIOTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.order_admissionBindingSource, "FIO", true));
+            this.FIOTextBox.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.FIOTextBox.Location = new System.Drawing.Point(390, 315);
+            this.FIOTextBox.Name = "FIOTextBox";
+            this.FIOTextBox.Size = new System.Drawing.Size(316, 30);
+            this.FIOTextBox.TabIndex = 13;
             // 
-            // structural_divisionTextBox
+            // DivisionTextBox
             // 
-            this.structural_divisionTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.order_admissionBindingSource, "Structural_division", true));
-            this.structural_divisionTextBox.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.structural_divisionTextBox.Location = new System.Drawing.Point(390, 360);
-            this.structural_divisionTextBox.Name = "structural_divisionTextBox";
-            this.structural_divisionTextBox.Size = new System.Drawing.Size(316, 30);
-            this.structural_divisionTextBox.TabIndex = 15;
+            this.DivisionTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.order_admissionBindingSource, "Structural_division", true));
+            this.DivisionTextBox.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.DivisionTextBox.Location = new System.Drawing.Point(390, 360);
+            this.DivisionTextBox.Name = "DivisionTextBox";
+            this.DivisionTextBox.Size = new System.Drawing.Size(316, 30);
+            this.DivisionTextBox.TabIndex = 15;
             // 
-            // positionTextBox
+            // PositionTextBox
             // 
-            this.positionTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.order_admissionBindingSource, "Position", true));
-            this.positionTextBox.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.positionTextBox.Location = new System.Drawing.Point(390, 407);
-            this.positionTextBox.Name = "positionTextBox";
-            this.positionTextBox.Size = new System.Drawing.Size(316, 30);
-            this.positionTextBox.TabIndex = 17;
+            this.PositionTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.order_admissionBindingSource, "Position", true));
+            this.PositionTextBox.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.PositionTextBox.Location = new System.Drawing.Point(390, 407);
+            this.PositionTextBox.Name = "PositionTextBox";
+            this.PositionTextBox.Size = new System.Drawing.Size(316, 30);
+            this.PositionTextBox.TabIndex = 17;
             // 
-            // nature_workTextBox
+            // WorkTextBox
             // 
-            this.nature_workTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.order_admissionBindingSource, "Nature_work", true));
-            this.nature_workTextBox.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.nature_workTextBox.Location = new System.Drawing.Point(390, 452);
-            this.nature_workTextBox.Name = "nature_workTextBox";
-            this.nature_workTextBox.Size = new System.Drawing.Size(316, 30);
-            this.nature_workTextBox.TabIndex = 19;
+            this.WorkTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.order_admissionBindingSource, "Nature_work", true));
+            this.WorkTextBox.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.WorkTextBox.Location = new System.Drawing.Point(390, 452);
+            this.WorkTextBox.Name = "WorkTextBox";
+            this.WorkTextBox.Size = new System.Drawing.Size(316, 30);
+            this.WorkTextBox.TabIndex = 19;
             // 
-            // with_tariff_rateTextBox
+            // TariffTextBox
             // 
-            this.with_tariff_rateTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.order_admissionBindingSource, "With_tariff_rate", true));
-            this.with_tariff_rateTextBox.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.with_tariff_rateTextBox.Location = new System.Drawing.Point(390, 497);
-            this.with_tariff_rateTextBox.Name = "with_tariff_rateTextBox";
-            this.with_tariff_rateTextBox.Size = new System.Drawing.Size(316, 30);
-            this.with_tariff_rateTextBox.TabIndex = 21;
+            this.TariffTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.order_admissionBindingSource, "With_tariff_rate", true));
+            this.TariffTextBox.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.TariffTextBox.Location = new System.Drawing.Point(390, 497);
+            this.TariffTextBox.Name = "TariffTextBox";
+            this.TariffTextBox.Size = new System.Drawing.Size(316, 30);
+            this.TariffTextBox.TabIndex = 21;
             // 
-            // at_premiumTextBox
+            // PremiumTextBox
             // 
-            this.at_premiumTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.order_admissionBindingSource, "At_premium", true));
-            this.at_premiumTextBox.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.at_premiumTextBox.Location = new System.Drawing.Point(390, 542);
-            this.at_premiumTextBox.Name = "at_premiumTextBox";
-            this.at_premiumTextBox.Size = new System.Drawing.Size(316, 30);
-            this.at_premiumTextBox.TabIndex = 23;
+            this.PremiumTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.order_admissionBindingSource, "At_premium", true));
+            this.PremiumTextBox.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.PremiumTextBox.Location = new System.Drawing.Point(390, 542);
+            this.PremiumTextBox.Name = "PremiumTextBox";
+            this.PremiumTextBox.Size = new System.Drawing.Size(316, 30);
+            this.PremiumTextBox.TabIndex = 23;
             // 
-            // with_trial_periodTextBox
+            // PeriodTextBox
             // 
-            this.with_trial_periodTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.order_admissionBindingSource, "With_trial_period", true));
-            this.with_trial_periodTextBox.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.with_trial_periodTextBox.Location = new System.Drawing.Point(390, 587);
-            this.with_trial_periodTextBox.Name = "with_trial_periodTextBox";
-            this.with_trial_periodTextBox.Size = new System.Drawing.Size(316, 30);
-            this.with_trial_periodTextBox.TabIndex = 25;
+            this.PeriodTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.order_admissionBindingSource, "With_trial_period", true));
+            this.PeriodTextBox.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.PeriodTextBox.Location = new System.Drawing.Point(390, 587);
+            this.PeriodTextBox.Name = "PeriodTextBox";
+            this.PeriodTextBox.Size = new System.Drawing.Size(316, 30);
+            this.PeriodTextBox.TabIndex = 25;
             // 
-            // employment_contract_fromDateTimePicker
+            // ContractDateTimePicker
             // 
-            this.employment_contract_fromDateTimePicker.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.order_admissionBindingSource, "Employment_contract_from", true));
-            this.employment_contract_fromDateTimePicker.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.employment_contract_fromDateTimePicker.Location = new System.Drawing.Point(390, 633);
-            this.employment_contract_fromDateTimePicker.Name = "employment_contract_fromDateTimePicker";
-            this.employment_contract_fromDateTimePicker.Size = new System.Drawing.Size(316, 30);
-            this.employment_contract_fromDateTimePicker.TabIndex = 27;
+            this.ContractDateTimePicker.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.order_admissionBindingSource, "Employment_contract_from", true));
+            this.ContractDateTimePicker.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ContractDateTimePicker.Location = new System.Drawing.Point(390, 633);
+            this.ContractDateTimePicker.Name = "ContractDateTimePicker";
+            this.ContractDateTimePicker.Size = new System.Drawing.Size(316, 30);
+            this.ContractDateTimePicker.TabIndex = 27;
             // 
-            // contract_numberTextBox
+            // ContractNumTextBox
             // 
-            this.contract_numberTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.order_admissionBindingSource, "Contract_number", true));
-            this.contract_numberTextBox.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.contract_numberTextBox.Location = new System.Drawing.Point(390, 678);
-            this.contract_numberTextBox.Name = "contract_numberTextBox";
-            this.contract_numberTextBox.Size = new System.Drawing.Size(316, 30);
-            this.contract_numberTextBox.TabIndex = 29;
+            this.ContractNumTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.order_admissionBindingSource, "Contract_number", true));
+            this.ContractNumTextBox.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ContractNumTextBox.Location = new System.Drawing.Point(390, 678);
+            this.ContractNumTextBox.Name = "ContractNumTextBox";
+            this.ContractNumTextBox.Size = new System.Drawing.Size(316, 30);
+            this.ContractNumTextBox.TabIndex = 29;
             // 
             // order_admissionTableAdapter
             // 
@@ -730,12 +731,26 @@
             // 
             this.printDocument1.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(this.printDocument1_PrintPage);
             // 
+            // buttonExportWord
+            // 
+            this.buttonExportWord.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.buttonExportWord.Font = new System.Drawing.Font("Times New Roman", 12.25532F);
+            this.buttonExportWord.ForeColor = System.Drawing.Color.Black;
+            this.buttonExportWord.Location = new System.Drawing.Point(1059, 355);
+            this.buttonExportWord.Name = "buttonExportWord";
+            this.buttonExportWord.Size = new System.Drawing.Size(218, 55);
+            this.buttonExportWord.TabIndex = 149;
+            this.buttonExportWord.Text = "Экспорт в Word";
+            this.buttonExportWord.UseVisualStyleBackColor = false;
+            this.buttonExportWord.Click += new System.EventHandler(this.buttonExportWord_Click);
+            // 
             // FormOrderAdmission1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(1357, 1010);
+            this.Controls.Add(this.buttonExportWord);
             this.Controls.Add(this.buttonSeal10);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.buttonfilter);
@@ -785,21 +800,21 @@
         private System.Windows.Forms.ToolStripButton bindingNavigatorMoveLastItem;
         private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator2;
         private System.Windows.Forms.ToolStripButton order_admissionBindingNavigatorSaveItem;
-        private System.Windows.Forms.TextBox iD_orderTextBox;
-        private System.Windows.Forms.TextBox name_organizationTextBox;
-        private System.Windows.Forms.TextBox document_numberTextBox;
-        private System.Windows.Forms.DateTimePicker date_compilationDateTimePicker;
-        private System.Windows.Forms.DateTimePicker to_take_withDateTimePicker;
-        private System.Windows.Forms.TextBox service_numberTextBox;
-        private System.Windows.Forms.TextBox fIOTextBox;
-        private System.Windows.Forms.TextBox structural_divisionTextBox;
-        private System.Windows.Forms.TextBox positionTextBox;
-        private System.Windows.Forms.TextBox nature_workTextBox;
-        private System.Windows.Forms.TextBox with_tariff_rateTextBox;
-        private System.Windows.Forms.TextBox at_premiumTextBox;
-        private System.Windows.Forms.TextBox with_trial_periodTextBox;
-        private System.Windows.Forms.DateTimePicker employment_contract_fromDateTimePicker;
-        private System.Windows.Forms.TextBox contract_numberTextBox;
+        private System.Windows.Forms.TextBox ID_orderTextBox;
+        private System.Windows.Forms.TextBox NameOrganizationTextBox;
+        private System.Windows.Forms.TextBox DocumentNumberTextBox;
+        private System.Windows.Forms.DateTimePicker CompilationDateTimePicker;
+        private System.Windows.Forms.DateTimePicker TakeWithDateTimePicker;
+        private System.Windows.Forms.TextBox ServiceNumberTextBox;
+        private System.Windows.Forms.TextBox FIOTextBox;
+        private System.Windows.Forms.TextBox DivisionTextBox;
+        private System.Windows.Forms.TextBox PositionTextBox;
+        private System.Windows.Forms.TextBox WorkTextBox;
+        private System.Windows.Forms.TextBox TariffTextBox;
+        private System.Windows.Forms.TextBox PremiumTextBox;
+        private System.Windows.Forms.TextBox PeriodTextBox;
+        private System.Windows.Forms.DateTimePicker ContractDateTimePicker;
+        private System.Windows.Forms.TextBox ContractNumTextBox;
         private System.Windows.Forms.Button buttonAdd;
         private System.Windows.Forms.Button buttonBack;
         private System.Windows.Forms.Button buttonDelete;
@@ -810,5 +825,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button buttonSeal10;
         private System.Drawing.Printing.PrintDocument printDocument1;
+        private System.Windows.Forms.Button buttonExportWord;
     }
 }
