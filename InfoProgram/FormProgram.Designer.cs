@@ -82,6 +82,7 @@
             this.Name = "FormProgram";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "О программе";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormProgram_FormClosing);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormProgram_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();

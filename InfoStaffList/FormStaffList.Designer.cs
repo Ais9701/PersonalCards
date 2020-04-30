@@ -46,11 +46,11 @@
             System.Windows.Forms.Label allowancesLabel;
             System.Windows.Forms.Label total_rublesLabel;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormStaffList));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle25 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             this.staff_listBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
             this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
             this.staff_listBindingSource = new System.Windows.Forms.BindingSource(this.components);
@@ -137,7 +137,7 @@
             iD_schedulesLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
             iD_schedulesLabel.Location = new System.Drawing.Point(6, 37);
             iD_schedulesLabel.Name = "iD_schedulesLabel";
-            iD_schedulesLabel.Size = new System.Drawing.Size(172, 35);
+            iD_schedulesLabel.Size = new System.Drawing.Size(180, 36);
             iD_schedulesLabel.TabIndex = 102;
             iD_schedulesLabel.Text = "ID расписания:";
             // 
@@ -148,7 +148,7 @@
             name_organizationLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
             name_organizationLabel.Location = new System.Drawing.Point(6, 75);
             name_organizationLabel.Name = "name_organizationLabel";
-            name_organizationLabel.Size = new System.Drawing.Size(320, 35);
+            name_organizationLabel.Size = new System.Drawing.Size(332, 36);
             name_organizationLabel.TabIndex = 104;
             name_organizationLabel.Text = "Наименование организации:";
             // 
@@ -159,7 +159,7 @@
             document_numberLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
             document_numberLabel.Location = new System.Drawing.Point(4, 110);
             document_numberLabel.Name = "document_numberLabel";
-            document_numberLabel.Size = new System.Drawing.Size(206, 35);
+            document_numberLabel.Size = new System.Drawing.Size(211, 36);
             document_numberLabel.TabIndex = 106;
             document_numberLabel.Text = "Номер документа:";
             // 
@@ -170,7 +170,7 @@
             date_compilationLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
             date_compilationLabel.Location = new System.Drawing.Point(4, 145);
             date_compilationLabel.Name = "date_compilationLabel";
-            date_compilationLabel.Size = new System.Drawing.Size(206, 35);
+            date_compilationLabel.Size = new System.Drawing.Size(212, 36);
             date_compilationLabel.TabIndex = 108;
             date_compilationLabel.Text = "Дата составления:";
             // 
@@ -181,7 +181,7 @@
             order_organization_fromLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
             order_organization_fromLabel.Location = new System.Drawing.Point(4, 180);
             order_organization_fromLabel.Name = "order_organization_fromLabel";
-            order_organization_fromLabel.Size = new System.Drawing.Size(294, 35);
+            order_organization_fromLabel.Size = new System.Drawing.Size(309, 36);
             order_organization_fromLabel.TabIndex = 110;
             order_organization_fromLabel.Text = "Приказом организации от:";
             // 
@@ -192,7 +192,7 @@
             order_numberLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
             order_numberLabel.Location = new System.Drawing.Point(3, 215);
             order_numberLabel.Name = "order_numberLabel";
-            order_numberLabel.Size = new System.Drawing.Size(179, 35);
+            order_numberLabel.Size = new System.Drawing.Size(187, 36);
             order_numberLabel.TabIndex = 112;
             order_numberLabel.Text = "Номер приказа:";
             // 
@@ -203,7 +203,7 @@
             for_periodLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
             for_periodLabel.Location = new System.Drawing.Point(3, 250);
             for_periodLabel.Name = "for_periodLabel";
-            for_periodLabel.Size = new System.Drawing.Size(131, 35);
+            for_periodLabel.Size = new System.Drawing.Size(135, 36);
             for_periodLabel.TabIndex = 114;
             for_periodLabel.Text = "На период:";
             // 
@@ -214,7 +214,7 @@
             dateLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
             dateLabel.Location = new System.Drawing.Point(4, 285);
             dateLabel.Name = "dateLabel";
-            dateLabel.Size = new System.Drawing.Size(71, 35);
+            dateLabel.Size = new System.Drawing.Size(73, 36);
             dateLabel.TabIndex = 116;
             dateLabel.Text = "Дата:";
             // 
@@ -225,7 +225,7 @@
             staff_number_unitsLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
             staff_number_unitsLabel.Location = new System.Drawing.Point(4, 320);
             staff_number_unitsLabel.Name = "staff_number_unitsLabel";
-            staff_number_unitsLabel.Size = new System.Drawing.Size(322, 35);
+            staff_number_unitsLabel.Size = new System.Drawing.Size(332, 36);
             staff_number_unitsLabel.TabIndex = 118;
             staff_number_unitsLabel.Text = "Штат в количестве (единиц):";
             // 
@@ -236,7 +236,7 @@
             nameLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
             nameLabel.Location = new System.Drawing.Point(4, 355);
             nameLabel.Name = "nameLabel";
-            nameLabel.Size = new System.Drawing.Size(179, 35);
+            nameLabel.Size = new System.Drawing.Size(183, 36);
             nameLabel.TabIndex = 120;
             nameLabel.Text = "Наименование:";
             // 
@@ -247,7 +247,7 @@
             codeLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
             codeLabel.Location = new System.Drawing.Point(4, 392);
             codeLabel.Name = "codeLabel";
-            codeLabel.Size = new System.Drawing.Size(62, 35);
+            codeLabel.Size = new System.Drawing.Size(63, 36);
             codeLabel.TabIndex = 122;
             codeLabel.Text = "Код:";
             // 
@@ -258,7 +258,7 @@
             positionLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
             positionLabel.Location = new System.Drawing.Point(4, 427);
             positionLabel.Name = "positionLabel";
-            positionLabel.Size = new System.Drawing.Size(138, 35);
+            positionLabel.Size = new System.Drawing.Size(140, 36);
             positionLabel.TabIndex = 124;
             positionLabel.Text = "Должность:";
             // 
@@ -269,7 +269,7 @@
             number__staff_unitsLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
             number__staff_unitsLabel.Location = new System.Drawing.Point(4, 462);
             number__staff_unitsLabel.Name = "number__staff_unitsLabel";
-            number__staff_unitsLabel.Size = new System.Drawing.Size(329, 35);
+            number__staff_unitsLabel.Size = new System.Drawing.Size(339, 36);
             number__staff_unitsLabel.TabIndex = 126;
             number__staff_unitsLabel.Text = "Количество штатных единиц:";
             // 
@@ -280,7 +280,7 @@
             tariff_rateLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
             tariff_rateLabel.Location = new System.Drawing.Point(3, 497);
             tariff_rateLabel.Name = "tariff_rateLabel";
-            tariff_rateLabel.Size = new System.Drawing.Size(196, 35);
+            tariff_rateLabel.Size = new System.Drawing.Size(207, 36);
             tariff_rateLabel.TabIndex = 128;
             tariff_rateLabel.Text = "Тарифная ставка:";
             // 
@@ -291,7 +291,7 @@
             allowancesLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
             allowancesLabel.Location = new System.Drawing.Point(4, 532);
             allowancesLabel.Name = "allowancesLabel";
-            allowancesLabel.Size = new System.Drawing.Size(123, 35);
+            allowancesLabel.Size = new System.Drawing.Size(128, 36);
             allowancesLabel.TabIndex = 130;
             allowancesLabel.Text = "Надбавки:";
             // 
@@ -302,7 +302,7 @@
             total_rublesLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
             total_rublesLabel.Location = new System.Drawing.Point(4, 567);
             total_rublesLabel.Name = "total_rublesLabel";
-            total_rublesLabel.Size = new System.Drawing.Size(136, 35);
+            total_rublesLabel.Size = new System.Drawing.Size(140, 36);
             total_rublesLabel.TabIndex = 132;
             total_rublesLabel.Text = "Всего (руб):";
             // 
@@ -430,17 +430,17 @@
             // 
             // staff_listDataGridView
             // 
-            dataGridViewCellStyle21.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.staff_listDataGridView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle21;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.staff_listDataGridView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.staff_listDataGridView.AutoGenerateColumns = false;
-            dataGridViewCellStyle22.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle22.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle22.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle22.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle22.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle22.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle22.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.staff_listDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle22;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.staff_listDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.staff_listDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.staff_listDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn1,
@@ -460,27 +460,27 @@
             this.dataGridViewTextBoxColumn15,
             this.dataGridViewTextBoxColumn16});
             this.staff_listDataGridView.DataSource = this.staff_listBindingSource;
-            dataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle23.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle23.Font = new System.Drawing.Font("Times New Roman", 12.25532F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle23.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle23.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle23.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle23.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.staff_listDataGridView.DefaultCellStyle = dataGridViewCellStyle23;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Times New Roman", 12.25532F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.staff_listDataGridView.DefaultCellStyle = dataGridViewCellStyle3;
             this.staff_listDataGridView.Location = new System.Drawing.Point(1, 12);
             this.staff_listDataGridView.Name = "staff_listDataGridView";
-            dataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle24.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle24.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle24.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle24.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle24.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle24.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.staff_listDataGridView.RowHeadersDefaultCellStyle = dataGridViewCellStyle24;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.staff_listDataGridView.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.staff_listDataGridView.RowHeadersWidth = 60;
-            dataGridViewCellStyle25.Font = new System.Drawing.Font("Times New Roman", 12.25532F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.staff_listDataGridView.RowsDefaultCellStyle = dataGridViewCellStyle25;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Times New Roman", 12.25532F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.staff_listDataGridView.RowsDefaultCellStyle = dataGridViewCellStyle5;
             this.staff_listDataGridView.RowTemplate.Height = 28;
             this.staff_listDataGridView.Size = new System.Drawing.Size(2315, 342);
             this.staff_listDataGridView.TabIndex = 1;
@@ -906,6 +906,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Штатное расписание";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormStaffList_FormClosing);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormStaffList_FormClosed);
             this.Load += new System.EventHandler(this.FormStaffList_Load);
             ((System.ComponentModel.ISupportInitialize)(this.staff_listBindingNavigator)).EndInit();

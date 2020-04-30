@@ -146,6 +146,15 @@ namespace Personal_cardsApp1
                 range.Find.ClearFormatting();
                 range.Find.Execute(FindText: stubToReplace, ReplaceWith: text);
             }
+
+        private void FormOrderAdmission1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            var result = MessageBox.Show("Вы действительно хотите выйти?", "Внимание",
+                          MessageBoxButtons.YesNo,
+                          MessageBoxIcon.Question);
+            if (result != DialogResult.Yes)
+                e.Cancel = true;
         }
+    }
     }
 

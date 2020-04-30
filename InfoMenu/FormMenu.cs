@@ -97,5 +97,14 @@ namespace Personal_cardsApp1
             ifrm.Show(); // отображаем Form2
             this.Hide(); // скрываем Form1 (this - текущая форма)
         }
+
+        private void FormMenu_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            var result = MessageBox.Show("Вы действительно хотите выйти?", "Внимание",
+                          MessageBoxButtons.YesNo,
+                          MessageBoxIcon.Question);
+            if (result != DialogResult.Yes)
+                e.Cancel = true;
+        }
     }
 }

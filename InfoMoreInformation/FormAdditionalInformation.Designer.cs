@@ -247,6 +247,7 @@
             this.Name = "FormAdditionalInformation";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Добавление дополнительных сведений";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormAdditionalInformation_FormClosing);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormAdditionalInformation_FormClosed);
             this.Load += new System.EventHandler(this.FormAdditionalInformation_Load);
             ((System.ComponentModel.ISupportInitialize)(this.personal_cardsDataSet)).EndInit();

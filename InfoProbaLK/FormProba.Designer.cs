@@ -4293,6 +4293,7 @@
             this.Name = "FormProba";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Личная карточка";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormProba_FormClosing);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormProba_FormClosed);
             this.Load += new System.EventHandler(this.FormProba_Load);
             this.groupBox1.ResumeLayout(false);

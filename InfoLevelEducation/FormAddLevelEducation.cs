@@ -71,5 +71,14 @@ namespace Personal_cardsApp1
             DrawToBitmap(bitmap, new Rectangle(Point.Empty, bitmap.Size));
             e.Graphics.DrawImage(bitmap, new Point(40, 40));
         }
+
+        private void FormAddLevelEducation_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            var result = MessageBox.Show("Вы действительно хотите выйти?", "Внимание",
+                          MessageBoxButtons.YesNo,
+                          MessageBoxIcon.Question);
+            if (result != DialogResult.Yes)
+                e.Cancel = true;
+        }
     }
 }

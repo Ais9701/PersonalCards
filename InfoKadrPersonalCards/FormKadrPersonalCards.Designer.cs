@@ -292,13 +292,16 @@
             this.tableAdapterManager.CertificationTableAdapter = null;
             this.tableAdapterManager.EducationTableAdapter = null;
             this.tableAdapterManager.Employee_informationTableAdapter = this.employee_informationTableAdapter;
+            this.tableAdapterManager.Granting_leaveTableAdapter = null;
             this.tableAdapterManager.Level_of_educationTableAdapter = null;
             this.tableAdapterManager.Military_registrationTableAdapter = null;
             this.tableAdapterManager.More_informationTableAdapter = this.more_informationTableAdapter1;
+            this.tableAdapterManager.Order_admissionTableAdapter = null;
             this.tableAdapterManager.Reception_and_transferTableAdapter = null;
             this.tableAdapterManager.RetrainingTableAdapter = null;
             this.tableAdapterManager.RewardsTableAdapter = null;
             this.tableAdapterManager.Social_benefitsTableAdapter = null;
+            this.tableAdapterManager.Staff_listTableAdapter = null;
             this.tableAdapterManager.UpdateOrder = Personal_cardsApp1.Personal_cardsDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             this.tableAdapterManager.UserTableAdapter = null;
             this.tableAdapterManager.VacationTableAdapter = null;
@@ -669,6 +672,7 @@
             this.Name = "FormKadrPersonalCards";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Личная карточка";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormKadrPersonalCards_FormClosing);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormKadrPersonalCards_FormClosed);
             this.Load += new System.EventHandler(this.kadr_Load);
             ((System.ComponentModel.ISupportInitialize)(this.personal_cardsDataSet)).EndInit();

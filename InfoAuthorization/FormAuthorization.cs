@@ -96,6 +96,15 @@ namespace Personal_cardsApp1
         }
         int a = 0, b = 15, s = 0, d = 15;
 
+        private void FormAuthorization_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            var result = MessageBox.Show("Вы действительно хотите выйти?", "Внимание",
+                          MessageBoxButtons.YesNo,
+                          MessageBoxIcon.Question);
+            if (result != DialogResult.Yes)
+                e.Cancel = true;
+        }
+
         private void buttonreg_Click(object sender, EventArgs e)
         {
             FormReg f32 = new FormReg();

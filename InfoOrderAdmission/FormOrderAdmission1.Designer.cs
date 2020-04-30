@@ -766,6 +766,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Приказ о приеме на работу";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormOrderAdmission1_FormClosing);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormOrderAdmission1_FormClosed);
             this.Load += new System.EventHandler(this.FormOrderAdmission1_Load);
             this.groupBox1.ResumeLayout(false);

@@ -82,13 +82,16 @@
             this.tableAdapterManager.CertificationTableAdapter = null;
             this.tableAdapterManager.EducationTableAdapter = null;
             this.tableAdapterManager.Employee_informationTableAdapter = null;
+            this.tableAdapterManager.Granting_leaveTableAdapter = null;
             this.tableAdapterManager.Level_of_educationTableAdapter = this.level_of_educationTableAdapter;
             this.tableAdapterManager.Military_registrationTableAdapter = null;
             this.tableAdapterManager.More_informationTableAdapter = null;
+            this.tableAdapterManager.Order_admissionTableAdapter = null;
             this.tableAdapterManager.Reception_and_transferTableAdapter = null;
             this.tableAdapterManager.RetrainingTableAdapter = null;
             this.tableAdapterManager.RewardsTableAdapter = null;
             this.tableAdapterManager.Social_benefitsTableAdapter = null;
+            this.tableAdapterManager.Staff_listTableAdapter = null;
             this.tableAdapterManager.UpdateOrder = Personal_cardsApp1.Personal_cardsDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             this.tableAdapterManager.UserTableAdapter = null;
             this.tableAdapterManager.VacationTableAdapter = null;
@@ -120,7 +123,7 @@
             this.level_of_educationBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.level_of_educationBindingNavigator.Name = "level_of_educationBindingNavigator";
             this.level_of_educationBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.level_of_educationBindingNavigator.Size = new System.Drawing.Size(1357, 37);
+            this.level_of_educationBindingNavigator.Size = new System.Drawing.Size(1357, 32);
             this.level_of_educationBindingNavigator.TabIndex = 0;
             this.level_of_educationBindingNavigator.Text = "bindingNavigator1";
             // 
@@ -315,6 +318,7 @@
             this.Name = "FormAddLevelEducation";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Добавление уровня образования";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormAddLevelEducation_FormClosing);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormAddLevelEducation_FormClosed);
             this.Load += new System.EventHandler(this.FormAddLevelEducation_Load);
             ((System.ComponentModel.ISupportInitialize)(this.personal_cardsDataSet)).EndInit();

@@ -39,5 +39,14 @@ namespace Personal_cardsApp1
         {
             System.Windows.Forms.Application.Exit();
         }
+
+        private void FormProgram_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            var result = MessageBox.Show("Вы действительно хотите выйти?", "Внимание",
+                          MessageBoxButtons.YesNo,
+                          MessageBoxIcon.Question);
+            if (result != DialogResult.Yes)
+                e.Cancel = true;
+        }
     }
 }

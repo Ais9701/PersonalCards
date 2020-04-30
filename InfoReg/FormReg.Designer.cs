@@ -32,9 +32,10 @@
             System.Windows.Forms.Label passwordLabel;
             System.Windows.Forms.Label loginLabel;
             System.Windows.Forms.Label iD_userLabel;
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormReg));
             System.Windows.Forms.Label roleLabel;
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormReg));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.RoleTextBox = new System.Windows.Forms.TextBox();
             this.ID_userTextBox = new System.Windows.Forms.TextBox();
             this.PasswordTextBox = new System.Windows.Forms.TextBox();
             this.LoginTextBox = new System.Windows.Forms.TextBox();
@@ -57,7 +58,6 @@
             this.bindingNavigatorMoveLastItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.userBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
-            this.RoleTextBox = new System.Windows.Forms.TextBox();
             passwordLabel = new System.Windows.Forms.Label();
             loginLabel = new System.Windows.Forms.Label();
             iD_userLabel = new System.Windows.Forms.Label();
@@ -102,6 +102,17 @@
             iD_userLabel.TabIndex = 10;
             iD_userLabel.Text = "ID user:";
             // 
+            // roleLabel
+            // 
+            roleLabel.AutoSize = true;
+            roleLabel.Font = new System.Drawing.Font("Sitka Banner", 24F, System.Drawing.FontStyle.Bold);
+            roleLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            roleLabel.Location = new System.Drawing.Point(6, 239);
+            roleLabel.Name = "roleLabel";
+            roleLabel.Size = new System.Drawing.Size(128, 68);
+            roleLabel.TabIndex = 11;
+            roleLabel.Text = "Role:";
+            // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.RoleTextBox);
@@ -120,6 +131,13 @@
             this.groupBox1.TabIndex = 13;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Регистрация";
+            // 
+            // RoleTextBox
+            // 
+            this.RoleTextBox.Location = new System.Drawing.Point(236, 266);
+            this.RoleTextBox.Name = "RoleTextBox";
+            this.RoleTextBox.Size = new System.Drawing.Size(243, 41);
+            this.RoleTextBox.TabIndex = 12;
             // 
             // ID_userTextBox
             // 
@@ -248,7 +266,7 @@
             // bindingNavigatorCountItem
             // 
             this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
-            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(238, 27);
+            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(238, 25);
             this.bindingNavigatorCountItem.Text = "Общее число элементов {0}";
             this.bindingNavigatorCountItem.ToolTipText = "Общее число элементов";
             // 
@@ -341,24 +359,6 @@
             this.userBindingNavigatorSaveItem.Visible = false;
             this.userBindingNavigatorSaveItem.Click += new System.EventHandler(this.userBindingNavigatorSaveItem_Click);
             // 
-            // roleLabel
-            // 
-            roleLabel.AutoSize = true;
-            roleLabel.Font = new System.Drawing.Font("Sitka Banner", 24F, System.Drawing.FontStyle.Bold);
-            roleLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            roleLabel.Location = new System.Drawing.Point(6, 239);
-            roleLabel.Name = "roleLabel";
-            roleLabel.Size = new System.Drawing.Size(128, 68);
-            roleLabel.TabIndex = 11;
-            roleLabel.Text = "Role:";
-            // 
-            // RoleTextBox
-            // 
-            this.RoleTextBox.Location = new System.Drawing.Point(236, 266);
-            this.RoleTextBox.Name = "RoleTextBox";
-            this.RoleTextBox.Size = new System.Drawing.Size(243, 41);
-            this.RoleTextBox.TabIndex = 12;
-            // 
             // FormReg
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -372,6 +372,7 @@
             this.Name = "FormReg";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Окно регистрации";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormReg_FormClosing);
             this.Load += new System.EventHandler(this.FormReg_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

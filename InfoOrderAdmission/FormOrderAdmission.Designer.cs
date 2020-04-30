@@ -689,7 +689,7 @@
             this.buttonBack.UseVisualStyleBackColor = false;
             this.buttonBack.Click += new System.EventHandler(this.buttonBack_Click);
             // 
-            // FormOrderAdmission
+            // FormRegistraciya
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -701,10 +701,11 @@
             this.Controls.Add(this.order_admissionBindingNavigator);
             this.Controls.Add(this.groupBox1);
             this.ForeColor = System.Drawing.SystemColors.Control;
-            this.Name = "FormOrderAdmission";
+            this.Name = "FormRegistraciya";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Добавление приказа о приеме на работу";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormRegistraciya_FormClosing);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormOrderAdmission_FormClosed);
             this.Load += new System.EventHandler(this.FormOrderAdmission_Load);
             this.groupBox1.ResumeLayout(false);

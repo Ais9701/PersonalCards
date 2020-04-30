@@ -42,10 +42,10 @@
             System.Windows.Forms.Label marital_statusLabel;
             System.Windows.Forms.Label foreign_language_knowledge_proficiencyLabel;
             System.Windows.Forms.Label foreign_language_knowledge_nameLabel;
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormAddPersonalCards1));
             System.Windows.Forms.Label iD_schedulesLabel;
             System.Windows.Forms.Label iD_granting_leaveLabel;
             System.Windows.Forms.Label iD_orderLabel;
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormAddPersonalCards1));
             this.personal_cardsDataSet = new Personal_cardsApp1.Personal_cardsDataSet();
             this.employee_informationBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.employee_informationTableAdapter = new Personal_cardsApp1.Personal_cardsDataSetTableAdapters.Employee_informationTableAdapter();
@@ -276,6 +276,33 @@
             foreign_language_knowledge_nameLabel.Size = new System.Drawing.Size(346, 30);
             foreign_language_knowledge_nameLabel.TabIndex = 47;
             foreign_language_knowledge_nameLabel.Text = "Наименование иностранного языка:";
+            // 
+            // iD_schedulesLabel
+            // 
+            iD_schedulesLabel.AutoSize = true;
+            iD_schedulesLabel.Location = new System.Drawing.Point(515, 880);
+            iD_schedulesLabel.Name = "iD_schedulesLabel";
+            iD_schedulesLabel.Size = new System.Drawing.Size(106, 20);
+            iD_schedulesLabel.TabIndex = 96;
+            iD_schedulesLabel.Text = "ID schedules:";
+            // 
+            // iD_granting_leaveLabel
+            // 
+            iD_granting_leaveLabel.AutoSize = true;
+            iD_granting_leaveLabel.Location = new System.Drawing.Point(515, 912);
+            iD_granting_leaveLabel.Name = "iD_granting_leaveLabel";
+            iD_granting_leaveLabel.Size = new System.Drawing.Size(133, 20);
+            iD_granting_leaveLabel.TabIndex = 97;
+            iD_granting_leaveLabel.Text = "ID granting leave:";
+            // 
+            // iD_orderLabel
+            // 
+            iD_orderLabel.AutoSize = true;
+            iD_orderLabel.Location = new System.Drawing.Point(515, 944);
+            iD_orderLabel.Name = "iD_orderLabel";
+            iD_orderLabel.Size = new System.Drawing.Size(71, 20);
+            iD_orderLabel.TabIndex = 98;
+            iD_orderLabel.Text = "ID order:";
             // 
             // personal_cardsDataSet
             // 
@@ -827,33 +854,6 @@
             this.label15.TabIndex = 96;
             this.label15.Text = "Уровня образования:";
             // 
-            // iD_schedulesLabel
-            // 
-            iD_schedulesLabel.AutoSize = true;
-            iD_schedulesLabel.Location = new System.Drawing.Point(515, 880);
-            iD_schedulesLabel.Name = "iD_schedulesLabel";
-            iD_schedulesLabel.Size = new System.Drawing.Size(106, 20);
-            iD_schedulesLabel.TabIndex = 96;
-            iD_schedulesLabel.Text = "ID schedules:";
-            // 
-            // iD_granting_leaveLabel
-            // 
-            iD_granting_leaveLabel.AutoSize = true;
-            iD_granting_leaveLabel.Location = new System.Drawing.Point(515, 912);
-            iD_granting_leaveLabel.Name = "iD_granting_leaveLabel";
-            iD_granting_leaveLabel.Size = new System.Drawing.Size(133, 20);
-            iD_granting_leaveLabel.TabIndex = 97;
-            iD_granting_leaveLabel.Text = "ID granting leave:";
-            // 
-            // iD_orderLabel
-            // 
-            iD_orderLabel.AutoSize = true;
-            iD_orderLabel.Location = new System.Drawing.Point(515, 944);
-            iD_orderLabel.Name = "iD_orderLabel";
-            iD_orderLabel.Size = new System.Drawing.Size(71, 20);
-            iD_orderLabel.TabIndex = 98;
-            iD_orderLabel.Text = "ID order:";
-            // 
             // ID_schedulesTextBox
             // 
             this.ID_schedulesTextBox.Location = new System.Drawing.Point(660, 875);
@@ -950,6 +950,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Добавление основных сведений";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormAddPersonalCards1_FormClosing);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormAddPersonalCards1_FormClosed);
             this.Load += new System.EventHandler(this.FormAddPersonalCards1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.personal_cardsDataSet)).EndInit();
