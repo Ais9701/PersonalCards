@@ -287,7 +287,7 @@
             iD_schedulesLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
             iD_schedulesLabel.Location = new System.Drawing.Point(10, 403);
             iD_schedulesLabel.Name = "iD_schedulesLabel";
-            iD_schedulesLabel.Size = new System.Drawing.Size(143, 29);
+            iD_schedulesLabel.Size = new System.Drawing.Size(150, 30);
             iD_schedulesLabel.TabIndex = 96;
             iD_schedulesLabel.Text = "ID расписания:";
             // 
@@ -298,7 +298,7 @@
             iD_granting_leaveLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
             iD_granting_leaveLabel.Location = new System.Drawing.Point(10, 432);
             iD_granting_leaveLabel.Name = "iD_granting_leaveLabel";
-            iD_granting_leaveLabel.Size = new System.Drawing.Size(254, 29);
+            iD_granting_leaveLabel.Size = new System.Drawing.Size(266, 30);
             iD_granting_leaveLabel.TabIndex = 97;
             iD_granting_leaveLabel.Text = "ID предоставления отпуска:\r\n";
             // 
@@ -309,7 +309,7 @@
             iD_orderLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
             iD_orderLabel.Location = new System.Drawing.Point(10, 463);
             iD_orderLabel.Name = "iD_orderLabel";
-            iD_orderLabel.Size = new System.Drawing.Size(113, 29);
+            iD_orderLabel.Size = new System.Drawing.Size(119, 30);
             iD_orderLabel.TabIndex = 98;
             iD_orderLabel.Text = "ID приказа:";
             // 
@@ -670,7 +670,7 @@
             // 
             // ID_awardTextBox
             // 
-            this.ID_awardTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ID_awardTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ID_awardTextBox.Location = new System.Drawing.Point(270, 142);
             this.ID_awardTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ID_awardTextBox.Name = "ID_awardTextBox";
@@ -680,7 +680,7 @@
             // 
             // ID_vacationTextBox
             // 
-            this.ID_vacationTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ID_vacationTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ID_vacationTextBox.Location = new System.Drawing.Point(270, 109);
             this.ID_vacationTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ID_vacationTextBox.Name = "ID_vacationTextBox";
@@ -690,7 +690,7 @@
             // 
             // ID_social_benefitsTextBox
             // 
-            this.ID_social_benefitsTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ID_social_benefitsTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ID_social_benefitsTextBox.Location = new System.Drawing.Point(270, 77);
             this.ID_social_benefitsTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ID_social_benefitsTextBox.Name = "ID_social_benefitsTextBox";
@@ -700,7 +700,7 @@
             // 
             // ID_retrainingTextBox
             // 
-            this.ID_retrainingTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ID_retrainingTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ID_retrainingTextBox.Location = new System.Drawing.Point(270, 175);
             this.ID_retrainingTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ID_retrainingTextBox.Name = "ID_retrainingTextBox";
@@ -710,7 +710,7 @@
             // 
             // ID_of_reception_and_transfer_to_workTextBox
             // 
-            this.ID_of_reception_and_transfer_to_workTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ID_of_reception_and_transfer_to_workTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ID_of_reception_and_transfer_to_workTextBox.Location = new System.Drawing.Point(270, 238);
             this.ID_of_reception_and_transfer_to_workTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ID_of_reception_and_transfer_to_workTextBox.Name = "ID_of_reception_and_transfer_to_workTextBox";
@@ -720,7 +720,7 @@
             // 
             // ID_qualificationTextBox
             // 
-            this.ID_qualificationTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ID_qualificationTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ID_qualificationTextBox.Location = new System.Drawing.Point(270, 206);
             this.ID_qualificationTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ID_qualificationTextBox.Name = "ID_qualificationTextBox";
@@ -730,7 +730,7 @@
             // 
             // ID_additional_informationTextBox
             // 
-            this.ID_additional_informationTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ID_additional_informationTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ID_additional_informationTextBox.Location = new System.Drawing.Point(270, 45);
             this.ID_additional_informationTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ID_additional_informationTextBox.Name = "ID_additional_informationTextBox";
@@ -740,7 +740,7 @@
             // 
             // ID_educationTextBox
             // 
-            this.ID_educationTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ID_educationTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ID_educationTextBox.Location = new System.Drawing.Point(270, 270);
             this.ID_educationTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ID_educationTextBox.Name = "ID_educationTextBox";
@@ -750,7 +750,7 @@
             // 
             // ID_certificationTextBox
             // 
-            this.ID_certificationTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ID_certificationTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ID_certificationTextBox.Location = new System.Drawing.Point(270, 302);
             this.ID_certificationTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ID_certificationTextBox.Name = "ID_certificationTextBox";
@@ -760,7 +760,7 @@
             // 
             // ID_military_registrationTextBox
             // 
-            this.ID_military_registrationTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ID_military_registrationTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ID_military_registrationTextBox.Location = new System.Drawing.Point(270, 335);
             this.ID_military_registrationTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ID_military_registrationTextBox.Name = "ID_military_registrationTextBox";
@@ -770,7 +770,7 @@
             // 
             // ID_level_of_educationTextBox
             // 
-            this.ID_level_of_educationTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ID_level_of_educationTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ID_level_of_educationTextBox.Location = new System.Drawing.Point(270, 366);
             this.ID_level_of_educationTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ID_level_of_educationTextBox.Name = "ID_level_of_educationTextBox";
@@ -801,7 +801,7 @@
             this.label5.ForeColor = System.Drawing.Color.MediumSpringGreen;
             this.label5.Location = new System.Drawing.Point(10, 46);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(162, 29);
+            this.label5.Size = new System.Drawing.Size(165, 30);
             this.label5.TabIndex = 86;
             this.label5.Text = "ID доп.сведений:";
             // 
@@ -812,7 +812,7 @@
             this.label6.ForeColor = System.Drawing.Color.MediumSpringGreen;
             this.label6.Location = new System.Drawing.Point(10, 75);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(124, 29);
+            this.label6.Size = new System.Drawing.Size(129, 30);
             this.label6.TabIndex = 87;
             this.label6.Text = "ID соц.льгот:";
             // 
@@ -823,7 +823,7 @@
             this.label7.ForeColor = System.Drawing.Color.MediumSpringGreen;
             this.label7.Location = new System.Drawing.Point(10, 107);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(109, 29);
+            this.label7.Size = new System.Drawing.Size(115, 30);
             this.label7.TabIndex = 88;
             this.label7.Text = "ID отпуска:";
             // 
@@ -834,7 +834,7 @@
             this.label8.ForeColor = System.Drawing.Color.MediumSpringGreen;
             this.label8.Location = new System.Drawing.Point(10, 140);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(101, 29);
+            this.label8.Size = new System.Drawing.Size(107, 30);
             this.label8.TabIndex = 89;
             this.label8.Text = "ID наград:";
             // 
@@ -845,7 +845,7 @@
             this.label9.ForeColor = System.Drawing.Color.MediumSpringGreen;
             this.label9.Location = new System.Drawing.Point(10, 174);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(183, 29);
+            this.label9.Size = new System.Drawing.Size(190, 30);
             this.label9.TabIndex = 90;
             this.label9.Text = "ID переподготовки:";
             // 
@@ -856,7 +856,7 @@
             this.label10.ForeColor = System.Drawing.Color.MediumSpringGreen;
             this.label10.Location = new System.Drawing.Point(10, 209);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(174, 29);
+            this.label10.Size = new System.Drawing.Size(180, 30);
             this.label10.TabIndex = 91;
             this.label10.Text = "ID квалификации:";
             // 
@@ -867,7 +867,7 @@
             this.label11.ForeColor = System.Drawing.Color.MediumSpringGreen;
             this.label11.Location = new System.Drawing.Point(10, 238);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(208, 29);
+            this.label11.Size = new System.Drawing.Size(216, 30);
             this.label11.TabIndex = 92;
             this.label11.Text = "ID приема и перевода:";
             // 
@@ -878,7 +878,7 @@
             this.label12.ForeColor = System.Drawing.Color.MediumSpringGreen;
             this.label12.Location = new System.Drawing.Point(10, 269);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(153, 29);
+            this.label12.Size = new System.Drawing.Size(159, 30);
             this.label12.TabIndex = 93;
             this.label12.Text = "ID образования:";
             // 
@@ -889,7 +889,7 @@
             this.label13.ForeColor = System.Drawing.Color.MediumSpringGreen;
             this.label13.Location = new System.Drawing.Point(10, 298);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(140, 29);
+            this.label13.Size = new System.Drawing.Size(147, 30);
             this.label13.TabIndex = 94;
             this.label13.Text = "ID аттестации:";
             // 
@@ -900,7 +900,7 @@
             this.label14.ForeColor = System.Drawing.Color.MediumSpringGreen;
             this.label14.Location = new System.Drawing.Point(10, 331);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(174, 29);
+            this.label14.Size = new System.Drawing.Size(182, 30);
             this.label14.TabIndex = 95;
             this.label14.Text = "ID военного учета:";
             // 
@@ -911,13 +911,13 @@
             this.label15.ForeColor = System.Drawing.Color.MediumSpringGreen;
             this.label15.Location = new System.Drawing.Point(10, 365);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(218, 29);
+            this.label15.Size = new System.Drawing.Size(228, 30);
             this.label15.TabIndex = 96;
             this.label15.Text = "ID уровня образования:";
             // 
             // ID_schedulesTextBox
             // 
-            this.ID_schedulesTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ID_schedulesTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ID_schedulesTextBox.Location = new System.Drawing.Point(270, 403);
             this.ID_schedulesTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ID_schedulesTextBox.Name = "ID_schedulesTextBox";
@@ -927,7 +927,7 @@
             // 
             // ID_granting_leaveTextBox
             // 
-            this.ID_granting_leaveTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ID_granting_leaveTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ID_granting_leaveTextBox.Location = new System.Drawing.Point(270, 433);
             this.ID_granting_leaveTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ID_granting_leaveTextBox.Name = "ID_granting_leaveTextBox";
@@ -937,7 +937,7 @@
             // 
             // ID_orderTextBox
             // 
-            this.ID_orderTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ID_orderTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ID_orderTextBox.Location = new System.Drawing.Point(270, 467);
             this.ID_orderTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ID_orderTextBox.Name = "ID_orderTextBox";
@@ -982,7 +982,7 @@
             this.groupBox1.Size = new System.Drawing.Size(525, 526);
             this.groupBox1.TabIndex = 102;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Не требует от пользователя заполнения данных:";
+            this.groupBox1.Text = "Не требует от пользователя заполнения данных";
             // 
             // label16
             // 

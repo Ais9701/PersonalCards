@@ -1,5 +1,4 @@
-﻿using Personal_cardsApp1.InfoAdvancedTraining;
-using Personal_cardsApp1.InfoPersonalCards;
+﻿using Personal_cardsApp1.InfoPersonalCards;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -37,15 +36,6 @@ namespace Personal_cardsApp1
             Authorization.Top = this.Top; // задаём открываемой форме позицию сверху равную позиции текущей формы
             Authorization.Show(); // отображаем Form2
             this.Hide();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Form ifrm = new FormPersonalCards();
-            ifrm.Left = this.Left; // задаём открываемой форме позицию слева равную позиции текущей формы
-            ifrm.Top = this.Top; // задаём открываемой форме позицию сверху равную позиции текущей формы
-            ifrm.Show(); // отображаем Form2
-            this.Hide(); // скрываем Form1 (this - текущая форма)
         }
 
         private void button2_Click(object sender, EventArgs e)

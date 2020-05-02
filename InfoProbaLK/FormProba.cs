@@ -280,7 +280,7 @@ namespace Personal_cardsApp1
 
         private void FormProba_FormClosed(object sender, FormClosedEventArgs e)
         {
-            System.Windows.Forms.Application.Exit();
+            Application.Exit();
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -447,11 +447,7 @@ namespace Personal_cardsApp1
 
         private void FormProba_FormClosing(object sender, FormClosingEventArgs e)
         {
-            var result = MessageBox.Show("Вы действительно хотите выйти?", "Внимание",
-                          MessageBoxButtons.YesNo,
-                          MessageBoxIcon.Question);
-            if (result != DialogResult.Yes)
-                e.Cancel = true;
+            
         }
     }
 }

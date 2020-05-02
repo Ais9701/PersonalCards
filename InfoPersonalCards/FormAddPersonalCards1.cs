@@ -57,7 +57,6 @@ namespace Personal_cardsApp1.InfoPersonalCards
 
         private void FormAddPersonalCards1_FormClosed(object sender, FormClosedEventArgs e)
         {
-            System.Windows.Forms.Application.Exit();
         }
 
         private void FormAddPersonalCards1_FormClosing(object sender, FormClosingEventArgs e)

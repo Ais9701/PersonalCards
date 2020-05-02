@@ -125,12 +125,6 @@
     <Compile Include="InfoPersonalCards\FormAddPersonalCards1.Designer.cs">
       <DependentUpon>FormAddPersonalCards1.cs</DependentUpon>
     </Compile>
-    <Compile Include="InfoPersonalCards\FormPersonalCards.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="InfoPersonalCards\FormPersonalCards.Designer.cs">
-      <DependentUpon>FormPersonalCards.cs</DependentUpon>
-    </Compile>
     <Compile Include="InfoCertification\FormAddCertification.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -179,12 +173,6 @@
     <Compile Include="InfoVacation\FormAddVacation.Designer.cs">
       <DependentUpon>FormAddVacation.cs</DependentUpon>
     </Compile>
-    <Compile Include="InfoAdvancedTraining\FormAdvancedTraining.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="InfoAdvancedTraining\FormAdvancedTraining.Designer.cs">
-      <DependentUpon>FormAdvancedTraining.cs</DependentUpon>
-    </Compile>
     <Compile Include="InfoAuthorization\FormAuthorization.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -202,66 +190,6 @@
     </Compile>
     <Compile Include="InfoSocialBenefits\FormAddSocialBenefits.Designer.cs">
       <DependentUpon>FormAddSocialBenefits.cs</DependentUpon>
-    </Compile>
-    <Compile Include="InfoCertification\FormCertification.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="InfoCertification\FormCertification.Designer.cs">
-      <DependentUpon>FormCertification.cs</DependentUpon>
-    </Compile>
-    <Compile Include="InfoEducation\FormEducation.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="InfoEducation\FormEducation.Designer.cs">
-      <DependentUpon>FormEducation.cs</DependentUpon>
-    </Compile>
-    <Compile Include="InfoLevelEducation\FormLevelEducation.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="InfoLevelEducation\FormLevelEducation.Designer.cs">
-      <DependentUpon>FormLevelEducation.cs</DependentUpon>
-    </Compile>
-    <Compile Include="InfoMilitaryRegistration\FormMilitaryRegistration.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="InfoMilitaryRegistration\FormMilitaryRegistration.Designer.cs">
-      <DependentUpon>FormMilitaryRegistration.cs</DependentUpon>
-    </Compile>
-    <Compile Include="InfoMoreInformation\FormMoreInformation.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="InfoMoreInformation\FormMoreInformation.Designer.cs">
-      <DependentUpon>FormMoreInformation.cs</DependentUpon>
-    </Compile>
-    <Compile Include="InfoReceptionTransfer\FormReceptionTransfer.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="InfoReceptionTransfer\FormReceptionTransfer.Designer.cs">
-      <DependentUpon>FormReceptionTransfer.cs</DependentUpon>
-    </Compile>
-    <Compile Include="InfoRetraining\FormRetraining.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="InfoRetraining\FormRetraining.Designer.cs">
-      <DependentUpon>FormRetraining.cs</DependentUpon>
-    </Compile>
-    <Compile Include="InfoRewards\FormRewards.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="InfoRewards\FormRewards.Designer.cs">
-      <DependentUpon>FormRewards.cs</DependentUpon>
-    </Compile>
-    <Compile Include="InfoSocialBenefits\FormSocialBenefits.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="InfoSocialBenefits\FormSocialBenefits.Designer.cs">
-      <DependentUpon>FormSocialBenefits.cs</DependentUpon>
-    </Compile>
-    <Compile Include="InfoVacation\FormVacation.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="InfoVacation\FormVacation.Designer.cs">
-      <DependentUpon>FormVacation.cs</DependentUpon>
     </Compile>
     <Compile Include="InfoKadrPersonalCards\FormKadrPersonalCards.cs">
       <SubType>Form</SubType>
@@ -309,9 +237,6 @@
     <EmbeddedResource Include="InfoPersonalCards\FormAddPersonalCards1.resx">
       <DependentUpon>FormAddPersonalCards1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="InfoPersonalCards\FormPersonalCards.resx">
-      <DependentUpon>FormPersonalCards.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="InfoCertification\FormAddCertification.resx">
       <DependentUpon>FormAddCertification.cs</DependentUpon>
     </EmbeddedResource>
@@ -336,9 +261,6 @@
     <EmbeddedResource Include="InfoVacation\FormAddVacation.resx">
       <DependentUpon>FormAddVacation.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="InfoAdvancedTraining\FormAdvancedTraining.resx">
-      <DependentUpon>FormAdvancedTraining.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="InfoAuthorization\FormAuthorization.resx">
       <DependentUpon>FormAuthorization.cs</DependentUpon>
     </EmbeddedResource>
@@ -347,36 +269,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="InfoSocialBenefits\FormAddSocialBenefits.resx">
       <DependentUpon>FormAddSocialBenefits.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="InfoCertification\FormCertification.resx">
-      <DependentUpon>FormCertification.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="InfoEducation\FormEducation.resx">
-      <DependentUpon>FormEducation.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="InfoLevelEducation\FormLevelEducation.resx">
-      <DependentUpon>FormLevelEducation.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="InfoMilitaryRegistration\FormMilitaryRegistration.resx">
-      <DependentUpon>FormMilitaryRegistration.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="InfoMoreInformation\FormMoreInformation.resx">
-      <DependentUpon>FormMoreInformation.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="InfoReceptionTransfer\FormReceptionTransfer.resx">
-      <DependentUpon>FormReceptionTransfer.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="InfoRetraining\FormRetraining.resx">
-      <DependentUpon>FormRetraining.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="InfoRewards\FormRewards.resx">
-      <DependentUpon>FormRewards.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="InfoSocialBenefits\FormSocialBenefits.resx">
-      <DependentUpon>FormSocialBenefits.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="InfoVacation\FormVacation.resx">
-      <DependentUpon>FormVacation.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="InfoKadrPersonalCards\FormKadrPersonalCards.resx">
       <DependentUpon>FormKadrPersonalCards.cs</DependentUpon>

@@ -14,7 +14,7 @@ namespace Personal_cardsApp1
 {
     public partial class FormOrderAdmission1 : Form
     {
-        private readonly string TemplateFileName = @"c:\prikaz1.docx";
+        private readonly string TemplateFileName = @"C:\Users\Home\Desktop\ВКР\prikaz1.docx";
         public FormOrderAdmission1()
         {
             InitializeComponent();
@@ -137,7 +137,7 @@ namespace Personal_cardsApp1
             }
             catch
             {
-                MessageBox.Show("Произошла ошибка");
+                MessageBox.Show("Нажмите повторно на кнопку экспорта");
             }
         }
             private void ReplaceWordStub(string stubToReplace, string text, Word.Document wordDocument)
