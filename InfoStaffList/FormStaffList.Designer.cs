@@ -479,7 +479,7 @@
             dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.staff_listDataGridView.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.staff_listDataGridView.RowHeadersWidth = 60;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Times New Roman", 12.25532F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Times New Roman", 10.21277F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.staff_listDataGridView.RowsDefaultCellStyle = dataGridViewCellStyle5;
             this.staff_listDataGridView.RowTemplate.Height = 28;
             this.staff_listDataGridView.Size = new System.Drawing.Size(2315, 342);
