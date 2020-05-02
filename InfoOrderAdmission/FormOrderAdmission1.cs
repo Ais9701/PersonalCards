@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -137,7 +138,7 @@ namespace Personal_cardsApp1
             }
             catch
             {
-                MessageBox.Show("Нажмите повторно на кнопку экспорта");
+                MessageBox.Show("Произошла ошибка");
             }
         }
             private void ReplaceWordStub(string stubToReplace, string text, Word.Document wordDocument)
@@ -154,6 +155,11 @@ namespace Personal_cardsApp1
                           MessageBoxIcon.Question);
             if (result != DialogResult.Yes)
                 e.Cancel = true;
+        }
+
+        private void buttonrukovodstvoword_Click(object sender, EventArgs e)
+        {
+            Process.Start(@"C:\Users\Home\Desktop\ВКР\Руководства\Руководство по экспорту в Word.pdf");
         }
     }
     }

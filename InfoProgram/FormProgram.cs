@@ -32,7 +32,7 @@ namespace Personal_cardsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Process.Start(@"C:\Users\Home\Desktop\ВКР\Руководство пользователя.pdf");
+            Process.Start(@"C:\Users\Home\Desktop\ВКР\Руководства\Руководство пользователя.pdf");
         }
 
         private void FormProgram_FormClosed(object sender, FormClosedEventArgs e)
