@@ -31,14 +31,12 @@
             this.components = new System.ComponentModel.Container();
             System.Windows.Forms.Label passwordLabel;
             System.Windows.Forms.Label loginLabel;
-            System.Windows.Forms.Label iD_userLabel;
             System.Windows.Forms.Label roleLabel;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormReg));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.RoleTextBox = new System.Windows.Forms.TextBox();
-            this.ID_userTextBox = new System.Windows.Forms.TextBox();
-            this.PasswordTextBox = new System.Windows.Forms.TextBox();
-            this.LoginTextBox = new System.Windows.Forms.TextBox();
+            this.roleTextBox = new System.Windows.Forms.TextBox();
+            this.passwordTextBox = new System.Windows.Forms.TextBox();
+            this.loginTextBox = new System.Windows.Forms.TextBox();
             this.buttonregistraciya = new System.Windows.Forms.Button();
             this.buttonBack = new System.Windows.Forms.Button();
             this.personal_cardsDataSet = new Personal_cardsApp1.Personal_cardsDataSet();
@@ -60,7 +58,6 @@
             this.userBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
             passwordLabel = new System.Windows.Forms.Label();
             loginLabel = new System.Windows.Forms.Label();
-            iD_userLabel = new System.Windows.Forms.Label();
             roleLabel = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.personal_cardsDataSet)).BeginInit();
@@ -74,7 +71,7 @@
             passwordLabel.AutoSize = true;
             passwordLabel.Font = new System.Drawing.Font("Sitka Banner", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             passwordLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            passwordLabel.Location = new System.Drawing.Point(6, 171);
+            passwordLabel.Location = new System.Drawing.Point(10, 121);
             passwordLabel.Name = "passwordLabel";
             passwordLabel.Size = new System.Drawing.Size(191, 68);
             passwordLabel.TabIndex = 5;
@@ -85,88 +82,68 @@
             loginLabel.AutoSize = true;
             loginLabel.Font = new System.Drawing.Font("Sitka Banner", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             loginLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            loginLabel.Location = new System.Drawing.Point(6, 102);
+            loginLabel.Location = new System.Drawing.Point(10, 52);
             loginLabel.Name = "loginLabel";
             loginLabel.Size = new System.Drawing.Size(171, 68);
             loginLabel.TabIndex = 3;
             loginLabel.Text = "Логин:";
-            // 
-            // iD_userLabel
-            // 
-            iD_userLabel.AutoSize = true;
-            iD_userLabel.Font = new System.Drawing.Font("Sitka Banner", 24F, System.Drawing.FontStyle.Bold);
-            iD_userLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            iD_userLabel.Location = new System.Drawing.Point(6, 37);
-            iD_userLabel.Name = "iD_userLabel";
-            iD_userLabel.Size = new System.Drawing.Size(183, 68);
-            iD_userLabel.TabIndex = 10;
-            iD_userLabel.Text = "ID user:";
             // 
             // roleLabel
             // 
             roleLabel.AutoSize = true;
             roleLabel.Font = new System.Drawing.Font("Sitka Banner", 24F, System.Drawing.FontStyle.Bold);
             roleLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            roleLabel.Location = new System.Drawing.Point(6, 239);
+            roleLabel.Location = new System.Drawing.Point(10, 189);
             roleLabel.Name = "roleLabel";
-            roleLabel.Size = new System.Drawing.Size(128, 68);
+            roleLabel.Size = new System.Drawing.Size(137, 68);
             roleLabel.TabIndex = 11;
-            roleLabel.Text = "Role:";
+            roleLabel.Text = "Роль:";
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.RoleTextBox);
+            this.groupBox1.Controls.Add(this.roleTextBox);
             this.groupBox1.Controls.Add(roleLabel);
-            this.groupBox1.Controls.Add(this.ID_userTextBox);
-            this.groupBox1.Controls.Add(iD_userLabel);
             this.groupBox1.Controls.Add(passwordLabel);
-            this.groupBox1.Controls.Add(this.PasswordTextBox);
+            this.groupBox1.Controls.Add(this.passwordTextBox);
             this.groupBox1.Controls.Add(loginLabel);
-            this.groupBox1.Controls.Add(this.LoginTextBox);
+            this.groupBox1.Controls.Add(this.loginTextBox);
             this.groupBox1.Font = new System.Drawing.Font("Sitka Banner", 13.78723F);
             this.groupBox1.ForeColor = System.Drawing.Color.Yellow;
-            this.groupBox1.Location = new System.Drawing.Point(52, 39);
+            this.groupBox1.Location = new System.Drawing.Point(84, 47);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(633, 341);
+            this.groupBox1.Size = new System.Drawing.Size(588, 310);
             this.groupBox1.TabIndex = 13;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Регистрация";
             // 
-            // RoleTextBox
+            // roleTextBox
             // 
-            this.RoleTextBox.Location = new System.Drawing.Point(236, 266);
-            this.RoleTextBox.Name = "RoleTextBox";
-            this.RoleTextBox.Size = new System.Drawing.Size(243, 41);
-            this.RoleTextBox.TabIndex = 12;
+            this.roleTextBox.Location = new System.Drawing.Point(240, 216);
+            this.roleTextBox.Name = "roleTextBox";
+            this.roleTextBox.Size = new System.Drawing.Size(243, 41);
+            this.roleTextBox.TabIndex = 12;
             // 
-            // ID_userTextBox
+            // passwordTextBox
             // 
-            this.ID_userTextBox.Location = new System.Drawing.Point(236, 64);
-            this.ID_userTextBox.Name = "ID_userTextBox";
-            this.ID_userTextBox.Size = new System.Drawing.Size(100, 41);
-            this.ID_userTextBox.TabIndex = 11;
+            this.passwordTextBox.Font = new System.Drawing.Font("Times New Roman", 13.78723F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.passwordTextBox.Location = new System.Drawing.Point(240, 150);
+            this.passwordTextBox.Name = "passwordTextBox";
+            this.passwordTextBox.Size = new System.Drawing.Size(243, 39);
+            this.passwordTextBox.TabIndex = 10;
             // 
-            // PasswordTextBox
+            // loginTextBox
             // 
-            this.PasswordTextBox.Font = new System.Drawing.Font("Times New Roman", 13.78723F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.PasswordTextBox.Location = new System.Drawing.Point(236, 200);
-            this.PasswordTextBox.Name = "PasswordTextBox";
-            this.PasswordTextBox.Size = new System.Drawing.Size(243, 39);
-            this.PasswordTextBox.TabIndex = 10;
-            // 
-            // LoginTextBox
-            // 
-            this.LoginTextBox.Font = new System.Drawing.Font("Times New Roman", 13.78723F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.LoginTextBox.Location = new System.Drawing.Point(236, 129);
-            this.LoginTextBox.Name = "LoginTextBox";
-            this.LoginTextBox.Size = new System.Drawing.Size(243, 39);
-            this.LoginTextBox.TabIndex = 9;
+            this.loginTextBox.Font = new System.Drawing.Font("Times New Roman", 13.78723F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.loginTextBox.Location = new System.Drawing.Point(240, 79);
+            this.loginTextBox.Name = "loginTextBox";
+            this.loginTextBox.Size = new System.Drawing.Size(243, 39);
+            this.loginTextBox.TabIndex = 9;
             // 
             // buttonregistraciya
             // 
             this.buttonregistraciya.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.buttonregistraciya.Font = new System.Drawing.Font("Times New Roman", 12.25532F);
-            this.buttonregistraciya.Location = new System.Drawing.Point(52, 410);
+            this.buttonregistraciya.Location = new System.Drawing.Point(84, 405);
             this.buttonregistraciya.Name = "buttonregistraciya";
             this.buttonregistraciya.Size = new System.Drawing.Size(252, 67);
             this.buttonregistraciya.TabIndex = 14;
@@ -178,7 +155,7 @@
             // 
             this.buttonBack.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.buttonBack.Font = new System.Drawing.Font("Times New Roman", 12.25532F);
-            this.buttonBack.Location = new System.Drawing.Point(479, 405);
+            this.buttonBack.Location = new System.Drawing.Point(466, 405);
             this.buttonBack.Name = "buttonBack";
             this.buttonBack.Size = new System.Drawing.Size(206, 67);
             this.buttonBack.TabIndex = 15;
@@ -226,7 +203,7 @@
             this.userBindingNavigator.AddNewItem = this.bindingNavigatorAddNewItem;
             this.userBindingNavigator.BindingSource = this.userBindingSource;
             this.userBindingNavigator.CountItem = this.bindingNavigatorCountItem;
-            this.userBindingNavigator.CountItemFormat = "Общее число элементов {0}";
+            this.userBindingNavigator.CountItemFormat = "";
             this.userBindingNavigator.DeleteItem = this.bindingNavigatorDeleteItem;
             this.userBindingNavigator.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.userBindingNavigator.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -249,9 +226,10 @@
             this.userBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.userBindingNavigator.Name = "userBindingNavigator";
             this.userBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.userBindingNavigator.Size = new System.Drawing.Size(759, 29);
+            this.userBindingNavigator.Size = new System.Drawing.Size(759, 32);
             this.userBindingNavigator.TabIndex = 16;
             this.userBindingNavigator.Text = "bindingNavigator1";
+            this.userBindingNavigator.Visible = false;
             // 
             // bindingNavigatorAddNewItem
             // 
@@ -266,8 +244,7 @@
             // bindingNavigatorCountItem
             // 
             this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
-            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(238, 25);
-            this.bindingNavigatorCountItem.Text = "Общее число элементов {0}";
+            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(0, 28);
             this.bindingNavigatorCountItem.ToolTipText = "Общее число элементов";
             // 
             // bindingNavigatorDeleteItem
@@ -389,8 +366,8 @@
         #endregion
 
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox PasswordTextBox;
-        private System.Windows.Forms.TextBox LoginTextBox;
+        private System.Windows.Forms.TextBox passwordTextBox;
+        private System.Windows.Forms.TextBox loginTextBox;
         private System.Windows.Forms.Button buttonregistraciya;
         private System.Windows.Forms.Button buttonBack;
         private Personal_cardsDataSet personal_cardsDataSet;
@@ -410,7 +387,6 @@
         private System.Windows.Forms.ToolStripButton bindingNavigatorMoveLastItem;
         private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator2;
         private System.Windows.Forms.ToolStripButton userBindingNavigatorSaveItem;
-        private System.Windows.Forms.TextBox ID_userTextBox;
-        private System.Windows.Forms.TextBox RoleTextBox;
+        private System.Windows.Forms.TextBox roleTextBox;
     }
 }

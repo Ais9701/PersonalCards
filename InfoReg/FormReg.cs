@@ -17,17 +17,20 @@ namespace Personal_cardsApp1
         {
             InitializeComponent();
         }
-
+        SqlConnection connection = new SqlConnection(@"Data Source=DESKTOP-DPL61M9\SQLEXPRESS;Initial Catalog=Personal_cards;Integrated Security=True");
         private void buttonregistraciya_Click(object sender, EventArgs e)
         {
-            SqlConnection connection = new SqlConnection(@"Data Source=DESKTOP-DPL61M9\SQLEXPRESS;Initial Catalog=Personal_cards;Integrated Security=True");
             connection.Open();
-            int ID_user = int.Parse(ID_userTextBox.Text);//эта строчка кода преобразует введенный ID клиента из строкового типа в тип int
-            String querySave = "INSERT INTO [User] (ID_user, Login, Password, Role) VALUES ('" + ID_user + "','" + LoginTextBox.Text + "','" + PasswordTextBox.Text + "','" + RoleTextBox.Text + "')";
-            SqlDataAdapter SDA = new SqlDataAdapter(querySave, connection);
+            string query = "INSERT INTO [User] ([Login], [Password], [Role]) VALUES ('" + loginTextBox.Text + "','" + passwordTextBox.Text + "','" + roleTextBox.Text + "')";
+            SqlDataAdapter SDA = new SqlDataAdapter(query, connection);
             SDA.SelectCommand.ExecuteNonQuery();
             connection.Close();
-            MessageBox.Show("Вы зарегистрированы");
+            MessageBox.Show("Регистрация прошла успешно");
+            FormProba a = new FormProba();
+            a.Left = this.Left;
+            a.Top = this.Top;
+            a.Show();
+            this.Hide();
         }
 
         private void userBindingNavigatorSaveItem_Click(object sender, EventArgs e)
@@ -47,22 +50,12 @@ namespace Personal_cardsApp1
 
         private void buttonBack_Click(object sender, EventArgs e)
         {
-            // вызываем главную форму, которая открыла текущую, главная форма всегда = 0 - [0]
-            Form Authorization = Application.OpenForms[1];
-            Authorization.StartPosition = FormStartPosition.Manual; // меняем параметр StartPosition у Form1, иначе она будет использовать тот, который у неё прописан в настройках и всегда будет открываться по центру экрана
-            Authorization.Left = this.Left; // задаём открываемой форме позицию слева равную позиции текущей формы
-            Authorization.Top = this.Top; // задаём открываемой форме позицию сверху равную позиции текущей формы
-            Authorization.Show(); // отображаем Form2
-            this.Hide();
+            this.Close();
         }
 
         private void FormReg_FormClosing(object sender, FormClosingEventArgs e)
         {
-            var result = MessageBox.Show("Вы действительно хотите выйти?", "Внимание",
-                          MessageBoxButtons.YesNo,
-                          MessageBoxIcon.Question);
-            if (result != DialogResult.Yes)
-                e.Cancel = true;
+           
         }
     }
 }

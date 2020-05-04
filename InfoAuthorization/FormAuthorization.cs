@@ -45,11 +45,18 @@ namespace Personal_cardsApp1
                 adapter.Fill(table);
                 DataTable table1 = new DataTable();
                 SqlDataAdapter adapter1 = new SqlDataAdapter();
-                SqlCommand commandkadr = new SqlCommand("SELECT * FROM [User] WHERE Login = @uL AND Password = @uP AND Role = 'kadr'", db.GetConnection());
+                SqlCommand commandkadr = new SqlCommand("SELECT * FROM [User] WHERE Login = @uL AND Password = @uP AND Role = 'user'", db.GetConnection());
                 commandkadr.Parameters.Add("@uL", SqlDbType.VarChar).Value = loginUser;
                 commandkadr.Parameters.Add("@uP", SqlDbType.VarChar).Value = passUser;
                 adapter1.SelectCommand = commandkadr;
                 adapter1.Fill(table1);
+                DataTable table2 = new DataTable();
+                SqlDataAdapter adapter2 = new SqlDataAdapter();
+                SqlCommand commanduser = new SqlCommand("SELECT * FROM [User] WHERE Login = @uL AND Password = @uP AND Role = 'user1'", db.GetConnection());
+                commanduser.Parameters.Add("@uL", SqlDbType.VarChar).Value = loginUser;
+                commanduser.Parameters.Add("@uP", SqlDbType.VarChar).Value = passUser;
+                adapter2.SelectCommand = commanduser;
+                adapter2.Fill(table2);
                 if (table.Rows.Count > 0)
                 {
                     Form ifrm = new FormMenu();
@@ -62,7 +69,15 @@ namespace Personal_cardsApp1
                 {
                     if (table1.Rows.Count > 0)
                     {
-                        Form ifrm = new FormKadrPersonalCards();
+                        Form ifrm = new FormMenu();
+                        ifrm.Left = this.Left; // задаём открываемой форме позицию слева равную позиции текущей формы
+                        ifrm.Top = this.Top; // задаём открываемой форме позицию сверху равную позиции текущей формы
+                        ifrm.Show(); // отображаем Form2
+                        this.Hide(); // скрываем Form1 (this - текущая форма)
+                    }
+                    if (table2.Rows.Count > 0)
+                    {
+                        Form ifrm = new FormProba();
                         ifrm.Left = this.Left; // задаём открываемой форме позицию слева равную позиции текущей формы
                         ifrm.Top = this.Top; // задаём открываемой форме позицию сверху равную позиции текущей формы
                         ifrm.Show(); // отображаем Form2
@@ -110,11 +125,6 @@ namespace Personal_cardsApp1
             FormReg f32 = new FormReg();
             f32.StartPosition = FormStartPosition.CenterScreen;
             f32.ShowDialog(this);
-        }
-
-        private void buttonregistraciya_Click_1(object sender, EventArgs e)
-        {
-           
         }
 
         private void timer1_Tick(object sender, EventArgs e)

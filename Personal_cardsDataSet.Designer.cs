@@ -4904,8 +4904,6 @@ namespace Personal_cardsApp1 {
         [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedTableSchema")]
         public partial class UserDataTable : global::System.Data.TypedTableBase<UserRow> {
             
-            private global::System.Data.DataColumn columnID_user;
-            
             private global::System.Data.DataColumn columnLogin;
             
             private global::System.Data.DataColumn columnPassword;
@@ -4943,14 +4941,6 @@ namespace Personal_cardsApp1 {
             protected UserDataTable(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
                     base(info, context) {
                 this.InitVars();
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public global::System.Data.DataColumn ID_userColumn {
-                get {
-                    return this.columnID_user;
-                }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -5014,23 +5004,15 @@ namespace Personal_cardsApp1 {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public UserRow AddUserRow(int ID_user, string Login, string Password, string Role) {
+            public UserRow AddUserRow(string Login, string Password, string Role) {
                 UserRow rowUserRow = ((UserRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
-                        ID_user,
                         Login,
                         Password,
                         Role};
                 rowUserRow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowUserRow);
                 return rowUserRow;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public UserRow FindByID_user(int ID_user) {
-                return ((UserRow)(this.Rows.Find(new object[] {
-                            ID_user})));
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -5050,7 +5032,6 @@ namespace Personal_cardsApp1 {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             internal void InitVars() {
-                this.columnID_user = base.Columns["ID_user"];
                 this.columnLogin = base.Columns["Login"];
                 this.columnPassword = base.Columns["Password"];
                 this.columnRole = base.Columns["Role"];
@@ -5059,18 +5040,12 @@ namespace Personal_cardsApp1 {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             private void InitClass() {
-                this.columnID_user = new global::System.Data.DataColumn("ID_user", typeof(int), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnID_user);
                 this.columnLogin = new global::System.Data.DataColumn("Login", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnLogin);
                 this.columnPassword = new global::System.Data.DataColumn("Password", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnPassword);
                 this.columnRole = new global::System.Data.DataColumn("Role", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnRole);
-                this.Constraints.Add(new global::System.Data.UniqueConstraint("Constraint1", new global::System.Data.DataColumn[] {
-                                this.columnID_user}, true));
-                this.columnID_user.AllowDBNull = false;
-                this.columnID_user.Unique = true;
                 this.columnLogin.AllowDBNull = false;
                 this.columnLogin.MaxLength = 50;
                 this.columnPassword.AllowDBNull = false;
@@ -9509,17 +9484,6 @@ namespace Personal_cardsApp1 {
             internal UserRow(global::System.Data.DataRowBuilder rb) : 
                     base(rb) {
                 this.tableUser = ((UserDataTable)(this.Table));
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public int ID_user {
-                get {
-                    return ((int)(this[this.tableUser.ID_userColumn]));
-                }
-                set {
-                    this[this.tableUser.ID_userColumn] = value;
-                }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -17430,7 +17394,6 @@ SELECT ID_social_benefits, Name_of_benefit, Document_number, Date_of_issue FROM 
             global::System.Data.Common.DataTableMapping tableMapping = new global::System.Data.Common.DataTableMapping();
             tableMapping.SourceTable = "Table";
             tableMapping.DataSetTable = "User";
-            tableMapping.ColumnMappings.Add("ID_user", "ID_user");
             tableMapping.ColumnMappings.Add("Login", "Login");
             tableMapping.ColumnMappings.Add("Password", "Password");
             tableMapping.ColumnMappings.Add("Role", "Role");
@@ -17447,14 +17410,12 @@ SELECT ID_social_benefits, Name_of_benefit, Document_number, Date_of_issue FROM 
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_Role", global::System.Data.SqlDbType.NChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Role", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.InsertCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.InsertCommand.Connection = this.Connection;
-            this._adapter.InsertCommand.CommandText = "INSERT INTO [dbo].[User] ([ID_user], [Login], [Password], [Role]) VALUES (@ID_use" +
-                "r, @Login, @Password, @Role);\r\nSELECT ID_user, Login, Password, Role FROM [User]" +
-                " WHERE (ID_user = @ID_user)";
+            this._adapter.InsertCommand.CommandText = "INSERT INTO [User] ([Login], [Password], [Role]) VALUES (@Login, @Password, @Role" +
+                ")";
             this._adapter.InsertCommand.CommandType = global::System.Data.CommandType.Text;
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@ID_user", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "ID_user", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Login", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Login", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Password", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Password", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Role", global::System.Data.SqlDbType.NChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Role", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Role", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Role", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.UpdateCommand.Connection = this.Connection;
             this._adapter.UpdateCommand.CommandText = @"UPDATE [dbo].[User] SET [ID_user] = @ID_user, [Login] = @Login, [Password] = @Password, [Role] = @Role WHERE (([ID_user] = @Original_ID_user) AND ([Login] = @Original_Login) AND ([Password] = @Original_Password) AND ([Role] = @Original_Role));
@@ -17483,7 +17444,7 @@ SELECT ID_user, Login, Password, Role FROM [User] WHERE (ID_user = @ID_user)";
             this._commandCollection = new global::System.Data.SqlClient.SqlCommand[1];
             this._commandCollection[0] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[0].Connection = this.Connection;
-            this._commandCollection[0].CommandText = "SELECT ID_user, Login, Password, Role FROM dbo.[User]";
+            this._commandCollection[0].CommandText = "SELECT Login, Password, Role FROM [User]";
             this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
         }
         
@@ -17584,25 +17545,24 @@ SELECT ID_user, Login, Password, Role FROM [User] WHERE (ID_user = @ID_user)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Insert, true)]
-        public virtual int Insert(int ID_user, string Login, string Password, string Role) {
-            this.Adapter.InsertCommand.Parameters[0].Value = ((int)(ID_user));
+        public virtual int Insert(string Login, string Password, string Role) {
             if ((Login == null)) {
                 throw new global::System.ArgumentNullException("Login");
             }
             else {
-                this.Adapter.InsertCommand.Parameters[1].Value = ((string)(Login));
+                this.Adapter.InsertCommand.Parameters[0].Value = ((string)(Login));
             }
             if ((Password == null)) {
                 throw new global::System.ArgumentNullException("Password");
             }
             else {
-                this.Adapter.InsertCommand.Parameters[2].Value = ((string)(Password));
+                this.Adapter.InsertCommand.Parameters[1].Value = ((string)(Password));
             }
             if ((Role == null)) {
-                throw new global::System.ArgumentNullException("Role");
+                this.Adapter.InsertCommand.Parameters[2].Value = global::System.DBNull.Value;
             }
             else {
-                this.Adapter.InsertCommand.Parameters[3].Value = ((string)(Role));
+                this.Adapter.InsertCommand.Parameters[2].Value = ((string)(Role));
             }
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.InsertCommand.Connection.State;
             if (((this.Adapter.InsertCommand.Connection.State & global::System.Data.ConnectionState.Open) 
@@ -17677,14 +17637,6 @@ SELECT ID_user, Login, Password, Role FROM [User] WHERE (ID_user = @ID_user)";
                     this.Adapter.UpdateCommand.Connection.Close();
                 }
             }
-        }
-        
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Update, true)]
-        public virtual int Update(string Login, string Password, string Role, int Original_ID_user, string Original_Login, string Original_Password, string Original_Role) {
-            return this.Update(Original_ID_user, Login, Password, Role, Original_ID_user, Original_Login, Original_Password, Original_Role);
         }
     }
     
