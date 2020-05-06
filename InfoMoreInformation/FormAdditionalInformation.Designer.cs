@@ -48,6 +48,7 @@
             this.Date_of_orderTextBox = new System.Windows.Forms.TextBox();
             this.printDocument1 = new System.Drawing.Printing.PrintDocument();
             this.buttonprint = new System.Windows.Forms.Button();
+            this.label16 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.personal_cardsDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.more_informationBindingSource)).BeginInit();
             this.SuspendLayout();
@@ -225,12 +226,24 @@
             this.buttonprint.UseVisualStyleBackColor = false;
             this.buttonprint.Click += new System.EventHandler(this.buttonprint_Click);
             // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.170213F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label16.ForeColor = System.Drawing.Color.White;
+            this.label16.Location = new System.Drawing.Point(266, 190);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(598, 20);
+            this.label16.TabIndex = 104;
+            this.label16.Text = "Перед введении ID сотрудника проверьте правильность нумерации!";
+            // 
             // FormAdditionalInformation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(1357, 746);
+            this.Controls.Add(this.label16);
             this.Controls.Add(this.buttonprint);
             this.Controls.Add(this.Date_of_orderTextBox);
             this.Controls.Add(this.Date_of_dismissalTextBox);
@@ -278,5 +291,6 @@
         private System.Drawing.Printing.PrintDocument printDocument1;
         private System.Windows.Forms.Button buttonprint;
         private System.Windows.Forms.ToolStripLabel bindingNavigatorCountItem;
+        private System.Windows.Forms.Label label16;
     }
 }

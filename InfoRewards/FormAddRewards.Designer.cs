@@ -59,6 +59,7 @@
             this.DateDateTimePicker = new System.Windows.Forms.DateTimePicker();
             this.buttonSeal2 = new System.Windows.Forms.Button();
             this.printDocument1 = new System.Drawing.Printing.PrintDocument();
+            this.label16 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.personal_cardsDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rewardsBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rewardsBindingNavigator)).BeginInit();
@@ -233,7 +234,7 @@
             // 
             this.buttonBack7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.buttonBack7.Font = new System.Drawing.Font("Times New Roman", 12.25532F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonBack7.Location = new System.Drawing.Point(1047, 329);
+            this.buttonBack7.Location = new System.Drawing.Point(1041, 409);
             this.buttonBack7.Name = "buttonBack7";
             this.buttonBack7.Size = new System.Drawing.Size(134, 57);
             this.buttonBack7.TabIndex = 5;
@@ -246,7 +247,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Sitka Banner", 19.91489F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            this.label1.Location = new System.Drawing.Point(229, 134);
+            this.label1.Location = new System.Drawing.Point(223, 214);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(224, 57);
             this.label1.TabIndex = 6;
@@ -257,7 +258,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Sitka Banner", 19.91489F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label2.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            this.label2.Location = new System.Drawing.Point(229, 191);
+            this.label2.Location = new System.Drawing.Point(223, 271);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(438, 57);
             this.label2.TabIndex = 7;
@@ -268,7 +269,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Sitka Banner", 19.91489F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label3.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            this.label3.Location = new System.Drawing.Point(229, 248);
+            this.label3.Location = new System.Drawing.Point(223, 328);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(145, 57);
             this.label3.TabIndex = 8;
@@ -279,7 +280,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Sitka Banner", 19.91489F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label4.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            this.label4.Location = new System.Drawing.Point(229, 305);
+            this.label4.Location = new System.Drawing.Point(223, 385);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(116, 57);
             this.label4.TabIndex = 9;
@@ -287,21 +288,21 @@
             // 
             // ID_rewardsTextBox
             // 
-            this.ID_rewardsTextBox.Location = new System.Drawing.Point(459, 160);
+            this.ID_rewardsTextBox.Location = new System.Drawing.Point(453, 240);
             this.ID_rewardsTextBox.Name = "ID_rewardsTextBox";
             this.ID_rewardsTextBox.Size = new System.Drawing.Size(69, 26);
             this.ID_rewardsTextBox.TabIndex = 10;
             // 
             // The_name_of_the_awardsTextBox
             // 
-            this.The_name_of_the_awardsTextBox.Location = new System.Drawing.Point(673, 217);
+            this.The_name_of_the_awardsTextBox.Location = new System.Drawing.Point(667, 297);
             this.The_name_of_the_awardsTextBox.Name = "The_name_of_the_awardsTextBox";
             this.The_name_of_the_awardsTextBox.Size = new System.Drawing.Size(248, 26);
             this.The_name_of_the_awardsTextBox.TabIndex = 11;
             // 
             // NumberTextBox
             // 
-            this.NumberTextBox.Location = new System.Drawing.Point(398, 274);
+            this.NumberTextBox.Location = new System.Drawing.Point(392, 354);
             this.NumberTextBox.Name = "NumberTextBox";
             this.NumberTextBox.Size = new System.Drawing.Size(161, 26);
             this.NumberTextBox.TabIndex = 12;
@@ -310,7 +311,7 @@
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.button1.Font = new System.Drawing.Font("Times New Roman", 12.25532F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.Location = new System.Drawing.Point(1047, 166);
+            this.button1.Location = new System.Drawing.Point(1041, 246);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(134, 57);
             this.button1.TabIndex = 14;
@@ -320,7 +321,7 @@
             // 
             // DateDateTimePicker
             // 
-            this.DateDateTimePicker.Location = new System.Drawing.Point(359, 329);
+            this.DateDateTimePicker.Location = new System.Drawing.Point(353, 409);
             this.DateDateTimePicker.Name = "DateDateTimePicker";
             this.DateDateTimePicker.Size = new System.Drawing.Size(200, 26);
             this.DateDateTimePicker.TabIndex = 15;
@@ -329,7 +330,7 @@
             // 
             this.buttonSeal2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.buttonSeal2.Font = new System.Drawing.Font("Times New Roman", 12.25532F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonSeal2.Location = new System.Drawing.Point(1047, 233);
+            this.buttonSeal2.Location = new System.Drawing.Point(1041, 313);
             this.buttonSeal2.Name = "buttonSeal2";
             this.buttonSeal2.Size = new System.Drawing.Size(134, 55);
             this.buttonSeal2.TabIndex = 16;
@@ -341,12 +342,24 @@
             // 
             this.printDocument1.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(this.printDocument1_PrintPage);
             // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.170213F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label16.ForeColor = System.Drawing.Color.White;
+            this.label16.Location = new System.Drawing.Point(229, 170);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(598, 20);
+            this.label16.TabIndex = 104;
+            this.label16.Text = "Перед введении ID сотрудника проверьте правильность нумерации!";
+            // 
             // FormAddRewards
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(1357, 746);
+            this.Controls.Add(this.label16);
             this.Controls.Add(this.buttonSeal2);
             this.Controls.Add(this.DateDateTimePicker);
             this.Controls.Add(this.button1);
@@ -406,5 +419,6 @@
         private System.Windows.Forms.DateTimePicker DateDateTimePicker;
         private System.Windows.Forms.Button buttonSeal2;
         private System.Drawing.Printing.PrintDocument printDocument1;
+        private System.Windows.Forms.Label label16;
     }
 }

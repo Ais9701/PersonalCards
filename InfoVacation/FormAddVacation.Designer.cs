@@ -65,6 +65,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.buttonSeal2 = new System.Windows.Forms.Button();
             this.printDocument1 = new System.Drawing.Printing.PrintDocument();
+            this.label16 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.personal_cardsDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.vacationBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.vacationBindingNavigator)).BeginInit();
@@ -401,12 +402,24 @@
             // 
             this.printDocument1.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(this.printDocument1_PrintPage);
             // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.170213F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label16.ForeColor = System.Drawing.Color.White;
+            this.label16.Location = new System.Drawing.Point(238, 159);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(598, 20);
+            this.label16.TabIndex = 104;
+            this.label16.Text = "Перед введении ID сотрудника проверьте правильность нумерации!";
+            // 
             // FormAddPersonalCards
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(1357, 746);
+            this.Controls.Add(this.label16);
             this.Controls.Add(this.buttonSeal2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.Expiry_dateTextBox);
@@ -478,5 +491,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button buttonSeal2;
         private System.Drawing.Printing.PrintDocument printDocument1;
+        private System.Windows.Forms.Label label16;
     }
 }

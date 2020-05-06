@@ -113,6 +113,7 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.label1 = new System.Windows.Forms.Label();
             this.employee_informationBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
             this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
             this.employee_informationBindingSource = new System.Windows.Forms.BindingSource(this.components);
@@ -366,7 +367,7 @@
             this.certificationTableAdapter = new Personal_cardsApp1.Personal_cardsDataSetTableAdapters.CertificationTableAdapter();
             this.educationTableAdapter = new Personal_cardsApp1.Personal_cardsDataSetTableAdapters.EducationTableAdapter();
             this.retrainingTableAdapter = new Personal_cardsApp1.Personal_cardsDataSetTableAdapters.RetrainingTableAdapter();
-            this.label1 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
             date_of_issueLabel1 = new System.Windows.Forms.Label();
             document_numberLabel = new System.Windows.Forms.Label();
             name_of_benefitLabel = new System.Windows.Forms.Label();
@@ -1443,6 +1444,7 @@
             // tabPage1
             // 
             this.tabPage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.tabPage1.Controls.Add(this.label16);
             this.tabPage1.Controls.Add(this.label1);
             this.tabPage1.Controls.Add(this.employee_informationBindingNavigator);
             this.tabPage1.Controls.Add(this.buttonDelete);
@@ -1466,6 +1468,19 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Осн.инф-ия";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Sitka Banner", 6.127659F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(1111, 481);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(145, 72);
+            this.label1.TabIndex = 98;
+            this.label1.Text = "(кнопка назад для обычных\r\nпользователей неактивна).\r\nВойдите через админа \r\nили " +
+    "кадровика.";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
             // employee_informationBindingNavigator
             // 
             this.employee_informationBindingNavigator.AddNewItem = this.bindingNavigatorAddNewItem;
@@ -1488,7 +1503,7 @@
             this.employee_informationBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.employee_informationBindingNavigator.Name = "employee_informationBindingNavigator";
             this.employee_informationBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.employee_informationBindingNavigator.Size = new System.Drawing.Size(141, 37);
+            this.employee_informationBindingNavigator.Size = new System.Drawing.Size(141, 32);
             this.employee_informationBindingNavigator.TabIndex = 1;
             this.employee_informationBindingNavigator.Text = "bindingNavigator1";
             // 
@@ -1528,7 +1543,7 @@
             this.bindingNavigatorMovePreviousItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMovePreviousItem.Image")));
             this.bindingNavigatorMovePreviousItem.Name = "bindingNavigatorMovePreviousItem";
             this.bindingNavigatorMovePreviousItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMovePreviousItem.Size = new System.Drawing.Size(34, 33);
+            this.bindingNavigatorMovePreviousItem.Size = new System.Drawing.Size(34, 28);
             this.bindingNavigatorMovePreviousItem.Text = "Переместить назад";
             // 
             // bindingNavigatorPositionItem
@@ -1548,7 +1563,7 @@
             this.bindingNavigatorMoveNextItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveNextItem.Image")));
             this.bindingNavigatorMoveNextItem.Name = "bindingNavigatorMoveNextItem";
             this.bindingNavigatorMoveNextItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveNextItem.Size = new System.Drawing.Size(34, 33);
+            this.bindingNavigatorMoveNextItem.Size = new System.Drawing.Size(34, 28);
             this.bindingNavigatorMoveNextItem.Text = "Переместить вперед";
             this.bindingNavigatorMoveNextItem.Click += new System.EventHandler(this.bindingNavigatorMoveNextItem_Click);
             // 
@@ -4286,18 +4301,16 @@
             // 
             this.retrainingTableAdapter.ClearBeforeFill = true;
             // 
-            // label1
+            // label16
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Sitka Banner", 6.127659F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(1111, 481);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(145, 72);
-            this.label1.TabIndex = 98;
-            this.label1.Text = "(кнопка назад для обычных\r\nпользователей неактивна).\r\nВойдите через админа \r\nили " +
-    "кадровика.";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.170213F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label16.ForeColor = System.Drawing.Color.White;
+            this.label16.Location = new System.Drawing.Point(21, 8);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(598, 20);
+            this.label16.TabIndex = 104;
+            this.label16.Text = "Перед введении ID сотрудника проверьте правильность нумерации!";
             // 
             // FormProba
             // 
@@ -4685,5 +4698,6 @@
         private System.Windows.Forms.TextBox document_numberTextBox1;
         private System.Windows.Forms.DateTimePicker dateDateTimePicker3;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label16;
     }
 }

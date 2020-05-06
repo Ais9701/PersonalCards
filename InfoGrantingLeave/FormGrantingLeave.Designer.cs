@@ -101,6 +101,7 @@
             this.textBoxavtozapolnenie = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.buttonotobrazitvse = new System.Windows.Forms.Button();
+            this.label16 = new System.Windows.Forms.Label();
             iD_granting_leaveLabel = new System.Windows.Forms.Label();
             name_organizationLabel = new System.Windows.Forms.Label();
             document_numberLabel = new System.Windows.Forms.Label();
@@ -588,6 +589,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.label16);
             this.groupBox1.Controls.Add(this.ID_granting_leaveTextBox);
             this.groupBox1.Controls.Add(this.ProvidedforTextBox);
             this.groupBox1.Controls.Add(this.Provided_withTextBox);
@@ -618,7 +620,7 @@
             this.groupBox1.ForeColor = System.Drawing.Color.Yellow;
             this.groupBox1.Location = new System.Drawing.Point(12, 375);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(884, 633);
+            this.groupBox1.Size = new System.Drawing.Size(989, 633);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Добавление отпуска";
@@ -837,6 +839,17 @@
             this.buttonotobrazitvse.UseVisualStyleBackColor = false;
             this.buttonotobrazitvse.Click += new System.EventHandler(this.buttonotobrazitvse_Click);
             // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.170213F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label16.ForeColor = System.Drawing.Color.White;
+            this.label16.Location = new System.Drawing.Point(354, 59);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(598, 20);
+            this.label16.TabIndex = 146;
+            this.label16.Text = "Перед введении ID сотрудника проверьте правильность нумерации!";
+            // 
             // FormGrantingLeave
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -932,5 +945,6 @@
         private System.Windows.Forms.TextBox textBoxavtozapolnenie;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button buttonotobrazitvse;
+        private System.Windows.Forms.Label label16;
     }
 }

@@ -106,6 +106,7 @@
             this.staff_listTableAdapter = new Personal_cardsApp1.Personal_cardsDataSetTableAdapters.Staff_listTableAdapter();
             this.tableAdapterManager = new Personal_cardsApp1.Personal_cardsDataSetTableAdapters.TableAdapterManager();
             this.label1 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
             iD_schedulesLabel = new System.Windows.Forms.Label();
             name_organizationLabel = new System.Windows.Forms.Label();
             document_numberLabel = new System.Windows.Forms.Label();
@@ -628,6 +629,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.label16);
             this.groupBox1.Controls.Add(this.Total_rublesTextBox);
             this.groupBox1.Controls.Add(this.AllowancesTextBox);
             this.groupBox1.Controls.Add(this.Tariff_rateTextBox);
@@ -664,7 +666,7 @@
             this.groupBox1.ForeColor = System.Drawing.Color.Yellow;
             this.groupBox1.Location = new System.Drawing.Point(12, 360);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(824, 626);
+            this.groupBox1.Size = new System.Drawing.Size(900, 626);
             this.groupBox1.TabIndex = 134;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Добавление штатного расписания";
@@ -887,6 +889,17 @@
             this.label1.Text = "(можно воспользоваться\r\nклавишей DEL)";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.170213F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label16.ForeColor = System.Drawing.Color.White;
+            this.label16.Location = new System.Drawing.Point(263, 49);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(598, 20);
+            this.label16.TabIndex = 144;
+            this.label16.Text = "Перед введении ID сотрудника проверьте правильность нумерации!";
+            // 
             // FormStaffList
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -979,5 +992,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn14;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn15;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn16;
+        private System.Windows.Forms.Label label16;
     }
 }
