@@ -57,6 +57,13 @@ namespace Personal_cardsApp1
                 commanduser.Parameters.Add("@uP", SqlDbType.VarChar).Value = passUser;
                 adapter2.SelectCommand = commanduser;
                 adapter2.Fill(table2);
+                DataTable table3 = new DataTable();
+                SqlDataAdapter adapter3 = new SqlDataAdapter();
+                SqlCommand commandgost = new SqlCommand("SELECT * FROM [User] WHERE Login = @uL AND Password = @uP AND Role = 'Гость'", db.GetConnection());
+                commandgost.Parameters.Add("@uL", SqlDbType.VarChar).Value = loginUser;
+                commandgost.Parameters.Add("@uP", SqlDbType.VarChar).Value = passUser;
+                adapter3.SelectCommand = commandgost;
+                adapter3.Fill(table3);
                 if (table.Rows.Count > 0)
                 {
                     Form ifrm = new FormMenu();
@@ -76,6 +83,14 @@ namespace Personal_cardsApp1
                         this.Hide(); // скрываем Form1 (this - текущая форма)
                     }
                     if (table2.Rows.Count > 0)
+                    {
+                        Form ifrm = new FormProba();
+                        ifrm.Left = this.Left; // задаём открываемой форме позицию слева равную позиции текущей формы
+                        ifrm.Top = this.Top; // задаём открываемой форме позицию сверху равную позиции текущей формы
+                        ifrm.Show(); // отображаем Form2
+                        this.Hide(); // скрываем Form1 (this - текущая форма)
+                    }
+                    if (table3.Rows.Count > 0)
                     {
                         Form ifrm = new FormProba();
                         ifrm.Left = this.Left; // задаём открываемой форме позицию слева равную позиции текущей формы

@@ -118,10 +118,13 @@
             // 
             // roleTextBox
             // 
+            this.roleTextBox.BackColor = System.Drawing.Color.White;
             this.roleTextBox.Location = new System.Drawing.Point(240, 216);
             this.roleTextBox.Name = "roleTextBox";
+            this.roleTextBox.ReadOnly = true;
             this.roleTextBox.Size = new System.Drawing.Size(243, 41);
             this.roleTextBox.TabIndex = 12;
+            this.roleTextBox.Text = "Гость";
             // 
             // passwordTextBox
             // 
