@@ -240,7 +240,7 @@
             // 
             this.buttonBack7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.buttonBack7.Font = new System.Drawing.Font("Times New Roman", 12.25532F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonBack7.Location = new System.Drawing.Point(1137, 385);
+            this.buttonBack7.Location = new System.Drawing.Point(1151, 440);
             this.buttonBack7.Name = "buttonBack7";
             this.buttonBack7.Size = new System.Drawing.Size(128, 55);
             this.buttonBack7.TabIndex = 6;
@@ -253,7 +253,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Sitka Banner", 19.91489F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            this.label1.Location = new System.Drawing.Point(179, 74);
+            this.label1.Location = new System.Drawing.Point(186, 155);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(356, 57);
             this.label1.TabIndex = 7;
@@ -264,7 +264,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Sitka Banner", 19.91489F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label2.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            this.label2.Location = new System.Drawing.Point(179, 131);
+            this.label2.Location = new System.Drawing.Point(186, 212);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(328, 57);
             this.label2.TabIndex = 8;
@@ -275,7 +275,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Sitka Banner", 19.91489F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label3.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            this.label3.Location = new System.Drawing.Point(179, 188);
+            this.label3.Location = new System.Drawing.Point(186, 269);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(318, 57);
             this.label3.TabIndex = 9;
@@ -286,7 +286,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Sitka Banner", 19.91489F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label4.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            this.label4.Location = new System.Drawing.Point(179, 245);
+            this.label4.Location = new System.Drawing.Point(186, 326);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(322, 57);
             this.label4.TabIndex = 10;
@@ -297,7 +297,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Sitka Banner", 19.91489F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label5.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            this.label5.Location = new System.Drawing.Point(179, 302);
+            this.label5.Location = new System.Drawing.Point(186, 383);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(599, 57);
             this.label5.TabIndex = 11;
@@ -308,7 +308,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Sitka Banner", 19.91489F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label6.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            this.label6.Location = new System.Drawing.Point(179, 359);
+            this.label6.Location = new System.Drawing.Point(186, 440);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(400, 114);
             this.label6.TabIndex = 12;
@@ -320,7 +320,7 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Sitka Banner", 19.91489F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label7.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            this.label7.Location = new System.Drawing.Point(179, 473);
+            this.label7.Location = new System.Drawing.Point(186, 554);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(689, 114);
             this.label7.TabIndex = 13;
@@ -329,49 +329,49 @@
             // 
             // ID_military_registrationTextBox
             // 
-            this.ID_military_registrationTextBox.Location = new System.Drawing.Point(557, 100);
+            this.ID_military_registrationTextBox.Location = new System.Drawing.Point(564, 181);
             this.ID_military_registrationTextBox.Name = "ID_military_registrationTextBox";
             this.ID_military_registrationTextBox.Size = new System.Drawing.Size(79, 26);
             this.ID_military_registrationTextBox.TabIndex = 14;
             // 
             // Stock_categoryTextBox
             // 
-            this.Stock_categoryTextBox.Location = new System.Drawing.Point(526, 157);
+            this.Stock_categoryTextBox.Location = new System.Drawing.Point(533, 238);
             this.Stock_categoryTextBox.Name = "Stock_categoryTextBox";
             this.Stock_categoryTextBox.Size = new System.Drawing.Size(268, 26);
             this.Stock_categoryTextBox.TabIndex = 15;
             // 
             // Military_rankTextBox
             // 
-            this.Military_rankTextBox.Location = new System.Drawing.Point(526, 214);
+            this.Military_rankTextBox.Location = new System.Drawing.Point(533, 295);
             this.Military_rankTextBox.Name = "Military_rankTextBox";
             this.Military_rankTextBox.Size = new System.Drawing.Size(268, 26);
             this.Military_rankTextBox.TabIndex = 16;
             // 
             // Composition_profileTextBox
             // 
-            this.Composition_profileTextBox.Location = new System.Drawing.Point(526, 271);
+            this.Composition_profileTextBox.Location = new System.Drawing.Point(533, 352);
             this.Composition_profileTextBox.Name = "Composition_profileTextBox";
             this.Composition_profileTextBox.Size = new System.Drawing.Size(110, 26);
             this.Composition_profileTextBox.TabIndex = 17;
             // 
             // Full_code_designation_VUSTextBox
             // 
-            this.Full_code_designation_VUSTextBox.Location = new System.Drawing.Point(794, 328);
+            this.Full_code_designation_VUSTextBox.Location = new System.Drawing.Point(801, 409);
             this.Full_code_designation_VUSTextBox.Name = "Full_code_designation_VUSTextBox";
             this.Full_code_designation_VUSTextBox.Size = new System.Drawing.Size(237, 26);
             this.Full_code_designation_VUSTextBox.TabIndex = 18;
             // 
             // Category_of_fitness_for_military_serviceTextBox
             // 
-            this.Category_of_fitness_for_military_serviceTextBox.Location = new System.Drawing.Point(594, 414);
+            this.Category_of_fitness_for_military_serviceTextBox.Location = new System.Drawing.Point(601, 495);
             this.Category_of_fitness_for_military_serviceTextBox.Name = "Category_of_fitness_for_military_serviceTextBox";
             this.Category_of_fitness_for_military_serviceTextBox.Size = new System.Drawing.Size(184, 26);
             this.Category_of_fitness_for_military_serviceTextBox.TabIndex = 19;
             // 
             // The_name_of_the_military_commissariatTextBox
             // 
-            this.The_name_of_the_military_commissariatTextBox.Location = new System.Drawing.Point(874, 528);
+            this.The_name_of_the_military_commissariatTextBox.Location = new System.Drawing.Point(881, 609);
             this.The_name_of_the_military_commissariatTextBox.Name = "The_name_of_the_military_commissariatTextBox";
             this.The_name_of_the_military_commissariatTextBox.Size = new System.Drawing.Size(307, 26);
             this.The_name_of_the_military_commissariatTextBox.TabIndex = 20;
@@ -380,7 +380,7 @@
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.button1.Font = new System.Drawing.Font("Times New Roman", 12.25532F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.Location = new System.Drawing.Point(1131, 210);
+            this.button1.Location = new System.Drawing.Point(1145, 265);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(134, 55);
             this.button1.TabIndex = 21;
@@ -392,7 +392,7 @@
             // 
             this.buttonSeal2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.buttonSeal2.Font = new System.Drawing.Font("Times New Roman", 12.25532F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonSeal2.Location = new System.Drawing.Point(1131, 271);
+            this.buttonSeal2.Location = new System.Drawing.Point(1145, 326);
             this.buttonSeal2.Name = "buttonSeal2";
             this.buttonSeal2.Size = new System.Drawing.Size(134, 55);
             this.buttonSeal2.TabIndex = 22;
@@ -409,7 +409,7 @@
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.170213F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label16.ForeColor = System.Drawing.Color.White;
-            this.label16.Location = new System.Drawing.Point(185, 43);
+            this.label16.Location = new System.Drawing.Point(187, 101);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(598, 20);
             this.label16.TabIndex = 104;

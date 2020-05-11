@@ -292,6 +292,7 @@
             this.label3.Size = new System.Drawing.Size(495, 100);
             this.label3.TabIndex = 24;
             this.label3.Text = "Наименование \r\nобразовательного учреждения:";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label4
             // 

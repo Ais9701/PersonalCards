@@ -375,7 +375,7 @@
             this.employee_informationBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.employee_informationBindingNavigator.Name = "employee_informationBindingNavigator";
             this.employee_informationBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.employee_informationBindingNavigator.Size = new System.Drawing.Size(1357, 32);
+            this.employee_informationBindingNavigator.Size = new System.Drawing.Size(1357, 37);
             this.employee_informationBindingNavigator.TabIndex = 0;
             this.employee_informationBindingNavigator.Text = "bindingNavigator1";
             // 
@@ -392,7 +392,7 @@
             // bindingNavigatorCountItem
             // 
             this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
-            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(65, 28);
+            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(65, 33);
             this.bindingNavigatorCountItem.Text = "для {0}";
             this.bindingNavigatorCountItem.ToolTipText = "Общее число элементов";
             // 
@@ -412,7 +412,7 @@
             this.bindingNavigatorMoveFirstItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveFirstItem.Image")));
             this.bindingNavigatorMoveFirstItem.Name = "bindingNavigatorMoveFirstItem";
             this.bindingNavigatorMoveFirstItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveFirstItem.Size = new System.Drawing.Size(34, 28);
+            this.bindingNavigatorMoveFirstItem.Size = new System.Drawing.Size(34, 33);
             this.bindingNavigatorMoveFirstItem.Text = "Переместить в начало";
             // 
             // bindingNavigatorMovePreviousItem
@@ -421,13 +421,13 @@
             this.bindingNavigatorMovePreviousItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMovePreviousItem.Image")));
             this.bindingNavigatorMovePreviousItem.Name = "bindingNavigatorMovePreviousItem";
             this.bindingNavigatorMovePreviousItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMovePreviousItem.Size = new System.Drawing.Size(34, 28);
+            this.bindingNavigatorMovePreviousItem.Size = new System.Drawing.Size(34, 33);
             this.bindingNavigatorMovePreviousItem.Text = "Переместить назад";
             // 
             // bindingNavigatorSeparator
             // 
             this.bindingNavigatorSeparator.Name = "bindingNavigatorSeparator";
-            this.bindingNavigatorSeparator.Size = new System.Drawing.Size(6, 32);
+            this.bindingNavigatorSeparator.Size = new System.Drawing.Size(6, 37);
             // 
             // bindingNavigatorPositionItem
             // 
@@ -442,7 +442,7 @@
             // bindingNavigatorSeparator1
             // 
             this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator1";
-            this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 32);
+            this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 37);
             // 
             // bindingNavigatorMoveNextItem
             // 
@@ -450,7 +450,7 @@
             this.bindingNavigatorMoveNextItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveNextItem.Image")));
             this.bindingNavigatorMoveNextItem.Name = "bindingNavigatorMoveNextItem";
             this.bindingNavigatorMoveNextItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveNextItem.Size = new System.Drawing.Size(34, 28);
+            this.bindingNavigatorMoveNextItem.Size = new System.Drawing.Size(34, 33);
             this.bindingNavigatorMoveNextItem.Text = "Переместить вперед";
             // 
             // bindingNavigatorMoveLastItem
@@ -459,13 +459,13 @@
             this.bindingNavigatorMoveLastItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveLastItem.Image")));
             this.bindingNavigatorMoveLastItem.Name = "bindingNavigatorMoveLastItem";
             this.bindingNavigatorMoveLastItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveLastItem.Size = new System.Drawing.Size(34, 28);
+            this.bindingNavigatorMoveLastItem.Size = new System.Drawing.Size(34, 33);
             this.bindingNavigatorMoveLastItem.Text = "Переместить в конец";
             // 
             // bindingNavigatorSeparator2
             // 
             this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator2";
-            this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 32);
+            this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 37);
             // 
             // employee_informationBindingNavigatorSaveItem
             // 
@@ -670,110 +670,132 @@
             // 
             // ID_awardTextBox
             // 
+            this.ID_awardTextBox.BackColor = System.Drawing.Color.White;
             this.ID_awardTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ID_awardTextBox.Location = new System.Drawing.Point(270, 142);
+            this.ID_awardTextBox.Location = new System.Drawing.Point(282, 145);
             this.ID_awardTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ID_awardTextBox.Name = "ID_awardTextBox";
+            this.ID_awardTextBox.ReadOnly = true;
             this.ID_awardTextBox.Size = new System.Drawing.Size(230, 28);
             this.ID_awardTextBox.TabIndex = 73;
             this.ID_awardTextBox.Text = "2";
             // 
             // ID_vacationTextBox
             // 
+            this.ID_vacationTextBox.BackColor = System.Drawing.Color.White;
             this.ID_vacationTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ID_vacationTextBox.Location = new System.Drawing.Point(270, 109);
+            this.ID_vacationTextBox.Location = new System.Drawing.Point(282, 112);
             this.ID_vacationTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ID_vacationTextBox.Name = "ID_vacationTextBox";
+            this.ID_vacationTextBox.ReadOnly = true;
             this.ID_vacationTextBox.Size = new System.Drawing.Size(230, 28);
             this.ID_vacationTextBox.TabIndex = 74;
             this.ID_vacationTextBox.Text = "1";
             // 
             // ID_social_benefitsTextBox
             // 
+            this.ID_social_benefitsTextBox.BackColor = System.Drawing.Color.White;
             this.ID_social_benefitsTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ID_social_benefitsTextBox.Location = new System.Drawing.Point(270, 77);
+            this.ID_social_benefitsTextBox.Location = new System.Drawing.Point(282, 80);
             this.ID_social_benefitsTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ID_social_benefitsTextBox.Name = "ID_social_benefitsTextBox";
+            this.ID_social_benefitsTextBox.ReadOnly = true;
             this.ID_social_benefitsTextBox.Size = new System.Drawing.Size(230, 28);
             this.ID_social_benefitsTextBox.TabIndex = 75;
             this.ID_social_benefitsTextBox.Text = "2";
             // 
             // ID_retrainingTextBox
             // 
+            this.ID_retrainingTextBox.BackColor = System.Drawing.Color.White;
             this.ID_retrainingTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ID_retrainingTextBox.Location = new System.Drawing.Point(270, 175);
+            this.ID_retrainingTextBox.Location = new System.Drawing.Point(282, 178);
             this.ID_retrainingTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ID_retrainingTextBox.Name = "ID_retrainingTextBox";
+            this.ID_retrainingTextBox.ReadOnly = true;
             this.ID_retrainingTextBox.Size = new System.Drawing.Size(230, 28);
             this.ID_retrainingTextBox.TabIndex = 76;
             this.ID_retrainingTextBox.Text = "1";
             // 
             // ID_of_reception_and_transfer_to_workTextBox
             // 
+            this.ID_of_reception_and_transfer_to_workTextBox.BackColor = System.Drawing.Color.White;
             this.ID_of_reception_and_transfer_to_workTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ID_of_reception_and_transfer_to_workTextBox.Location = new System.Drawing.Point(270, 238);
+            this.ID_of_reception_and_transfer_to_workTextBox.Location = new System.Drawing.Point(282, 241);
             this.ID_of_reception_and_transfer_to_workTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ID_of_reception_and_transfer_to_workTextBox.Name = "ID_of_reception_and_transfer_to_workTextBox";
+            this.ID_of_reception_and_transfer_to_workTextBox.ReadOnly = true;
             this.ID_of_reception_and_transfer_to_workTextBox.Size = new System.Drawing.Size(230, 28);
             this.ID_of_reception_and_transfer_to_workTextBox.TabIndex = 77;
             this.ID_of_reception_and_transfer_to_workTextBox.Text = "1";
             // 
             // ID_qualificationTextBox
             // 
+            this.ID_qualificationTextBox.BackColor = System.Drawing.Color.White;
             this.ID_qualificationTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ID_qualificationTextBox.Location = new System.Drawing.Point(270, 206);
+            this.ID_qualificationTextBox.Location = new System.Drawing.Point(282, 209);
             this.ID_qualificationTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ID_qualificationTextBox.Name = "ID_qualificationTextBox";
+            this.ID_qualificationTextBox.ReadOnly = true;
             this.ID_qualificationTextBox.Size = new System.Drawing.Size(230, 28);
             this.ID_qualificationTextBox.TabIndex = 78;
             this.ID_qualificationTextBox.Text = "2";
             // 
             // ID_additional_informationTextBox
             // 
+            this.ID_additional_informationTextBox.BackColor = System.Drawing.Color.White;
             this.ID_additional_informationTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ID_additional_informationTextBox.Location = new System.Drawing.Point(270, 45);
+            this.ID_additional_informationTextBox.Location = new System.Drawing.Point(282, 51);
             this.ID_additional_informationTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ID_additional_informationTextBox.Name = "ID_additional_informationTextBox";
+            this.ID_additional_informationTextBox.ReadOnly = true;
             this.ID_additional_informationTextBox.Size = new System.Drawing.Size(230, 28);
             this.ID_additional_informationTextBox.TabIndex = 79;
             this.ID_additional_informationTextBox.Text = "1";
             // 
             // ID_educationTextBox
             // 
+            this.ID_educationTextBox.BackColor = System.Drawing.Color.White;
             this.ID_educationTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ID_educationTextBox.Location = new System.Drawing.Point(270, 270);
+            this.ID_educationTextBox.Location = new System.Drawing.Point(282, 273);
             this.ID_educationTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ID_educationTextBox.Name = "ID_educationTextBox";
+            this.ID_educationTextBox.ReadOnly = true;
             this.ID_educationTextBox.Size = new System.Drawing.Size(230, 28);
             this.ID_educationTextBox.TabIndex = 80;
             this.ID_educationTextBox.Text = "2";
             // 
             // ID_certificationTextBox
             // 
+            this.ID_certificationTextBox.BackColor = System.Drawing.Color.White;
             this.ID_certificationTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ID_certificationTextBox.Location = new System.Drawing.Point(270, 302);
+            this.ID_certificationTextBox.Location = new System.Drawing.Point(282, 305);
             this.ID_certificationTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ID_certificationTextBox.Name = "ID_certificationTextBox";
+            this.ID_certificationTextBox.ReadOnly = true;
             this.ID_certificationTextBox.Size = new System.Drawing.Size(230, 28);
             this.ID_certificationTextBox.TabIndex = 81;
             this.ID_certificationTextBox.Text = "1";
             // 
             // ID_military_registrationTextBox
             // 
+            this.ID_military_registrationTextBox.BackColor = System.Drawing.Color.White;
             this.ID_military_registrationTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ID_military_registrationTextBox.Location = new System.Drawing.Point(270, 335);
+            this.ID_military_registrationTextBox.Location = new System.Drawing.Point(282, 338);
             this.ID_military_registrationTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ID_military_registrationTextBox.Name = "ID_military_registrationTextBox";
+            this.ID_military_registrationTextBox.ReadOnly = true;
             this.ID_military_registrationTextBox.Size = new System.Drawing.Size(230, 28);
             this.ID_military_registrationTextBox.TabIndex = 82;
             this.ID_military_registrationTextBox.Text = "2";
             // 
             // ID_level_of_educationTextBox
             // 
+            this.ID_level_of_educationTextBox.BackColor = System.Drawing.Color.White;
             this.ID_level_of_educationTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ID_level_of_educationTextBox.Location = new System.Drawing.Point(270, 366);
+            this.ID_level_of_educationTextBox.Location = new System.Drawing.Point(282, 369);
             this.ID_level_of_educationTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ID_level_of_educationTextBox.Name = "ID_level_of_educationTextBox";
+            this.ID_level_of_educationTextBox.ReadOnly = true;
             this.ID_level_of_educationTextBox.Size = new System.Drawing.Size(230, 28);
             this.ID_level_of_educationTextBox.TabIndex = 83;
             this.ID_level_of_educationTextBox.Text = "1";
@@ -917,30 +939,36 @@
             // 
             // ID_schedulesTextBox
             // 
+            this.ID_schedulesTextBox.BackColor = System.Drawing.Color.White;
             this.ID_schedulesTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ID_schedulesTextBox.Location = new System.Drawing.Point(270, 403);
+            this.ID_schedulesTextBox.Location = new System.Drawing.Point(282, 406);
             this.ID_schedulesTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ID_schedulesTextBox.Name = "ID_schedulesTextBox";
+            this.ID_schedulesTextBox.ReadOnly = true;
             this.ID_schedulesTextBox.Size = new System.Drawing.Size(230, 28);
             this.ID_schedulesTextBox.TabIndex = 99;
             this.ID_schedulesTextBox.Text = "2";
             // 
             // ID_granting_leaveTextBox
             // 
+            this.ID_granting_leaveTextBox.BackColor = System.Drawing.Color.White;
             this.ID_granting_leaveTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ID_granting_leaveTextBox.Location = new System.Drawing.Point(270, 433);
+            this.ID_granting_leaveTextBox.Location = new System.Drawing.Point(282, 436);
             this.ID_granting_leaveTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ID_granting_leaveTextBox.Name = "ID_granting_leaveTextBox";
+            this.ID_granting_leaveTextBox.ReadOnly = true;
             this.ID_granting_leaveTextBox.Size = new System.Drawing.Size(230, 28);
             this.ID_granting_leaveTextBox.TabIndex = 100;
             this.ID_granting_leaveTextBox.Text = "1";
             // 
             // ID_orderTextBox
             // 
+            this.ID_orderTextBox.BackColor = System.Drawing.Color.White;
             this.ID_orderTextBox.Font = new System.Drawing.Font("Times New Roman", 9.191489F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ID_orderTextBox.Location = new System.Drawing.Point(270, 467);
+            this.ID_orderTextBox.Location = new System.Drawing.Point(282, 470);
             this.ID_orderTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ID_orderTextBox.Name = "ID_orderTextBox";
+            this.ID_orderTextBox.ReadOnly = true;
             this.ID_orderTextBox.Size = new System.Drawing.Size(230, 28);
             this.ID_orderTextBox.TabIndex = 101;
             this.ID_orderTextBox.Text = "2";

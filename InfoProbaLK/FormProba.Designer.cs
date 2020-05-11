@@ -113,6 +113,7 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.label16 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.employee_informationBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
             this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
@@ -367,7 +368,6 @@
             this.certificationTableAdapter = new Personal_cardsApp1.Personal_cardsDataSetTableAdapters.CertificationTableAdapter();
             this.educationTableAdapter = new Personal_cardsApp1.Personal_cardsDataSetTableAdapters.EducationTableAdapter();
             this.retrainingTableAdapter = new Personal_cardsApp1.Personal_cardsDataSetTableAdapters.RetrainingTableAdapter();
-            this.label16 = new System.Windows.Forms.Label();
             date_of_issueLabel1 = new System.Windows.Forms.Label();
             document_numberLabel = new System.Windows.Forms.Label();
             name_of_benefitLabel = new System.Windows.Forms.Label();
@@ -1467,6 +1467,17 @@
             this.tabPage1.Size = new System.Drawing.Size(1280, 662);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Осн.инф-ия";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.170213F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label16.ForeColor = System.Drawing.Color.White;
+            this.label16.Location = new System.Drawing.Point(21, 8);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(598, 20);
+            this.label16.TabIndex = 104;
+            this.label16.Text = "Перед введении ID сотрудника проверьте правильность нумерации!";
             // 
             // label1
             // 
@@ -3790,7 +3801,7 @@
             this.toolStripButton46,
             this.toolStripButton47,
             this.toolStripButton50});
-            this.bindingNavigator10.Location = new System.Drawing.Point(1134, 79);
+            this.bindingNavigator10.Location = new System.Drawing.Point(1105, 75);
             this.bindingNavigator10.MoveFirstItem = null;
             this.bindingNavigator10.MoveLastItem = null;
             this.bindingNavigator10.MoveNextItem = this.toolStripButton49;
@@ -4300,17 +4311,6 @@
             // retrainingTableAdapter
             // 
             this.retrainingTableAdapter.ClearBeforeFill = true;
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.170213F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label16.ForeColor = System.Drawing.Color.White;
-            this.label16.Location = new System.Drawing.Point(21, 8);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(598, 20);
-            this.label16.TabIndex = 104;
-            this.label16.Text = "Перед введении ID сотрудника проверьте правильность нумерации!";
             // 
             // FormProba
             // 
