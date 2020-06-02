@@ -124,9 +124,9 @@ namespace Personal_cardsApp1.InfoPersonalCards
 
         private void printDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
         {
-            var bitmap = new Bitmap(Width, Height);
-            DrawToBitmap(bitmap, new Rectangle(Point.Empty, bitmap.Size));
-            e.Graphics.DrawImage(bitmap, new Point(40, 40));
+            Bitmap bmp = new Bitmap(granting_leaveDataGridView.Size.Width + 5, granting_leaveDataGridView.Size.Height + 5);
+            granting_leaveDataGridView.DrawToBitmap(bmp, granting_leaveDataGridView.Bounds);
+            e.Graphics.DrawImage(bmp, 0, 0);
         }
 
         private void buttonPrint_Click(object sender, EventArgs e)

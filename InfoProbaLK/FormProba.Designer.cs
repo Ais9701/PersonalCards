@@ -368,6 +368,7 @@
             this.certificationTableAdapter = new Personal_cardsApp1.Personal_cardsDataSetTableAdapters.CertificationTableAdapter();
             this.educationTableAdapter = new Personal_cardsApp1.Personal_cardsDataSetTableAdapters.EducationTableAdapter();
             this.retrainingTableAdapter = new Personal_cardsApp1.Personal_cardsDataSetTableAdapters.RetrainingTableAdapter();
+            this.buttonexit = new System.Windows.Forms.Button();
             date_of_issueLabel1 = new System.Windows.Forms.Label();
             document_numberLabel = new System.Windows.Forms.Label();
             name_of_benefitLabel = new System.Windows.Forms.Label();
@@ -1444,6 +1445,7 @@
             // tabPage1
             // 
             this.tabPage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.tabPage1.Controls.Add(this.buttonexit);
             this.tabPage1.Controls.Add(this.label16);
             this.tabPage1.Controls.Add(this.label1);
             this.tabPage1.Controls.Add(this.employee_informationBindingNavigator);
@@ -1514,7 +1516,7 @@
             this.employee_informationBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.employee_informationBindingNavigator.Name = "employee_informationBindingNavigator";
             this.employee_informationBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.employee_informationBindingNavigator.Size = new System.Drawing.Size(141, 32);
+            this.employee_informationBindingNavigator.Size = new System.Drawing.Size(141, 37);
             this.employee_informationBindingNavigator.TabIndex = 1;
             this.employee_informationBindingNavigator.Text = "bindingNavigator1";
             // 
@@ -1554,7 +1556,7 @@
             this.bindingNavigatorMovePreviousItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMovePreviousItem.Image")));
             this.bindingNavigatorMovePreviousItem.Name = "bindingNavigatorMovePreviousItem";
             this.bindingNavigatorMovePreviousItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMovePreviousItem.Size = new System.Drawing.Size(34, 28);
+            this.bindingNavigatorMovePreviousItem.Size = new System.Drawing.Size(34, 33);
             this.bindingNavigatorMovePreviousItem.Text = "Переместить назад";
             // 
             // bindingNavigatorPositionItem
@@ -1574,7 +1576,7 @@
             this.bindingNavigatorMoveNextItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveNextItem.Image")));
             this.bindingNavigatorMoveNextItem.Name = "bindingNavigatorMoveNextItem";
             this.bindingNavigatorMoveNextItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveNextItem.Size = new System.Drawing.Size(34, 28);
+            this.bindingNavigatorMoveNextItem.Size = new System.Drawing.Size(34, 33);
             this.bindingNavigatorMoveNextItem.Text = "Переместить вперед";
             this.bindingNavigatorMoveNextItem.Click += new System.EventHandler(this.bindingNavigatorMoveNextItem_Click);
             // 
@@ -4312,6 +4314,19 @@
             // 
             this.retrainingTableAdapter.ClearBeforeFill = true;
             // 
+            // buttonexit
+            // 
+            this.buttonexit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.buttonexit.Font = new System.Drawing.Font("Times New Roman", 12.25532F);
+            this.buttonexit.ForeColor = System.Drawing.Color.Black;
+            this.buttonexit.Location = new System.Drawing.Point(1114, 584);
+            this.buttonexit.Name = "buttonexit";
+            this.buttonexit.Size = new System.Drawing.Size(136, 53);
+            this.buttonexit.TabIndex = 105;
+            this.buttonexit.Text = "Выход";
+            this.buttonexit.UseVisualStyleBackColor = false;
+            this.buttonexit.Click += new System.EventHandler(this.buttonexit_Click);
+            // 
             // FormProba
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -4699,5 +4714,6 @@
         private System.Windows.Forms.DateTimePicker dateDateTimePicker3;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Button buttonexit;
     }
 }

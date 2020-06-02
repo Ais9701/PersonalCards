@@ -89,9 +89,9 @@ namespace Personal_cardsApp1
 
         private void printDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
         {
-            var bitmap = new Bitmap(Width, Height);
-            DrawToBitmap(bitmap, new Rectangle(Point.Empty, bitmap.Size));
-            e.Graphics.DrawImage(bitmap, new Point(40, 40));
+            Bitmap bmp = new Bitmap(staff_listDataGridView.Size.Width + 5, staff_listDataGridView.Size.Height + 5);
+            staff_listDataGridView.DrawToBitmap(bmp, staff_listDataGridView.Bounds);
+            e.Graphics.DrawImage(bmp, 0, 0);
         }
 
         private void buttonPrint_Click(object sender, EventArgs e)
