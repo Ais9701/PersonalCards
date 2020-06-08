@@ -440,11 +440,6 @@ namespace Personal_cardsApp1
             MessageBox.Show("Запись успешно удалена");
         }
 
-        private void buttonExcel_Click(object sender, EventArgs e)
-        {
-       
-        }
-
         private void FormProba_FormClosing(object sender, FormClosingEventArgs e)
         {
             
